@@ -1,5 +1,6 @@
 ﻿import { useEffect, useMemo, useState } from "react";
 import { HashRouter, Link, Navigate, Route, Routes } from "react-router-dom";
+import { NeoSelect } from "./components/NeoSelect";
 import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY, normalizeLocale, translate, type Locale } from "./i18n";
 import { loadIndexData } from "./lib/data";
 import { DocsPage } from "./pages/DocsPage";
@@ -29,6 +30,13 @@ export default function App() {
   const t = useMemo(() => {
     return (key: string, vars?: Record<string, string | number>) => translate(locale, key, vars);
   }, [locale]);
+  const localeOptions = useMemo(() => {
+    return [
+      { value: "zh-CN", label: "简体中文" },
+      { value: "zh-HK", label: "繁體中文" },
+      { value: "en", label: "English" },
+    ];
+  }, []);
 
   useEffect(() => {
     let alive = true;
@@ -65,11 +73,12 @@ export default function App() {
         <nav className="topbar-actions">
           <Link className="pill ghost" to="/">{t("nav.home")}</Link>
           <Link className="pill ghost" to="/docs">{t("nav.docs")}</Link>
-          <select value={locale} onChange={(event) => setLocale(normalizeLocale(event.target.value))}>
-            <option value="zh-CN">简体中文</option>
-            <option value="zh-HK">繁體中文</option>
-            <option value="en">English</option>
-          </select>
+          <NeoSelect
+            value={locale}
+            options={localeOptions}
+            ariaLabel={t("nav.localeSelect")}
+            onChange={(next) => setLocale(normalizeLocale(next))}
+          />
         </nav>
       </header>
 

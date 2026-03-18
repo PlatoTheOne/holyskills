@@ -1,8 +1,20 @@
-﻿import { useEffect, useMemo, useState } from "react";
+﻿import { type FormEvent, useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import DOMPurify from "dompurify";
 import { marked } from "marked";
-import { formatDate, formatNumber, getRawDocUrl, isPrivateContentMode, loadMarkdown, tagCounts } from "../lib/data";
+import { NeoSelect } from "../components/NeoSelect";
+import {
+  clearAccessSession,
+  formatDate,
+  formatNumber,
+  getRawDocUrl,
+  getSavedAccessEmail,
+  hasContentApi,
+  isPrivateContentMode,
+  loadMarkdown,
+  requestInviteAccess,
+  tagCounts,
+} from "../lib/data";
 import { fulltextSearch } from "../lib/fulltext";
 import type { Locale } from "../i18n";
 import type { DocItem, NormalizedData } from "../types";
@@ -103,6 +115,11 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
   const [fulltextMatches, setFulltextMatches] = useState<Set<string> | null>(null);
   const [loadingFulltext, setLoadingFulltext] = useState(false);
   const [contentProtected, setContentProtected] = useState(false);
+  const [authEmail, setAuthEmail] = useState(getSavedAccessEmail());
+  const [authInviteCode, setAuthInviteCode] = useState("");
+  const [authSubmitting, setAuthSubmitting] = useState(false);
+  const [authError, setAuthError] = useState("");
+  const [reloadNonce, setReloadNonce] = useState(0);
 
   const type = searchParams.get("type") === "podcast" || searchParams.get("type") === "newsletter"
     ? (searchParams.get("type") as "podcast" | "newsletter")
@@ -121,6 +138,16 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     ? (searchParams.get("nav") as NavMode)
     : "year");
   const docParam = searchParams.get("doc") ?? "";
+
+  const canUnlockContent = hasContentApi();
+  const sortOptions = useMemo(() => {
+    return [
+      { value: "date_desc", label: t("docs.sortDateDesc") },
+      { value: "date_asc", label: t("docs.sortDateAsc") },
+      { value: "title_asc", label: t("docs.sortTitleAsc") },
+      { value: "words_desc", label: t("docs.sortWordsDesc") },
+    ];
+  }, [t]);
 
   const filtered = useMemo(() => {
     const base = data.all.filter((doc) => {
@@ -255,6 +282,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
       }
       setLoadingDoc(true);
       setContentProtected(false);
+      setAuthError("");
       try {
         const md = await loadMarkdown(activeDoc.filename);
         const parsed = await marked.parse(md);
@@ -269,6 +297,9 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
           if (message.includes("content_protected")) {
             setContentProtected(true);
             setMarkdownHtml(`<p>${t("docs.contentProtected")}</p>`);
+          } else if (message.includes("access_required")) {
+            setContentProtected(true);
+            setMarkdownHtml(`<p>${t("docs.accessRequired")}</p>`);
           } else {
             setMarkdownHtml(`<p>${t("state.loadErrorTitle")}</p>`);
           }
@@ -283,7 +314,39 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     return () => {
       alive = false;
     };
-  }, [activeDoc, t]);
+  }, [activeDoc, t, reloadNonce]);
+
+  const onUnlockContent = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    if (!authEmail.trim()) {
+      setAuthError(t("docs.accessEmailRequired"));
+      return;
+    }
+    if (!authInviteCode.trim()) {
+      setAuthError(t("docs.accessCodeRequired"));
+      return;
+    }
+
+    setAuthSubmitting(true);
+    setAuthError("");
+    try {
+      await requestInviteAccess(authEmail.trim(), authInviteCode.trim());
+      setAuthInviteCode("");
+      setReloadNonce((prev) => prev + 1);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      if (message.includes("access_denied")) {
+        setAuthError(t("docs.accessDenied"));
+      } else if (message.includes("content_api_unconfigured")) {
+        setAuthError(t("docs.accessNeedApi"));
+      } else {
+        setAuthError(t("docs.accessGenericError"));
+      }
+    } finally {
+      setAuthSubmitting(false);
+    }
+  };
 
   return (
     <main className="container docs-layout">
@@ -308,12 +371,12 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
           </div>
 
           <label className="field-label">{t("docs.sortBy")}</label>
-          <select value={sortBy} onChange={(event) => setParam("sort", event.target.value)}>
-            <option value="date_desc">{t("docs.sortDateDesc")}</option>
-            <option value="date_asc">{t("docs.sortDateAsc")}</option>
-            <option value="title_asc">{t("docs.sortTitleAsc")}</option>
-            <option value="words_desc">{t("docs.sortWordsDesc")}</option>
-          </select>
+          <NeoSelect
+            value={sortBy}
+            options={sortOptions}
+            ariaLabel={t("docs.sortBy")}
+            onChange={(next) => setParam("sort", next)}
+          />
 
           <label className="field-label">{t("docs.navMode")}</label>
           <div className="switch-row">
@@ -446,6 +509,52 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
 
             {loadingDoc && <p className="muted">{t("state.loading")}</p>}
             {contentProtected && <p className="muted">{t("docs.contentProtectedHint")}</p>}
+            {contentProtected && canUnlockContent && (
+              <form className="access-gate" onSubmit={onUnlockContent}>
+                <h3>{t("docs.accessGateTitle")}</h3>
+                <p className="muted">{t("docs.accessGateBody")}</p>
+
+                <label className="field-label" htmlFor="access-email">{t("docs.accessEmailLabel")}</label>
+                <input
+                  id="access-email"
+                  type="email"
+                  value={authEmail}
+                  onChange={(event) => setAuthEmail(event.target.value)}
+                  placeholder="you@example.com"
+                  autoComplete="email"
+                />
+
+                <label className="field-label" htmlFor="access-invite">{t("docs.accessCodeLabel")}</label>
+                <input
+                  id="access-invite"
+                  type="password"
+                  value={authInviteCode}
+                  onChange={(event) => setAuthInviteCode(event.target.value)}
+                  placeholder="INVITE-CODE"
+                  autoComplete="off"
+                />
+
+                <div className="switch-row">
+                  <button className="pill primary" type="submit" disabled={authSubmitting}>
+                    {authSubmitting ? t("docs.accessSubmitting") : t("docs.accessSubmit")}
+                  </button>
+                  <button
+                    className="pill ghost"
+                    type="button"
+                    onClick={() => {
+                      clearAccessSession();
+                      setAuthInviteCode("");
+                      setReloadNonce((prev) => prev + 1);
+                    }}
+                  >
+                    {t("docs.accessLogout")}
+                  </button>
+                </div>
+
+                {authError && <p className="muted">{authError}</p>}
+              </form>
+            )}
+            {!canUnlockContent && contentProtected && <p className="muted">{t("docs.accessNeedApi")}</p>}
             <div className="markdown" dangerouslySetInnerHTML={{ __html: markdownHtml }} />
           </article>
         )}
@@ -453,3 +562,4 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     </main>
   );
 }
+

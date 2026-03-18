@@ -1,6 +1,7 @@
 ﻿param(
     [int]$Port = 5173,
-    [switch]$SkipSync
+    [switch]$SkipSync,
+    [string]$DocApi = ""
 )
 
 $ErrorActionPreference = "Stop"
@@ -13,4 +14,8 @@ if (-not $SkipSync) {
 Write-Host "Starting Vite dev server on port $Port ..."
 $portArg = "--port=$Port"
 $env:VITE_CONTENT_MODE = "private"
+if (-not [string]::IsNullOrWhiteSpace($DocApi)) {
+    $env:VITE_DOC_CONTENT_API = $DocApi
+    Write-Host "Using private content API: $DocApi"
+}
 npm --prefix (Join-Path $PSScriptRoot "web") run dev -- --host=127.0.0.1 $portArg

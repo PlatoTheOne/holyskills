@@ -3,7 +3,28 @@
 const basePath = (import.meta.env.BASE_URL ?? "/").replace(/\/+$/, "");
 const dataRoot = `${basePath}/data`.replace(/^$/, "/data");
 const contentMode = (import.meta.env.VITE_CONTENT_MODE ?? "public").toLowerCase();
-const contentApi = (import.meta.env.VITE_DOC_CONTENT_API ?? "").trim();
+const contentApi = (import.meta.env.VITE_DOC_CONTENT_API ?? "").trim().replace(/\/+$/, "");
+
+const accessTokenStorageKey = "lenny.portal.contentToken";
+const accessEmailStorageKey = "lenny.portal.accessEmail";
+
+function readStorage(key: string): string {
+  if (typeof window === "undefined") {
+    return "";
+  }
+  return localStorage.getItem(key) ?? "";
+}
+
+function writeStorage(key: string, value: string): void {
+  if (typeof window === "undefined") {
+    return;
+  }
+  if (!value) {
+    localStorage.removeItem(key);
+    return;
+  }
+  localStorage.setItem(key, value);
+}
 
 export function getDataRoot(): string {
   return dataRoot;
@@ -11,6 +32,59 @@ export function getDataRoot(): string {
 
 export function isPrivateContentMode(): boolean {
   return contentMode === "private";
+}
+
+export function hasContentApi(): boolean {
+  return Boolean(contentApi);
+}
+
+export function hasAccessToken(): boolean {
+  return Boolean(readStorage(accessTokenStorageKey));
+}
+
+export function getSavedAccessEmail(): string {
+  return readStorage(accessEmailStorageKey);
+}
+
+export function clearAccessSession(): void {
+  writeStorage(accessTokenStorageKey, "");
+  writeStorage(accessEmailStorageKey, "");
+}
+
+export async function requestInviteAccess(email: string, inviteCode: string): Promise<void> {
+  if (!contentApi) {
+    throw new Error("content_api_unconfigured");
+  }
+
+  const normalizedEmail = email.trim();
+  const normalizedInvite = inviteCode.trim();
+
+  const response = await fetch(`${contentApi}/auth`, {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+    },
+    cache: "no-store",
+    body: JSON.stringify({
+      email: normalizedEmail,
+      inviteCode: normalizedInvite,
+    }),
+  });
+
+  if (response.status === 401 || response.status === 403) {
+    throw new Error("access_denied");
+  }
+  if (!response.ok) {
+    throw new Error(`auth_failed:${response.status}`);
+  }
+
+  const payload = (await response.json()) as { token?: string };
+  if (!payload.token) {
+    throw new Error("auth_token_missing");
+  }
+
+  writeStorage(accessTokenStorageKey, payload.token);
+  writeStorage(accessEmailStorageKey, normalizedEmail);
 }
 
 function toDoc(item: RawIndexItem, type: "podcast" | "newsletter"): DocItem {
@@ -49,11 +123,21 @@ export async function loadIndexData(): Promise<NormalizedData> {
 
 export async function loadMarkdown(filename: string): Promise<string> {
   if (contentApi) {
-    const response = await fetch(`${contentApi.replace(/\/+$/, "")}/content?filename=${encodeURIComponent(filename)}`, {
+    const token = readStorage(accessTokenStorageKey);
+    const response = await fetch(`${contentApi}/content?filename=${encodeURIComponent(filename)}`, {
       cache: "no-store",
+      headers: token
+        ? {
+          authorization: `Bearer ${token}`,
+        }
+        : undefined,
     });
+
+    if (response.status === 401 || response.status === 403) {
+      throw new Error("access_required");
+    }
     if (!response.ok) {
-      throw new Error(`doc api load failed: ${response.status}`);
+      throw new Error(`doc_api_load_failed:${response.status}`);
     }
     return response.text();
   }
@@ -64,7 +148,7 @@ export async function loadMarkdown(filename: string): Promise<string> {
 
   const response = await fetch(`${dataRoot}/${filename}`, { cache: "no-store" });
   if (!response.ok) {
-    throw new Error(`doc load failed: ${response.status}`);
+    throw new Error(`doc_load_failed:${response.status}`);
   }
   return response.text();
 }

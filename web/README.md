@@ -50,3 +50,24 @@ node .\scripts\sync-lenny-data.mjs --mode public
 - `public/data/search-index.json`
 
 上述文件由根目录脚本 `scripts/sync-lenny-data.mjs` 生成。
+
+## 私有正文 API（受控访问）
+
+仓库根目录提供了一个最小可用私有 API：
+- 启动脚本：`start-private-content-api.cmd`
+- 服务实现：`scripts/private-content-api.mjs`
+
+快速启动：
+
+```powershell
+cd G:\LennysData
+.\start-private-content-api.cmd -InvitedEmail "your@email.com" -InviteCode "YOUR-INVITE-CODE"
+```
+
+然后启动前端并指定 API：
+
+```powershell
+.\start-lenny-web.cmd -DocApi "http://127.0.0.1:8788"
+```
+
+前端会在正文受保护时显示授权表单，验证通过后加载全文。

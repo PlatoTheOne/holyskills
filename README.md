@@ -88,3 +88,25 @@ node .\scripts\sync-lenny-data.mjs --mode public
 ## 旧版静态门户
 
 `portal/` 目录为第一版静态 HTML 原型，后续以 `web/` React 工程为主。
+
+## 专属访问门禁（邮箱 + 邀请码）
+
+仓库已内置私有正文 API：`scripts/private-content-api.mjs`。
+
+示例：仅允许你的邮箱 + 邀请码访问全文。
+
+```powershell
+cd G:\LennysData
+.\start-private-content-api.cmd -InvitedEmail "your@email.com" -InviteCode "YOUR-INVITE-CODE" -AllowedOrigin "https://platotheone.github.io"
+```
+
+然后本地启动前端并连接该 API：
+
+```powershell
+.\start-lenny-web.cmd -DocApi "http://127.0.0.1:8788"
+```
+
+说明：
+- `/auth`：校验邮箱 + 邀请码，返回短期 token
+- `/content?filename=...`：必须携带 token 才会返回正文
+- 如果你要线上使用，请把这个 API 部署到你自己的私有服务（Cloudflare/Vercel/自建）

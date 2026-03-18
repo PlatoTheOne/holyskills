@@ -10,10 +10,37 @@
   --card-radius: 30px;
   --pill-radius: 9999px;
   --shadow-soft: 0 14px 60px rgba(0, 0, 0, 0.35);
+  --scrollbar-track: #070c08;
+  --scrollbar-thumb: #00d632;
+  --scrollbar-thumb-hover: #12f451;
 }
 
 * {
   box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #080808, var(--scrollbar-track));
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--scrollbar-thumb), #0aa334);
+  border-radius: 9999px;
+  border: 2px solid #050805;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--scrollbar-thumb-hover), #12b83f);
 }
 
 html,
@@ -41,6 +68,21 @@ button,
 input,
 select {
   font-family: inherit;
+}
+
+input {
+  height: 42px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #0d0d0d;
+  color: var(--text);
+  padding: 0 12px;
+}
+
+input:focus-visible,
+.neo-select-trigger:focus-visible {
+  outline: 2px solid rgba(0, 214, 50, 0.8);
+  outline-offset: 2px;
 }
 
 .bg-glow {
@@ -80,21 +122,6 @@ select {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.topbar select,
-input,
-select {
-  height: 42px;
-  border-radius: 16px;
-  border: 1px solid var(--border);
-  background: #0d0d0d;
-  color: var(--text);
-  padding: 0 12px;
-}
-
-.topbar select {
-  border-radius: var(--pill-radius);
 }
 
 .card {
@@ -165,6 +192,73 @@ select {
 
 .pill.ghost {
   background: rgba(255, 255, 255, 0.03);
+}
+
+.neo-select {
+  position: relative;
+  min-width: 220px;
+}
+
+.neo-select-trigger {
+  width: 100%;
+  height: 42px;
+  border-radius: var(--pill-radius);
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, #0f0f0f, #0a0a0a);
+  color: var(--text);
+  padding: 0 14px;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.neo-select.open .neo-select-trigger,
+.neo-select-trigger:hover {
+  border-color: rgba(0, 214, 50, 0.85);
+  box-shadow: 0 0 0 2px rgba(0, 214, 50, 0.16);
+}
+
+.neo-select-caret {
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.neo-select-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 120;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 214, 50, 0.42);
+  background: linear-gradient(180deg, #0b0b0b, #060806);
+  padding: 8px;
+  box-shadow: 0 26px 40px rgba(0, 0, 0, 0.55);
+}
+
+.neo-select-option {
+  width: 100%;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: transparent;
+  color: #e9e9e9;
+  padding: 10px 12px;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.neo-select-option:hover {
+  border-color: rgba(0, 214, 50, 0.45);
+  background: rgba(0, 214, 50, 0.11);
+}
+
+.neo-select-option.active {
+  border-color: rgba(0, 214, 50, 0.78);
+  background: rgba(0, 214, 50, 0.19);
+  color: #dcffdf;
 }
 
 .stats-grid {
@@ -290,6 +384,7 @@ select {
 .reader {
   max-height: calc(100vh - 100px);
   overflow: auto;
+  scrollbar-gutter: stable;
 }
 
 .sidebar h1 {
@@ -362,6 +457,21 @@ select {
   text-align: center;
 }
 
+.access-gate {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 214, 50, 0.38);
+  background: linear-gradient(180deg, rgba(0, 214, 50, 0.08), rgba(0, 0, 0, 0.35));
+  display: grid;
+  gap: 8px;
+}
+
+.access-gate h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
 .markdown {
   margin-top: 18px;
   line-height: 1.7;
@@ -430,8 +540,13 @@ select {
     flex-wrap: wrap;
   }
 
-  .topbar-actions select {
+  .topbar-actions .neo-select {
     width: 100%;
+    min-width: 0;
+  }
+
+  .neo-select {
+    min-width: 0;
   }
 
   .stats-grid,
