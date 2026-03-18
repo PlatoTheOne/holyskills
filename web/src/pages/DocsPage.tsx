@@ -13,6 +13,7 @@ interface DocsPageProps {
 }
 
 type SortKey = "date_desc" | "date_asc" | "title_asc" | "words_desc";
+type NavMode = "list" | "year" | "tag";
 
 function includesQuery(doc: DocItem, query: string) {
   if (!query) {
@@ -38,6 +39,13 @@ function sortedDocs(items: DocItem[], sortBy: SortKey) {
   return next.sort((a, b) => b.date.localeCompare(a.date));
 }
 
+function docYear(doc: DocItem): string {
+  if (!doc.date) {
+    return "Unknown";
+  }
+  return doc.date.slice(0, 4);
+}
+
 export function DocsPage({ locale, data, t }: DocsPageProps) {
   const [searchParams, setSearchParams] = useSearchParams();
   const [markdownHtml, setMarkdownHtml] = useState("");
@@ -48,9 +56,17 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     : "all";
   const query = (searchParams.get("q") ?? "").trim();
   const tag = searchParams.get("tag") ?? "";
-  const sortBy = (["date_desc", "date_asc", "title_asc", "words_desc"].includes(searchParams.get("sort") ?? "")
+  const sortBy = ([
+    "date_desc",
+    "date_asc",
+    "title_asc",
+    "words_desc",
+  ].includes(searchParams.get("sort") ?? "")
     ? (searchParams.get("sort") as SortKey)
     : "date_desc");
+  const navMode = (["list", "year", "tag"].includes(searchParams.get("nav") ?? "")
+    ? (searchParams.get("nav") as NavMode)
+    : "list");
   const docParam = searchParams.get("doc") ?? "";
 
   const filtered = useMemo(() => {
@@ -65,6 +81,26 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     });
     return sortedDocs(base, sortBy);
   }, [data, query, sortBy, tag, type]);
+
+  const byYear = useMemo(() => {
+    const groups = new Map<string, DocItem[]>();
+    filtered.forEach((doc) => {
+      const year = docYear(doc);
+      const list = groups.get(year) ?? [];
+      list.push(doc);
+      groups.set(year, list);
+    });
+
+    return [...groups.entries()].sort((a, b) => b[0].localeCompare(a[0]));
+  }, [filtered]);
+
+  const byTag = useMemo(() => {
+    const tags = tagCounts(filtered).slice(0, 24);
+    return tags.map((entry) => {
+      const docs = filtered.filter((doc) => doc.tags.includes(entry.name)).slice(0, 30);
+      return { ...entry, docs };
+    });
+  }, [filtered]);
 
   const activeDoc = useMemo(() => {
     return filtered.find((doc) => doc.filename === docParam) ?? filtered[0] ?? null;
@@ -153,6 +189,13 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
             <option value="words_desc">{t("docs.sortWordsDesc")}</option>
           </select>
 
+          <label className="field-label">{t("docs.navMode")}</label>
+          <div className="switch-row">
+            <button className={`pill ${navMode === "list" ? "primary" : "ghost"}`} onClick={() => setParam("nav", "list")} type="button">{t("docs.navList")}</button>
+            <button className={`pill ${navMode === "year" ? "primary" : "ghost"}`} onClick={() => setParam("nav", "year")} type="button">{t("docs.navYear")}</button>
+            <button className={`pill ${navMode === "tag" ? "primary" : "ghost"}`} onClick={() => setParam("nav", "tag")} type="button">{t("docs.navTag")}</button>
+          </div>
+
           <label className="field-label">{t("docs.tags")}</label>
           <div className="tag-cloud">
             <button type="button" className={`tag ${!tag ? "active" : ""}`} onClick={() => setParam("tag", "")}>{t("docs.typeAll")}</button>
@@ -170,24 +213,71 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
         </div>
 
         <p className="result-count">{t("docs.resultCount", { count: formatNumber(filtered.length, locale) })}</p>
-        <ul className="doc-list">
-          {filtered.length === 0 && <li className="doc-item">{t("docs.noResults")}</li>}
-          {filtered.map((doc) => {
-            const typeLabel = doc.type === "podcast" ? t("docs.typeLabelPodcast") : t("docs.typeLabelNewsletter");
-            return (
-              <li
-                key={doc.filename}
-                className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
-                onClick={() => setParam("doc", doc.filename)}
-              >
-                <p className="doc-item-title">{doc.title}</p>
-                <p className="doc-item-meta">
-                  {typeLabel} · {formatDate(doc.date, locale)} · {t("docs.metaWords", { count: formatNumber(doc.wordCount, locale) })}
-                </p>
-              </li>
-            );
-          })}
-        </ul>
+
+        {navMode === "list" && (
+          <ul className="doc-list">
+            {filtered.length === 0 && <li className="doc-item">{t("docs.noResults")}</li>}
+            {filtered.map((doc) => {
+              const typeLabel = doc.type === "podcast" ? t("docs.typeLabelPodcast") : t("docs.typeLabelNewsletter");
+              return (
+                <li
+                  key={doc.filename}
+                  className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
+                  onClick={() => setParam("doc", doc.filename)}
+                >
+                  <p className="doc-item-title">{doc.title}</p>
+                  <p className="doc-item-meta">
+                    {typeLabel} · {formatDate(doc.date, locale)} · {t("docs.metaWords", { count: formatNumber(doc.wordCount, locale) })}
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+
+        {navMode === "year" && (
+          <div className="group-list">
+            {byYear.map(([year, docs]) => (
+              <details key={year} open={year === byYear[0]?.[0]}>
+                <summary>{year} ({docs.length})</summary>
+                <ul className="doc-list compact">
+                  {docs.map((doc) => (
+                    <li
+                      key={doc.filename}
+                      className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
+                      onClick={() => setParam("doc", doc.filename)}
+                    >
+                      <p className="doc-item-title">{doc.title}</p>
+                      <p className="doc-item-meta">{formatDate(doc.date, locale)}</p>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ))}
+          </div>
+        )}
+
+        {navMode === "tag" && (
+          <div className="group-list">
+            {byTag.map((entry) => (
+              <details key={entry.name} open={entry.name === byTag[0]?.name}>
+                <summary>{entry.name} ({entry.count})</summary>
+                <ul className="doc-list compact">
+                  {entry.docs.map((doc) => (
+                    <li
+                      key={`${entry.name}-${doc.filename}`}
+                      className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
+                      onClick={() => setParam("doc", doc.filename)}
+                    >
+                      <p className="doc-item-title">{doc.title}</p>
+                      <p className="doc-item-meta">{formatDate(doc.date, locale)}</p>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ))}
+          </div>
+        )}
       </aside>
 
       <section className="card reader">
