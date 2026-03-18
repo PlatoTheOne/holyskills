@@ -18,6 +18,7 @@
 ## 启动门户
 
 ```powershell
+.\stop-lenny-portal.cmd
 .\start-lenny-portal.cmd
 ```
 
@@ -26,6 +27,10 @@
 ```powershell
 .\start-lenny-portal.cmd -Port 8850
 ```
+
+说明：
+- `stop-lenny-portal.cmd` 用于清理遗留的本地 `http.server` 进程
+- 启动后请保持该终端窗口打开（关闭即停止服务）
 
 ## 更新数据镜像
 
