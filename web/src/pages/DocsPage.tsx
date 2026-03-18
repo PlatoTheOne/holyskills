@@ -3,6 +3,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import DOMPurify from "dompurify";
 import { marked } from "marked";
 import { formatDate, formatNumber, getRawDocUrl, loadMarkdown, tagCounts } from "../lib/data";
+import { fulltextSearch } from "../lib/fulltext";
 import type { Locale } from "../i18n";
 import type { DocItem, NormalizedData } from "../types";
 
@@ -99,6 +100,8 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
   const [searchParams, setSearchParams] = useSearchParams();
   const [markdownHtml, setMarkdownHtml] = useState("");
   const [loadingDoc, setLoadingDoc] = useState(false);
+  const [fulltextMatches, setFulltextMatches] = useState<Set<string> | null>(null);
+  const [loadingFulltext, setLoadingFulltext] = useState(false);
 
   const type = searchParams.get("type") === "podcast" || searchParams.get("type") === "newsletter"
     ? (searchParams.get("type") as "podcast" | "newsletter")
@@ -126,10 +129,16 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
       if (tag && !doc.tags.includes(tag)) {
         return false;
       }
+      if (!query) {
+        return true;
+      }
+      if (fulltextMatches) {
+        return fulltextMatches.has(doc.filename);
+      }
       return includesQuery(doc, query);
     });
     return sortedDocs(base, sortBy);
-  }, [data, query, sortBy, tag, type]);
+  }, [data, query, sortBy, tag, type, fulltextMatches]);
 
   const yearThemeGroups = useMemo<YearThemeGroup[]>(() => {
     const byYear = new Map<string, DocItem[]>();
@@ -194,6 +203,38 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
   };
 
   useEffect(() => {
+    let alive = true;
+    const run = async () => {
+      const normalized = query.trim();
+      if (normalized.length < 2) {
+        setFulltextMatches(null);
+        setLoadingFulltext(false);
+        return;
+      }
+      setLoadingFulltext(true);
+      try {
+        const matches = await fulltextSearch(normalized);
+        if (!alive) {
+          return;
+        }
+        setFulltextMatches(matches);
+      } catch {
+        if (alive) {
+          setFulltextMatches(null);
+        }
+      } finally {
+        if (alive) {
+          setLoadingFulltext(false);
+        }
+      }
+    };
+    run();
+    return () => {
+      alive = false;
+    };
+  }, [query]);
+
+  useEffect(() => {
     if (!activeDoc) {
       setMarkdownHtml("");
       return;
@@ -248,6 +289,9 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
             onChange={(event) => setParam("q", event.target.value)}
             placeholder={t("docs.searchPlaceholder")}
           />
+          {query.trim().length >= 2 && (
+            <p className="muted">{loadingFulltext ? t("docs.fulltextLoading") : t("docs.fulltextReady")}</p>
+          )}
 
           <div className="switch-row">
             <button className={`pill ${type === "all" ? "primary" : "ghost"}`} onClick={() => setParam("type", "all")} type="button">{t("docs.typeAll")}</button>

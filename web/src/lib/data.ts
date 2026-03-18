@@ -3,6 +3,10 @@
 const basePath = (import.meta.env.BASE_URL ?? "/").replace(/\/+$/, "");
 const dataRoot = `${basePath}/data`.replace(/^$/, "/data");
 
+export function getDataRoot(): string {
+  return dataRoot;
+}
+
 function toDoc(item: RawIndexItem, type: "podcast" | "newsletter"): DocItem {
   return {
     type,

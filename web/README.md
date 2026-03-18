@@ -10,6 +10,7 @@ npm run dev
 ## 常用脚本
 
 - `npm run sync:data`：从上级数据镜像仓同步到 `public/data`
+  这个流程会同时生成 `public/data/search-index.json`（正文全文检索索引）
 - `npm run build`：TS 检查 + Vite 构建
 - `npm run build:with-data`：先同步数据再构建
 

@@ -42,6 +42,10 @@ cd G:\LennysData
 .\sync-lenny-data.cmd
 ```
 
+说明：
+- 同步脚本会额外生成 `web/public/data/search-index.json`
+- Docs 页关键词搜索会优先使用该索引进行“正文级全文检索”
+
 ## 生产构建
 
 ```powershell
@@ -54,6 +58,8 @@ cd G:\LennysData
 
 已提供手动触发 workflow：
 - `.github/workflows/deploy-pages.yml`
+
+并且已配置 `push main` 自动部署。
 
 部署前需要在仓库 Secret 中配置：
 - `LENNY_DATA_TOKEN`（可访问私有数据仓的 GitHub token）
