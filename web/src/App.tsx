@@ -7,8 +7,24 @@ import { DocsPage } from "./pages/DocsPage";
 import { HomePage } from "./pages/HomePage";
 import type { NormalizedData } from "./types";
 
+function readLocaleFromUrl(): Locale | null {
+  if (typeof window === "undefined") {
+    return null;
+  }
+  const params = new URLSearchParams(window.location.search);
+  const candidate = params.get("lang") ?? params.get("locale");
+  if (candidate === "zh-CN" || candidate === "zh-HK" || candidate === "en") {
+    return candidate;
+  }
+  return null;
+}
+
 function useLocale() {
   const [locale, setLocale] = useState<Locale>(() => {
+    const fromUrl = readLocaleFromUrl();
+    if (fromUrl) {
+      return fromUrl;
+    }
     const stored = localStorage.getItem(LOCALE_STORAGE_KEY);
     return normalizeLocale(stored ?? DEFAULT_LOCALE);
   });
@@ -16,6 +32,15 @@ function useLocale() {
   useEffect(() => {
     localStorage.setItem(LOCALE_STORAGE_KEY, locale);
     document.documentElement.lang = locale;
+    if (typeof window !== "undefined") {
+      const currentUrl = new URL(window.location.href);
+      if (currentUrl.searchParams.get("lang") !== locale) {
+        currentUrl.searchParams.set("lang", locale);
+        const search = currentUrl.searchParams.toString();
+        const nextUrl = `${currentUrl.pathname}${search ? `?${search}` : ""}${currentUrl.hash}`;
+        window.history.replaceState(null, "", nextUrl);
+      }
+    }
   }, [locale]);
 
   return { locale, setLocale };
