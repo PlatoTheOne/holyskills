@@ -22,12 +22,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "Aishwarya Naresh Reganti + Kiriti Badam：AI 产品为何必须有可执行的反馈闭环",
+        "summary": "如果把一群一线实践者聚在一起问：AI 产品是否必须建立可执行的反馈闭环？几乎所有人都会点头同意。本期围绕 AI 产品实践、产品设计与团队领导力展开。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Aishwarya Naresh Reganti + Kiriti Badam"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/molly-graham.md",
@@ -49,12 +49,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "高增长手册：Molly Graham 如何带队穿越混乱、变化与规模化",
+        "summary": "Molly Graham 曾与科技行业多位高效领导者共事，包括 Mark Zuckerberg、Sheryl Sandberg、Chamath Palihapitiya 和 Bret Taylor。如今她领导 Glue Club，帮助管理者在快速扩张、增长与变化中稳住组织与节奏。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Molly Graham"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/jason-m-lemkin.md",
@@ -76,12 +76,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "我们用 20 个 AI 代理替换销售团队后，发生了什么 | Jason Lemkin（SaaStr）",
+        "summary": "我们用 20 个 AI 代理替换销售团队后，组织与流程发生了哪些变化？本期聚焦 B2B 产品、创业搭建与团队领导力。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Jason M Lemkin"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/matt-macinnis.md",
@@ -103,12 +103,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "每位管理者都该听到的 10 条反常识领导真相 | Matt MacInnis（Rippling）",
+        "summary": "Matt MacInnis 是 Rippling 的首席产品官，曾长期担任 COO。Rippling 是一家估值超过 160 亿美元的一体化劳动力管理平台。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Matt MacInnis"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/elena-verna-40.md",
@@ -130,12 +130,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "Elena Verna 4.0：增长负责人如何把 KPI 做得更“可爱”",
+        "summary": "谁能想到，传统上以数据、指标、表格和 KPI 见长的增长负责人，也会追问“我们怎样把产品做得更让人喜欢？”本期讨论增长系统、产品设计与定价决策。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Elena Verna 4.0"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
@@ -157,12 +157,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "如何用 ChatGPT 搭建你的 PM 第二大脑",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "让 AI 放大你的产品能力，而不是取代你",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/how-to-spot-a-top-1-startup-early.md",
@@ -184,12 +184,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "如何尽早识别顶尖 1% 创业公司",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "来自多次提前押中标志性公司的投资人与操盘者的三条关键经验",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/edwin-chen.md",
@@ -211,12 +211,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "从 100 人 AI 实验室到 Anthropic 与 Google 的秘密武器 | Edwin Chen（Surge AI）",
+        "summary": "Edwin Chen 是 Surge AI 创始人兼 CEO。Surge AI 通过高质量数据、环境与评测体系，帮助前沿实验室教会 AI 分辨“好与坏”。这家公司在完全自举、员工不足 100 人的情况下，去年营收突破 10 亿美元，创下历史最快纪录。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Edwin Chen"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/tomer-cohen.md",
@@ -238,12 +238,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "为什么 LinkedIn 正把 PM 变成 AI 驱动的“全栈构建者” | Tomer Cohen（LinkedIn CPO）",
+        "summary": "为什么 LinkedIn 正把 PM 变成 AI 驱动的“全栈构建者”？本期覆盖产品设计、团队领导与 AI 产品实践。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Tomer Cohen"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/a-year-free-of-posthog-16500-value-the-all-in-one-analytics-experimentation-feat.md",
@@ -265,12 +265,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "免费使用 PostHog 一整年（价值 16,500 美元）：一体化分析、实验、功能开关、问卷、会话回放、错误追踪、数据仓库与 LLM 分析平台",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "你在其他地方找不到的专属优惠，让 Product Pass 总价值超过 25,000 美元",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/jeanne-grosser.md",
@@ -292,12 +292,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "2026 年，世界级 GTM 团队长什么样 | Jeanne DeWitt Grosser（Vercel、Stripe、Google）",
+        "summary": "Jeanne DeWitt Grosser 曾在 Stripe、Google 和 Vercel 打造世界级 GTM 团队。她在 Vercel 担任 COO，负责市场、销售、客户成功、营收运营与现场工程；她也从零重塑过 Stripe 早期销售体系，并长期为创始人提供 GTM 策略建议。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Jeanne Grosser"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/rachel-lockett.md",
@@ -319,12 +319,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "困难对话、高信任团队与理想人生设计指南 | Rachel Lockett",
+        "summary": "一份关于如何开展困难对话、打造高信任团队、并设计自己热爱生活的实战指南。本期涵盖团队领导、产品设计与消费产品。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Rachel Lockett"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/stewart-butterfield.md",
@@ -346,12 +346,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "Slack 创始人：打造“用户真心喜欢”产品的思维模型 | Stewart Butterfield",
+        "summary": "和 Stewart Butterfield 一起拆解打造用户喜爱产品的核心思维模型，涵盖产品设计、B2B 产品与消费产品。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Stewart Butterfield"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/a-holiday-gift-guide-for-tech-people-with-taste.md",
@@ -373,12 +373,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "给有品位科技人的节日礼物指南",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "拒绝凑数推荐，这份清单只留好东西",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/dr-fei-fei-li.md",
@@ -400,12 +400,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "AI 教母谈就业、机器人，以及为何“世界模型”是下一站 | 李飞飞博士",
+        "summary": "从就业到机器人，再到下一代世界模型。本期围绕 AI 产品实践、产品设计与消费产品展开。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Dr. Fei Fei Li"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/grant-lee.md",
@@ -427,12 +427,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "从“我听过最蠢的想法”到 1 亿美元 ARR：Gamma 崛起内幕 | Grant Lee（CEO）",
+        "summary": "拆解 Gamma 如何一路增长至 1 亿美元 ARR，重点讨论战略决策、产品设计与增长系统。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Grant Lee"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/ecosystem-is-the-next-big-growth-channel.md",
@@ -454,12 +454,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "生态系统将成为下一个核心增长渠道",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "如何在嘈杂竞争中脱颖而出：借助已经触达并赢得目标用户信任的合作伙伴",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     }
   ],
   "stats": {
