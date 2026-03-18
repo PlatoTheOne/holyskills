@@ -101,7 +101,7 @@ input:focus-visible,
   position: sticky;
   top: 10px;
   z-index: 120;
-  padding: 14px 0 8px;
+  padding: 14px 0 18px;
 }
 
 .topbar {
@@ -109,7 +109,7 @@ input:focus-visible,
   justify-content: space-between;
   align-items: center;
   gap: 14px;
-  padding: 10px 12px;
+  padding: 10px 20px;
   border-radius: var(--pill-radius);
   border: 1px solid rgba(0, 214, 50, 0.38);
   backdrop-filter: blur(10px);
@@ -123,6 +123,7 @@ input:focus-visible,
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+  padding-left: 2px;
 }
 
 .topbar-nav {
@@ -556,7 +557,7 @@ input:focus-visible,
 @media (max-width: 720px) {
   .topbar-shell {
     position: static;
-    padding-top: 10px;
+    padding: 10px 0 14px;
   }
 
   .topbar {

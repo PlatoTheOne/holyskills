@@ -9,7 +9,6 @@ import {
   formatNumber,
   getRawDocUrl,
   getSavedAccessEmail,
-  hasContentApi,
   isPrivateContentMode,
   loadMarkdown,
   requestInviteAccess,
@@ -139,7 +138,6 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     : "year");
   const docParam = searchParams.get("doc") ?? "";
 
-  const canUnlockContent = hasContentApi();
   const sortOptions = useMemo(() => {
     return [
       { value: "date_desc", label: t("docs.sortDateDesc") },
@@ -513,7 +511,6 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
               <form className="access-gate" onSubmit={onUnlockContent}>
                 <h3>{t("docs.accessGateTitle")}</h3>
                 <p className="muted">{t("docs.accessGateBody")}</p>
-                {!canUnlockContent && <p className="muted">{t("docs.accessNeedApi")}</p>}
 
                 <label className="field-label" htmlFor="access-email">{t("docs.accessEmailLabel")}</label>
                 <input
@@ -536,7 +533,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
                 />
 
                 <div className="switch-row">
-                  <button className="pill primary" type="submit" disabled={authSubmitting || !canUnlockContent}>
+                  <button className="pill primary" type="submit" disabled={authSubmitting}>
                     {authSubmitting ? t("docs.accessSubmitting") : t("docs.accessSubmit")}
                   </button>
                   <button
