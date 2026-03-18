@@ -2,9 +2,15 @@
 
 const basePath = (import.meta.env.BASE_URL ?? "/").replace(/\/+$/, "");
 const dataRoot = `${basePath}/data`.replace(/^$/, "/data");
+const contentMode = (import.meta.env.VITE_CONTENT_MODE ?? "public").toLowerCase();
+const contentApi = (import.meta.env.VITE_DOC_CONTENT_API ?? "").trim();
 
 export function getDataRoot(): string {
   return dataRoot;
+}
+
+export function isPrivateContentMode(): boolean {
+  return contentMode === "private";
 }
 
 function toDoc(item: RawIndexItem, type: "podcast" | "newsletter"): DocItem {
@@ -42,6 +48,20 @@ export async function loadIndexData(): Promise<NormalizedData> {
 }
 
 export async function loadMarkdown(filename: string): Promise<string> {
+  if (contentApi) {
+    const response = await fetch(`${contentApi.replace(/\/+$/, "")}/content?filename=${encodeURIComponent(filename)}`, {
+      cache: "no-store",
+    });
+    if (!response.ok) {
+      throw new Error(`doc api load failed: ${response.status}`);
+    }
+    return response.text();
+  }
+
+  if (!isPrivateContentMode()) {
+    throw new Error("content_protected");
+  }
+
   const response = await fetch(`${dataRoot}/${filename}`, { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`doc load failed: ${response.status}`);
@@ -49,7 +69,10 @@ export async function loadMarkdown(filename: string): Promise<string> {
   return response.text();
 }
 
-export function getRawDocUrl(filename: string): string {
+export function getRawDocUrl(filename: string): string | null {
+  if (!isPrivateContentMode()) {
+    return null;
+  }
   return `${dataRoot}/${filename}`;
 }
 

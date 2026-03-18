@@ -2,7 +2,7 @@
 import { Link, useSearchParams } from "react-router-dom";
 import DOMPurify from "dompurify";
 import { marked } from "marked";
-import { formatDate, formatNumber, getRawDocUrl, loadMarkdown, tagCounts } from "../lib/data";
+import { formatDate, formatNumber, getRawDocUrl, isPrivateContentMode, loadMarkdown, tagCounts } from "../lib/data";
 import { fulltextSearch } from "../lib/fulltext";
 import type { Locale } from "../i18n";
 import type { DocItem, NormalizedData } from "../types";
@@ -102,6 +102,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
   const [loadingDoc, setLoadingDoc] = useState(false);
   const [fulltextMatches, setFulltextMatches] = useState<Set<string> | null>(null);
   const [loadingFulltext, setLoadingFulltext] = useState(false);
+  const [contentProtected, setContentProtected] = useState(false);
 
   const type = searchParams.get("type") === "podcast" || searchParams.get("type") === "newsletter"
     ? (searchParams.get("type") as "podcast" | "newsletter")
@@ -253,6 +254,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
         return;
       }
       setLoadingDoc(true);
+      setContentProtected(false);
       try {
         const md = await loadMarkdown(activeDoc.filename);
         const parsed = await marked.parse(md);
@@ -261,9 +263,15 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
         }
         const safeHtml = DOMPurify.sanitize(parsed as string);
         setMarkdownHtml(safeHtml);
-      } catch {
+      } catch (error) {
         if (alive) {
-          setMarkdownHtml(`<p>${t("state.loadErrorTitle")}</p>`);
+          const message = error instanceof Error ? error.message : String(error);
+          if (message.includes("content_protected")) {
+            setContentProtected(true);
+            setMarkdownHtml(`<p>${t("docs.contentProtected")}</p>`);
+          } else {
+            setMarkdownHtml(`<p>${t("state.loadErrorTitle")}</p>`);
+          }
         }
       } finally {
         if (alive) {
@@ -430,11 +438,14 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
               ))}
             </div>
 
-            <Link className="pill ghost" to={getRawDocUrl(activeDoc.filename)} target="_blank" rel="noreferrer">
-              {t("docs.openRaw")}
-            </Link>
+            {isPrivateContentMode() && getRawDocUrl(activeDoc.filename) && (
+              <Link className="pill ghost" to={getRawDocUrl(activeDoc.filename) ?? ""} target="_blank" rel="noreferrer">
+                {t("docs.openRaw")}
+              </Link>
+            )}
 
             {loadingDoc && <p className="muted">{t("state.loading")}</p>}
+            {contentProtected && <p className="muted">{t("docs.contentProtectedHint")}</p>}
             <div className="markdown" dangerouslySetInnerHTML={{ __html: markdownHtml }} />
           </article>
         )}
