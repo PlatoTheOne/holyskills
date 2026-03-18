@@ -44,11 +44,8 @@ export function HomePage({ locale, data, t }: HomePageProps) {
       <section className="card hero">
         <p className="eyebrow">{t("home.eyebrow")}</p>
         <h1>{t("home.title")}</h1>
-        <p className="hero-subtitle">{t("home.subtitle")}</p>
         <div className="hero-actions">
           <Link className="pill primary" to="/docs">{t("home.openDocs")}</Link>
-          <Link className="pill ghost" to="/docs?type=podcast">{t("home.openPodcasts")}</Link>
-          <Link className="pill ghost" to="/docs?type=newsletter">{t("home.openNewsletters")}</Link>
         </div>
       </section>
 

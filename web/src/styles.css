@@ -412,6 +412,14 @@ input:focus-visible,
   scrollbar-gutter: stable;
 }
 
+.reader-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
 .sidebar h1 {
   margin: 0;
 }
@@ -547,6 +555,126 @@ input:focus-visible,
   padding-top: 18px;
 }
 
+.skills-layout {
+  display: grid;
+  gap: 12px;
+  padding-bottom: 36px;
+}
+
+.skills-hero h1 {
+  margin: 8px 0 10px;
+  font-size: clamp(1.5rem, 3.6vw, 2.4rem);
+  line-height: 1.1;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.skill-card {
+  display: grid;
+  gap: 10px;
+}
+
+.skill-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--pill-radius);
+  padding: 6px 12px;
+  font-size: 0.78rem;
+  font-family: "Space Mono", monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 214, 50, 0.38);
+  background: rgba(0, 214, 50, 0.12);
+  color: #7df79c;
+}
+
+.skill-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 214, 50, 0.44);
+  background: linear-gradient(180deg, rgba(0, 214, 50, 0.28), rgba(0, 0, 0, 0.2));
+  color: var(--accent);
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-card h2 {
+  margin: 0;
+  font-size: 1.42rem;
+  line-height: 1.15;
+  color: var(--accent);
+}
+
+.skill-name {
+  margin: 0;
+}
+
+.skill-name code {
+  font-family: "Space Mono", monospace;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+
+.skill-tagline {
+  margin: 0;
+  color: #d7d7d7;
+  font-size: 0.9rem;
+}
+
+.skill-meta {
+  display: grid;
+  gap: 8px;
+}
+
+.skill-example-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+  color: #dadada;
+  font-size: 0.86rem;
+}
+
+.skill-code-wrap {
+  display: grid;
+  gap: 8px;
+}
+
+.skill-code {
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #0a0a0a;
+  padding: 12px;
+  overflow: auto;
+  max-height: 420px;
+}
+
+.skill-code code {
+  font-family: "Space Mono", monospace;
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
 @media (max-width: 1080px) {
   .stats-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -560,6 +688,10 @@ input:focus-visible,
   .reader {
     max-height: none;
     overflow: visible;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
   }
 }
 

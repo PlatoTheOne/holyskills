@@ -476,6 +476,10 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
       </aside>
 
       <section className="card reader">
+        <div className="reader-toolbar">
+          <Link className="pill ghost" to="/skills">{t("docs.openSkills")}</Link>
+        </div>
+
         {!activeDoc && (
           <article className="doc-empty">
             <h2>{t("docs.emptyTitle")}</h2>

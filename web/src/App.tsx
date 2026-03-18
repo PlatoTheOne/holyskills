@@ -5,6 +5,7 @@ import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY, normalizeLocale, translate, type Lo
 import { loadIndexData } from "./lib/data";
 import { DocsPage } from "./pages/DocsPage";
 import { HomePage } from "./pages/HomePage";
+import { SkillsPage } from "./pages/SkillsPage";
 import type { NormalizedData } from "./types";
 
 function readLocaleFromUrl(): Locale | null {
@@ -99,6 +100,7 @@ export default function App() {
           <nav className="topbar-nav">
             <Link className="pill ghost" to="/">{t("nav.home")}</Link>
             <Link className="pill ghost" to="/docs">{t("nav.docs")}</Link>
+            <Link className="pill ghost" to="/skills">{t("nav.skills")}</Link>
             <NeoSelect
               value={locale}
               options={localeOptions}
@@ -131,6 +133,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage locale={locale} data={data} t={t} />} />
           <Route path="/docs" element={<DocsPage locale={locale} data={data} t={t} />} />
+          <Route path="/skills" element={<SkillsPage t={t} />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       )}
