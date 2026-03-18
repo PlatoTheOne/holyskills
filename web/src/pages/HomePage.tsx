@@ -46,6 +46,7 @@ export function HomePage({ locale, data, t }: HomePageProps) {
         <h1>{t("home.title")}</h1>
         <div className="hero-actions">
           <Link className="pill primary" to="/docs">{t("home.openDocs")}</Link>
+          <Link className="pill ghost" to="/skills">{t("nav.skills")}</Link>
         </div>
       </section>
 

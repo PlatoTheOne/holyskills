@@ -100,7 +100,6 @@ export default function App() {
           <nav className="topbar-nav">
             <Link className="pill ghost" to="/">{t("nav.home")}</Link>
             <Link className="pill ghost" to="/docs">{t("nav.docs")}</Link>
-            <Link className="pill ghost" to="/skills">{t("nav.skills")}</Link>
             <NeoSelect
               value={locale}
               options={localeOptions}
