@@ -1,0 +1,175 @@
+﻿export type Locale = "zh-CN" | "zh-HK" | "en";
+
+export const DEFAULT_LOCALE: Locale = "zh-CN";
+export const LOCALE_STORAGE_KEY = "lenny.portal.locale";
+
+type Dict = Record<string, string>;
+
+const zhCN: Dict = {
+  "app.brand": "Lenny Data Portal",
+  "nav.home": "首页",
+  "nav.docs": "文档中心",
+  "home.eyebrow": "Lenny 私有知识库总览",
+  "home.title": "把所有内容变成可检索、可跳转、可阅读的 Docs 体验",
+  "home.subtitle": "首页聚合关键指标和最新内容，文档页支持筛选、搜索、标签导航与原文阅读。",
+  "home.openDocs": "打开文档中心",
+  "home.openPodcasts": "只看播客",
+  "home.openNewsletters": "只看 Newsletter",
+  "home.latestPodcasts": "最新播客",
+  "home.latestNewsletters": "最新 Newsletter",
+  "home.viewAll": "查看全部",
+  "home.topTags": "热门标签",
+  "home.exploreInDocs": "去文档页探索",
+  "home.quickSearch": "快速检索入口",
+  "home.searchPlaceholder": "输入关键词，例如 AI、growth、leadership",
+  "home.searchDocs": "搜索文档",
+  "stats.totalDocs": "文档总数",
+  "stats.podcastCount": "播客文档",
+  "stats.newsletterCount": "Newsletter 文档",
+  "stats.totalWords": "总词数",
+  "docs.title": "文档中心",
+  "docs.subtitle": "筛选后点击左侧文档，在右侧阅读全文。",
+  "docs.searchPlaceholder": "搜索标题、标签、嘉宾、摘要",
+  "docs.typeAll": "全部",
+  "docs.typePodcast": "播客",
+  "docs.typeNewsletter": "Newsletter",
+  "docs.sortBy": "排序方式",
+  "docs.sortDateDesc": "日期（新到旧）",
+  "docs.sortDateAsc": "日期（旧到新）",
+  "docs.sortTitleAsc": "标题（A-Z）",
+  "docs.sortWordsDesc": "词数（高到低）",
+  "docs.tags": "标签过滤",
+  "docs.resultCount": "共 {count} 篇",
+  "docs.noResults": "没有匹配结果",
+  "docs.emptyTitle": "请选择一篇文档",
+  "docs.emptyBody": "你可以从左侧列表选择，或使用筛选条件快速定位。",
+  "docs.openRaw": "打开原始 Markdown 文件",
+  "docs.typeLabelPodcast": "播客",
+  "docs.typeLabelNewsletter": "Newsletter",
+  "docs.metaWords": "{count} 词",
+  "docs.metaGuest": "嘉宾：{guest}",
+  "docs.metaSubtitle": "副标题：{subtitle}",
+  "state.loading": "正在加载数据...",
+  "state.loadErrorTitle": "数据加载失败",
+  "state.loadErrorBody": "请先执行数据同步脚本：node scripts/sync-lenny-data.mjs",
+};
+
+const zhHK: Dict = {
+  "app.brand": "Lenny Data Portal",
+  "nav.home": "首頁",
+  "nav.docs": "文件中心",
+  "home.eyebrow": "Lenny 私有知識庫總覽",
+  "home.title": "把所有內容變成可檢索、可跳轉、可閱讀的 Docs 體驗",
+  "home.subtitle": "首頁聚合關鍵指標與最新內容，文件頁支援篩選、搜尋、標籤導覽與原文閱讀。",
+  "home.openDocs": "打開文件中心",
+  "home.openPodcasts": "只看播客",
+  "home.openNewsletters": "只看 Newsletter",
+  "home.latestPodcasts": "最新播客",
+  "home.latestNewsletters": "最新 Newsletter",
+  "home.viewAll": "查看全部",
+  "home.topTags": "熱門標籤",
+  "home.exploreInDocs": "去文件頁探索",
+  "home.quickSearch": "快速檢索入口",
+  "home.searchPlaceholder": "輸入關鍵詞，例如 AI、growth、leadership",
+  "home.searchDocs": "搜尋文件",
+  "stats.totalDocs": "文件總數",
+  "stats.podcastCount": "播客文件",
+  "stats.newsletterCount": "Newsletter 文件",
+  "stats.totalWords": "總詞數",
+  "docs.title": "文件中心",
+  "docs.subtitle": "篩選後點擊左側文件，在右側閱讀全文。",
+  "docs.searchPlaceholder": "搜尋標題、標籤、嘉賓、摘要",
+  "docs.typeAll": "全部",
+  "docs.typePodcast": "播客",
+  "docs.typeNewsletter": "Newsletter",
+  "docs.sortBy": "排序方式",
+  "docs.sortDateDesc": "日期（新到舊）",
+  "docs.sortDateAsc": "日期（舊到新）",
+  "docs.sortTitleAsc": "標題（A-Z）",
+  "docs.sortWordsDesc": "詞數（高到低）",
+  "docs.tags": "標籤過濾",
+  "docs.resultCount": "共 {count} 篇",
+  "docs.noResults": "沒有匹配結果",
+  "docs.emptyTitle": "請先選擇一篇文件",
+  "docs.emptyBody": "你可以從左側列表選擇，或使用篩選條件快速定位。",
+  "docs.openRaw": "打開原始 Markdown 檔案",
+  "docs.typeLabelPodcast": "播客",
+  "docs.typeLabelNewsletter": "Newsletter",
+  "docs.metaWords": "{count} 詞",
+  "docs.metaGuest": "嘉賓：{guest}",
+  "docs.metaSubtitle": "副標題：{subtitle}",
+  "state.loading": "正在載入資料...",
+  "state.loadErrorTitle": "資料載入失敗",
+  "state.loadErrorBody": "請先執行資料同步腳本：node scripts/sync-lenny-data.mjs",
+};
+
+const en: Dict = {
+  "app.brand": "Lenny Data Portal",
+  "nav.home": "Home",
+  "nav.docs": "Docs",
+  "home.eyebrow": "Lenny Private Archive Overview",
+  "home.title": "Turn the entire archive into a searchable docs experience",
+  "home.subtitle": "Homepage summarizes key metrics and latest entries. Docs page supports filtering, search, tags, and full reading.",
+  "home.openDocs": "Open Docs",
+  "home.openPodcasts": "Podcasts Only",
+  "home.openNewsletters": "Newsletters Only",
+  "home.latestPodcasts": "Latest Podcasts",
+  "home.latestNewsletters": "Latest Newsletters",
+  "home.viewAll": "View All",
+  "home.topTags": "Top Tags",
+  "home.exploreInDocs": "Explore in Docs",
+  "home.quickSearch": "Quick Search",
+  "home.searchPlaceholder": "Enter keywords, e.g. AI, growth, leadership",
+  "home.searchDocs": "Search Docs",
+  "stats.totalDocs": "Total Docs",
+  "stats.podcastCount": "Podcast Docs",
+  "stats.newsletterCount": "Newsletter Docs",
+  "stats.totalWords": "Total Words",
+  "docs.title": "Docs Center",
+  "docs.subtitle": "Filter on the left and read the full document on the right.",
+  "docs.searchPlaceholder": "Search title, tags, guest, summary",
+  "docs.typeAll": "All",
+  "docs.typePodcast": "Podcast",
+  "docs.typeNewsletter": "Newsletter",
+  "docs.sortBy": "Sort By",
+  "docs.sortDateDesc": "Date (newest first)",
+  "docs.sortDateAsc": "Date (oldest first)",
+  "docs.sortTitleAsc": "Title (A-Z)",
+  "docs.sortWordsDesc": "Word count (high to low)",
+  "docs.tags": "Tag Filter",
+  "docs.resultCount": "{count} results",
+  "docs.noResults": "No matching results",
+  "docs.emptyTitle": "Select a document",
+  "docs.emptyBody": "Pick from the left list or use filters to narrow down.",
+  "docs.openRaw": "Open raw Markdown",
+  "docs.typeLabelPodcast": "Podcast",
+  "docs.typeLabelNewsletter": "Newsletter",
+  "docs.metaWords": "{count} words",
+  "docs.metaGuest": "Guest: {guest}",
+  "docs.metaSubtitle": "Subtitle: {subtitle}",
+  "state.loading": "Loading data...",
+  "state.loadErrorTitle": "Data load failed",
+  "state.loadErrorBody": "Please run sync script first: node scripts/sync-lenny-data.mjs",
+};
+
+const dictionaries: Record<Locale, Dict> = {
+  "zh-CN": zhCN,
+  "zh-HK": zhHK,
+  en,
+};
+
+export function normalizeLocale(input: string | null | undefined): Locale {
+  if (input === "zh-CN" || input === "zh-HK" || input === "en") {
+    return input;
+  }
+  return DEFAULT_LOCALE;
+}
+
+export function translate(locale: Locale, key: string, vars?: Record<string, string | number>): string {
+  const dict = dictionaries[locale] ?? dictionaries[DEFAULT_LOCALE];
+  const base = dict[key] ?? dictionaries[DEFAULT_LOCALE][key] ?? key;
+  if (!vars) {
+    return base;
+  }
+  return base.replace(/\{(\w+)\}/g, (_, name: string) => String(vars[name] ?? ""));
+}
