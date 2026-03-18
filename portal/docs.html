@@ -1,0 +1,134 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lenny Data Docs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      var path = window.location.pathname.toLowerCase();
+      var bases = [];
+      if (path.indexOf('/portal/') !== -1) {
+        bases.push('/portal/assets/');
+      }
+      bases.push('./assets/');
+      bases.push('/assets/');
+      bases = bases.filter(function (v, i, a) { return a.indexOf(v) === i; });
+      window.__ASSET_BASE_CANDIDATES__ = bases;
+
+      function loadCssAt(index) {
+        if (index >= bases.length) {
+          console.error('Unable to load styles.css from known paths.');
+          return;
+        }
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = bases[index] + 'styles.css';
+        link.onload = function () { window.__ASSET_BASE__ = bases[index]; };
+        link.onerror = function () { loadCssAt(index + 1); };
+        document.head.appendChild(link);
+      }
+
+      loadCssAt(0);
+    })();
+  </script>
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <header class="topbar container">
+    <a class="brand" href="./index.html">Lenny Data Portal</a>
+    <div class="topbar-actions">
+      <a class="pill ghost" href="./index.html" data-i18n="nav.home">返回首页</a>
+      <select id="lang-switcher" class="lang-switcher" aria-label="Language switcher">
+        <option value="zh-CN">简体中文</option>
+        <option value="zh-HK">繁體中文</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container docs-layout">
+    <aside class="card docs-sidebar reveal">
+      <div class="sidebar-head">
+        <h1 data-i18n="docs.title">文档中心</h1>
+        <p data-i18n="docs.subtitle">筛选后点击文档，即可在右侧阅读原文</p>
+      </div>
+
+      <form id="filter-form" class="filters">
+        <input id="search-input" type="search" autocomplete="off" data-i18n-placeholder="docs.searchPlaceholder" placeholder="搜索标题、标签、嘉宾、摘要">
+        <div class="type-switch">
+          <button class="pill ghost" data-type="all" type="button" data-i18n="docs.typeAll">全部</button>
+          <button class="pill ghost" data-type="podcast" type="button" data-i18n="docs.typePodcast">播客</button>
+          <button class="pill ghost" data-type="newsletter" type="button" data-i18n="docs.typeNewsletter">Newsletter</button>
+        </div>
+        <label for="sort-select" class="filter-label" data-i18n="docs.sortBy">排序方式</label>
+        <select id="sort-select">
+          <option value="date_desc">日期（新到旧）</option>
+          <option value="date_asc">日期（旧到新）</option>
+          <option value="title_asc">标题（A-Z）</option>
+          <option value="words_desc">词数（高到低）</option>
+        </select>
+      </form>
+
+      <div class="tag-panel">
+        <p class="filter-label" data-i18n="docs.tags">标签过滤</p>
+        <div id="tag-filter" class="tag-cloud"></div>
+      </div>
+
+      <p id="result-count" class="result-count">-</p>
+      <ul id="docs-list" class="doc-list"></ul>
+    </aside>
+
+    <section class="card doc-reader reveal">
+      <article id="doc-empty" class="doc-empty">
+        <h2 data-i18n="docs.emptyTitle">请选择一篇文档</h2>
+        <p data-i18n="docs.emptyBody">你可以从左侧列表点击，或者使用筛选和标签快速定位。</p>
+      </article>
+
+      <article id="doc-content" class="hidden">
+        <header class="doc-header">
+          <p id="doc-type" class="eyebrow"></p>
+          <h2 id="doc-title"></h2>
+          <div id="doc-meta" class="doc-meta"></div>
+          <div id="doc-tags" class="tag-cloud"></div>
+          <a id="doc-file-link" class="pill ghost" target="_blank" rel="noopener" data-i18n="docs.openRaw">打开原始 Markdown 文件</a>
+        </header>
+        <div id="doc-markdown" class="markdown-body"></div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      function loadScript(src) {
+        return new Promise(function (resolve, reject) {
+          var script = document.createElement('script');
+          script.src = src;
+          script.onload = resolve;
+          script.onerror = reject;
+          document.body.appendChild(script);
+        });
+      }
+
+      var bases = window.__ASSET_BASE_CANDIDATES__ || ['./assets/', '/portal/assets/', '/assets/'];
+
+      function tryBase(index) {
+        if (index >= bases.length) {
+          console.error('Unable to load app scripts from known paths.');
+          return;
+        }
+        loadScript('https://cdn.jsdelivr.net/npm/marked/marked.min.js')
+          .catch(function () { return Promise.resolve(); })
+          .then(function () { return loadScript(bases[index] + 'app.js'); })
+          .then(function () { return loadScript(bases[index] + 'docs-page.js'); })
+          .catch(function () { tryBase(index + 1); });
+      }
+
+      tryBase(0);
+    })();
+  </script>
+</body>
+</html>
