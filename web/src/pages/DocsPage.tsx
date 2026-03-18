@@ -549,7 +549,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
                   </button>
                 </div>
 
-                {authError && <p className="muted">{authError}</p>}
+                {authError && <p className="error-text" role="alert">{authError}</p>}
               </form>
             )}
             

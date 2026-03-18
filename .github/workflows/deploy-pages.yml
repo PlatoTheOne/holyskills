@@ -50,6 +50,7 @@ jobs:
         run: |
           export VITE_BASE_PATH="/${{ github.event.repository.name }}/"
           export VITE_CONTENT_MODE="public"
+          export VITE_DOC_CONTENT_API="${{ vars.DOC_CONTENT_API_URL }}"
           npm run build --prefix web
           cp web/dist/index.html web/dist/404.html
 
