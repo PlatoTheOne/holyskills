@@ -22,12 +22,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "「賣 alpha，不賣功能」：從 100 萬到 1000 萬 ARR 的企業銷售打法 | Jen Abel",
+        "summary": "Jen Abel 現任 State Affairs 企業業務 GM，並共同創辦 Jellyfish，專門協助創辦人學習 0 到 1 的企業銷售。她是我見過最懂企業銷售學習路徑的人之一；這期是繼兩年前那次（聚焦 0 到 100 萬 ARR）後的進階對談。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Jen Abel"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas.md",
@@ -49,12 +49,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "如何把 Product Pass 用到極致（第 2 部分）——歡迎 Stripe Atlas 加入禮包",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "付費訂閱用戶可使用 17+ 款高級產品，這裡是把權益用滿的實操建議",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/melanie-perkins.md",
@@ -76,12 +76,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "Canva 背後的女人：Melanie Perkins 如何從零打造 420 億美元公司",
+        "summary": "Canva 背後的創辦人 Melanie Perkins 分享她如何從零起步打造 420 億美元公司，涵蓋產品設計、策略決策與創業搭建。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Melanie Perkins"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/a-builders-guide-to-living-a-long-and-healthy-life.md",
@@ -103,12 +103,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "Builder 的長壽與健康生活指南",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "來點不一樣的內容",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/dhanji-r-prasanna.md",
@@ -130,12 +130,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "Block 如何成為全球最 AI-native 的企業之一 | Dhanji R. Prasanna",
+        "summary": "Dhanji R. Prasanna 是 Block（原 Square）CTO，過去兩年管理超過 4,000 名工程師。在他的領導下，Block 正成為全球最具 AI-native 基因的大型公司之一。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Dhanji R. Prasanna"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/chip-huyen.md",
@@ -157,12 +157,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "Chip Huyen 的 AI Engineering 101（Nvidia、Stanford、Netflix）",
+        "summary": "與 Chip Huyen 一起入門 AI 工程：從方法到落地，聚焦 AI 產品實戰、產品設計與工程取捨。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Chip Huyen"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/nicole-forsgren.md",
@@ -184,12 +184,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "2025 年如何衡量 AI 時代開發者生產力 | Nicole Forsgren",
+        "summary": "Nicole Forsgren 建立了最廣泛使用的開發者生產力框架 DORA 與 SPACE，著有奠基之作《Accelerate》，並即將發布新書《Frictionless》，提供協助團隊在 AI 時代更快協作的實用方法。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Nicole Forsgren"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/everyone-should-be-using-claude-code-more.md",
@@ -211,12 +211,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "每個人都應該更頻繁地使用 Claude Code",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "如何上手，以及 50 種非技術人士把 Claude Code 用進工作與生活的方法",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/robby-stein.md",
@@ -238,12 +238,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "Google AI 反擊戰內幕：AI Mode 崛起、AI Overviews 策略與 AI 搜尋願景 | Robby Stein（Google Search 產品副總裁）",
+        "summary": "Robby Stein 是 Google 產品副總裁，負責 Google Search 核心產品，包括全新 AI Overviews、AI Mode、搜尋排序、Google Lens 等。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Robby Stein"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/jason-droege.md",
@@ -265,12 +265,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "Scale AI CEO 首訪：140 億美元 Meta 交易、企業 AI 落地現況與前沿實驗室下一步 | Jason Droege",
+        "summary": "Jason Droege 是 Scale AI CEO。Scale AI 為幾乎所有主要 AI 實驗室提供基礎訓練數據。他曾與 Travis Kalanick 共同創辦 Scour，並把 Uber Eats 從一個想法做到 200 億美元營收規模。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Jason Droege"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/a-free-year-of-devin-the-worlds-most-advanced-autonomous-ai-software-engineer.md",
@@ -292,12 +292,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "免費領取一整年 Devin：全球最先進的自主 AI 軟件工程師",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "Insider 訂閱現已額外包含每年 1,350 美元的 Devin 權益，另有 15+ 款高級產品，加上你打造世界級產品與職涯所需的方法、社群與工具。",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/albert-cheng.md",
@@ -319,12 +319,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "如何在你的產品裡找到隱藏增長機會 | Albert Cheng（Duolingo、Grammarly、Chess.com）",
+        "summary": "如何發現產品中的隱藏增長機會，本集聚焦增長系統、數據度量與分析，以及產品設計。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Albert Cheng"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving.md",
@@ -346,12 +346,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "介紹 GAIN 反饋框架：一套有證據支持、讓人願意聽也願意行動的反饋方法",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "一步步教你寫出「你願意給、別人也願意收」的高質量反饋",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/ravi-mehta.md",
@@ -373,12 +373,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "更好 AI 原型的秘密：為什麼 Tinder 的 CPO 先寫 JSON，而不是先做設計 | Ravi Mehta（產品顧問，前 Reforge EIR）",
+        "summary": "為什麼 Tinder 的 CPO 會先從 JSON 開始而不是從設計稿開始？本集涵蓋團隊領導、創業搭建與產品設計。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Ravi Mehta"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/hamel-husain--shreya-shankar.md",
@@ -400,12 +400,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "為什麼 AI Eval 成為產品構建者最熱門的新技能 | Hamel Husain 與 Shreya Shankar（排名第 1 的 Eval 課程作者）",
+        "summary": "為什麼 AI Eval 正成為產品構建者最熱門的新技能，本集涵蓋 AI 產品實戰、產品設計與度量分析。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Hamel Husain & Shreya Shankar"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "newsletters/how-to-get-the-most-out-of-your-product-pass-part-1.md",
@@ -427,12 +427,12 @@
         ]
       },
       "translated": {
-        "title": "",
+        "title": "如何把 Product Pass 用到極致（第 1 部分）",
         "summary": "",
-        "subtitle": "",
+        "subtitle": "付費訂閱用戶可使用 15+ 款高級產品，這裡是把權益用滿的實操建議",
         "guest": ""
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/brendan-foody.md",
@@ -454,12 +454,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "為什麼「專家寫 AI Eval」正在催生史上增長最快的公司 | Brendan Foody（Mercor CEO）",
+        "summary": "為什麼由領域專家撰寫 AI Eval 會催生史上增長最快的公司？本集涵蓋 AI 產品實戰、產品設計與策略決策。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Brendan Foody"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/ethan-smith.md",
@@ -481,12 +481,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "AEO 終極指南：如何讓 ChatGPT 主動推薦你的產品 | Ethan Smith（Graphite）",
+        "summary": "如何讓 ChatGPT 推薦你的產品，本集涵蓋 AI 產品實戰、產品設計與可落地的產品方法。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Ethan Smith"
       },
-      "status": "todo"
+      "status": "done"
     },
     {
       "filename": "podcasts/ben-horowitz.md",
@@ -508,12 +508,12 @@
         ]
       },
       "translated": {
-        "title": "",
-        "summary": "",
+        "title": "Ben Horowitz 的 460 億美元硬真相：創辦人為何失敗，以及為什麼你要迎著恐懼前進（a16z 聯合創辦人）",
+        "summary": "為什麼創辦人會失敗，以及為何你必須迎著恐懼前進。本集聚焦團隊領導、產品設計，以及產品策略與執行。",
         "subtitle": "",
-        "guest": ""
+        "guest": "Ben Horowitz"
       },
-      "status": "todo"
+      "status": "done"
     }
   ],
   "stats": {

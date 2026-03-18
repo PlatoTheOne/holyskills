@@ -1,11 +1,11 @@
 {
   "version": 1,
   "locale": "zh-CN",
-  "generated_at": "2026-03-18T16:59:11.349Z",
+  "generated_at": "2026-03-18T17:05:19.794Z",
   "coverage": {
-    "translated_docs": 29,
+    "translated_docs": 48,
     "total_docs": 638,
-    "translated_ratio": 0.0455
+    "translated_ratio": 0.0752
   },
   "tag_map": {
     "ai": "人工智能",
@@ -166,6 +166,95 @@
     "newsletters/ecosystem-is-the-next-big-growth-channel.md": {
       "title": "生态系统将成为下一个核心增长渠道",
       "subtitle": "如何在嘈杂竞争中脱颖而出：借助已经触达并赢得目标用户信任的合作伙伴"
+    },
+    "podcasts/jen-abel.md": {
+      "title": "“卖 alpha，不卖功能”：从 100 万到 1000 万 ARR 的企业销售打法 | Jen Abel",
+      "summary": "Jen Abel 现任 State Affairs 企业业务 GM，并联合创办 Jellyfish，专门帮助创始人学习 0 到 1 的企业销售。她是我见过最懂企业销售学习路径的人之一；这期是继两年前那次（聚焦 0 到 100 万 ARR）之后的进阶对谈。",
+      "guest": "Jen Abel"
+    },
+    "newsletters/part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas.md": {
+      "title": "如何把 Product Pass 用到极致（第 2 部分）——欢迎 Stripe Atlas 加入礼包",
+      "subtitle": "付费订阅用户可使用 17+ 款高级产品，这里是把权益用满的实操建议"
+    },
+    "podcasts/melanie-perkins.md": {
+      "title": "Canva 背后的女人：Melanie Perkins 如何从零打造 420 亿美元公司",
+      "summary": "Canva 背后的创始人 Melanie Perkins 分享她如何从零起步打造 420 亿美元公司，涵盖产品设计、战略决策与创业构建。",
+      "guest": "Melanie Perkins"
+    },
+    "newsletters/a-builders-guide-to-living-a-long-and-healthy-life.md": {
+      "title": "Builder 的长寿与健康生活指南",
+      "subtitle": "来点不一样的内容"
+    },
+    "podcasts/dhanji-r-prasanna.md": {
+      "title": "Block 如何成为全球最 AI-native 的企业之一 | Dhanji R. Prasanna",
+      "summary": "Dhanji R. Prasanna 是 Block（原 Square）CTO，过去两年管理超过 4,000 名工程师。在他的领导下，Block 正成为全球最具 AI-native 基因的大型公司之一。",
+      "guest": "Dhanji R. Prasanna"
+    },
+    "podcasts/chip-huyen.md": {
+      "title": "Chip Huyen 的 AI Engineering 101（Nvidia、Stanford、Netflix）",
+      "summary": "和 Chip Huyen 一起入门 AI 工程：从方法到落地，聚焦 AI 产品实践、产品设计与工程权衡。",
+      "guest": "Chip Huyen"
+    },
+    "podcasts/nicole-forsgren.md": {
+      "title": "2025 年如何衡量 AI 时代开发者生产力 | Nicole Forsgren",
+      "summary": "Nicole Forsgren 创建了最广泛使用的开发者生产力框架 DORA 与 SPACE，著有奠基之作《Accelerate》，并即将发布新书《Frictionless》，提供帮助团队在 AI 时代更快协作的实用方法。",
+      "guest": "Nicole Forsgren"
+    },
+    "newsletters/everyone-should-be-using-claude-code-more.md": {
+      "title": "每个人都应该更频繁地使用 Claude Code",
+      "subtitle": "如何上手，以及 50 种非技术人把 Claude Code 用进工作与生活的方法"
+    },
+    "podcasts/robby-stein.md": {
+      "title": "Google AI 反击战内幕：AI Mode 崛起、AI Overviews 策略与 AI 搜索愿景 | Robby Stein（Google Search 产品副总裁）",
+      "summary": "Robby Stein 是 Google 产品副总裁，负责 Google Search 核心产品，包括全新 AI Overviews、AI Mode、搜索排序、Google Lens 等。",
+      "guest": "Robby Stein"
+    },
+    "podcasts/jason-droege.md": {
+      "title": "Scale AI CEO 首访：140 亿美元 Meta 交易、企业 AI 落地现状与前沿实验室下一步 | Jason Droege",
+      "summary": "Jason Droege 是 Scale AI CEO。Scale AI 为几乎所有主要 AI 实验室提供基础训练数据。他曾与 Travis Kalanick 联合创办 Scour，并将 Uber Eats 从一个想法做到 200 亿美元营收规模。",
+      "guest": "Jason Droege"
+    },
+    "newsletters/a-free-year-of-devin-the-worlds-most-advanced-autonomous-ai-software-engineer.md": {
+      "title": "免费领取一整年 Devin：全球最先进的自主 AI 软件工程师",
+      "subtitle": "Insider 订阅现在额外包含每年 1,350 美元的 Devin 权益，另有 15+ 款高级产品，外加你打造世界级产品与职业所需的方法、社群与工具。"
+    },
+    "podcasts/albert-cheng.md": {
+      "title": "如何在你的产品里找到隐藏增长机会 | Albert Cheng（Duolingo、Grammarly、Chess.com）",
+      "summary": "如何发现产品中的隐藏增长机会，本期聚焦增长系统、数据度量与分析，以及产品设计。",
+      "guest": "Albert Cheng"
+    },
+    "newsletters/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving.md": {
+      "title": "介绍 GAIN 反馈框架：一套有证据支撑、让人愿意听也愿意行动的反馈方法",
+      "subtitle": "一步步教你写出“你愿意给、别人也愿意收”的高质量反馈"
+    },
+    "podcasts/ravi-mehta.md": {
+      "title": "更好 AI 原型的秘密：为什么 Tinder 的 CPO 先写 JSON，而不是先做设计 | Ravi Mehta（产品顾问，前 Reforge EIR）",
+      "summary": "为什么 Tinder 的 CPO 会先从 JSON 开始而不是从设计稿开始？本期覆盖团队领导、创业搭建与产品设计。",
+      "guest": "Ravi Mehta"
+    },
+    "podcasts/hamel-husain--shreya-shankar.md": {
+      "title": "为什么 AI Eval 成为产品构建者最热门的新技能 | Hamel Husain 与 Shreya Shankar（排名第 1 的 Eval 课程作者）",
+      "summary": "为什么 AI Eval 正成为产品构建者最热门的新技能，本期涵盖 AI 产品实践、产品设计与度量分析。",
+      "guest": "Hamel Husain & Shreya Shankar"
+    },
+    "newsletters/how-to-get-the-most-out-of-your-product-pass-part-1.md": {
+      "title": "如何把 Product Pass 用到极致（第 1 部分）",
+      "subtitle": "付费订阅用户可使用 15+ 款高级产品，这里是把权益用满的实操建议"
+    },
+    "podcasts/brendan-foody.md": {
+      "title": "为什么“专家写 AI Eval”正在催生史上增长最快的公司 | Brendan Foody（Mercor CEO）",
+      "summary": "为什么由领域专家撰写 AI Eval 会催生史上增长最快的公司？本期覆盖 AI 产品实践、产品设计与战略决策。",
+      "guest": "Brendan Foody"
+    },
+    "podcasts/ethan-smith.md": {
+      "title": "AEO 终极指南：如何让 ChatGPT 主动推荐你的产品 | Ethan Smith（Graphite）",
+      "summary": "如何让 ChatGPT 推荐你的产品，本期涵盖 AI 产品实践、产品设计与可落地的产品方法。",
+      "guest": "Ethan Smith"
+    },
+    "podcasts/ben-horowitz.md": {
+      "title": "Ben Horowitz 的 460 亿美元硬真相：创始人为何失败，以及为什么你要迎着恐惧前进（a16z 联合创始人）",
+      "summary": "为什么创始人会失败，以及为何你必须迎着恐惧前进。本期聚焦团队领导、产品设计，以及产品战略与执行。",
+      "guest": "Ben Horowitz"
     }
   }
 }
