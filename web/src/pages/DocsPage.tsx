@@ -15,6 +15,26 @@ interface DocsPageProps {
 type SortKey = "date_desc" | "date_asc" | "title_asc" | "words_desc";
 type NavMode = "list" | "year" | "tag";
 
+const THEME_PRIORITY = [
+  "ai",
+  "design",
+  "engineering",
+  "growth",
+  "leadership",
+  "strategy",
+  "startups",
+  "product-management",
+  "go-to-market",
+  "analytics",
+  "pricing",
+  "career",
+  "b2b",
+  "b2c",
+  "organization",
+  "newsletter",
+  "podcast",
+] as const;
+
 function includesQuery(doc: DocItem, query: string) {
   if (!query) {
     return true;
@@ -46,6 +66,35 @@ function docYear(doc: DocItem): string {
   return doc.date.slice(0, 4);
 }
 
+function resolveTheme(doc: DocItem): string {
+  const loweredTags = doc.tags.map((tag) => tag.toLowerCase());
+  for (const candidate of THEME_PRIORITY) {
+    if (loweredTags.includes(candidate)) {
+      return candidate;
+    }
+  }
+  if (doc.tags.length > 0) {
+    return doc.tags[0].toLowerCase();
+  }
+  return doc.type;
+}
+
+function formatThemeName(theme: string): string {
+  return theme
+    .split("-")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+interface YearThemeGroup {
+  year: string;
+  total: number;
+  themes: Array<{
+    theme: string;
+    docs: DocItem[];
+  }>;
+}
+
 export function DocsPage({ locale, data, t }: DocsPageProps) {
   const [searchParams, setSearchParams] = useSearchParams();
   const [markdownHtml, setMarkdownHtml] = useState("");
@@ -66,7 +115,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     : "date_desc");
   const navMode = (["list", "year", "tag"].includes(searchParams.get("nav") ?? "")
     ? (searchParams.get("nav") as NavMode)
-    : "list");
+    : "year");
   const docParam = searchParams.get("doc") ?? "";
 
   const filtered = useMemo(() => {
@@ -82,16 +131,41 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     return sortedDocs(base, sortBy);
   }, [data, query, sortBy, tag, type]);
 
-  const byYear = useMemo(() => {
-    const groups = new Map<string, DocItem[]>();
+  const yearThemeGroups = useMemo<YearThemeGroup[]>(() => {
+    const byYear = new Map<string, DocItem[]>();
     filtered.forEach((doc) => {
       const year = docYear(doc);
-      const list = groups.get(year) ?? [];
-      list.push(doc);
-      groups.set(year, list);
+      const docs = byYear.get(year) ?? [];
+      docs.push(doc);
+      byYear.set(year, docs);
     });
 
-    return [...groups.entries()].sort((a, b) => b[0].localeCompare(a[0]));
+    const groups: YearThemeGroup[] = [];
+    for (const [year, docs] of byYear.entries()) {
+      const byTheme = new Map<string, DocItem[]>();
+      docs.forEach((doc) => {
+        const theme = resolveTheme(doc);
+        const list = byTheme.get(theme) ?? [];
+        list.push(doc);
+        byTheme.set(theme, list);
+      });
+
+      const themes = [...byTheme.entries()]
+        .map(([theme, list]) => ({
+          theme,
+          docs: sortedDocs(list, "date_desc"),
+        }))
+        .sort((a, b) => {
+          if (b.docs.length !== a.docs.length) {
+            return b.docs.length - a.docs.length;
+          }
+          return a.theme.localeCompare(b.theme);
+        });
+
+      groups.push({ year, total: docs.length, themes });
+    }
+
+    return groups.sort((a, b) => b.year.localeCompare(a.year));
   }, [filtered]);
 
   const byTag = useMemo(() => {
@@ -237,21 +311,28 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
 
         {navMode === "year" && (
           <div className="group-list">
-            {byYear.map(([year, docs]) => (
-              <details key={year} open={year === byYear[0]?.[0]}>
-                <summary>{year} ({docs.length})</summary>
-                <ul className="doc-list compact">
-                  {docs.map((doc) => (
-                    <li
-                      key={doc.filename}
-                      className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
-                      onClick={() => setParam("doc", doc.filename)}
-                    >
-                      <p className="doc-item-title">{doc.title}</p>
-                      <p className="doc-item-meta">{formatDate(doc.date, locale)}</p>
-                    </li>
+            {yearThemeGroups.map((yearGroup, yearIndex) => (
+              <details key={yearGroup.year} open={yearIndex === 0}>
+                <summary>{yearGroup.year} ({yearGroup.total})</summary>
+                <div className="group-level-2">
+                  {yearGroup.themes.map((themeGroup, themeIndex) => (
+                    <details key={`${yearGroup.year}-${themeGroup.theme}`} open={themeIndex === 0}>
+                      <summary>{formatThemeName(themeGroup.theme)} ({themeGroup.docs.length})</summary>
+                      <ul className="doc-list compact">
+                        {themeGroup.docs.map((doc) => (
+                          <li
+                            key={doc.filename}
+                            className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
+                            onClick={() => setParam("doc", doc.filename)}
+                          >
+                            <p className="doc-item-title">{doc.title}</p>
+                            <p className="doc-item-meta">{formatDate(doc.date, locale)}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </details>
                   ))}
-                </ul>
+                </div>
               </details>
             ))}
           </div>
@@ -259,8 +340,8 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
 
         {navMode === "tag" && (
           <div className="group-list">
-            {byTag.map((entry) => (
-              <details key={entry.name} open={entry.name === byTag[0]?.name}>
+            {byTag.map((entry, idx) => (
+              <details key={entry.name} open={idx === 0}>
                 <summary>{entry.name} ({entry.count})</summary>
                 <ul className="doc-list compact">
                   {entry.docs.map((doc) => (

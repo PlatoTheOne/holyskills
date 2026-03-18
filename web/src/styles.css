@@ -336,6 +336,18 @@ select {
   outline: none;
 }
 
+.group-level-2 {
+  margin-top: 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.group-level-2 > details {
+  margin-left: 8px;
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.01);
+}
+
 .doc-meta {
   margin: 10px 0;
   display: flex;
