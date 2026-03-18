@@ -61,8 +61,12 @@ node .\scripts\sync-lenny-data.mjs --mode public
 
 ```powershell
 cd G:\LennysData
-.\start-private-content-api.cmd -InvitedEmail "your@email.com" -InviteCode "YOUR-INVITE-CODE"
+.\start-private-content-api.cmd
 ```
+
+默认已配置为：
+- 邮箱：`0xplato@gmail.com`
+- 邀请码：`plato666`
 
 然后启动前端并指定 API：
 

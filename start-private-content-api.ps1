@@ -1,8 +1,8 @@
 param(
     [int]$Port = 8788,
     [string]$Source = "lennys-newsletterpodcastdata-all",
-    [string]$InvitedEmail = "",
-    [string]$InviteCode = "",
+    [string]$InvitedEmail = "0xplato@gmail.com",
+    [string]$InviteCode = "plato666",
     [string]$AllowedOrigin = "https://platotheone.github.io",
     [int]$TokenTtlSec = 86400
 )

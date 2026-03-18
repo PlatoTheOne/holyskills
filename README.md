@@ -97,8 +97,12 @@ node .\scripts\sync-lenny-data.mjs --mode public
 
 ```powershell
 cd G:\LennysData
-.\start-private-content-api.cmd -InvitedEmail "your@email.com" -InviteCode "YOUR-INVITE-CODE" -AllowedOrigin "https://platotheone.github.io"
+.\start-private-content-api.cmd
 ```
+
+默认已配置为：
+- 邮箱：`0xplato@gmail.com`
+- 邀请码：`plato666`
 
 然后本地启动前端并连接该 API：
 
