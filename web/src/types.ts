@@ -42,3 +42,14 @@ export interface TagCount {
   name: string;
   count: number;
 }
+
+export interface SearchIndexEntry {
+  filename: string;
+  text: string;
+}
+
+export interface SearchIndexFile {
+  version: number;
+  generated_at: string;
+  docs: SearchIndexEntry[];
+}

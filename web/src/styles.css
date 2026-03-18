@@ -217,6 +217,10 @@ select {
   gap: 8px;
 }
 
+.doc-list.compact {
+  margin-top: 8px;
+}
+
 .doc-item {
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.03);
@@ -309,6 +313,39 @@ select {
 .muted {
   color: var(--muted);
   font-size: 0.84rem;
+}
+
+.group-list {
+  margin-top: 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.group-list details {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.group-list summary {
+  cursor: pointer;
+  color: #d9d9d9;
+  font-weight: 700;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.group-level-2 {
+  margin-top: 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.group-level-2 > details {
+  margin-left: 8px;
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.01);
 }
 
 .doc-meta {

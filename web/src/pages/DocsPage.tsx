@@ -2,7 +2,8 @@
 import { Link, useSearchParams } from "react-router-dom";
 import DOMPurify from "dompurify";
 import { marked } from "marked";
-import { formatDate, formatNumber, getRawDocUrl, loadMarkdown, tagCounts } from "../lib/data";
+import { formatDate, formatNumber, getRawDocUrl, isPrivateContentMode, loadMarkdown, tagCounts } from "../lib/data";
+import { fulltextSearch } from "../lib/fulltext";
 import type { Locale } from "../i18n";
 import type { DocItem, NormalizedData } from "../types";
 
@@ -13,6 +14,27 @@ interface DocsPageProps {
 }
 
 type SortKey = "date_desc" | "date_asc" | "title_asc" | "words_desc";
+type NavMode = "list" | "year" | "tag";
+
+const THEME_PRIORITY = [
+  "ai",
+  "design",
+  "engineering",
+  "growth",
+  "leadership",
+  "strategy",
+  "startups",
+  "product-management",
+  "go-to-market",
+  "analytics",
+  "pricing",
+  "career",
+  "b2b",
+  "b2c",
+  "organization",
+  "newsletter",
+  "podcast",
+] as const;
 
 function includesQuery(doc: DocItem, query: string) {
   if (!query) {
@@ -38,19 +60,66 @@ function sortedDocs(items: DocItem[], sortBy: SortKey) {
   return next.sort((a, b) => b.date.localeCompare(a.date));
 }
 
+function docYear(doc: DocItem): string {
+  if (!doc.date) {
+    return "Unknown";
+  }
+  return doc.date.slice(0, 4);
+}
+
+function resolveTheme(doc: DocItem): string {
+  const loweredTags = doc.tags.map((tag) => tag.toLowerCase());
+  for (const candidate of THEME_PRIORITY) {
+    if (loweredTags.includes(candidate)) {
+      return candidate;
+    }
+  }
+  if (doc.tags.length > 0) {
+    return doc.tags[0].toLowerCase();
+  }
+  return doc.type;
+}
+
+function formatThemeName(theme: string): string {
+  return theme
+    .split("-")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+interface YearThemeGroup {
+  year: string;
+  total: number;
+  themes: Array<{
+    theme: string;
+    docs: DocItem[];
+  }>;
+}
+
 export function DocsPage({ locale, data, t }: DocsPageProps) {
   const [searchParams, setSearchParams] = useSearchParams();
   const [markdownHtml, setMarkdownHtml] = useState("");
   const [loadingDoc, setLoadingDoc] = useState(false);
+  const [fulltextMatches, setFulltextMatches] = useState<Set<string> | null>(null);
+  const [loadingFulltext, setLoadingFulltext] = useState(false);
+  const [contentProtected, setContentProtected] = useState(false);
 
   const type = searchParams.get("type") === "podcast" || searchParams.get("type") === "newsletter"
     ? (searchParams.get("type") as "podcast" | "newsletter")
     : "all";
   const query = (searchParams.get("q") ?? "").trim();
   const tag = searchParams.get("tag") ?? "";
-  const sortBy = (["date_desc", "date_asc", "title_asc", "words_desc"].includes(searchParams.get("sort") ?? "")
+  const sortBy = ([
+    "date_desc",
+    "date_asc",
+    "title_asc",
+    "words_desc",
+  ].includes(searchParams.get("sort") ?? "")
     ? (searchParams.get("sort") as SortKey)
     : "date_desc");
+  const navMode = (["list", "year", "tag"].includes(searchParams.get("nav") ?? "")
+    ? (searchParams.get("nav") as NavMode)
+    : "year");
   const docParam = searchParams.get("doc") ?? "";
 
   const filtered = useMemo(() => {
@@ -61,10 +130,61 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
       if (tag && !doc.tags.includes(tag)) {
         return false;
       }
+      if (!query) {
+        return true;
+      }
+      if (fulltextMatches) {
+        return fulltextMatches.has(doc.filename);
+      }
       return includesQuery(doc, query);
     });
     return sortedDocs(base, sortBy);
-  }, [data, query, sortBy, tag, type]);
+  }, [data, query, sortBy, tag, type, fulltextMatches]);
+
+  const yearThemeGroups = useMemo<YearThemeGroup[]>(() => {
+    const byYear = new Map<string, DocItem[]>();
+    filtered.forEach((doc) => {
+      const year = docYear(doc);
+      const docs = byYear.get(year) ?? [];
+      docs.push(doc);
+      byYear.set(year, docs);
+    });
+
+    const groups: YearThemeGroup[] = [];
+    for (const [year, docs] of byYear.entries()) {
+      const byTheme = new Map<string, DocItem[]>();
+      docs.forEach((doc) => {
+        const theme = resolveTheme(doc);
+        const list = byTheme.get(theme) ?? [];
+        list.push(doc);
+        byTheme.set(theme, list);
+      });
+
+      const themes = [...byTheme.entries()]
+        .map(([theme, list]) => ({
+          theme,
+          docs: sortedDocs(list, "date_desc"),
+        }))
+        .sort((a, b) => {
+          if (b.docs.length !== a.docs.length) {
+            return b.docs.length - a.docs.length;
+          }
+          return a.theme.localeCompare(b.theme);
+        });
+
+      groups.push({ year, total: docs.length, themes });
+    }
+
+    return groups.sort((a, b) => b.year.localeCompare(a.year));
+  }, [filtered]);
+
+  const byTag = useMemo(() => {
+    const tags = tagCounts(filtered).slice(0, 24);
+    return tags.map((entry) => {
+      const docs = filtered.filter((doc) => doc.tags.includes(entry.name)).slice(0, 30);
+      return { ...entry, docs };
+    });
+  }, [filtered]);
 
   const activeDoc = useMemo(() => {
     return filtered.find((doc) => doc.filename === docParam) ?? filtered[0] ?? null;
@@ -82,6 +202,38 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     }
     setSearchParams(next, { replace: true });
   };
+
+  useEffect(() => {
+    let alive = true;
+    const run = async () => {
+      const normalized = query.trim();
+      if (normalized.length < 2) {
+        setFulltextMatches(null);
+        setLoadingFulltext(false);
+        return;
+      }
+      setLoadingFulltext(true);
+      try {
+        const matches = await fulltextSearch(normalized);
+        if (!alive) {
+          return;
+        }
+        setFulltextMatches(matches);
+      } catch {
+        if (alive) {
+          setFulltextMatches(null);
+        }
+      } finally {
+        if (alive) {
+          setLoadingFulltext(false);
+        }
+      }
+    };
+    run();
+    return () => {
+      alive = false;
+    };
+  }, [query]);
 
   useEffect(() => {
     if (!activeDoc) {
@@ -102,6 +254,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
         return;
       }
       setLoadingDoc(true);
+      setContentProtected(false);
       try {
         const md = await loadMarkdown(activeDoc.filename);
         const parsed = await marked.parse(md);
@@ -110,9 +263,15 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
         }
         const safeHtml = DOMPurify.sanitize(parsed as string);
         setMarkdownHtml(safeHtml);
-      } catch {
+      } catch (error) {
         if (alive) {
-          setMarkdownHtml(`<p>${t("state.loadErrorTitle")}</p>`);
+          const message = error instanceof Error ? error.message : String(error);
+          if (message.includes("content_protected")) {
+            setContentProtected(true);
+            setMarkdownHtml(`<p>${t("docs.contentProtected")}</p>`);
+          } else {
+            setMarkdownHtml(`<p>${t("state.loadErrorTitle")}</p>`);
+          }
         }
       } finally {
         if (alive) {
@@ -138,6 +297,9 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
             onChange={(event) => setParam("q", event.target.value)}
             placeholder={t("docs.searchPlaceholder")}
           />
+          {query.trim().length >= 2 && (
+            <p className="muted">{loadingFulltext ? t("docs.fulltextLoading") : t("docs.fulltextReady")}</p>
+          )}
 
           <div className="switch-row">
             <button className={`pill ${type === "all" ? "primary" : "ghost"}`} onClick={() => setParam("type", "all")} type="button">{t("docs.typeAll")}</button>
@@ -152,6 +314,13 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
             <option value="title_asc">{t("docs.sortTitleAsc")}</option>
             <option value="words_desc">{t("docs.sortWordsDesc")}</option>
           </select>
+
+          <label className="field-label">{t("docs.navMode")}</label>
+          <div className="switch-row">
+            <button className={`pill ${navMode === "list" ? "primary" : "ghost"}`} onClick={() => setParam("nav", "list")} type="button">{t("docs.navList")}</button>
+            <button className={`pill ${navMode === "year" ? "primary" : "ghost"}`} onClick={() => setParam("nav", "year")} type="button">{t("docs.navYear")}</button>
+            <button className={`pill ${navMode === "tag" ? "primary" : "ghost"}`} onClick={() => setParam("nav", "tag")} type="button">{t("docs.navTag")}</button>
+          </div>
 
           <label className="field-label">{t("docs.tags")}</label>
           <div className="tag-cloud">
@@ -170,24 +339,78 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
         </div>
 
         <p className="result-count">{t("docs.resultCount", { count: formatNumber(filtered.length, locale) })}</p>
-        <ul className="doc-list">
-          {filtered.length === 0 && <li className="doc-item">{t("docs.noResults")}</li>}
-          {filtered.map((doc) => {
-            const typeLabel = doc.type === "podcast" ? t("docs.typeLabelPodcast") : t("docs.typeLabelNewsletter");
-            return (
-              <li
-                key={doc.filename}
-                className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
-                onClick={() => setParam("doc", doc.filename)}
-              >
-                <p className="doc-item-title">{doc.title}</p>
-                <p className="doc-item-meta">
-                  {typeLabel} · {formatDate(doc.date, locale)} · {t("docs.metaWords", { count: formatNumber(doc.wordCount, locale) })}
-                </p>
-              </li>
-            );
-          })}
-        </ul>
+
+        {navMode === "list" && (
+          <ul className="doc-list">
+            {filtered.length === 0 && <li className="doc-item">{t("docs.noResults")}</li>}
+            {filtered.map((doc) => {
+              const typeLabel = doc.type === "podcast" ? t("docs.typeLabelPodcast") : t("docs.typeLabelNewsletter");
+              return (
+                <li
+                  key={doc.filename}
+                  className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
+                  onClick={() => setParam("doc", doc.filename)}
+                >
+                  <p className="doc-item-title">{doc.title}</p>
+                  <p className="doc-item-meta">
+                    {typeLabel} · {formatDate(doc.date, locale)} · {t("docs.metaWords", { count: formatNumber(doc.wordCount, locale) })}
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+
+        {navMode === "year" && (
+          <div className="group-list">
+            {yearThemeGroups.map((yearGroup, yearIndex) => (
+              <details key={yearGroup.year} open={yearIndex === 0}>
+                <summary>{yearGroup.year} ({yearGroup.total})</summary>
+                <div className="group-level-2">
+                  {yearGroup.themes.map((themeGroup, themeIndex) => (
+                    <details key={`${yearGroup.year}-${themeGroup.theme}`} open={themeIndex === 0}>
+                      <summary>{formatThemeName(themeGroup.theme)} ({themeGroup.docs.length})</summary>
+                      <ul className="doc-list compact">
+                        {themeGroup.docs.map((doc) => (
+                          <li
+                            key={doc.filename}
+                            className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
+                            onClick={() => setParam("doc", doc.filename)}
+                          >
+                            <p className="doc-item-title">{doc.title}</p>
+                            <p className="doc-item-meta">{formatDate(doc.date, locale)}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </details>
+                  ))}
+                </div>
+              </details>
+            ))}
+          </div>
+        )}
+
+        {navMode === "tag" && (
+          <div className="group-list">
+            {byTag.map((entry, idx) => (
+              <details key={entry.name} open={idx === 0}>
+                <summary>{entry.name} ({entry.count})</summary>
+                <ul className="doc-list compact">
+                  {entry.docs.map((doc) => (
+                    <li
+                      key={`${entry.name}-${doc.filename}`}
+                      className={`doc-item ${activeDoc?.filename === doc.filename ? "active" : ""}`}
+                      onClick={() => setParam("doc", doc.filename)}
+                    >
+                      <p className="doc-item-title">{doc.title}</p>
+                      <p className="doc-item-meta">{formatDate(doc.date, locale)}</p>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ))}
+          </div>
+        )}
       </aside>
 
       <section className="card reader">
@@ -215,11 +438,14 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
               ))}
             </div>
 
-            <Link className="pill ghost" to={getRawDocUrl(activeDoc.filename)} target="_blank" rel="noreferrer">
-              {t("docs.openRaw")}
-            </Link>
+            {isPrivateContentMode() && getRawDocUrl(activeDoc.filename) && (
+              <Link className="pill ghost" to={getRawDocUrl(activeDoc.filename) ?? ""} target="_blank" rel="noreferrer">
+                {t("docs.openRaw")}
+              </Link>
+            )}
 
             {loadingDoc && <p className="muted">{t("state.loading")}</p>}
+            {contentProtected && <p className="muted">{t("docs.contentProtectedHint")}</p>}
             <div className="markdown" dangerouslySetInnerHTML={{ __html: markdownHtml }} />
           </article>
         )}

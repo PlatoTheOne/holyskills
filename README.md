@@ -1,6 +1,9 @@
 ﻿# Lenny Data Workspace
 
 这个仓库采用“数据同步仓 + 门户产品仓”双仓结构，推荐长期保持。
+当前已经支持两种运行模式：
+- `private`：本地开发模式，包含原始 Markdown 正文
+- `public`：公开部署模式，只发布元数据与检索索引
 
 ## 仓库结构
 
@@ -20,7 +23,7 @@ cd G:\LennysData
 .\start-lenny-web.cmd
 ```
 
-默认会先同步数据，再启动 Vite 开发服务（默认端口 `5173`）。
+默认会先执行 `private` 同步（含原文），再启动 Vite 开发服务（默认端口 `5173`）。
 
 如果你只想启动前端、不重复同步：
 
@@ -42,11 +45,29 @@ cd G:\LennysData
 .\sync-lenny-data.cmd
 ```
 
+说明：
+- 默认是 `private` 模式，会同步：
+  - `index.json`
+  - `newsletters/*.md`
+  - `podcasts/*.md`
+  - `search-index.json`（基于正文生成）
+- 如需生成公开快照（不含原文）：
+
+```powershell
+node .\scripts\sync-lenny-data.mjs --mode public
+```
+
+公开快照只包含：
+- `web/public/data/index.json`
+- `web/public/data/search-index.json`（基于元数据生成）
+
 ## 生产构建
 
 ```powershell
 .\build-lenny-web.cmd
 ```
+
+`build-lenny-web.cmd` 会自动使用 `public` 模式进行构建。
 
 产物目录：`web/dist/`
 
@@ -55,10 +76,14 @@ cd G:\LennysData
 已提供手动触发 workflow：
 - `.github/workflows/deploy-pages.yml`
 
-部署前需要在仓库 Secret 中配置：
-- `LENNY_DATA_TOKEN`（可访问私有数据仓的 GitHub token）
+并且已配置 `push main` 自动部署。
 
-注意：GitHub Pages 默认是公网可访问。若数据涉及付费/私有内容，请先确认合规与授权范围。
+当前默认部署路径是“公开元数据模式”，不再依赖 `LENNY_DATA_TOKEN`。
+
+注意：
+- GitHub Pages 默认是公网可访问
+- 公开站点不会下发 Markdown 正文，只展示结构化信息与检索结果
+- 若要在网页中查看正文，建议接入你自己的私有 API/MCP 服务（后端鉴权后返回正文）
 
 ## 旧版静态门户
 

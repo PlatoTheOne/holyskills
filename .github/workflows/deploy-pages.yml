@@ -1,7 +1,14 @@
 ﻿name: Deploy Lenny Portal
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -28,21 +35,21 @@ jobs:
       - name: Install web dependencies
         run: npm ci --prefix web
 
-      - name: Clone private data repo
+      - name: Verify public data snapshot
         run: |
-          if [ -z "${{ secrets.LENNY_DATA_TOKEN }}" ]; then
-            echo "LENNY_DATA_TOKEN is not set."
-            echo "Create token with access to private data repo and set repository secret LENNY_DATA_TOKEN."
+          if [ ! -f web/public/data/index.json ]; then
+            echo "Missing web/public/data/index.json"
             exit 1
           fi
-          git clone "https://x-access-token:${{ secrets.LENNY_DATA_TOKEN }}@github.com/LennysNewsletter/lennys-newsletterpodcastdata-all.git" lennys-newsletterpodcastdata-all
-
-      - name: Sync data
-        run: node scripts/sync-lenny-data.mjs
+          if [ ! -f web/public/data/search-index.json ]; then
+            echo "Missing web/public/data/search-index.json"
+            exit 1
+          fi
 
       - name: Build
         run: |
           export VITE_BASE_PATH="/${{ github.event.repository.name }}/"
+          export VITE_CONTENT_MODE="public"
           npm run build --prefix web
           cp web/dist/index.html web/dist/404.html
 
