@@ -68,18 +68,20 @@ export default function App() {
   return (
     <HashRouter>
       <div className="bg-glow" />
-      <header className="container topbar">
-        <Link className="brand" to="/">{t("app.brand")}</Link>
-        <nav className="topbar-actions">
-          <Link className="pill ghost" to="/">{t("nav.home")}</Link>
-          <Link className="pill ghost" to="/docs">{t("nav.docs")}</Link>
-          <NeoSelect
-            value={locale}
-            options={localeOptions}
-            ariaLabel={t("nav.localeSelect")}
-            onChange={(next) => setLocale(normalizeLocale(next))}
-          />
-        </nav>
+      <header className="container topbar-shell">
+        <div className="topbar">
+          <Link className="brand" to="/">{t("app.brand")}</Link>
+          <nav className="topbar-nav">
+            <Link className="pill ghost" to="/">{t("nav.home")}</Link>
+            <Link className="pill ghost" to="/docs">{t("nav.docs")}</Link>
+            <NeoSelect
+              value={locale}
+              options={localeOptions}
+              ariaLabel={t("nav.localeSelect")}
+              onChange={(next) => setLocale(normalizeLocale(next))}
+            />
+          </nav>
+        </div>
       </header>
 
       {loading && (

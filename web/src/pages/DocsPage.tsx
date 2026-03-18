@@ -512,7 +512,8 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
             {contentProtected && (
               <form className="access-gate" onSubmit={onUnlockContent}>
                 <h3>{t("docs.accessGateTitle")}</h3>
-                <p className="muted">{t("docs.accessGateBody")}</p>\n                {!canUnlockContent && <p className="muted">{t("docs.accessNeedApi")}</p>}
+                <p className="muted">{t("docs.accessGateBody")}</p>
+                {!canUnlockContent && <p className="muted">{t("docs.accessNeedApi")}</p>}
 
                 <label className="field-label" htmlFor="access-email">{t("docs.accessEmailLabel")}</label>
                 <input
