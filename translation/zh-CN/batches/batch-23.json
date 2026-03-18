@@ -1,0 +1,739 @@
+{
+  "locale": "zh-CN",
+  "batch": 23,
+  "docs": [
+    {
+      "filename": "podcasts/casey-winters.md",
+      "type": "podcast",
+      "date": "2022-07-21",
+      "word_count": 10480,
+      "source": {
+        "title": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
+        "summary": "Sell your ideas and rise within your company, covering team leadership, growth systems, and product design.",
+        "subtitle": "",
+        "guest": "Casey Winters",
+        "tags": [
+          "leadership",
+          "growth",
+          "design",
+          "strategy",
+          "startups",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-kickstart-and-scale-a-consumer-business-step-3-craft-your-pitch.md",
+      "type": "newsletter",
+      "date": "2022-07-19",
+      "word_count": 2520,
+      "source": {
+        "title": "How to kickstart and scale a consumer business—Step 3: Craft your pitch",
+        "summary": "",
+        "subtitle": "Lessons from Pinterest, Netflix, Tinder, Dropbox, DoorDash, Robinhood, Amazon, WhatsApp, and dozens of today’s most successful consumer businesses",
+        "guest": "",
+        "tags": [
+          "design",
+          "go-to-market",
+          "strategy",
+          "b2c",
+          "newsletter",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/nickey-skarstad.md",
+      "type": "podcast",
+      "date": "2022-07-18",
+      "word_count": 13091,
+      "source": {
+        "title": "Nickey Skarstad (Airbnb, Etsy, Shopify, Duolingo) on translating vision into goals, operationalizing product quality, second-order decisions, brainstorming, influence, and much more",
+        "summary": "Translating vision into goals, operationalizing product quality, second-order decisions, brainstorming, influence, and much more, covering team leadership, strategic decision-making, and product design.",
+        "subtitle": "",
+        "guest": "Nickey Skarstad",
+        "tags": [
+          "leadership",
+          "strategy",
+          "design",
+          "growth",
+          "analytics",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/manik-gupta.md",
+      "type": "podcast",
+      "date": "2022-07-14",
+      "word_count": 12791,
+      "source": {
+        "title": "Manik Gupta (ex-CPO Uber, Google Maps) on how to build consumer apps, why it’s useful to be optimistic about technology, creating inflections in your PM career, the changing CPO role, and more",
+        "summary": "Manik Gupta has led two of the most successful consumer products in history—Google Maps, where he was Director of product for the Maps team, and Uber, where he was CPO.",
+        "subtitle": "",
+        "guest": "Manik Gupta",
+        "tags": [
+          "career",
+          "design",
+          "leadership",
+          "b2c",
+          "strategy",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-kickstart-and-scale-a-consumer-business-step-2-identify-your-super-specif.md",
+      "type": "newsletter",
+      "date": "2022-07-12",
+      "word_count": 3583,
+      "source": {
+        "title": "How to kickstart and scale a consumer business—Step 2: Identify your super-specific who",
+        "summary": "",
+        "subtitle": "Lessons from Substack, Netflix, Yelp, Discord, TikTok, Instagram, Cameo, DoorDash, and dozens of others",
+        "guest": "",
+        "tags": [
+          "design",
+          "startups",
+          "b2c",
+          "newsletter",
+          "growth",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/merci-grace.md",
+      "type": "podcast",
+      "date": "2022-07-11",
+      "word_count": 10566,
+      "source": {
+        "title": "Merci Grace (ex-Head of Growth at Slack) on PLG, interviewing, storytelling, building a diverse team, hiring salespeople, building a growth team, and much more",
+        "summary": "Merci Grace has been a founder, an investor (at Lightspeed Ventures), head of product and growth (at Slack), and is now a founder again (Panobi). She’s also one of the co-founders of Women in Product, and Fast Company named her one of the Most Creative People in 2017.",
+        "subtitle": "",
+        "guest": "Merci Grace",
+        "tags": [
+          "startups",
+          "design",
+          "leadership",
+          "b2c",
+          "growth",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sanchan-saxena.md",
+      "type": "podcast",
+      "date": "2022-07-05",
+      "word_count": 13454,
+      "source": {
+        "title": "Sanchan Saxena (VP of Product at Coinbase) on the inside story of how Airbnb made it through Covid; what he’s learned from Brian Chesky, Brian Armstrong, and Kevin Systrom; much more",
+        "summary": "Sanchan Saxena is VP of Product at Coinbase. Before Coinbase, Sanchan was Head of Product and GM at Airbnb, founder and Head of Product of Instagram Shopping, Director of Product Management at Yahoo, and Lead PM at Microsoft.",
+        "subtitle": "",
+        "guest": "Sanchan Saxena",
+        "tags": [
+          "design",
+          "product-management",
+          "career",
+          "startups",
+          "leadership",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-kickstart-and-scale-a-consumer-business.md",
+      "type": "newsletter",
+      "date": "2022-07-05",
+      "word_count": 14733,
+      "source": {
+        "title": "How to kickstart and scale a consumer business",
+        "summary": "",
+        "subtitle": "Step 1: Come up with an idea",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "b2c",
+          "newsletter",
+          "strategy",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/teresa-torres.md",
+      "type": "podcast",
+      "date": "2022-06-30",
+      "word_count": 9657,
+      "source": {
+        "title": "Teresa Torres on how to interview customers, automating continuous discovery, the opportunity solution tree framework, making the case for user research, common interviewing mistakes, and much more",
+        "summary": "Interview customers, automating continuous discovery, the opportunity solution tree framework, making the case for user research, common interviewing mistakes, and much more, covering product design, team leadership, and career development.",
+        "subtitle": "",
+        "guest": "Teresa Torres",
+        "tags": [
+          "design",
+          "leadership",
+          "career",
+          "product-management",
+          "strategy",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/brandon-chu.md",
+      "type": "podcast",
+      "date": "2022-06-27",
+      "word_count": 10075,
+      "source": {
+        "title": "Brandon Chu on building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid",
+        "summary": "Building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid, covering team leadership, product design, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Brandon Chu",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "engineering",
+          "startups",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/elena-verna-30.md",
+      "type": "podcast",
+      "date": "2022-06-23",
+      "word_count": 17127,
+      "source": {
+        "title": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
+        "summary": "Elena Verna has led growth at some of today’s most successful B2B businesses, including Miro as CMO, Surveymonkey as SVP of Growth, and now at Amplitude as interim Head of Growth.",
+        "subtitle": "",
+        "guest": "Elena Verna 3.0",
+        "tags": [
+          "growth",
+          "leadership",
+          "b2b",
+          "strategy",
+          "startups",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-covid-taught-me-about-product-management.md",
+      "type": "newsletter",
+      "date": "2022-06-21",
+      "word_count": 516,
+      "source": {
+        "title": "What COVID taught me about product management",
+        "summary": "",
+        "subtitle": "I caught COVID over the weekend and I’m taking the week off",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "leadership",
+          "product-management",
+          "growth",
+          "design",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/gibson-biddle.md",
+      "type": "podcast",
+      "date": "2022-06-20",
+      "word_count": 12900,
+      "source": {
+        "title": "Gibson Biddle on his DHM product strategy framework, GEM roadmap prioritization framework, 5 Netflix strategy mini case studies, building a personal board of directors, and much more",
+        "summary": "Before getting into teaching full-time, Gibson Biddle was VP of Product at Netflix and CPO at Chegg (a textbook rental and homework help company). He now spends his days speaking, writing, and hosting workshops on product leadership, strategy, and culture.",
+        "subtitle": "",
+        "guest": "Gibson Biddle",
+        "tags": [
+          "strategy",
+          "design",
+          "startups",
+          "growth",
+          "newsletter",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jackie-bavaro.md",
+      "type": "podcast",
+      "date": "2022-06-16",
+      "word_count": 11409,
+      "source": {
+        "title": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
+        "summary": "Jackie Bavaro is the author of the best-selling books Cracking the PM Interview and Cracking the PM Career . She was most recently at Asana, where she joined as its first product manager and later became the head of product.",
+        "subtitle": "",
+        "guest": "Jackie Bavaro",
+        "tags": [
+          "product-management",
+          "career",
+          "leadership",
+          "design",
+          "strategy",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-build-trust-in-a-marketplace.md",
+      "type": "newsletter",
+      "date": "2022-06-14",
+      "word_count": 3493,
+      "source": {
+        "title": "How to build trust in a marketplace",
+        "summary": "",
+        "subtitle": "Lessons from Lyft, Thumbtack, Rover, Snackpass, Peerspace, Shef, Good Dog, and Udemy",
+        "guest": "",
+        "tags": [
+          "design",
+          "strategy",
+          "b2c",
+          "startups",
+          "growth",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/gokul-rajaram.md",
+      "type": "podcast",
+      "date": "2022-06-13",
+      "word_count": 12889,
+      "source": {
+        "title": "Gokul Rajaram on designing your product development process, when and how to hire your first PM, a playbook for hiring leaders, getting ahead in you career, how to get started angel investing, more",
+        "summary": "Designing your product development process, when and how to hire your first PM, a playbook for hiring leaders, getting ahead in you career, how to get started angel investing, more, covering product design, startup building, and career development.",
+        "subtitle": "",
+        "guest": "Gokul Rajaram",
+        "tags": [
+          "design",
+          "startups",
+          "career",
+          "leadership",
+          "product-management",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/april-dunford.md",
+      "type": "podcast",
+      "date": "2022-06-09",
+      "word_count": 12792,
+      "source": {
+        "title": "April Dunford on product positioning, segmentation, and optimizing your sales process",
+        "summary": "April Dunford is the author of the best-selling book Obviously Awesome , a definitive guide to product positioning. She spent 25 years leading marketing, product, and sales teams and now runs her own consulting firm, helping companies of all shapes and sizes nail their positioning.",
+        "subtitle": "",
+        "guest": "April Dunford",
+        "tags": [
+          "go-to-market",
+          "strategy",
+          "b2b",
+          "startups",
+          "leadership",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/julie-zhuo.md",
+      "type": "podcast",
+      "date": "2022-06-07",
+      "word_count": 14406,
+      "source": {
+        "title": "Julie Zhuo on accelerating your career, impostor syndrome, writing, building product sense, using intuition vs. data, hiring designers, and moving into management",
+        "summary": "Julie Zhuo is the co-founder of Sundial, a company that helps builders make meaningful use of data to fulfill their mission. With over 400K followers across social media, she is one of the most influential leaders in product design, and product thinking broadly.",
+        "subtitle": "",
+        "guest": "Julie Zhuo",
+        "tags": [
+          "design",
+          "career",
+          "leadership",
+          "startups",
+          "engineering",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/ive-launched-a-podcast.md",
+      "type": "newsletter",
+      "date": "2022-06-07",
+      "word_count": 853,
+      "source": {
+        "title": "I’ve launched a podcast!",
+        "summary": "",
+        "subtitle": "And the first two episodes with Julie Zhuo and Shreyas Doshi are now live!",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "career",
+          "growth",
+          "newsletter",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/product-management-career-ladders.md",
+      "type": "newsletter",
+      "date": "2022-05-24",
+      "word_count": 860,
+      "source": {
+        "title": "Product management career ladders",
+        "summary": "",
+        "subtitle": "Examples, templates, titles, and attributes from 20+ companies, including Facebook, Google, DoorDash, Airbnb, Instacart, Lyft, Uber, and many more",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "career",
+          "newsletter",
+          "strategy",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-win-in-consumer-subscription.md",
+      "type": "newsletter",
+      "date": "2022-05-17",
+      "word_count": 4679,
+      "source": {
+        "title": "How to win in consumer subscription",
+        "summary": "",
+        "subtitle": "Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "b2c",
+          "leadership",
+          "strategy",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-validate-your-startup-idea.md",
+      "type": "newsletter",
+      "date": "2022-05-10",
+      "word_count": 12953,
+      "source": {
+        "title": "How to validate your startup idea",
+        "summary": "",
+        "subtitle": "Lessons learned from Flexport, Vanta, Rec Room, LaunchDarkly, Pinwheel, Snackpass, Good Dog, and Cocoon—a guest post by Todd Jackson",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "strategy",
+          "career",
+          "go-to-market",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-is-a-good-growth-rate.md",
+      "type": "newsletter",
+      "date": "2022-04-26",
+      "word_count": 2793,
+      "source": {
+        "title": "What is a good growth rate",
+        "summary": "",
+        "subtitle": "Benchmarks and insights from the world’s best investors",
+        "guest": "",
+        "tags": [
+          "growth",
+          "b2c",
+          "startups",
+          "go-to-market",
+          "pricing",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/preparing-for-a-pm-interview.md",
+      "type": "newsletter",
+      "date": "2022-04-19",
+      "word_count": 1261,
+      "source": {
+        "title": "Preparing for a PM interview",
+        "summary": "",
+        "subtitle": "My favorite resources for getting ready for product interviews",
+        "guest": "",
+        "tags": [
+          "career",
+          "product-management",
+          "leadership",
+          "strategy",
+          "newsletter",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-know-when-to-stop.md",
+      "type": "newsletter",
+      "date": "2022-04-12",
+      "word_count": 6076,
+      "source": {
+        "title": "How to know when to stop",
+        "summary": "",
+        "subtitle": "A guide to avoiding burnout and establishing balance in your life—by guest author Andy Johns",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "career",
+          "leadership",
+          "startups",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-most-important-marketplace-metrics-to-track.md",
+      "type": "newsletter",
+      "date": "2022-03-29",
+      "word_count": 2480,
+      "source": {
+        "title": "The most important marketplace metrics to track",
+        "summary": "",
+        "subtitle": "> ## Q: I’m building a marketplace and am wondering, what KPIs should I focus on and track?",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "growth",
+          "design",
+          "analytics",
+          "newsletter",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-interview-product-managers.md",
+      "type": "newsletter",
+      "date": "2022-03-22",
+      "word_count": 4446,
+      "source": {
+        "title": "How to interview product managers",
+        "summary": "",
+        "subtitle": "Interview structure, skills to test, questions to ask, project examples, and more",
+        "guest": "",
+        "tags": [
+          "career",
+          "leadership",
+          "product-management",
+          "design",
+          "newsletter",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 27,
+    "words": 222883
+  }
+}

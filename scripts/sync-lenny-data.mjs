@@ -78,6 +78,45 @@ async function readMarkdownFiles(dir) {
   return result;
 }
 
+async function readJson(filePath, fallback) {
+  try {
+    const raw = await fs.readFile(filePath, "utf8");
+    return JSON.parse(raw.replace(/^\uFEFF/, ""));
+  } catch {
+    return fallback;
+  }
+}
+
+async function writeJson(filePath, payload) {
+  await fs.mkdir(path.dirname(filePath), { recursive: true });
+  const serialized = JSON.stringify(payload);
+  await fs.writeFile(filePath, serialized, "utf8");
+  return (Buffer.byteLength(serialized, "utf8") / (1024 * 1024)).toFixed(2);
+}
+
+function mergedMetaText(item, translationMeta) {
+  const items = translationMeta?.items ?? {};
+  const translated = items[item.filename ?? ""] ?? {};
+  const tagMap = translationMeta?.tag_map ?? {};
+
+  const translatedTags = Array.isArray(item.tags)
+    ? item.tags.map((tag) => tagMap[tag] ?? tag)
+    : [];
+
+  const text = normalizeText([
+    translated.title ?? item.title ?? "",
+    translated.subtitle ?? item.subtitle ?? "",
+    translated.summary ?? item.description ?? "",
+    translated.guest ?? item.guest ?? "",
+    translatedTags.join(" "),
+  ].join(" "));
+
+  return {
+    filename: item.filename ?? "",
+    text,
+  };
+}
+
 async function buildSearchIndexFromMarkdown(targetRoot) {
   const newslettersDir = path.join(targetRoot, "newsletters");
   const podcastsDir = path.join(targetRoot, "podcasts");
@@ -96,53 +135,82 @@ async function buildSearchIndexFromMarkdown(targetRoot) {
     version: 1,
     generated_at: new Date().toISOString(),
     mode: "private",
+    locale: "en",
     docs,
   };
 
   const output = path.join(targetRoot, "search-index.json");
-  const serialized = JSON.stringify(payload);
-  await fs.writeFile(output, serialized, "utf8");
-
-  const sizeMb = (Buffer.byteLength(serialized, "utf8") / (1024 * 1024)).toFixed(2);
+  const sizeMb = await writeJson(output, payload);
   return { docsCount: docs.length, sizeMb };
 }
 
-async function buildSearchIndexFromMetadata(sourceRoot, targetRoot) {
-  const indexRaw = await fs.readFile(path.join(sourceRoot, "index.json"), "utf8");
-  const index = JSON.parse(indexRaw);
+async function buildSearchIndexFromMetadata(sourceRoot, targetRoot, translationMeta, locale) {
+  const index = await readJson(path.join(sourceRoot, "index.json"), {});
 
   const podcasts = Array.isArray(index.podcasts) ? index.podcasts : [];
   const newsletters = Array.isArray(index.newsletters) ? index.newsletters : [];
 
-  const all = [...podcasts, ...newsletters];
-  const docs = all.map((item) => {
-    const text = normalizeText([
-      item.title ?? "",
-      item.subtitle ?? "",
-      item.description ?? "",
-      Array.isArray(item.tags) ? item.tags.join(" ") : "",
-      item.guest ?? "",
-    ].join(" "));
-
-    return {
-      filename: item.filename ?? "",
-      text,
-    };
-  }).filter((item) => item.filename);
+  const docs = [...podcasts, ...newsletters]
+    .map((item) => mergedMetaText(item, translationMeta))
+    .filter((item) => item.filename);
 
   const payload = {
     version: 1,
     generated_at: new Date().toISOString(),
     mode: "public",
+    locale,
     docs,
   };
 
-  const output = path.join(targetRoot, "search-index.json");
-  const serialized = JSON.stringify(payload);
-  await fs.writeFile(output, serialized, "utf8");
-
-  const sizeMb = (Buffer.byteLength(serialized, "utf8") / (1024 * 1024)).toFixed(2);
+  const output = locale === "en"
+    ? path.join(targetRoot, "search-index.json")
+    : path.join(targetRoot, "i18n", locale, "search-index.json");
+  const sizeMb = await writeJson(output, payload);
   return { docsCount: docs.length, sizeMb };
+}
+
+async function listI18nLocales(sourceRoot) {
+  const i18nRoot = path.join(sourceRoot, "i18n");
+  if (!(await exists(i18nRoot))) {
+    return [];
+  }
+
+  const entries = await fs.readdir(i18nRoot, { withFileTypes: true });
+  return entries.filter((entry) => entry.isDirectory()).map((entry) => entry.name);
+}
+
+async function copyI18nPublic(sourceRoot, targetRoot, locales) {
+  for (const locale of locales) {
+    const sourceMeta = path.join(sourceRoot, "i18n", locale, "meta.json");
+    if (!(await exists(sourceMeta))) {
+      continue;
+    }
+    const targetMeta = path.join(targetRoot, "i18n", locale, "meta.json");
+    await fs.mkdir(path.dirname(targetMeta), { recursive: true });
+    await fs.copyFile(sourceMeta, targetMeta);
+  }
+}
+
+async function copyI18nPrivate(sourceRoot, targetRoot) {
+  const sourceI18n = path.join(sourceRoot, "i18n");
+  if (!(await exists(sourceI18n))) {
+    return false;
+  }
+  await fs.cp(sourceI18n, path.join(targetRoot, "i18n"), { recursive: true });
+  return true;
+}
+
+async function buildLocalizedSearchIndexes(sourceRoot, targetRoot, locales) {
+  const reports = [];
+  for (const locale of locales) {
+    const translationMeta = await readJson(path.join(sourceRoot, "i18n", locale, "meta.json"), null);
+    if (!translationMeta) {
+      continue;
+    }
+    const built = await buildSearchIndexFromMetadata(sourceRoot, targetRoot, translationMeta, locale);
+    reports.push({ locale, ...built });
+  }
+  return reports;
 }
 
 async function ensureSource(sourceRoot) {
@@ -168,12 +236,20 @@ async function runPrivate(sourceRoot, targetRoot) {
   await fs.cp(path.join(sourceRoot, "podcasts"), path.join(targetRoot, "podcasts"), { recursive: true });
 
   const fulltext = await buildSearchIndexFromMarkdown(targetRoot);
+
+  const locales = await listI18nLocales(sourceRoot);
+  const hasI18n = await copyI18nPrivate(sourceRoot, targetRoot);
+  const localized = hasI18n ? await buildLocalizedSearchIndexes(sourceRoot, targetRoot, locales) : [];
+
   const filesCount = await countFiles(targetRoot);
 
   console.log(`Synced data to: ${targetRoot}`);
   console.log(`Mode: private (includes raw markdown)`);
   console.log(`Total files copied: ${filesCount}`);
-  console.log(`Search index: ${fulltext.docsCount} docs, ${fulltext.sizeMb} MB`);
+  console.log(`Search index (en): ${fulltext.docsCount} docs, ${fulltext.sizeMb} MB`);
+  if (localized.length > 0) {
+    console.log(`Localized indexes: ${localized.map((item) => `${item.locale}(${item.docsCount})`).join(", ")}`);
+  }
 }
 
 async function runPublic(sourceRoot, targetRoot) {
@@ -181,13 +257,21 @@ async function runPublic(sourceRoot, targetRoot) {
   await fs.mkdir(targetRoot, { recursive: true });
 
   await fs.copyFile(path.join(sourceRoot, "index.json"), path.join(targetRoot, "index.json"));
-  const fulltext = await buildSearchIndexFromMetadata(sourceRoot, targetRoot);
+  const fulltext = await buildSearchIndexFromMetadata(sourceRoot, targetRoot, null, "en");
+
+  const locales = await listI18nLocales(sourceRoot);
+  await copyI18nPublic(sourceRoot, targetRoot, locales);
+  const localized = await buildLocalizedSearchIndexes(sourceRoot, targetRoot, locales);
+
   const filesCount = await countFiles(targetRoot);
 
   console.log(`Synced data to: ${targetRoot}`);
   console.log(`Mode: public (metadata only, no raw markdown)`);
   console.log(`Total files copied: ${filesCount}`);
-  console.log(`Search index: ${fulltext.docsCount} docs, ${fulltext.sizeMb} MB`);
+  console.log(`Search index (en): ${fulltext.docsCount} docs, ${fulltext.sizeMb} MB`);
+  if (localized.length > 0) {
+    console.log(`Localized indexes: ${localized.map((item) => `${item.locale}(${item.docsCount})`).join(", ")}`);
+  }
 }
 
 async function main() {

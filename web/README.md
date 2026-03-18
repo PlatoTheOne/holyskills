@@ -75,3 +75,12 @@ cd G:\LennysData
 ```
 
 前端会在正文受保护时显示授权表单，验证通过后加载全文。
+
+## 内容多语言覆盖
+
+前端会优先读取以下多语言数据（若存在）：
+- `public/data/i18n/<locale>/meta.json`（标题/摘要/副标题/嘉宾/标签映射）
+- `public/data/i18n/<locale>/search-index.json`（按语言全文检索）
+- `public/data/i18n/<locale>/docs/<filename>`（本地私有模式正文）
+
+当某条翻译不存在时，会自动回退到原文。

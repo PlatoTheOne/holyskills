@@ -136,6 +136,17 @@ function normalizeRelativeFile(filename) {
   return raw;
 }
 
+function normalizeLocale(value) {
+  const raw = String(value ?? "").trim();
+  if (!raw || raw === "en") {
+    return "";
+  }
+  if (!/^[a-z]{2}(?:-[A-Z]{2})?$/.test(raw)) {
+    return "";
+  }
+  return raw;
+}
+
 async function ensurePath(filePath) {
   try {
     const stat = await fs.stat(filePath);
@@ -235,19 +246,29 @@ async function main() {
         return;
       }
 
-      const absolute = path.resolve(sourceRoot, file);
-      if (!absolute.startsWith(sourceRoot)) {
+      const locale = normalizeLocale(requestUrl.searchParams.get("locale") ?? "");
+      const candidates = [];
+      if (locale) {
+        candidates.push(path.resolve(sourceRoot, "i18n", locale, "docs", file));
+      }
+      candidates.push(path.resolve(sourceRoot, file));
+
+      const safeCandidates = candidates.filter((candidate) => candidate.startsWith(sourceRoot));
+      if (safeCandidates.length === 0) {
         json(res, 400, { error: "invalid_path" }, corsOrigin);
         return;
       }
 
-      if (!(await ensurePath(absolute))) {
-        json(res, 404, { error: "file_not_found" }, corsOrigin);
+      for (const absolute of safeCandidates) {
+        if (!(await ensurePath(absolute))) {
+          continue;
+        }
+        const md = await fs.readFile(absolute, "utf8");
+        text(res, 200, md, corsOrigin);
         return;
       }
 
-      const md = await fs.readFile(absolute, "utf8");
-      text(res, 200, md, corsOrigin);
+      json(res, 404, { error: "file_not_found" }, corsOrigin);
       return;
     }
 

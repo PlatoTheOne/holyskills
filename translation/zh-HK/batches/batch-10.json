@@ -1,0 +1,738 @@
+{
+  "locale": "zh-HK",
+  "batch": 10,
+  "docs": [
+    {
+      "filename": "newsletters/time-management-techniques-that-actually-work.md",
+      "type": "newsletter",
+      "date": "2024-08-13",
+      "word_count": 2842,
+      "source": {
+        "title": "Time management techniques that actually work",
+        "summary": "",
+        "subtitle": "Ten tactics I use every single day",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "leadership",
+          "career",
+          "product-management",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/summary-lessons-from-working-with-600-yc-startups--gustaf-alströmer-y-combinator.md",
+      "type": "newsletter",
+      "date": "2024-08-13",
+      "word_count": 1734,
+      "source": {
+        "title": "Summary: Lessons from working with 600+ YC startups | Gustaf Alströmer (Y Combinator, Airbnb)",
+        "summary": "",
+        "subtitle": "Gustaf Alströmer is a Group Partner at Y Combinator, where he has worked with over 600 startups",
+        "guest": "",
+        "tags": [
+          "startups",
+          "engineering",
+          "design",
+          "strategy",
+          "leadership",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/summary-april-dunford-on-product-positioning-segmentation-and-optimizing-your-sa.md",
+      "type": "newsletter",
+      "date": "2024-08-13",
+      "word_count": 1431,
+      "source": {
+        "title": "Summary: April Dunford on product positioning, segmentation, and optimizing your sales process",
+        "summary": "",
+        "subtitle": "April Dunford is an expert at nailing positioning for scaling tech companies and wrote Obviously Awesome, a definitive guide to product",
+        "guest": "",
+        "tags": [
+          "go-to-market",
+          "b2b",
+          "strategy",
+          "podcast",
+          "startups",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/summary-ai-and-product-management--marily-nika-meta-google.md",
+      "type": "newsletter",
+      "date": "2024-08-13",
+      "word_count": 2002,
+      "source": {
+        "title": "Summary: AI and product management | Marily Nika (Meta, Google)",
+        "summary": "",
+        "subtitle": "She has a PhD in ML from Imperial College London, spoke at TED AI SF and she writes about AI Product Management at:",
+        "guest": "",
+        "tags": [
+          "ai",
+          "product-management",
+          "career",
+          "design",
+          "leadership",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/summary-the-ultimate-guide-to-adding-a-plg-motion--hila-qu-reforge-gitlab.md",
+      "type": "newsletter",
+      "date": "2024-08-12",
+      "word_count": 4204,
+      "source": {
+        "title": "Summary: The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "summary": "",
+        "subtitle": "### Why companies should have PLG and sales ▶️",
+        "guest": "",
+        "tags": [
+          "growth",
+          "b2b",
+          "design",
+          "leadership",
+          "strategy",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/evan-lapointe.md",
+      "type": "podcast",
+      "date": "2024-08-11",
+      "word_count": 23725,
+      "source": {
+        "title": "Improve strategy, influence, and decision-making by understanding your brain | Evan LaPointe (founder of CORE Sciences)",
+        "summary": "Improve strategy, influence, and decision-making by understanding your brain, covering product design, team leadership, and measurement and analysis.",
+        "subtitle": "",
+        "guest": "Evan LaPointe",
+        "tags": [
+          "design",
+          "leadership",
+          "analytics",
+          "startups",
+          "podcast",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/joe-hudson.md",
+      "type": "podcast",
+      "date": "2024-08-08",
+      "word_count": 13680,
+      "source": {
+        "title": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
+        "summary": "How embracing emotions will accelerate your career, covering measurement and analysis, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Joe Hudson",
+        "tags": [
+          "analytics",
+          "design",
+          "leadership",
+          "career",
+          "newsletter",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/on-asking-for-help-even-when-you-really-dont-want-to.md",
+      "type": "newsletter",
+      "date": "2024-08-06",
+      "word_count": 4625,
+      "source": {
+        "title": "On asking for help (even when you really don’t want to)",
+        "summary": "",
+        "subtitle": "Step-by-step tactics for facing your fears and making the ask—including templates and example scripts",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "newsletter",
+          "career",
+          "analytics",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/ethan-smith-the-power-of-internal-linking-for-seo.md",
+      "type": "newsletter",
+      "date": "2024-08-06",
+      "word_count": 1419,
+      "source": {
+        "title": "Ethan Smith: The power of internal linking for SEO",
+        "summary": "",
+        "subtitle": "SEO expert Ethan Smith shares actionable tips for using internal linking to improve your website's search rankings and drive traffic to your business.",
+        "guest": "",
+        "tags": [
+          "design",
+          "growth",
+          "ai",
+          "strategy",
+          "engineering",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/brian-tolkin.md",
+      "type": "podcast",
+      "date": "2024-08-04",
+      "word_count": 13067,
+      "source": {
+        "title": "Lessons from scaling Uber and Opendoor | Brian Tolkin (Head of Product at Opendoor, ex-Uber)",
+        "summary": "Lessons from scaling Uber and Opendoor, covering product design, team leadership, and go-to-market execution.",
+        "subtitle": "",
+        "guest": "Brian Tolkin",
+        "tags": [
+          "design",
+          "leadership",
+          "go-to-market",
+          "product-management",
+          "strategy",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-should-you-monetize-your-ai-features.md",
+      "type": "newsletter",
+      "date": "2024-07-30",
+      "word_count": 3547,
+      "source": {
+        "title": "How should you monetize your AI features?",
+        "summary": "",
+        "subtitle": "What we can learn from the monetization strategies of leading tech companies, including GitHub, Zapier, Adobe, Loom, and Microsoft",
+        "guest": "",
+        "tags": [
+          "ai",
+          "pricing",
+          "strategy",
+          "design",
+          "newsletter",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/announcing-the-lenny--friends-summit.md",
+      "type": "newsletter",
+      "date": "2024-07-29",
+      "word_count": 345,
+      "source": {
+        "title": "Announcing the Lenny & Friends Summit 🙌",
+        "summary": "",
+        "subtitle": "A one-day in-person event for senior product leaders",
+        "guest": "",
+        "tags": [
+          "growth",
+          "career",
+          "design",
+          "leadership",
+          "ai",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/timothy-davis.md",
+      "type": "podcast",
+      "date": "2024-07-28",
+      "word_count": 18453,
+      "source": {
+        "title": "The ultimate guide to performance marketing | Timothy Davis (Shopify)",
+        "summary": "Performance marketing, covering strategic decision-making, growth systems, and product design.",
+        "subtitle": "",
+        "guest": "Timothy Davis",
+        "tags": [
+          "strategy",
+          "growth",
+          "design",
+          "analytics",
+          "leadership",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/roger-martin.md",
+      "type": "podcast",
+      "date": "2024-07-25",
+      "word_count": 12638,
+      "source": {
+        "title": "5 essential questions to craft a winning strategy | Roger Martin (author, advisor, speaker)",
+        "summary": "5 essential questions to craft a winning strategy, covering strategic decision-making, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Roger Martin",
+        "tags": [
+          "strategy",
+          "design",
+          "leadership",
+          "b2b",
+          "go-to-market",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/new-data-on-the-product-job-market.md",
+      "type": "newsletter",
+      "date": "2024-07-23",
+      "word_count": 1894,
+      "source": {
+        "title": "New data on the product job market",
+        "summary": "",
+        "subtitle": "Who’s hiring, what roles are growing, the one role that’s disappearing, and more surprising insights",
+        "guest": "",
+        "tags": [
+          "growth",
+          "leadership",
+          "strategy",
+          "design",
+          "b2b",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off-4.md",
+      "type": "newsletter",
+      "date": "2024-07-16",
+      "word_count": 230,
+      "source": {
+        "title": "Taking the week off",
+        "summary": "",
+        "subtitle": "Back next week!",
+        "guest": "",
+        "tags": [
+          "b2c",
+          "podcast",
+          "startups",
+          "design",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jess-lachs.md",
+      "type": "podcast",
+      "date": "2024-07-14",
+      "word_count": 13650,
+      "source": {
+        "title": "Building a world-class data org | Jessica Lachs (VP of Analytics and Data Science at DoorDash)",
+        "summary": "Building a world-class data org, covering team leadership, measurement and analysis, and product design.",
+        "subtitle": "",
+        "guest": "Jess Lachs",
+        "tags": [
+          "leadership",
+          "analytics",
+          "design",
+          "strategy",
+          "growth",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jeff-weinstein.md",
+      "type": "podcast",
+      "date": "2024-07-11",
+      "word_count": 25777,
+      "source": {
+        "title": "Building product at Stripe: craft, metrics, and customer obsession | Jeff Weinstein (Product lead)",
+        "summary": "Craft, metrics, and customer obsession, covering product design, engineering tradeoffs, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Jeff Weinstein",
+        "tags": [
+          "design",
+          "engineering",
+          "strategy",
+          "podcast",
+          "analytics",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "type": "newsletter",
+      "date": "2024-07-09",
+      "word_count": 7120,
+      "source": {
+        "title": "How close is AI to replacing product managers?",
+        "summary": "",
+        "subtitle": "Closer than you think",
+        "guest": "",
+        "tags": [
+          "ai",
+          "strategy",
+          "product-management",
+          "newsletter",
+          "design",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/mike-maples-jr.md",
+      "type": "podcast",
+      "date": "2024-07-07",
+      "word_count": 19571,
+      "source": {
+        "title": "Pattern Breakers: How to find a breakthrough startup idea | Mike Maples, Jr. (Founding Partner at Floodgate, ex-Product at Silicon Graphics)",
+        "summary": "Finding a breakthrough startup idea, covering startup building, product design, and career development.",
+        "subtitle": "",
+        "guest": "Mike Maples Jr",
+        "tags": [
+          "startups",
+          "design",
+          "career",
+          "leadership",
+          "b2c",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "type": "newsletter",
+      "date": "2024-07-02",
+      "word_count": 3501,
+      "source": {
+        "title": "Counterintuitive advice for building AI products",
+        "summary": "",
+        "subtitle": "Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo",
+        "guest": "",
+        "tags": [
+          "design",
+          "ai",
+          "startups",
+          "growth",
+          "newsletter",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/meet-your-lennys-newsletter-fellows.md",
+      "type": "newsletter",
+      "date": "2024-07-01",
+      "word_count": 718,
+      "source": {
+        "title": "Meet your Lenny’s Newsletter Fellows ✨",
+        "summary": "",
+        "subtitle": "Welcome Tara Seshan, Natalie Rothfels, and Jules Walter 👏",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "go-to-market",
+          "startups",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/dylan-field.md",
+      "type": "podcast",
+      "date": "2024-06-30",
+      "word_count": 8507,
+      "source": {
+        "title": "Dylan Field live at Config: Intuition, simplicity, and the future of design",
+        "summary": "Intuition, simplicity, and the future of design, covering product design, team leadership, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Dylan Field",
+        "tags": [
+          "design",
+          "leadership",
+          "engineering",
+          "b2b",
+          "podcast",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jessica-livingston.md",
+      "type": "podcast",
+      "date": "2024-06-27",
+      "word_count": 14153,
+      "source": {
+        "title": "The social radar: Y Combinator’s secret weapon | Jessica Livingston (co-founder of Y Combinator, author, podcast host)",
+        "summary": "Y Combinator’s secret weapon, covering startup building, consumer products, and product design.",
+        "subtitle": "",
+        "guest": "Jessica Livingston",
+        "tags": [
+          "startups",
+          "b2c",
+          "design",
+          "career",
+          "leadership",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/general-management-functional-and-hybrid-models-which-org-design-works-best-for.md",
+      "type": "newsletter",
+      "date": "2024-06-25",
+      "word_count": 2594,
+      "source": {
+        "title": "General management, functional, and hybrid models: Which org design works best for top companies?",
+        "summary": "",
+        "subtitle": "How stage, North Star metrics, and talent can impact this critical decision",
+        "guest": "",
+        "tags": [
+          "design",
+          "growth",
+          "leadership",
+          "strategy",
+          "engineering",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ami-vora.md",
+      "type": "podcast",
+      "date": "2024-06-23",
+      "word_count": 16347,
+      "source": {
+        "title": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
+        "summary": "Making an impact through authenticity and curiosity, covering product design, engineering tradeoffs, and go-to-market execution.",
+        "subtitle": "",
+        "guest": "Ami Vora",
+        "tags": [
+          "design",
+          "engineering",
+          "go-to-market",
+          "b2b",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/when-and-how-to-run-a-billboard-campaign.md",
+      "type": "newsletter",
+      "date": "2024-06-18",
+      "word_count": 4011,
+      "source": {
+        "title": "When and how to run a billboard campaign",
+        "summary": "",
+        "subtitle": "Is $20K for a spot on Highway 101 worth it?",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "startups",
+          "strategy",
+          "b2c",
+          "growth",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 27,
+    "words": 221785
+  }
+}

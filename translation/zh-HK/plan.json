@@ -1,0 +1,19 @@
+{
+  "locale": "zh-HK",
+  "generated_at": "2026-03-18T15:59:59.595Z",
+  "totals": {
+    "docs": 638,
+    "words": 5433684,
+    "batches": 24,
+    "avg_words_per_batch": 226404
+  },
+  "progress": {
+    "completed_batches": 0,
+    "completed_docs": 0
+  },
+  "instructions": [
+    "Fill translated fields inside each batch file.",
+    "Set doc.status to 'done' when translation is ready.",
+    "Run scripts/compile-translation-meta.mjs to build i18n/<locale>/meta.json."
+  ]
+}

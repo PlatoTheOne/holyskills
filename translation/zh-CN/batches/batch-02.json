@@ -1,0 +1,469 @@
+{
+  "locale": "zh-CN",
+  "batch": 2,
+  "docs": [
+    {
+      "filename": "podcasts/aishwarya-naresh-reganti--kiriti-badam.md",
+      "type": "podcast",
+      "date": "2026-01-11",
+      "word_count": 16386,
+      "source": {
+        "title": "Aishwarya Naresh Reganti + Kiriti Badam",
+        "summary": "But if you make a bunch of practitioners sit together and ask them, \"Is it important to build an actionable feedback loop for AI products?\" I think all of them will agree, covering AI product work, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Aishwarya Naresh Reganti + Kiriti Badam",
+        "tags": [
+          "ai",
+          "design",
+          "leadership",
+          "podcast",
+          "engineering",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/molly-graham.md",
+      "type": "podcast",
+      "date": "2026-01-04",
+      "word_count": 17885,
+      "source": {
+        "title": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+        "summary": "Molly Graham has worked for some of tech’s most effective leaders, including Mark Zuckerberg, Sheryl Sandberg, Chamath Palihapitiya, and Bret Taylor. Today she leads Glue Club, a community for leaders navigating rapid scale, growth, and change.",
+        "subtitle": "",
+        "guest": "Molly Graham",
+        "tags": [
+          "design",
+          "startups",
+          "career",
+          "growth",
+          "leadership",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jason-m-lemkin.md",
+      "type": "podcast",
+      "date": "2026-01-01",
+      "word_count": 25973,
+      "source": {
+        "title": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
+        "summary": "We replaced our sales team with 20 AI agents—here’s what happened, covering B2B products, startup building, and team leadership.",
+        "subtitle": "",
+        "guest": "Jason M Lemkin",
+        "tags": [
+          "b2b",
+          "startups",
+          "leadership",
+          "design",
+          "career",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/matt-macinnis.md",
+      "type": "podcast",
+      "date": "2025-12-28",
+      "word_count": 18324,
+      "source": {
+        "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
+        "summary": "Matt MacInnis is the chief product officer and former longtime COO at Rippling, a unified workforce management platform valued at over $16 billion.",
+        "subtitle": "",
+        "guest": "Matt MacInnis",
+        "tags": [
+          "leadership",
+          "design",
+          "startups",
+          "strategy",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/elena-verna-40.md",
+      "type": "podcast",
+      "date": "2025-12-18",
+      "word_count": 17458,
+      "source": {
+        "title": "Elena Verna 4.0",
+        "summary": "Who would've thought that a head of growth, who is traditionally seen as data, metrics, spreadsheets, drive KPIs is like, \"Okay, how do we make this more lovable, covering growth systems, product design, and pricing decisions.",
+        "subtitle": "",
+        "guest": "Elena Verna 4.0",
+        "tags": [
+          "growth",
+          "design",
+          "pricing",
+          "strategy",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+      "type": "newsletter",
+      "date": "2025-12-16",
+      "word_count": 3358,
+      "source": {
+        "title": "How to build your PM second brain with ChatGPT",
+        "summary": "",
+        "subtitle": "Use AI to amplify your craft, not replace it",
+        "guest": "",
+        "tags": [
+          "ai",
+          "design",
+          "product-management",
+          "newsletter",
+          "leadership",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-spot-a-top-1-startup-early.md",
+      "type": "newsletter",
+      "date": "2025-12-09",
+      "word_count": 2707,
+      "source": {
+        "title": "How to spot a top 1% startup early",
+        "summary": "",
+        "subtitle": "Three key lessons from people who picked multiple iconic companies before they were obvious",
+        "guest": "",
+        "tags": [
+          "design",
+          "startups",
+          "leadership",
+          "strategy",
+          "career",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/edwin-chen.md",
+      "type": "podcast",
+      "date": "2025-12-07",
+      "word_count": 14417,
+      "source": {
+        "title": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
+        "summary": "Edwin Chen is the founder and CEO of Surge AI, the company that teaches AI what’s good and bad, powering frontier labs with elite data, environments, and evaluations. Surge surpassed $1 billion in revenue with under 100 employees last year, completely bootstrapped—the fastest company in history to reach this milestone.",
+        "subtitle": "",
+        "guest": "Edwin Chen",
+        "tags": [
+          "design",
+          "ai",
+          "pricing",
+          "engineering",
+          "startups",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/tomer-cohen.md",
+      "type": "podcast",
+      "date": "2025-12-04",
+      "word_count": 13085,
+      "source": {
+        "title": "Why LinkedIn is turning PMs into AI-powered \"full stack builders” | Tomer Cohen (LinkedIn CPO)",
+        "summary": "Why LinkedIn is turning PMs into AI-powered \"full stack builders”, covering product design, team leadership, and AI product work.",
+        "subtitle": "",
+        "guest": "Tomer Cohen",
+        "tags": [
+          "design",
+          "leadership",
+          "ai",
+          "go-to-market",
+          "startups",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-year-free-of-posthog-16500-value-the-all-in-one-analytics-experimentation-feat.md",
+      "type": "newsletter",
+      "date": "2025-12-02",
+      "word_count": 871,
+      "source": {
+        "title": "A year free of PostHog ($16,500 value): The all-in-one analytics, experimentation, feature flag, surveys, session replay, error tracking, data warehouse, LLM analytics platform",
+        "summary": "",
+        "subtitle": "A deal you won’t find anywhere else—bringing the total value of the Product Pass to over $25,000",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "design",
+          "analytics",
+          "startups",
+          "b2b",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jeanne-grosser.md",
+      "type": "podcast",
+      "date": "2025-11-30",
+      "word_count": 14929,
+      "source": {
+        "title": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)",
+        "summary": "Jeanne DeWitt Grosser built world-class GTM teams at Stripe, Google, and, most recently, Vercel, where she serves as COO and oversees marketing, sales, customer success, revenue operations, and field engineering. She transformed Stripe’s early sales organization from the ground up and advises founders on GTM strategy.",
+        "subtitle": "",
+        "guest": "Jeanne Grosser",
+        "tags": [
+          "strategy",
+          "go-to-market",
+          "b2b",
+          "ai",
+          "design",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/rachel-lockett.md",
+      "type": "podcast",
+      "date": "2025-11-23",
+      "word_count": 19831,
+      "source": {
+        "title": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
+        "summary": "A guide to difficult conversations, building high-trust teams, and designing a life you love, covering team leadership, product design, and consumer products.",
+        "subtitle": "",
+        "guest": "Rachel Lockett",
+        "tags": [
+          "leadership",
+          "design",
+          "b2c",
+          "engineering",
+          "strategy",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/stewart-butterfield.md",
+      "type": "podcast",
+      "date": "2025-11-20",
+      "word_count": 16198,
+      "source": {
+        "title": "Slack founder: Mental models for building products people love ft. Stewart Butterfield",
+        "summary": "Mental models for building products people love ft. Stewart Butterfield, covering product design, B2B products, and consumer products.",
+        "subtitle": "",
+        "guest": "Stewart Butterfield",
+        "tags": [
+          "design",
+          "b2b",
+          "b2c",
+          "leadership",
+          "startups",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-holiday-gift-guide-for-tech-people-with-taste.md",
+      "type": "newsletter",
+      "date": "2025-11-18",
+      "word_count": 4837,
+      "source": {
+        "title": "A holiday gift guide for tech people with taste 🤌",
+        "summary": "",
+        "subtitle": "No slop here",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "startups",
+          "b2c",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/dr-fei-fei-li.md",
+      "type": "podcast",
+      "date": "2025-11-16",
+      "word_count": 11555,
+      "source": {
+        "title": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+        "summary": "Jobs, robots & why world models are next, covering AI product work, product design, and consumer products.",
+        "subtitle": "",
+        "guest": "Dr. Fei Fei Li",
+        "tags": [
+          "ai",
+          "design",
+          "b2c",
+          "strategy",
+          "b2b",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/grant-lee.md",
+      "type": "podcast",
+      "date": "2025-11-13",
+      "word_count": 24473,
+      "source": {
+        "title": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+        "summary": "Inside the rise of Gamma, covering strategic decision-making, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Grant Lee",
+        "tags": [
+          "strategy",
+          "design",
+          "growth",
+          "startups",
+          "ai",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/ecosystem-is-the-next-big-growth-channel.md",
+      "type": "newsletter",
+      "date": "2025-11-11",
+      "word_count": 3416,
+      "source": {
+        "title": "Ecosystem is the next big growth channel",
+        "summary": "",
+        "subtitle": "How to stand out in a noisy landscape by leveraging partners who already have access and trust with your target audience",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "b2c",
+          "strategy",
+          "leadership",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 17,
+    "words": 225703
+  }
+}

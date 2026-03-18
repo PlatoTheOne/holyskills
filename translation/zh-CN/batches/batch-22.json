@@ -1,0 +1,523 @@
+{
+  "locale": "zh-CN",
+  "batch": 22,
+  "docs": [
+    {
+      "filename": "podcasts/jason-shah.md",
+      "type": "podcast",
+      "date": "2022-09-18",
+      "word_count": 14628,
+      "source": {
+        "title": "Building a meaningful career | Jason Shah (Airbnb, Amazon, Microsoft, Alchemy)",
+        "summary": "Building a meaningful career, covering product design, team leadership, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Jason Shah",
+        "tags": [
+          "design",
+          "leadership",
+          "product-management",
+          "go-to-market",
+          "career",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/adam-grenier.md",
+      "type": "podcast",
+      "date": "2022-09-15",
+      "word_count": 13116,
+      "source": {
+        "title": "When and how to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
+        "summary": "Deciding when and how to invest in new acquisition channels, covering product design, strategic decision-making, and growth systems.",
+        "subtitle": "",
+        "guest": "Adam Grenier",
+        "tags": [
+          "design",
+          "strategy",
+          "growth",
+          "leadership",
+          "career",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/when-to-sunset-a-feature.md",
+      "type": "newsletter",
+      "date": "2022-09-13",
+      "word_count": 1822,
+      "source": {
+        "title": "When to sunset a feature",
+        "summary": "",
+        "subtitle": "A handy checklist to help decide when it’s time to sunset a product or feature",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "go-to-market",
+          "growth",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/emily-kramer.md",
+      "type": "podcast",
+      "date": "2022-09-11",
+      "word_count": 15250,
+      "source": {
+        "title": "How to build a powerful marketing machine | Emily Kramer (Asana, Carta, MKT1)",
+        "summary": "Building a powerful marketing machine, covering strategic decision-making, team leadership, and product design.",
+        "subtitle": "",
+        "guest": "Emily Kramer",
+        "tags": [
+          "strategy",
+          "leadership",
+          "design",
+          "career",
+          "startups",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ryan-j-salva.md",
+      "type": "podcast",
+      "date": "2022-09-04",
+      "word_count": 9940,
+      "source": {
+        "title": "The role of AI in product development | Ryan J. Salva (VP of Product at GitHub, Copilot)",
+        "summary": "The role of AI in product development, covering engineering tradeoffs, product design, and AI product work.",
+        "subtitle": "",
+        "guest": "Ryan J. Salva",
+        "tags": [
+          "engineering",
+          "design",
+          "ai",
+          "b2c",
+          "startups",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/yuriy-timen.md",
+      "type": "podcast",
+      "date": "2022-09-01",
+      "word_count": 11154,
+      "source": {
+        "title": "How to grow a subscription business | Yuriy Timen (Grammarly, Canva, Airtable)",
+        "summary": "Grow a subscription business, covering growth systems, consumer products, and product design.",
+        "subtitle": "",
+        "guest": "Yuriy Timen",
+        "tags": [
+          "growth",
+          "b2c",
+          "design",
+          "strategy",
+          "startups",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-measure-cohort-retention.md",
+      "type": "newsletter",
+      "date": "2022-08-30",
+      "word_count": 4145,
+      "source": {
+        "title": "How to measure cohort retention",
+        "summary": "",
+        "subtitle": "A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky",
+        "guest": "",
+        "tags": [
+          "growth",
+          "analytics",
+          "b2c",
+          "newsletter",
+          "design",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/all-the-ways-to-grow-your-product.md",
+      "type": "newsletter",
+      "date": "2022-08-23",
+      "word_count": 2297,
+      "source": {
+        "title": "All the ways to grow your product",
+        "summary": "",
+        "subtitle": "Growth engines, turbo boosts, lubricants, kickstarts, and mid-stage accelerants",
+        "guest": "",
+        "tags": [
+          "growth",
+          "newsletter",
+          "strategy",
+          "startups",
+          "go-to-market",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/marty-cagan.md",
+      "type": "podcast",
+      "date": "2022-08-21",
+      "word_count": 10160,
+      "source": {
+        "title": "The nature of product | Marty Cagan, Silicon Valley Product Group",
+        "summary": "The nature of product, covering team leadership, product design, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Marty Cagan",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "b2b",
+          "engineering",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/arielle-jackson.md",
+      "type": "podcast",
+      "date": "2022-08-18",
+      "word_count": 15938,
+      "source": {
+        "title": "The art of building legendary brands | Arielle Jackson (Google, Square, Marketer in Residence at First Round Capital)",
+        "summary": "What makes a great brand? After working at Google and Square, Arielle Jackson has spent the past eight years consulting startups on how to create powerful messaging that works.",
+        "subtitle": "",
+        "guest": "Arielle Jackson",
+        "tags": [
+          "strategy",
+          "startups",
+          "go-to-market",
+          "design",
+          "leadership",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/kickstarting-and-scaling-a-consumer-business-step-6-scale-build-your-growth-engi.md",
+      "type": "newsletter",
+      "date": "2022-08-16",
+      "word_count": 5558,
+      "source": {
+        "title": "Kickstarting and scaling a consumer business—Step 6: SCALE: Build your growth engine",
+        "summary": "",
+        "subtitle": "How products grow, how your product will grow, and the GTM motions of today’s biggest consumer apps",
+        "guest": "",
+        "tags": [
+          "growth",
+          "startups",
+          "b2c",
+          "design",
+          "strategy",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/shishir-mehrotra.md",
+      "type": "podcast",
+      "date": "2022-08-14",
+      "word_count": 19129,
+      "source": {
+        "title": "The rituals of great teams | Shishir Mehrotra of Coda, YouTube, Microsoft",
+        "summary": "The rituals of great teams, covering product design, team leadership, and growth systems.",
+        "subtitle": "",
+        "guest": "Shishir Mehrotra",
+        "tags": [
+          "design",
+          "leadership",
+          "growth",
+          "startups",
+          "career",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-kickstart-and-scale-a-consumer-business-step-5-retain-iterate-until-enoug.md",
+      "type": "newsletter",
+      "date": "2022-08-09",
+      "word_count": 9805,
+      "source": {
+        "title": "How to kickstart and scale a consumer business—Step 5: RETAIN: Iterate until enough people stick around",
+        "summary": "",
+        "subtitle": "How to know if you’ve got product-market fit, how to iterate toward product-market fit, and how long it usually takes",
+        "guest": "",
+        "tags": [
+          "growth",
+          "startups",
+          "strategy",
+          "b2c",
+          "design",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ryan-hoover.md",
+      "type": "podcast",
+      "date": "2022-08-07",
+      "word_count": 15473,
+      "source": {
+        "title": "How to launch and grow your product | Ryan Hoover of Product Hunt and Weekend Fund",
+        "summary": "Hey there! Did you know I have a podcast ? I do! Below you’ll find a peek at today’s episode.",
+        "subtitle": "",
+        "guest": "Ryan Hoover",
+        "tags": [
+          "pricing",
+          "startups",
+          "design",
+          "growth",
+          "strategy",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/deb-liu.md",
+      "type": "podcast",
+      "date": "2022-08-04",
+      "word_count": 15185,
+      "source": {
+        "title": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
+        "summary": "Own your career growth and becoming a powerful product leader, covering career development, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Deb Liu",
+        "tags": [
+          "career",
+          "design",
+          "leadership",
+          "product-management",
+          "strategy",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/crystal-w.md",
+      "type": "podcast",
+      "date": "2022-07-31",
+      "word_count": 11004,
+      "source": {
+        "title": "How to scrappily hire for, measure, and unlock growth | Crystal Widjaja, Gojek and Kumu",
+        "summary": "Scrappily hire for, measure, and unlock growth, covering product design, growth systems, and startup building.",
+        "subtitle": "",
+        "guest": "Crystal W",
+        "tags": [
+          "design",
+          "growth",
+          "startups",
+          "b2c",
+          "strategy",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/melissa-perri.md",
+      "type": "podcast",
+      "date": "2022-07-28",
+      "word_count": 16582,
+      "source": {
+        "title": "How to create a winning product strategy | Melissa Perri",
+        "summary": "Every company wants to develop a winning strategy—but what are signs your strategy isn’t working, and how do you change course? Melissa Perri has worked trained PMs and product leaders at nearly all the Fortune 100 companies, and in this conversation shares how to reset a struggling strategy, align your team, and.",
+        "subtitle": "",
+        "guest": "Melissa Perri",
+        "tags": [
+          "design",
+          "product-management",
+          "leadership",
+          "engineering",
+          "strategy",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-kickstart-and-scale-a-consumer-business-step-4-find-your-early-adopters-b.md",
+      "type": "newsletter",
+      "date": "2022-07-26",
+      "word_count": 12321,
+      "source": {
+        "title": "How to kickstart and scale a consumer business—Step 4: Find your early adopters by doing things that don’t scale",
+        "summary": "",
+        "subtitle": "Also, how today’s biggest consumer products got their first 1,000 users",
+        "guest": "",
+        "tags": [
+          "startups",
+          "b2c",
+          "newsletter",
+          "design",
+          "growth",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ken-norton.md",
+      "type": "podcast",
+      "date": "2022-07-24",
+      "word_count": 13746,
+      "source": {
+        "title": "How to unlock your product leadership skills | Ken Norton, Ex-Google",
+        "summary": "Advancing as a product leader requires new skills and a new mindset. Ken Norton is an executive coach who works with some of the top people in product to help them get unstuck and find creativity again in their approach to problems and their careers.",
+        "subtitle": "",
+        "guest": "Ken Norton",
+        "tags": [
+          "leadership",
+          "design",
+          "startups",
+          "career",
+          "product-management",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 19,
+    "words": 217253
+  }
+}

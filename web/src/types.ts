@@ -36,6 +36,7 @@ export interface NormalizedData {
   podcasts: DocItem[];
   newsletters: DocItem[];
   all: DocItem[];
+  tagLabels: Record<string, string>;
 }
 
 export interface TagCount {
@@ -52,4 +53,19 @@ export interface SearchIndexFile {
   version: number;
   generated_at: string;
   docs: SearchIndexEntry[];
+}
+
+export interface TranslationDocFields {
+  title?: string;
+  summary?: string;
+  subtitle?: string;
+  guest?: string;
+}
+
+export interface TranslationMetaFile {
+  version?: number;
+  locale?: string;
+  generated_at?: string;
+  tag_map?: Record<string, string>;
+  items?: Record<string, TranslationDocFields>;
 }

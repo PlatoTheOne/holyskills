@@ -1,0 +1,545 @@
+{
+  "locale": "zh-HK",
+  "batch": 14,
+  "docs": [
+    {
+      "filename": "podcasts/nir-eyal.md",
+      "type": "podcast",
+      "date": "2023-12-29",
+      "word_count": 18240,
+      "source": {
+        "title": "Strategies for becoming less distracted and improving focus | Nir Eyal (author of Indistractable and Hooked)",
+        "summary": "Strategies for becoming less distracted and improving focus, covering strategic decision-making, product design, and consumer products.",
+        "subtitle": "",
+        "guest": "Nir Eyal",
+        "tags": [
+          "strategy",
+          "design",
+          "b2c",
+          "career",
+          "growth",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sarah-tavel.md",
+      "type": "podcast",
+      "date": "2023-12-27",
+      "word_count": 19069,
+      "source": {
+        "title": "The hierarchy of engagement | Sarah Tavel (Benchmark, Greylock, Pinterest)",
+        "summary": "Sarah’s Hierarchy of Engagement framework for growing a consumer startup.",
+        "subtitle": "",
+        "guest": "Sarah Tavel",
+        "tags": [
+          "design",
+          "b2c",
+          "growth",
+          "strategy",
+          "leadership",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off-and-thank-you.md",
+      "type": "newsletter",
+      "date": "2023-12-26",
+      "word_count": 302,
+      "source": {
+        "title": "Taking the week off (and thank you!)",
+        "summary": "",
+        "subtitle": "Happy holidays, happy new year, and back next year (a.k.a. next week)!",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "engineering",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/christian-idiodi.md",
+      "type": "podcast",
+      "date": "2023-12-21",
+      "word_count": 17954,
+      "source": {
+        "title": "The essence of product management | Christian Idiodi (SVPG)",
+        "summary": "The essence of product management, covering team leadership, product strategy and execution, and product design.",
+        "subtitle": "",
+        "guest": "Christian Idiodi",
+        "tags": [
+          "leadership",
+          "product-management",
+          "design",
+          "b2b",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/first-principles-thinking.md",
+      "type": "newsletter",
+      "date": "2023-12-19",
+      "word_count": 4746,
+      "source": {
+        "title": "First-principles thinking",
+        "summary": "",
+        "subtitle": "What it means, how to apply it, and tons of examples of first-principles thinking in action",
+        "guest": "",
+        "tags": [
+          "design",
+          "career",
+          "ai",
+          "b2c",
+          "growth",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jason-fried.md",
+      "type": "podcast",
+      "date": "2023-12-17",
+      "word_count": 22265,
+      "source": {
+        "title": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
+        "summary": "Fundraising, goals, growth, and more, covering product design, startup building, and B2B products.",
+        "subtitle": "",
+        "guest": "Jason Fried",
+        "tags": [
+          "design",
+          "startups",
+          "b2b",
+          "growth",
+          "leadership",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/matthew-dicks.md",
+      "type": "podcast",
+      "date": "2023-12-15",
+      "word_count": 21195,
+      "source": {
+        "title": "How to tell better stories | Matthew Dicks (Storyworthy)",
+        "summary": "Tell better stories, covering product design, strategic decision-making, and B2B products.",
+        "subtitle": "",
+        "guest": "Matthew Dicks",
+        "tags": [
+          "design",
+          "strategy",
+          "b2b",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/failure.md",
+      "type": "podcast",
+      "date": "2023-12-13",
+      "word_count": 11577,
+      "source": {
+        "title": "Failure",
+        "summary": "In this special compilation episode, we delve into failure—an overlooked source of wisdom. From freezing onstage in front of thousands of people, to coworkers staging an intervention, to huge product investments that went to zero, we’ve pulled our favorite stories of failure from 100+ podcast episodes.",
+        "subtitle": "",
+        "guest": "Failure",
+        "tags": [
+          "design",
+          "leadership",
+          "career",
+          "podcast",
+          "b2c",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-best-of-lennys-newsletter-2023.md",
+      "type": "newsletter",
+      "date": "2023-12-12",
+      "word_count": 2487,
+      "source": {
+        "title": "The Best of Lenny’s Newsletter 2023",
+        "summary": "",
+        "subtitle": "The single best way to discover my all-time best stuff across both the newsletter and podcast",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "design",
+          "growth",
+          "strategy",
+          "product-management",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/kim-scott.md",
+      "type": "podcast",
+      "date": "2023-12-10",
+      "word_count": 16136,
+      "source": {
+        "title": "Radical Candor: From theory to practice with author Kim Scott",
+        "summary": "From theory to practice with author Kim Scott, covering team leadership, product design, and startup building.",
+        "subtitle": "",
+        "guest": "Kim Scott",
+        "tags": [
+          "leadership",
+          "design",
+          "startups",
+          "career",
+          "podcast",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/anuj-rathi.md",
+      "type": "podcast",
+      "date": "2023-12-07",
+      "word_count": 13337,
+      "source": {
+        "title": "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart)",
+        "summary": "The full-stack PM, covering product design, product strategy and execution, and consumer products.",
+        "subtitle": "",
+        "guest": "Anuj Rathi",
+        "tags": [
+          "design",
+          "product-management",
+          "b2c",
+          "leadership",
+          "strategy",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/lessons-on-building-a-viral-consumer-app-the-story-of-saturn.md",
+      "type": "newsletter",
+      "date": "2023-12-05",
+      "word_count": 4248,
+      "source": {
+        "title": "Lessons on building a viral consumer app: The story of Saturn",
+        "summary": "",
+        "subtitle": "How single-player utility, hyper-personalization, doing things unscalably, and thinking long-term helped us bootstrap a brand-new social network",
+        "guest": "",
+        "tags": [
+          "design",
+          "b2c",
+          "go-to-market",
+          "growth",
+          "startups",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ebi-atawodi.md",
+      "type": "podcast",
+      "date": "2023-12-03",
+      "word_count": 18667,
+      "source": {
+        "title": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+        "summary": "Crafting a compelling product vision, covering strategic decision-making, team leadership, and product design.",
+        "subtitle": "",
+        "guest": "Ebi Atawodi",
+        "tags": [
+          "strategy",
+          "leadership",
+          "design",
+          "product-management",
+          "analytics",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/inbal-s.md",
+      "type": "podcast",
+      "date": "2023-12-01",
+      "word_count": 9787,
+      "source": {
+        "title": "The future of AI in software development | Inbal Shani (CPO of GitHub)",
+        "summary": "The future of AI in software development, covering engineering tradeoffs, AI product work, and product design.",
+        "subtitle": "",
+        "guest": "Inbal S",
+        "tags": [
+          "engineering",
+          "ai",
+          "design",
+          "leadership",
+          "product-management",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/interview-q-compilation.md",
+      "type": "podcast",
+      "date": "2023-11-29",
+      "word_count": 3806,
+      "source": {
+        "title": "Interview Q Compilation",
+        "summary": "Because I think humble people will always say \"luck\" in some way, and I always kind of want to know, how self-aware are you, basically, and how curious are you, covering career development, measurement and analysis, and product design.",
+        "subtitle": "",
+        "guest": "Interview Q Compilation",
+        "tags": [
+          "career",
+          "analytics",
+          "design",
+          "growth",
+          "leadership",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/lessons-from-going-freemium-a-decision-that-broke-our-business.md",
+      "type": "newsletter",
+      "date": "2023-11-28",
+      "word_count": 3446,
+      "source": {
+        "title": "Lessons from going freemium: a decision that broke our business",
+        "summary": "",
+        "subtitle": "How freemium and no-friction onboarding reversed our growth, and how we got back on track",
+        "guest": "",
+        "tags": [
+          "design",
+          "b2b",
+          "growth",
+          "startups",
+          "pricing",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/tom-conrad.md",
+      "type": "podcast",
+      "date": "2023-11-26",
+      "word_count": 17117,
+      "source": {
+        "title": "Billion dollar failures, and billion dollar success | Tom Conrad (Quibi, Pandora, Pets.com, Snap, Zero)",
+        "summary": "Billion dollar failures, and billion dollar success, covering product design, team leadership, and career development.",
+        "subtitle": "",
+        "guest": "Tom Conrad",
+        "tags": [
+          "design",
+          "leadership",
+          "career",
+          "engineering",
+          "product-management",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-new-parent-gift-guide.md",
+      "type": "newsletter",
+      "date": "2023-11-21",
+      "word_count": 2725,
+      "source": {
+        "title": "A new-parent gift guide",
+        "summary": "",
+        "subtitle": "My favorite products for early parenthood to help your kid hit their KPIs",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "engineering",
+          "career",
+          "ai",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/paul-millerd.md",
+      "type": "podcast",
+      "date": "2023-11-19",
+      "word_count": 10937,
+      "source": {
+        "title": "Redefining success, money, and belonging | Paul Millerd (The Pathless Path)",
+        "summary": "Redefining success, money, and belonging, covering consumer products, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Paul Millerd",
+        "tags": [
+          "b2c",
+          "design",
+          "leadership",
+          "b2b",
+          "newsletter",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/when-they-hired-their-first-pm.md",
+      "type": "newsletter",
+      "date": "2023-11-14",
+      "word_count": 3576,
+      "source": {
+        "title": "When they hired their first PM",
+        "summary": "",
+        "subtitle": "Lessons, timelines, and stories from Pinterest, Looker, Instagram, Segment, Snap, Notion, and 25+ other top companies",
+        "guest": "",
+        "tags": [
+          "product-management",
+          "startups",
+          "leadership",
+          "design",
+          "strategy",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 20,
+    "words": 221617
+  }
+}

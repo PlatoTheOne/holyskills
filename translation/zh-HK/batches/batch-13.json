@@ -1,0 +1,575 @@
+{
+  "locale": "zh-HK",
+  "batch": 13,
+  "docs": [
+    {
+      "filename": "podcasts/donna-lichaw.md",
+      "type": "podcast",
+      "date": "2024-02-25",
+      "word_count": 14227,
+      "source": {
+        "title": "How to discover your superpowers, own your story, and unlock personal growth | Donna Lichaw (author of The Leader’s Journey)",
+        "summary": "Discover your superpowers, own your story, and unlock personal growth, covering team leadership, product design, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Donna Lichaw",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "startups",
+          "career",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/elizabeth-stone.md",
+      "type": "podcast",
+      "date": "2024-02-22",
+      "word_count": 12287,
+      "source": {
+        "title": "How Netflix builds a culture of excellence | Elizabeth Stone (CTO)",
+        "summary": "How Netflix builds a culture of excellence, covering team leadership, engineering tradeoffs, and product design.",
+        "subtitle": "",
+        "guest": "Elizabeth Stone",
+        "tags": [
+          "leadership",
+          "engineering",
+          "design",
+          "career",
+          "strategy",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/you-should-be-playing-with-gpts-at-work.md",
+      "type": "newsletter",
+      "date": "2024-02-20",
+      "word_count": 3437,
+      "source": {
+        "title": "You should be playing with GPTs at work",
+        "summary": "",
+        "subtitle": "20 examples of how people are using custom GPTs to make their teams more productive",
+        "guest": "",
+        "tags": [
+          "ai",
+          "design",
+          "leadership",
+          "analytics",
+          "newsletter",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-ultimate-guide-to-willingness-to-pay.md",
+      "type": "newsletter",
+      "date": "2024-02-13",
+      "word_count": 5421,
+      "source": {
+        "title": "The ultimate guide to willingness-to-pay",
+        "summary": "",
+        "subtitle": "How to effectively run your own WTP study, with templates, guides, examples, and more",
+        "guest": "",
+        "tags": [
+          "pricing",
+          "design",
+          "newsletter",
+          "leadership",
+          "growth",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jake-knapp--john-zeratsky.md",
+      "type": "podcast",
+      "date": "2024-02-11",
+      "word_count": 18414,
+      "source": {
+        "title": "Making time for what matters | Jake Knapp and John Zeratsky (authors of Sprint and Make Time, co-founders of Character Capital)",
+        "summary": "Making time for what matters, covering product design, startup building, and team leadership.",
+        "subtitle": "",
+        "guest": "Jake Knapp + John Zeratsky",
+        "tags": [
+          "design",
+          "startups",
+          "leadership",
+          "strategy",
+          "career",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/logan-kilpatrick.md",
+      "type": "podcast",
+      "date": "2024-02-08",
+      "word_count": 13523,
+      "source": {
+        "title": "Inside OpenAI | Logan Kilpatrick (head of developer relations)",
+        "summary": "Inside OpenAI, covering AI product work, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Logan Kilpatrick",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "leadership",
+          "go-to-market",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/my-favorite-decision-making-frameworks.md",
+      "type": "newsletter",
+      "date": "2024-02-06",
+      "word_count": 2074,
+      "source": {
+        "title": "My favorite decision-making frameworks",
+        "summary": "",
+        "subtitle": "Templates and guides to help you make better decisions with less drama",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "career",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/megan-cook.md",
+      "type": "podcast",
+      "date": "2024-02-04",
+      "word_count": 14778,
+      "source": {
+        "title": "Lessons from Atlassian: Launching new products, getting buy-in, and staying ahead of the competition | Megan Cook (head of product, Jira)",
+        "summary": "Launching new products, getting buy-in, and staying ahead of the competition, covering team leadership, product strategy and execution, and product design.",
+        "subtitle": "",
+        "guest": "Megan Cook",
+        "tags": [
+          "leadership",
+          "product-management",
+          "design",
+          "strategy",
+          "engineering",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/adding-a-work-trial-to-your-interview-process.md",
+      "type": "newsletter",
+      "date": "2024-01-30",
+      "word_count": 7321,
+      "source": {
+        "title": "Adding a work trial to your interview process",
+        "summary": "",
+        "subtitle": "Lessons from Linear, Automattic, 37signals, Gumroad, Auth0, and PostHog",
+        "guest": "",
+        "tags": [
+          "career",
+          "design",
+          "leadership",
+          "engineering",
+          "startups",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jonny-miller.md",
+      "type": "podcast",
+      "date": "2024-01-28",
+      "word_count": 13237,
+      "source": {
+        "title": "Managing nerves, anxiety, and burnout | Jonny Miller (Nervous System Mastery)",
+        "summary": "Jonny’s five-week boot camp, Nervous System Mastery, will equip you with evidence-backed protocols to cultivate greater calm and agency over your internal state. Learn to rewire maladaptive stress responses and improve your sleep ( use code LENNY for $250 discount ). Apply here .",
+        "subtitle": "",
+        "guest": "Jonny Miller",
+        "tags": [
+          "podcast",
+          "startups",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/geoffrey-moore.md",
+      "type": "podcast",
+      "date": "2024-01-25",
+      "word_count": 15322,
+      "source": {
+        "title": "Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a market",
+        "summary": "The “chasm” is the gap between success with early adopters and success with the mainstream market. Crossing the chasm requires selling to “pragmatist customers” who, unlike early adopters, will not buy on the basis of a vision.",
+        "subtitle": "",
+        "guest": "Geoffrey Moore",
+        "tags": [
+          "strategy",
+          "design",
+          "go-to-market",
+          "pricing",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-gong-builds-product.md",
+      "type": "newsletter",
+      "date": "2024-01-23",
+      "word_count": 4691,
+      "source": {
+        "title": "How Gong builds product",
+        "summary": "",
+        "subtitle": "Co-founder and chief product officer Eilon Reshef on autonomy, OKRs, design partners, prioritizing, interviewing, and more",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "b2b",
+          "organization",
+          "newsletter",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/richard-rumelt.md",
+      "type": "podcast",
+      "date": "2024-01-21",
+      "word_count": 14960,
+      "source": {
+        "title": "Good Strategy, Bad Strategy | Richard Rumelt",
+        "summary": "Good Strategy, Bad Strategy, covering strategic decision-making, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Richard Rumelt",
+        "tags": [
+          "strategy",
+          "design",
+          "growth",
+          "newsletter",
+          "ai",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/heidi-helfand.md",
+      "type": "podcast",
+      "date": "2024-01-18",
+      "word_count": 11391,
+      "source": {
+        "title": "The art and wisdom of changing teams | Heidi Helfand (author of Dynamic Reteaming)",
+        "summary": "Change and growth are natural parts of company evolution. Don’t fear reteaming or reorgs; instead, embrace these changes, actively plan for them, and leverage the five reteaming patterns to create a dynamic and adaptive organizational culture.",
+        "subtitle": "",
+        "guest": "Heidi Helfand",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "career",
+          "engineering",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-describe-your-business-as-an-equation.md",
+      "type": "newsletter",
+      "date": "2024-01-16",
+      "word_count": 2999,
+      "source": {
+        "title": "How to describe your business as an equation",
+        "summary": "",
+        "subtitle": "And why you don’t fully understand your business until you can",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "growth",
+          "b2c",
+          "strategy",
+          "newsletter",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ethan-evans-20.md",
+      "type": "podcast",
+      "date": "2024-01-14",
+      "word_count": 14656,
+      "source": {
+        "title": "Taking control of your career | Ethan Evans (Amazon)",
+        "summary": "The Magic Loop framework: a five-step process to grow your career.",
+        "subtitle": "",
+        "guest": "Ethan Evans 2.0",
+        "tags": [
+          "leadership",
+          "career",
+          "newsletter",
+          "design",
+          "b2c",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sam-schillace.md",
+      "type": "podcast",
+      "date": "2024-01-11",
+      "word_count": 18052,
+      "source": {
+        "title": "How to be more innovative | Sam Schillace (Microsoft deputy CTO, creator of Google Docs)",
+        "summary": "The importance of taking risks, embracing failure, and finding joy in your work.",
+        "subtitle": "",
+        "guest": "Sam Schillace",
+        "tags": [
+          "design",
+          "engineering",
+          "ai",
+          "b2c",
+          "career",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-to-do-if-your-product-isnt-taking-off.md",
+      "type": "newsletter",
+      "date": "2024-01-09",
+      "word_count": 4611,
+      "source": {
+        "title": "What to do if your product isn’t taking off",
+        "summary": "",
+        "subtitle": "Seven steps you can take today to try to turn things around",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "design",
+          "startups",
+          "b2c",
+          "go-to-market",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/will-larson.md",
+      "type": "podcast",
+      "date": "2024-01-07",
+      "word_count": 14711,
+      "source": {
+        "title": "The engineering mindset | Will Larson (Carta, Stripe, Uber, Calm, Digg)",
+        "summary": "The engineering mindset, covering team leadership, career development, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Will Larson",
+        "tags": [
+          "leadership",
+          "career",
+          "engineering",
+          "design",
+          "b2b",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/judd-antin.md",
+      "type": "podcast",
+      "date": "2024-01-04",
+      "word_count": 13642,
+      "source": {
+        "title": "The UX research reckoning is here | Judd Antin (Airbnb, Meta)",
+        "summary": "The UX research reckoning is here, covering product design, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Judd Antin",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "career",
+          "b2c",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/inspiration-for-the-year-ahead.md",
+      "type": "newsletter",
+      "date": "2024-01-02",
+      "word_count": 4753,
+      "source": {
+        "title": "Inspiration for the year ahead",
+        "summary": "",
+        "subtitle": "Powerful life mottos shared by my podcast guests",
+        "guest": "",
+        "tags": [
+          "design",
+          "strategy",
+          "product-management",
+          "startups",
+          "growth",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 21,
+    "words": 224507
+  }
+}

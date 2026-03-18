@@ -1,0 +1,25 @@
+﻿{
+  "version": 1,
+  "locale": "zh-HK",
+  "generated_at": "2026-03-18T00:00:00.000Z",
+  "tag_map": {
+    "design": "設計",
+    "leadership": "領導力",
+    "strategy": "策略",
+    "growth": "增長",
+    "newsletter": "Newsletter",
+    "startups": "創業",
+    "career": "職涯發展",
+    "product-management": "產品管理",
+    "b2b": "B2B",
+    "engineering": "工程",
+    "b2c": "B2C",
+    "ai": "人工智能",
+    "analytics": "數據分析",
+    "go-to-market": "市場進入",
+    "podcast": "播客",
+    "pricing": "定價",
+    "organization": "組織管理"
+  },
+  "items": {}
+}

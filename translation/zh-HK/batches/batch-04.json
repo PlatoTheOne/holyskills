@@ -1,0 +1,602 @@
+{
+  "locale": "zh-HK",
+  "batch": 4,
+  "docs": [
+    {
+      "filename": "newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "type": "newsletter",
+      "date": "2025-09-09",
+      "word_count": 4662,
+      "source": {
+        "title": "Building eval systems that improve your AI product",
+        "summary": "",
+        "subtitle": "A practical guide to moving beyond generic scores and measuring what matters",
+        "guest": "",
+        "tags": [
+          "design",
+          "ai",
+          "analytics",
+          "leadership",
+          "newsletter",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/scott-wu.md",
+      "type": "podcast",
+      "date": "2025-09-08",
+      "word_count": 19567,
+      "source": {
+        "title": "How Devin replaces your junior engineers with infinite AI interns that never sleep | Scott Wu (Cognition CEO)",
+        "summary": "How Devin replaces your junior engineers with infinite AI interns that never sleep, covering AI product work, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Scott Wu",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "leadership",
+          "go-to-market",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-find-the-perfect-name.md",
+      "type": "newsletter",
+      "date": "2025-09-02",
+      "word_count": 2114,
+      "source": {
+        "title": "How to find the perfect name",
+        "summary": "",
+        "subtitle": "A step-by-step playbook for naming in a noisy and AI-driven product landscape",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "career",
+          "strategy",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/howie-liu.md",
+      "type": "podcast",
+      "date": "2025-08-31",
+      "word_count": 17980,
+      "source": {
+        "title": "How we restructured Airtable’s entire org for AI | Howie Liu (co-founder and CEO)",
+        "summary": "How we restructured Airtable’s entire org for AI, covering AI product work, product design, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Howie Liu",
+        "tags": [
+          "ai",
+          "design",
+          "strategy",
+          "leadership",
+          "engineering",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/asha-sharma.md",
+      "type": "podcast",
+      "date": "2025-08-28",
+      "word_count": 10684,
+      "source": {
+        "title": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
+        "summary": "Products as organisms, the death of org charts, and why agents will outnumber employees by 2026, covering AI product work, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Asha Sharma",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "b2b",
+          "leadership",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off--a-newsletter-cadence-update.md",
+      "type": "newsletter",
+      "date": "2025-08-26",
+      "word_count": 254,
+      "source": {
+        "title": "Taking the week off + a newsletter cadence update",
+        "summary": "",
+        "subtitle": "Back next week!",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "podcast",
+          "analytics",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/garrett-lord.md",
+      "type": "podcast",
+      "date": "2025-08-24",
+      "word_count": 12723,
+      "source": {
+        "title": "Inside the expert network training every frontier AI model | Garrett Lord (Handshake CEO)",
+        "summary": "Inside the expert network training every frontier AI model, covering AI product work, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Garrett Lord",
+        "tags": [
+          "ai",
+          "design",
+          "leadership",
+          "strategy",
+          "analytics",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/eoghan-mccabe.md",
+      "type": "podcast",
+      "date": "2025-08-21",
+      "word_count": 13585,
+      "source": {
+        "title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
+        "summary": "How Intercom rose from the ashes by betting everything on AI, covering AI product work, pricing decisions, and product design.",
+        "subtitle": "",
+        "guest": "Eoghan McCabe",
+        "tags": [
+          "ai",
+          "pricing",
+          "design",
+          "startups",
+          "b2b",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/why-your-ai-product-needs-a-different-development-lifecycle.md",
+      "type": "newsletter",
+      "date": "2025-08-19",
+      "word_count": 4693,
+      "source": {
+        "title": "Why your AI product needs a different development lifecycle",
+        "summary": "",
+        "subtitle": "Introducing the Continuous Calibration/Continuous Development (CC/CD) framework",
+        "guest": "",
+        "tags": [
+          "ai",
+          "design",
+          "leadership",
+          "newsletter",
+          "engineering",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/matt-lemay.md",
+      "type": "podcast",
+      "date": "2025-08-14",
+      "word_count": 17480,
+      "source": {
+        "title": "The one question that saves product careers | Matt LeMay",
+        "summary": "The one question that saves product careers, covering team leadership, product design, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Matt LeMay",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "career",
+          "newsletter",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/essential-reading-for-product-builders-part-2.md",
+      "type": "newsletter",
+      "date": "2025-08-12",
+      "word_count": 2254,
+      "source": {
+        "title": "Essential reading for product builders—part 2",
+        "summary": "",
+        "subtitle": "10 more timeless essays you probably haven’t read but should",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "startups",
+          "strategy",
+          "leadership",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/nick-turley.md",
+      "type": "podcast",
+      "date": "2025-08-09",
+      "word_count": 19140,
+      "source": {
+        "title": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
+        "summary": "The fastest-growing product in history, covering AI product work, product design, and go-to-market execution.",
+        "subtitle": "",
+        "guest": "Nick Turley",
+        "tags": [
+          "ai",
+          "design",
+          "go-to-market",
+          "strategy",
+          "engineering",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/25-proven-tactics-to-accelerate-ai-adoption-at-your-company.md",
+      "type": "newsletter",
+      "date": "2025-08-05",
+      "word_count": 2145,
+      "source": {
+        "title": "25 proven tactics to accelerate AI adoption at your company",
+        "summary": "",
+        "subtitle": "Practical advice from AI-forward companies like Shopify, Ramp, Zapier, Duolingo, Intercom, and Whoop",
+        "guest": "",
+        "tags": [
+          "ai",
+          "leadership",
+          "design",
+          "b2b",
+          "newsletter",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/chip-conley.md",
+      "type": "podcast",
+      "date": "2025-08-03",
+      "word_count": 13744,
+      "source": {
+        "title": "Brian Chesky's secret mentor who died 9 times, started the Burning Man board, and built the world's first midlife wisdom school | Chip Conley (founder of MEA)",
+        "summary": "Brian Chesky's secret mentor who died 9 times, started the Burning Man board, and built the world's first midlife wisdom school, covering team leadership, product design, and startup building.",
+        "subtitle": "",
+        "guest": "Chip Conley",
+        "tags": [
+          "leadership",
+          "design",
+          "startups",
+          "career",
+          "product-management",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/bret-taylor.md",
+      "type": "podcast",
+      "date": "2025-07-31",
+      "word_count": 16513,
+      "source": {
+        "title": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+        "summary": "The future of careers, coding, agents, and more, covering product design, team leadership, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Bret Taylor",
+        "tags": [
+          "design",
+          "leadership",
+          "product-management",
+          "ai",
+          "b2b",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/lennys-product-pass-20-free-premium-products-available-exclusively-for-paid-annu.md",
+      "type": "newsletter",
+      "date": "2025-07-29",
+      "word_count": 1103,
+      "source": {
+        "title": "Lenny's Product Pass: 20+ free premium products, available exclusively for paid annual subscribers",
+        "summary": "",
+        "subtitle": "Over $25,000 in value for just $350. All the tools, community, and advice you need to build and grow a world-class product and career.",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "engineering",
+          "design",
+          "b2c",
+          "b2b",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/madhavan-ramanujam.md",
+      "type": "podcast",
+      "date": "2025-07-27",
+      "word_count": 19317,
+      "source": {
+        "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+        "summary": "Lessons from 400+ companies and 50 unicorns, covering pricing decisions, strategic decision-making, and product design.",
+        "subtitle": "",
+        "guest": "Madhavan Ramanujam",
+        "tags": [
+          "pricing",
+          "strategy",
+          "design",
+          "b2b",
+          "startups",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/build-your-personal-ai-copilot.md",
+      "type": "newsletter",
+      "date": "2025-07-22",
+      "word_count": 6180,
+      "source": {
+        "title": "Build your personal AI copilot",
+        "summary": "",
+        "subtitle": "A guide to using AI as a long-term thinking partner (including prompts to get you started)",
+        "guest": "",
+        "tags": [
+          "ai",
+          "leadership",
+          "design",
+          "strategy",
+          "newsletter",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/benjamin-mann.md",
+      "type": "podcast",
+      "date": "2025-07-20",
+      "word_count": 13064,
+      "source": {
+        "title": "Benjamin Mann",
+        "summary": "Ultimately, people think about this as probably going to hit a wall because if the model isn't good enough to see its own mistakes, then how could it improve, covering AI product work, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Benjamin Mann",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "leadership",
+          "strategy",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/dan-shipper.md",
+      "type": "podcast",
+      "date": "2025-07-17",
+      "word_count": 19059,
+      "source": {
+        "title": "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code | Dan Shipper (co-founder/CEO of Every)",
+        "summary": "5 products, 7-figure revenue, 100% AI-written code, covering AI product work, engineering tradeoffs, and product design.",
+        "subtitle": "",
+        "guest": "Dan Shipper",
+        "tags": [
+          "ai",
+          "engineering",
+          "design",
+          "leadership",
+          "startups",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/essential-reading-for-product-builders-part-1.md",
+      "type": "newsletter",
+      "date": "2025-07-15",
+      "word_count": 2850,
+      "source": {
+        "title": "Essential reading for product builders—part 1",
+        "summary": "",
+        "subtitle": "7 timeless essays you likely haven’t read but should",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "newsletter",
+          "startups",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-people-are-vibe-coding-and-actually-using.md",
+      "type": "newsletter",
+      "date": "2025-07-08",
+      "word_count": 4656,
+      "source": {
+        "title": "What people are vibe coding (and actually using)",
+        "summary": "",
+        "subtitle": "50+ useful/fun/clever examples of what non-technical people are building—to inspire your own vibe-coding journey",
+        "guest": "",
+        "tags": [
+          "design",
+          "ai",
+          "engineering",
+          "newsletter",
+          "b2c",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 22,
+    "words": 223767
+  }
+}

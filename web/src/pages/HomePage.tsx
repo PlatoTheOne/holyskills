@@ -1,7 +1,7 @@
 ﻿import { useMemo, useState } from "react";
 import type { FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { formatDate, formatNumber, tagCounts } from "../lib/data";
+import { formatDate, formatNumber, getTagLabel, tagCounts } from "../lib/data";
 import type { Locale } from "../i18n";
 import type { DocItem, NormalizedData } from "../types";
 
@@ -75,7 +75,7 @@ export function HomePage({ locale, data, t }: HomePageProps) {
         <div className="tag-cloud">
           {topTags.map((tag) => (
             <Link key={tag.name} className="tag" to={`/docs?tag=${encodeURIComponent(tag.name)}`}>
-              {tag.name} ({tag.count})
+              {getTagLabel(tag.name, data.tagLabels)} ({tag.count})
             </Link>
           ))}
         </div>

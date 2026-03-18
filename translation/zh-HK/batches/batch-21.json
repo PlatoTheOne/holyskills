@@ -1,0 +1,631 @@
+{
+  "locale": "zh-HK",
+  "batch": 21,
+  "docs": [
+    {
+      "filename": "podcasts/gergely.md",
+      "type": "podcast",
+      "date": "2022-11-17",
+      "word_count": 14806,
+      "source": {
+        "title": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
+        "summary": "Leaving big tech to build the #1 technology newsletter, covering practical product lessons, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Gergely",
+        "tags": [
+          "newsletter",
+          "design",
+          "leadership",
+          "startups",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-figma-builds-product.md",
+      "type": "newsletter",
+      "date": "2022-11-15",
+      "word_count": 2333,
+      "source": {
+        "title": "How Figma builds product",
+        "summary": "",
+        "subtitle": "Yuhki Yamashita, Chief Product Officer at Figma, shares lessons learned, plug-and-play templates, and fresh insights into how Figma builds product",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "product-management",
+          "organization",
+          "b2c",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/alex-hardimen.md",
+      "type": "podcast",
+      "date": "2022-11-13",
+      "word_count": 13211,
+      "source": {
+        "title": "Alex Hardimen",
+        "summary": "Is it our homes?\" You have to help people understand, \"Okay, when we talk product, we mean the website and app.\" What do you think of the product at The New York Times, covering product design, career development, and team leadership.",
+        "subtitle": "",
+        "guest": "Alex Hardimen",
+        "tags": [
+          "design",
+          "career",
+          "leadership",
+          "b2c",
+          "product-management",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/matt-mochary.md",
+      "type": "podcast",
+      "date": "2022-11-10",
+      "word_count": 13325,
+      "source": {
+        "title": "How to fire people with grace, work through fear, and nurture innovation | Matt Mochary (CEO coach)",
+        "summary": "Fire people with grace, work through fear, and nurture innovation, covering team leadership, startup building, and consumer products.",
+        "subtitle": "",
+        "guest": "Matt Mochary",
+        "tags": [
+          "leadership",
+          "startups",
+          "b2c",
+          "podcast",
+          "career",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-determine-your-activation-metric.md",
+      "type": "newsletter",
+      "date": "2022-11-08",
+      "word_count": 3813,
+      "source": {
+        "title": "How to determine your activation metric",
+        "summary": "",
+        "subtitle": "Including a deep dive into multi-player B2B SaaS products featuring Figma, Linear, Snyk, Airtable, Slack, Asana, and Sprig",
+        "guest": "",
+        "tags": [
+          "growth",
+          "leadership",
+          "b2b",
+          "analytics",
+          "design",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ben-williams.md",
+      "type": "podcast",
+      "date": "2022-11-06",
+      "word_count": 16531,
+      "source": {
+        "title": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+        "summary": "How Snyk built a product-led growth juggernaut, covering engineering tradeoffs, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Ben Williams",
+        "tags": [
+          "engineering",
+          "design",
+          "growth",
+          "b2c",
+          "strategy",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/lauren-ipsen.md",
+      "type": "podcast",
+      "date": "2022-11-03",
+      "word_count": 13543,
+      "source": {
+        "title": "Lessons from one of the world’s top executive recruiters | Lauren Ipsen (Daversa Partners, General Catalyst)",
+        "summary": "Lessons from one of the world’s top executive recruiters, covering product design, team leadership, and career development.",
+        "subtitle": "",
+        "guest": "Lauren Ipsen",
+        "tags": [
+          "design",
+          "leadership",
+          "career",
+          "startups",
+          "strategy",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sachin-monga.md",
+      "type": "podcast",
+      "date": "2022-10-30",
+      "word_count": 12639,
+      "source": {
+        "title": "Building Substack | Sachin Monga (Substack, Facebook)",
+        "summary": "Building Substack, covering team leadership, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Sachin Monga",
+        "tags": [
+          "leadership",
+          "design",
+          "growth",
+          "startups",
+          "product-management",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/barbra-gago.md",
+      "type": "podcast",
+      "date": "2022-10-27",
+      "word_count": 10117,
+      "source": {
+        "title": "Category creation and brand building | Barbra Gago (Pando, Miro, Greenhouse, Culture Amp)",
+        "summary": "Category creation and brand building, covering product design, strategic decision-making, and team leadership.",
+        "subtitle": "",
+        "guest": "Barbra Gago",
+        "tags": [
+          "design",
+          "strategy",
+          "leadership",
+          "b2b",
+          "engineering",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-is-a-good-activation-rate.md",
+      "type": "newsletter",
+      "date": "2022-10-25",
+      "word_count": 3105,
+      "source": {
+        "title": "What is a good activation rate",
+        "summary": "",
+        "subtitle": "Benchmarks and advice for increasing your activation rate, based on a survey of 500+ products",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "b2b",
+          "newsletter",
+          "strategy",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/fareed-mosavat.md",
+      "type": "podcast",
+      "date": "2022-10-23",
+      "word_count": 13018,
+      "source": {
+        "title": "How to build trust and grow as a product leader | Fareed Mosavat (Reforge, Slack, Instacart, Zynga, Pixar)",
+        "summary": "Building trust and grow as a product leader, covering team leadership, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Fareed Mosavat",
+        "tags": [
+          "leadership",
+          "design",
+          "growth",
+          "analytics",
+          "career",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/adriel-frederick.md",
+      "type": "podcast",
+      "date": "2022-10-20",
+      "word_count": 13713,
+      "source": {
+        "title": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
+        "summary": "Humanizing product development, covering team leadership, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Adriel Frederick",
+        "tags": [
+          "leadership",
+          "design",
+          "growth",
+          "product-management",
+          "strategy",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/mission--vision--strategy--goals--roadmap--task.md",
+      "type": "newsletter",
+      "date": "2022-10-18",
+      "word_count": 1528,
+      "source": {
+        "title": "Mission → Vision → Strategy → Goals → Roadmap → Task",
+        "summary": "",
+        "subtitle": "As taught to us by Oceans Eleven",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "newsletter",
+          "product-management",
+          "design",
+          "leadership",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/janna-bastow.md",
+      "type": "podcast",
+      "date": "2022-10-16",
+      "word_count": 11596,
+      "source": {
+        "title": "Building better product roadmaps | Janna Bastow (Mind the Product, ProdPad)",
+        "summary": "Janna Bastow is a former product manager, and currently the CEO and co-founder of ProdPad. She also co-founded Mind the Product, a community for PMs, which has grown to 300,000 members across the world.",
+        "subtitle": "",
+        "guest": "Janna Bastow",
+        "tags": [
+          "design",
+          "b2c",
+          "product-management",
+          "leadership",
+          "startups",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/adam-fishman.md",
+      "type": "podcast",
+      "date": "2022-10-13",
+      "word_count": 11930,
+      "source": {
+        "title": "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods)",
+        "summary": "Building a high-performing growth team, covering growth systems, team leadership, and career development.",
+        "subtitle": "",
+        "guest": "Adam Fishman",
+        "tags": [
+          "growth",
+          "leadership",
+          "career",
+          "startups",
+          "strategy",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-racecar-growth-framework-expanded-and-illustrated.md",
+      "type": "newsletter",
+      "date": "2022-10-11",
+      "word_count": 1967,
+      "source": {
+        "title": "The Racecar Growth Framework—expanded and illustrated",
+        "summary": "",
+        "subtitle": "The culmination of all my GTM and growth research in one image",
+        "guest": "",
+        "tags": [
+          "growth",
+          "newsletter",
+          "b2b",
+          "strategy",
+          "b2c",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/dan-hockenmaier.md",
+      "type": "podcast",
+      "date": "2022-10-09",
+      "word_count": 13914,
+      "source": {
+        "title": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+        "summary": "Developing a growth model + marketplace growth strategy, covering growth systems, product design, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Dan Hockenmaier",
+        "tags": [
+          "growth",
+          "design",
+          "strategy",
+          "b2b",
+          "analytics",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off-9.md",
+      "type": "newsletter",
+      "date": "2022-10-04",
+      "word_count": 113,
+      "source": {
+        "title": "Taking the week off",
+        "summary": "",
+        "subtitle": "Back next week!",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "career",
+          "growth",
+          "leadership",
+          "product-management",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/kristen-berman.md",
+      "type": "podcast",
+      "date": "2022-10-02",
+      "word_count": 11159,
+      "source": {
+        "title": "Using behavioral science to improve your product | Kristen Berman (Irrational Labs)",
+        "summary": "Using behavioral science to improve your product, covering product design, team leadership, and B2B products.",
+        "subtitle": "",
+        "guest": "Kristen Berman",
+        "tags": [
+          "design",
+          "leadership",
+          "b2b",
+          "growth",
+          "podcast",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/gia-laudi.md",
+      "type": "podcast",
+      "date": "2022-09-29",
+      "word_count": 12140,
+      "source": {
+        "title": "Customer-led growth | Georgiana Laudi (Forget The Funnel)",
+        "summary": "Customer-led growth, covering growth systems, strategic decision-making, and go-to-market execution.",
+        "subtitle": "",
+        "guest": "Gia Laudi",
+        "tags": [
+          "growth",
+          "strategy",
+          "go-to-market",
+          "design",
+          "b2b",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-get-your-marketing-team-to-drive-more-impact.md",
+      "type": "newsletter",
+      "date": "2022-09-27",
+      "word_count": 3121,
+      "source": {
+        "title": "How to get your marketing team to drive more impact",
+        "summary": "",
+        "subtitle": "GACCS: A framework for aligning your marketing, product, and sales teams",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "leadership",
+          "organization",
+          "design",
+          "newsletter",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/julian-shapiro.md",
+      "type": "podcast",
+      "date": "2022-09-25",
+      "word_count": 11679,
+      "source": {
+        "title": "Growth tactics, retention strategies, and becoming a better writer | Julian Shapiro (Demand Curve, Hyper, Webflow, TechCrunch)",
+        "summary": "Growth tactics, retention strategies, and becoming a better writer, covering product design, growth systems, and measurement and analysis.",
+        "subtitle": "",
+        "guest": "Julian Shapiro",
+        "tags": [
+          "design",
+          "growth",
+          "analytics",
+          "newsletter",
+          "startups",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-get-better-at-influence.md",
+      "type": "newsletter",
+      "date": "2022-09-20",
+      "word_count": 2782,
+      "source": {
+        "title": "How to get better at influence",
+        "summary": "",
+        "subtitle": "What Frodo Baggins from Lord of the Rings can teach us about influence",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "strategy",
+          "design",
+          "growth",
+          "newsletter",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 23,
+    "words": 212083
+  }
+}

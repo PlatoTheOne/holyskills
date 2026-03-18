@@ -1,0 +1,523 @@
+{
+  "locale": "zh-HK",
+  "batch": 3,
+  "docs": [
+    {
+      "filename": "podcasts/jen-abel.md",
+      "type": "podcast",
+      "date": "2025-11-09",
+      "word_count": 14531,
+      "source": {
+        "title": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+        "summary": "Jen Abel is GM of Enterprise at State Affairs and co-founded Jellyfish, a consultancy that helps founders learn zero-to-one enterprise sales. She’s one of the smartest people I’ve ever met on learning enterprise sales, and in this follow-up to our first chat two years ago (covering the zero to $1 million ARR.",
+        "subtitle": "",
+        "guest": "Jen Abel",
+        "tags": [
+          "b2b",
+          "startups",
+          "strategy",
+          "design",
+          "leadership",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas.md",
+      "type": "newsletter",
+      "date": "2025-11-04",
+      "word_count": 2580,
+      "source": {
+        "title": "Part 2 of how to get the most out of your product pass—and welcome, Stripe Atlas, to the bundle!",
+        "summary": "",
+        "subtitle": "Tips for taking full advantage of the 17+ free premium products you have access to as a paid subscriber",
+        "guest": "",
+        "tags": [
+          "design",
+          "ai",
+          "leadership",
+          "newsletter",
+          "startups",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/melanie-perkins.md",
+      "type": "podcast",
+      "date": "2025-11-02",
+      "word_count": 13679,
+      "source": {
+        "title": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+        "summary": "The woman behind Canva shares how she built a $42B company from nothing, covering product design, strategic decision-making, and startup building.",
+        "subtitle": "",
+        "guest": "Melanie Perkins",
+        "tags": [
+          "design",
+          "strategy",
+          "startups",
+          "ai",
+          "leadership",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-builders-guide-to-living-a-long-and-healthy-life.md",
+      "type": "newsletter",
+      "date": "2025-10-28",
+      "word_count": 5853,
+      "source": {
+        "title": "A builder’s guide to living a long and healthy life",
+        "summary": "",
+        "subtitle": "For something a little different",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "career",
+          "analytics",
+          "strategy",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/dhanji-r-prasanna.md",
+      "type": "podcast",
+      "date": "2025-10-26",
+      "word_count": 14839,
+      "source": {
+        "title": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+        "summary": "Dhanji R. Prasanna is the chief technology officer at Block (formerly Square), where he’s managed more than 4,000 engineers over the past two years. Under his leadership, Block has become one of the most AI-native large companies in the world.",
+        "subtitle": "",
+        "guest": "Dhanji R. Prasanna",
+        "tags": [
+          "leadership",
+          "design",
+          "engineering",
+          "ai",
+          "podcast",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/chip-huyen.md",
+      "type": "podcast",
+      "date": "2025-10-23",
+      "word_count": 15296,
+      "source": {
+        "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+        "summary": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix), covering AI product work, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Chip Huyen",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "leadership",
+          "analytics",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/nicole-forsgren.md",
+      "type": "podcast",
+      "date": "2025-10-19",
+      "word_count": 14088,
+      "source": {
+        "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+        "summary": "Nicole Forsgren created the most widely used frameworks for measuring developer productivity—DORA and SPACE. She wrote the foundational book Accelerate and is about to release her newest book, Frictionless , a practical guide for helping teams move faster in the AI era.",
+        "subtitle": "",
+        "guest": "Nicole Forsgren",
+        "tags": [
+          "engineering",
+          "leadership",
+          "design",
+          "analytics",
+          "b2b",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/everyone-should-be-using-claude-code-more.md",
+      "type": "newsletter",
+      "date": "2025-10-14",
+      "word_count": 4098,
+      "source": {
+        "title": "Everyone should be using Claude Code more",
+        "summary": "",
+        "subtitle": "How to get started, and 50 ways non-technical people are using Claude Code in their work and life",
+        "guest": "",
+        "tags": [
+          "ai",
+          "engineering",
+          "design",
+          "newsletter",
+          "career",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/robby-stein.md",
+      "type": "podcast",
+      "date": "2025-10-10",
+      "word_count": 17522,
+      "source": {
+        "title": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
+        "summary": "Robby Stein is VP of Product at Google, where he oversees the core products of Google Search—including the new AI Overviews, AI Mode, search ranking, Google Lens, and more.",
+        "subtitle": "",
+        "guest": "Robby Stein",
+        "tags": [
+          "ai",
+          "design",
+          "growth",
+          "b2c",
+          "go-to-market",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jason-droege.md",
+      "type": "podcast",
+      "date": "2025-10-09",
+      "word_count": 16353,
+      "source": {
+        "title": "First interview with Scale AI’s CEO: $14B Meta deal, what’s working in enterprise AI, and what frontier labs are building next | Jason Droege",
+        "summary": "Jason Droege is the CEO of Scale AI, a company that provides foundational training data to every major AI lab. He previously co-founded Scour with Travis Kalanick and built Uber Eats from idea to $20 billion in revenue.",
+        "subtitle": "",
+        "guest": "Jason Droege",
+        "tags": [
+          "ai",
+          "career",
+          "design",
+          "startups",
+          "strategy",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-free-year-of-devin-the-worlds-most-advanced-autonomous-ai-software-engineer.md",
+      "type": "newsletter",
+      "date": "2025-10-07",
+      "word_count": 1139,
+      "source": {
+        "title": "A free year of Devin: the world’s most advanced autonomous AI software engineer",
+        "summary": "",
+        "subtitle": "Insider subscribers now get $1,350/year of Devin, on top of 15 additional premium products. All the advice, community, and tools you need to build and grow a world-class product (and career).",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "design",
+          "ai",
+          "engineering",
+          "leadership",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/albert-cheng.md",
+      "type": "podcast",
+      "date": "2025-10-05",
+      "word_count": 17085,
+      "source": {
+        "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+        "summary": "Finding hidden growth opportunities in your product, covering growth systems, measurement and analysis, and product design.",
+        "subtitle": "",
+        "guest": "Albert Cheng",
+        "tags": [
+          "growth",
+          "analytics",
+          "design",
+          "b2c",
+          "leadership",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving.md",
+      "type": "newsletter",
+      "date": "2025-09-30",
+      "word_count": 7328,
+      "source": {
+        "title": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+        "summary": "",
+        "subtitle": "A step-by-step guide to crafting feedback you’ll want to give and people will want to get",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "startups",
+          "design",
+          "newsletter",
+          "ai",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ravi-mehta.md",
+      "type": "podcast",
+      "date": "2025-09-29",
+      "word_count": 16657,
+      "source": {
+        "title": "The secret to better AI prototypes: Why Tinder’s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
+        "summary": "Why Tinder’s CPO starts with JSON, not design, covering team leadership, startup building, and product design.",
+        "subtitle": "",
+        "guest": "Ravi Mehta",
+        "tags": [
+          "leadership",
+          "startups",
+          "design",
+          "career",
+          "analytics",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/hamel-husain--shreya-shankar.md",
+      "type": "podcast",
+      "date": "2025-09-25",
+      "word_count": 19553,
+      "source": {
+        "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+        "summary": "Why AI evals are the hottest new skill for product builders, covering AI product work, product design, and measurement and analysis.",
+        "subtitle": "",
+        "guest": "Hamel Husain & Shreya Shankar",
+        "tags": [
+          "ai",
+          "design",
+          "analytics",
+          "leadership",
+          "engineering",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-get-the-most-out-of-your-product-pass-part-1.md",
+      "type": "newsletter",
+      "date": "2025-09-23",
+      "word_count": 2321,
+      "source": {
+        "title": "How to get the most out of your product pass, part 1",
+        "summary": "",
+        "subtitle": "Tips for taking full advantage of the 15+ free premium products you have access to as a paid subscriber",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "ai",
+          "podcast",
+          "newsletter",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/brendan-foody.md",
+      "type": "podcast",
+      "date": "2025-09-18",
+      "word_count": 12086,
+      "source": {
+        "title": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+        "summary": "Why experts writing AI evals is creating the fastest-growing companies in history, covering AI product work, product design, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Brendan Foody",
+        "tags": [
+          "ai",
+          "design",
+          "strategy",
+          "pricing",
+          "career",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ethan-smith.md",
+      "type": "podcast",
+      "date": "2025-09-14",
+      "word_count": 14213,
+      "source": {
+        "title": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
+        "summary": "Getting ChatGPT to recommend your product, covering AI product work, product design, and practical product lessons.",
+        "subtitle": "",
+        "guest": "Ethan Smith",
+        "tags": [
+          "ai",
+          "design",
+          "newsletter",
+          "go-to-market",
+          "podcast",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ben-horowitz.md",
+      "type": "podcast",
+      "date": "2025-09-11",
+      "word_count": 15972,
+      "source": {
+        "title": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
+        "summary": "Why founders fail and why you need to run toward fear (a16z co-founder), covering team leadership, product design, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Ben Horowitz",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "startups",
+          "engineering",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 19,
+    "words": 225193
+  }
+}

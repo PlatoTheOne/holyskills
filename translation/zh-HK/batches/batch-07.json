@@ -1,0 +1,626 @@
+{
+  "locale": "zh-HK",
+  "batch": 7,
+  "docs": [
+    {
+      "filename": "podcasts/anton-osika.md",
+      "type": "podcast",
+      "date": "2025-03-09",
+      "word_count": 11871,
+      "source": {
+        "title": "Building Lovable: $10M ARR in 60 days with 15 people | Anton Osika (co-founder and CEO)",
+        "summary": "Anton Osika is the co-founder and CEO of Lovable, which is building what they call “the last piece of software”—an AI-powered tool that turns descriptions into working products without requiring any coding knowledge.",
+        "subtitle": "",
+        "guest": "Anton Osika",
+        "tags": [
+          "design",
+          "ai",
+          "engineering",
+          "go-to-market",
+          "leadership",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ivan-zhao.md",
+      "type": "podcast",
+      "date": "2025-03-06",
+      "word_count": 12485,
+      "source": {
+        "title": "Notion’s lost years, its near collapse during Covid, staying small to move fast, the joy and suffering of building horizontal, more | Ivan Zhao (CEO and co-founder)",
+        "summary": "Ivan Zhao is the co-founder and CEO of Notion. Ivan shares the untold story of Notion, from nearly running out of database space during Covid to finding product-market fit after several “lost years,” and the hard-won lessons along the way.",
+        "subtitle": "",
+        "guest": "Ivan Zhao",
+        "tags": [
+          "design",
+          "engineering",
+          "strategy",
+          "startups",
+          "leadership",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/1000000-taking-a-moment-to-celebrate-and-reflect-and-then-back-to-work.md",
+      "type": "newsletter",
+      "date": "2025-03-04",
+      "word_count": 3286,
+      "source": {
+        "title": "1,000,000",
+        "summary": "",
+        "subtitle": "Taking a moment to celebrate and reflect—and then back to work",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "growth",
+          "design",
+          "leadership",
+          "b2c",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/matt-mullenweg.md",
+      "type": "podcast",
+      "date": "2025-03-02",
+      "word_count": 18104,
+      "source": {
+        "title": "The creator of WordPress opens up about becoming an internet villain, why he’s taking a stand, and the future of open source | Matt Mullenweg (founder and CEO, Automattic)",
+        "summary": "Why products like Meta’s Llama are “fake open source”.",
+        "subtitle": "",
+        "guest": "Matt Mullenweg",
+        "tags": [
+          "design",
+          "b2c",
+          "ai",
+          "engineering",
+          "startups",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/keith-coleman--jay-baxter.md",
+      "type": "podcast",
+      "date": "2025-02-27",
+      "word_count": 19828,
+      "source": {
+        "title": "An inside look at X’s Community Notes | Keith Coleman (VP of Product) and Jay Baxter (ML Lead)",
+        "summary": "An inside look at X’s Community Notes, covering consumer products, product design, and AI product work.",
+        "subtitle": "",
+        "guest": "Keith Coleman & Jay Baxter",
+        "tags": [
+          "b2c",
+          "design",
+          "ai",
+          "leadership",
+          "podcast",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/strategy-blocks-an-operators-guide-to-product-strategy.md",
+      "type": "newsletter",
+      "date": "2025-02-25",
+      "word_count": 4859,
+      "source": {
+        "title": "Strategy Blocks: An operator’s guide to product strategy",
+        "summary": "",
+        "subtitle": "Five steps to map out and build alignment around the future of your company",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "leadership",
+          "design",
+          "career",
+          "newsletter",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-much-product-managers-make-in-the-us-europe-and-canada.md",
+      "type": "newsletter",
+      "date": "2025-02-18",
+      "word_count": 1712,
+      "source": {
+        "title": "How much product managers make in the U.S., Europe, and Canada",
+        "summary": "",
+        "subtitle": "Comprehensive salary, equity, and total comp benchmarks for product managers",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "newsletter",
+          "growth",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "type": "newsletter",
+      "date": "2025-02-11",
+      "word_count": 3397,
+      "source": {
+        "title": "Pulling back the curtain on the magic of Y Combinator",
+        "summary": "",
+        "subtitle": "A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "b2c",
+          "b2b",
+          "strategy",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/karina-nguyen.md",
+      "type": "podcast",
+      "date": "2025-02-09",
+      "word_count": 12112,
+      "source": {
+        "title": "OpenAI researcher on why soft skills are the future of work | Karina Nguyen (Research at OpenAI, ex-Anthropic)",
+        "summary": "Why soft skills are the future of work, covering AI product work, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Karina Nguyen",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "go-to-market",
+          "leadership",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/announcing-the-greatest-product-bundle-ever-get-a-year-free-of-granola-notion-su.md",
+      "type": "newsletter",
+      "date": "2025-02-04",
+      "word_count": 512,
+      "source": {
+        "title": "Announcing the greatest product bundle ever: Get a year free of Granola, Notion, Superhuman, Linear, and Perplexity with an annual subscription",
+        "summary": "",
+        "subtitle": "New perk for paid subscribers of Lenny’s Newsletter",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "engineering",
+          "leadership",
+          "pricing",
+          "ai",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/tobi-lutke.md",
+      "type": "podcast",
+      "date": "2025-02-02",
+      "word_count": 16041,
+      "source": {
+        "title": "Tobi Lutke",
+        "summary": "Yeah, again, I only lived one life, so I can't Monte Carlo all the decisions I make and just figure out which ones ended up being load baring, right, covering product design, career development, and growth systems.",
+        "subtitle": "",
+        "guest": "Tobi Lutke",
+        "tags": [
+          "design",
+          "career",
+          "growth",
+          "leadership",
+          "startups",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/nan-yu.md",
+      "type": "podcast",
+      "date": "2025-01-30",
+      "word_count": 16755,
+      "source": {
+        "title": "Linear’s secret to building beloved B2B products | Nan Yu (Head of Product)",
+        "summary": "Linear’s secret to building beloved B2B products, covering product design, B2B products, and team leadership.",
+        "subtitle": "",
+        "guest": "Nan Yu",
+        "tags": [
+          "design",
+          "b2b",
+          "leadership",
+          "career",
+          "engineering",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/introducing-the-foundation-sprint-from-the-creators-of-the-design-sprint.md",
+      "type": "newsletter",
+      "date": "2025-01-28",
+      "word_count": 4422,
+      "source": {
+        "title": "Introducing the Foundation Sprint: From the creators of the Design Sprint",
+        "summary": "",
+        "subtitle": "An exclusive first look at Jake Knapp and John Zeratsky’s new book, Click, and the new 2-day process for jump-starting big projects right",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "startups",
+          "strategy",
+          "career",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/chandra-janakiraman.md",
+      "type": "podcast",
+      "date": "2025-01-26",
+      "word_count": 19014,
+      "source": {
+        "title": "An operator’s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
+        "summary": "The difference between “small s” and “big S” strategy.",
+        "subtitle": "",
+        "guest": "Chandra Janakiraman",
+        "tags": [
+          "strategy",
+          "design",
+          "leadership",
+          "product-management",
+          "b2c",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/whats-in-your-stack-the-state-of-tech-tools-in-2025.md",
+      "type": "newsletter",
+      "date": "2025-01-21",
+      "word_count": 4950,
+      "source": {
+        "title": "What’s in your stack: The state of tech tools in 2025",
+        "summary": "",
+        "subtitle": "Insights from 6,500 tech professionals on their favorite and least favorite tools",
+        "guest": "",
+        "tags": [
+          "design",
+          "ai",
+          "leadership",
+          "newsletter",
+          "strategy",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/graham-weaver.md",
+      "type": "podcast",
+      "date": "2025-01-16",
+      "word_count": 12853,
+      "source": {
+        "title": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor, founder of Alpine Investors)",
+        "summary": "Break out of autopilot and creating the life you want, covering product design, career development, and B2B products.",
+        "subtitle": "",
+        "guest": "Graham Weaver",
+        "tags": [
+          "design",
+          "career",
+          "b2b",
+          "startups",
+          "b2c",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/introducing-core-4-the-best-way-to-measure-and-improve-your-product-velocity.md",
+      "type": "newsletter",
+      "date": "2025-01-14",
+      "word_count": 3819,
+      "source": {
+        "title": "Introducing Core 4: The best way to measure and improve your product velocity",
+        "summary": "",
+        "subtitle": "A unified developer productivity framework from the creators of DORA, SPACE, and DevEx",
+        "guest": "",
+        "tags": [
+          "engineering",
+          "analytics",
+          "leadership",
+          "design",
+          "newsletter",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/drew-houston.md",
+      "type": "podcast",
+      "date": "2025-01-09",
+      "word_count": 18455,
+      "source": {
+        "title": "Behind the founder: Drew Houston (Dropbox)",
+        "summary": "Drew Houston (Dropbox), covering product design, startup building, and go-to-market execution.",
+        "subtitle": "",
+        "guest": "Drew Houston",
+        "tags": [
+          "design",
+          "startups",
+          "go-to-market",
+          "growth",
+          "b2c",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "type": "newsletter",
+      "date": "2025-01-07",
+      "word_count": 4449,
+      "source": {
+        "title": "A guide to AI prototyping for product managers",
+        "summary": "",
+        "subtitle": "How to turn your idea into a working prototype in minutes",
+        "guest": "",
+        "tags": [
+          "design",
+          "ai",
+          "engineering",
+          "leadership",
+          "newsletter",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/alisa-cohn.md",
+      "type": "podcast",
+      "date": "2025-01-05",
+      "word_count": 17181,
+      "source": {
+        "title": "Scripts for difficult conversations: Giving hard feedback, navigating defensiveness, the three questions you should end every meeting with, more | Alisa Cohn (executive coach)",
+        "summary": "Giving hard feedback, navigating defensiveness, the three questions you should end every meeting with, more, covering team leadership, career development, and product design.",
+        "subtitle": "",
+        "guest": "Alisa Cohn",
+        "tags": [
+          "leadership",
+          "career",
+          "design",
+          "startups",
+          "podcast",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off-5.md",
+      "type": "newsletter",
+      "date": "2024-12-31",
+      "word_count": 71,
+      "source": {
+        "title": "Taking the week off 🎄🕎🎁",
+        "summary": "",
+        "subtitle": "Back next week!",
+        "guest": "",
+        "tags": [
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/shaun-clowes.md",
+      "type": "podcast",
+      "date": "2024-12-29",
+      "word_count": 16459,
+      "source": {
+        "title": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
+        "summary": "Why great AI products are all about the data, covering product strategy and execution, team leadership, and AI product work.",
+        "subtitle": "",
+        "guest": "Shaun Clowes",
+        "tags": [
+          "product-management",
+          "leadership",
+          "ai",
+          "design",
+          "career",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/top-angel-investors-in-the-us.md",
+      "type": "newsletter",
+      "date": "2024-12-24",
+      "word_count": 2609,
+      "source": {
+        "title": "Top angel investors in the U.S.",
+        "summary": "",
+        "subtitle": "Inspiration for who to raise from when you’re raising your early rounds",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "b2b",
+          "ai",
+          "leadership",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 23,
+    "words": 225244
+  }
+}

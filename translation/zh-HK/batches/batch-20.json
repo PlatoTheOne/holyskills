@@ -1,0 +1,631 @@
+{
+  "locale": "zh-HK",
+  "batch": 20,
+  "docs": [
+    {
+      "filename": "podcasts/eeke-de-milliano.md",
+      "type": "podcast",
+      "date": "2023-02-02",
+      "word_count": 13205,
+      "source": {
+        "title": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
+        "summary": "Foster innovation and big thinking, covering product design, team leadership, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Eeke de Milliano",
+        "tags": [
+          "design",
+          "leadership",
+          "product-management",
+          "strategy",
+          "b2b",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-coda-builds-product.md",
+      "type": "newsletter",
+      "date": "2023-01-31",
+      "word_count": 4935,
+      "source": {
+        "title": "How Coda builds product",
+        "summary": "",
+        "subtitle": "Lane Shackleton, CPO at Coda, shares his team’s templates, day-to-day processes, and hard-earned lessons",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "organization",
+          "strategy",
+          "analytics",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/zoelle-egner.md",
+      "type": "podcast",
+      "date": "2023-01-29",
+      "word_count": 15613,
+      "source": {
+        "title": "Lessons from Airtable’s unconventional growth strategy | Zoelle Egner",
+        "summary": "Lessons from Airtable’s unconventional growth strategy, covering product design, strategic decision-making, and startup building.",
+        "subtitle": "",
+        "guest": "Zoelle Egner",
+        "tags": [
+          "design",
+          "strategy",
+          "startups",
+          "b2b",
+          "growth",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/vijay.md",
+      "type": "podcast",
+      "date": "2023-01-26",
+      "word_count": 10163,
+      "source": {
+        "title": "An inside look at Mixpanel’s product journey | Vijay Iyengar (Head of Product)",
+        "summary": "An inside look at Mixpanel’s product journey, covering product design, team leadership, and measurement and analysis.",
+        "subtitle": "",
+        "guest": "Vijay",
+        "tags": [
+          "design",
+          "leadership",
+          "analytics",
+          "engineering",
+          "growth",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/five-steps-to-starting-your-product-led-growth-motion-part-2.md",
+      "type": "newsletter",
+      "date": "2023-01-17",
+      "word_count": 2726,
+      "source": {
+        "title": "Five steps to starting your product-led growth motion, part 2",
+        "summary": "",
+        "subtitle": "A guide to setting up your PLG infrastructure, tool stack, and team",
+        "guest": "",
+        "tags": [
+          "growth",
+          "leadership",
+          "b2b",
+          "design",
+          "engineering",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/john-cutler.md",
+      "type": "podcast",
+      "date": "2023-01-15",
+      "word_count": 20074,
+      "source": {
+        "title": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
+        "summary": "What differentiates the highest-performing product teams, covering team leadership, strategic decision-making, and growth systems.",
+        "subtitle": "",
+        "guest": "John Cutler",
+        "tags": [
+          "leadership",
+          "strategy",
+          "growth",
+          "podcast",
+          "career",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/naomi-ionita.md",
+      "type": "podcast",
+      "date": "2023-01-12",
+      "word_count": 10531,
+      "source": {
+        "title": "How to price your product | Naomi Ionita (Menlo Ventures)",
+        "summary": "Price your product, covering product design, pricing decisions, and growth systems.",
+        "subtitle": "",
+        "guest": "Naomi Ionita",
+        "tags": [
+          "design",
+          "pricing",
+          "growth",
+          "startups",
+          "leadership",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/five-steps-to-starting-your-product-led-growth-motion.md",
+      "type": "newsletter",
+      "date": "2023-01-10",
+      "word_count": 4713,
+      "source": {
+        "title": "Five steps to starting your product-led growth motion",
+        "summary": "",
+        "subtitle": "An in-depth guide to getting started with PLG",
+        "guest": "",
+        "tags": [
+          "growth",
+          "b2b",
+          "design",
+          "leadership",
+          "strategy",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/yuhki-yamashata.md",
+      "type": "podcast",
+      "date": "2023-01-08",
+      "word_count": 12925,
+      "source": {
+        "title": "Yuhki Yamashata",
+        "summary": "And so it's our quick way of being like, we're doing a product review, we on a pulse check, we drop it in and we're like, how are people feeling aligned, not aligned, covering product design, team leadership, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Yuhki Yamashata",
+        "tags": [
+          "design",
+          "leadership",
+          "product-management",
+          "career",
+          "strategy",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jules-walter.md",
+      "type": "podcast",
+      "date": "2023-01-05",
+      "word_count": 13229,
+      "source": {
+        "title": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
+        "summary": "Leveraging mentors to uplevel your career, covering career development, product strategy and execution, and growth systems.",
+        "subtitle": "",
+        "guest": "Jules Walter",
+        "tags": [
+          "career",
+          "product-management",
+          "growth",
+          "leadership",
+          "design",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/virality-is-a-myth-mostly.md",
+      "type": "newsletter",
+      "date": "2023-01-03",
+      "word_count": 3820,
+      "source": {
+        "title": "Virality is a myth (mostly)",
+        "summary": "",
+        "subtitle": "And why you are probably under-investing in influencers and PR",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "strategy",
+          "b2c",
+          "career",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/eoy-review.md",
+      "type": "podcast",
+      "date": "2022-12-29",
+      "word_count": 10843,
+      "source": {
+        "title": "EOY Review",
+        "summary": "I'd love to hear your broad overview of why do most analytics efforts fail and then how do teams avoid this, maybe what are two to three things they can do, covering product design, go-to-market execution, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "EOY Review",
+        "tags": [
+          "design",
+          "go-to-market",
+          "strategy",
+          "analytics",
+          "podcast",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-best-of-lennys-newsletter-2022.md",
+      "type": "newsletter",
+      "date": "2022-12-27",
+      "word_count": 1587,
+      "source": {
+        "title": "The Best of Lenny’s Newsletter 2022",
+        "summary": "",
+        "subtitle": "If you read one post this year, read this one—my most popular posts and podcasts, categorized and organized",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "growth",
+          "strategy",
+          "leadership",
+          "design",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/my-favorite-pm-courses.md",
+      "type": "newsletter",
+      "date": "2022-12-20",
+      "word_count": 1147,
+      "source": {
+        "title": "My favorite PM courses",
+        "summary": "",
+        "subtitle": "Five courses for senior PMs, and five for up-and-coming PMs",
+        "guest": "",
+        "tags": [
+          "product-management",
+          "design",
+          "growth",
+          "career",
+          "leadership",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/chris-hutchins.md",
+      "type": "podcast",
+      "date": "2022-12-18",
+      "word_count": 16642,
+      "source": {
+        "title": "Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)",
+        "summary": "Launching and growing a podcast, covering product design, startup building, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Chris Hutchins",
+        "tags": [
+          "design",
+          "startups",
+          "strategy",
+          "product-management",
+          "b2b",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/pete-kazanjy.md",
+      "type": "podcast",
+      "date": "2022-12-15",
+      "word_count": 11193,
+      "source": {
+        "title": "Founder-led sales | Pete Kazanjy (Founding Sales, Atrium)",
+        "summary": "Founder-led sales, covering B2B products, startup building, and product design.",
+        "subtitle": "",
+        "guest": "Pete Kazanjy",
+        "tags": [
+          "b2b",
+          "startups",
+          "design",
+          "leadership",
+          "strategy",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/camille-ricketts.md",
+      "type": "podcast",
+      "date": "2022-12-11",
+      "word_count": 13416,
+      "source": {
+        "title": "How Notion leveraged community to build a $10B business | Camille Ricketts (Notion, First Round Capital)",
+        "summary": "How Notion leveraged community to build a $10B business, covering product design, consumer products, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Camille Ricketts",
+        "tags": [
+          "design",
+          "b2c",
+          "strategy",
+          "growth",
+          "leadership",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-activate-your-investor-network.md",
+      "type": "newsletter",
+      "date": "2022-12-06",
+      "word_count": 4046,
+      "source": {
+        "title": "How to activate your investor network",
+        "summary": "",
+        "subtitle": "Examples and tactics for getting the most out of your investors",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "leadership",
+          "strategy",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sahil-mansuri.md",
+      "type": "podcast",
+      "date": "2022-12-04",
+      "word_count": 16270,
+      "source": {
+        "title": "How to hit revenue targets in a recession | Sahil Mansuri (Bravado)",
+        "summary": "Hit revenue targets in a recession, covering B2B products, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Sahil Mansuri",
+        "tags": [
+          "b2b",
+          "leadership",
+          "strategy",
+          "b2c",
+          "design",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/lennys-newsletter-holiday-gift-guide-2022.md",
+      "type": "newsletter",
+      "date": "2022-11-29",
+      "word_count": 3100,
+      "source": {
+        "title": "Lenny’s Newsletter Holiday Gift Guide 2022",
+        "summary": "",
+        "subtitle": "Last year, I experimented with a holiday gift guide, and it proved to be quite popular (and really fun to do)",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "engineering",
+          "analytics",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/petra-wille.md",
+      "type": "podcast",
+      "date": "2022-11-27",
+      "word_count": 13774,
+      "source": {
+        "title": "How to be the best coach to product people | Petra Wille (Strong Product People)",
+        "summary": "Be the best coach to product people, covering team leadership, product strategy and execution, and career development.",
+        "subtitle": "",
+        "guest": "Petra Wille",
+        "tags": [
+          "leadership",
+          "product-management",
+          "career",
+          "design",
+          "strategy",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/startup-to-exit-lessons-from-a-first-time-founder.md",
+      "type": "newsletter",
+      "date": "2022-11-22",
+      "word_count": 5985,
+      "source": {
+        "title": "Startup to exit: Lessons from a first-time founder",
+        "summary": "",
+        "subtitle": "Why VC funding is a drug, when building in stealth is a mistake, what to do when you lose conviction, how to approach selling your company, and more",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "strategy",
+          "leadership",
+          "newsletter",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ian-mcallister.md",
+      "type": "podcast",
+      "date": "2022-11-20",
+      "word_count": 12690,
+      "source": {
+        "title": "What it takes to become a top 1% PM | Ian McAllister (Uber, Amazon, Airbnb)",
+        "summary": "What it takes to become a top 1% PM, covering team leadership, product strategy and execution, and career development.",
+        "subtitle": "",
+        "guest": "Ian McAllister",
+        "tags": [
+          "leadership",
+          "product-management",
+          "career",
+          "design",
+          "engineering",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 23,
+    "words": 222627
+  }
+}

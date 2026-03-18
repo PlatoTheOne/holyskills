@@ -7,6 +7,7 @@ import {
   clearAccessSession,
   formatDate,
   formatNumber,
+  getTagLabel,
   getRawDocUrl,
   getSavedAccessEmail,
   isPrivateContentMode,
@@ -239,7 +240,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
       }
       setLoadingFulltext(true);
       try {
-        const matches = await fulltextSearch(normalized);
+        const matches = await fulltextSearch(normalized, locale);
         if (!alive) {
           return;
         }
@@ -258,7 +259,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     return () => {
       alive = false;
     };
-  }, [query]);
+  }, [query, locale]);
 
   useEffect(() => {
     if (!activeDoc) {
@@ -282,7 +283,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
       setContentProtected(false);
       setAuthError("");
       try {
-        const md = await loadMarkdown(activeDoc.filename);
+        const md = await loadMarkdown(activeDoc.filename, locale);
         const parsed = await marked.parse(md);
         if (!alive) {
           return;
@@ -312,7 +313,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     return () => {
       alive = false;
     };
-  }, [activeDoc, t, reloadNonce]);
+  }, [activeDoc, t, reloadNonce, locale]);
 
   const onUnlockContent = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -393,7 +394,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
                 className={`tag ${tag === entry.name ? "active" : ""}`}
                 onClick={() => setParam("tag", entry.name)}
               >
-                {entry.name} ({entry.count})
+                {getTagLabel(entry.name, data.tagLabels)} ({entry.count})
               </button>
             ))}
           </div>
@@ -455,7 +456,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
           <div className="group-list">
             {byTag.map((entry, idx) => (
               <details key={entry.name} open={idx === 0}>
-                <summary>{entry.name} ({entry.count})</summary>
+                <summary>{getTagLabel(entry.name, data.tagLabels)} ({entry.count})</summary>
                 <ul className="doc-list compact">
                   {entry.docs.map((doc) => (
                     <li
@@ -495,7 +496,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
 
             <div className="tag-cloud">
               {activeDoc.tags.map((oneTag) => (
-                <button key={oneTag} className="tag" type="button" onClick={() => setParam("tag", oneTag)}>{oneTag}</button>
+                <button key={oneTag} className="tag" type="button" onClick={() => setParam("tag", oneTag)}>{getTagLabel(oneTag, data.tagLabels)}</button>
               ))}
             </div>
 

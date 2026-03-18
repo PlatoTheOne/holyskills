@@ -89,6 +89,27 @@ node .\scripts\sync-lenny-data.mjs --mode public
 
 `portal/` 目录为第一版静态 HTML 原型，后续以 `web/` React 工程为主。
 
+## 多语言翻译（批次化）
+
+请先查看总方案：
+- `TRANSLATION_ROADMAP.md`
+
+初始化翻译批次（示例：简体中文，24 批）：
+
+```powershell
+node .\scripts\init-translation-batches.mjs --locale zh-CN --batches 24
+```
+
+完成若干批后，编译翻译元数据：
+
+```powershell
+node .\scripts\compile-translation-meta.mjs --locale zh-CN
+```
+
+然后执行数据同步，前端会自动读取：
+- `i18n/<locale>/meta.json`
+- `i18n/<locale>/search-index.json`
+
 ## 专属访问门禁（邮箱 + 邀请码）
 
 仓库已内置私有正文 API：`scripts/private-content-api.mjs`。

@@ -1,0 +1,604 @@
+{
+  "locale": "zh-CN",
+  "batch": 17,
+  "docs": [
+    {
+      "filename": "podcasts/christopher-miller.md",
+      "type": "podcast",
+      "date": "2023-08-10",
+      "word_count": 16934,
+      "source": {
+        "title": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
+        "summary": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula, covering growth systems, team leadership, and pricing decisions.",
+        "subtitle": "",
+        "guest": "Christopher Miller",
+        "tags": [
+          "growth",
+          "leadership",
+          "pricing",
+          "product-management",
+          "strategy",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-the-most-successful-b2b-startups-came-up-with-their-original-idea.md",
+      "type": "newsletter",
+      "date": "2023-08-08",
+      "word_count": 9118,
+      "source": {
+        "title": "How the most successful B2B startups came up with their original idea",
+        "summary": "",
+        "subtitle": "Part one of my seven-part series on kickstarting and scaling a B2B business",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "b2b",
+          "newsletter",
+          "strategy",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/geoff-charles.md",
+      "type": "podcast",
+      "date": "2023-08-06",
+      "word_count": 13692,
+      "source": {
+        "title": "Velocity over everything: How Ramp became the fastest-growing SaaS startup of all time | Geoff Charles (VP of Product)",
+        "summary": "How Ramp became the fastest-growing SaaS startup of all time, covering team leadership, product design, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Geoff Charles",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "b2b",
+          "newsletter",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-is-good-free-to-paid-conversion.md",
+      "type": "newsletter",
+      "date": "2023-08-01",
+      "word_count": 2898,
+      "source": {
+        "title": "What is good free-to-paid conversion",
+        "summary": "",
+        "subtitle": "Benchmarks of good and great free-to-paid conversion rates based on a survey of 1,000+ products",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "growth",
+          "design",
+          "newsletter",
+          "pricing",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ronny-kohavi.md",
+      "type": "podcast",
+      "date": "2023-07-27",
+      "word_count": 14338,
+      "source": {
+        "title": "The ultimate guide to A/B testing | Ronny Kohavi (Airbnb, Microsoft, Amazon)",
+        "summary": "A/B testing, covering measurement and analysis, pricing decisions, and product design.",
+        "subtitle": "",
+        "guest": "Ronny Kohavi",
+        "tags": [
+          "analytics",
+          "pricing",
+          "design",
+          "leadership",
+          "go-to-market",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-shopify-builds-product.md",
+      "type": "newsletter",
+      "date": "2023-07-25",
+      "word_count": 4586,
+      "source": {
+        "title": "How Shopify builds product",
+        "summary": "",
+        "subtitle": "VP of Product Glen Coates on how Shopify plans around yearly themes, organizes around jobs to be done, tracks using a homegrown tool, why they shifted away from a GM structure, and much more",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "organization",
+          "engineering",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/noah-weiss.md",
+      "type": "podcast",
+      "date": "2023-07-23",
+      "word_count": 17338,
+      "source": {
+        "title": "The 10 traits of great PMs, how AI will impact your product, and Slack’s product development process | Noah Weiss (Slack, Foursquare, Google)",
+        "summary": "The 10 traits of great PMs, how AI will impact your product, and Slack’s product development process, covering product design, startup building, and team leadership.",
+        "subtitle": "",
+        "guest": "Noah Weiss",
+        "tags": [
+          "design",
+          "startups",
+          "leadership",
+          "strategy",
+          "b2c",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-todays-top-consumer-brands-measure-marketings-impact.md",
+      "type": "newsletter",
+      "date": "2023-07-18",
+      "word_count": 5944,
+      "source": {
+        "title": "How today’s top consumer brands measure marketing’s impact",
+        "summary": "",
+        "subtitle": "Lessons from how 40+ brands measure their marketing impact, including McDonald’s, H&M, TikTok, Amazon, Airbnb, and Uber",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "analytics",
+          "design",
+          "growth",
+          "b2c",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/hari-srinivasan.md",
+      "type": "podcast",
+      "date": "2023-07-16",
+      "word_count": 14042,
+      "source": {
+        "title": "LinkedIn’s product evolution and the art of building complex systems | Hari Srinivasan (LinkedIn)",
+        "summary": "LinkedIn’s product evolution and the art of building complex systems, covering product design, strategic decision-making, and career development.",
+        "subtitle": "",
+        "guest": "Hari Srinivasan",
+        "tags": [
+          "design",
+          "strategy",
+          "career",
+          "leadership",
+          "podcast",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/julia-schottenstein.md",
+      "type": "podcast",
+      "date": "2023-07-13",
+      "word_count": 10632,
+      "source": {
+        "title": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
+        "summary": "M&A, competition, pricing, and investing, covering product design, strategic decision-making, and startup building.",
+        "subtitle": "",
+        "guest": "Julia Schottenstein",
+        "tags": [
+          "design",
+          "strategy",
+          "startups",
+          "analytics",
+          "b2b",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-snowflake-builds-product.md",
+      "type": "newsletter",
+      "date": "2023-07-11",
+      "word_count": 3842,
+      "source": {
+        "title": "How Snowflake builds product",
+        "summary": "",
+        "subtitle": "An interview with Jeff Hollan, Director of Product for Snowflake’s Developer Platform and Ecosystem",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "engineering",
+          "organization",
+          "strategy",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/paige-costello.md",
+      "type": "podcast",
+      "date": "2023-07-09",
+      "word_count": 10437,
+      "source": {
+        "title": "How to ask the right questions, project confidence, and win over skeptics | Paige Costello (Asana, Intercom, Intuit)",
+        "summary": "Ask the right questions, project confidence, and win over skeptics, covering team leadership, product design, and measurement and analysis.",
+        "subtitle": "",
+        "guest": "Paige Costello",
+        "tags": [
+          "leadership",
+          "design",
+          "analytics",
+          "organization",
+          "strategy",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-pass-any-first-round-interview-even-in-a-terrible-talent-market.md",
+      "type": "newsletter",
+      "date": "2023-07-04",
+      "word_count": 5062,
+      "source": {
+        "title": "How to pass any first-round interview (even in a terrible talent market)",
+        "summary": "",
+        "subtitle": "Learn how to get that strong yes without burning yourself out with interview prep",
+        "guest": "",
+        "tags": [
+          "career",
+          "design",
+          "leadership",
+          "newsletter",
+          "strategy",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jiaona-zhang.md",
+      "type": "podcast",
+      "date": "2023-07-02",
+      "word_count": 13989,
+      "source": {
+        "title": "Building minimum lovable products, stories from WeWork and Airbnb, and thriving as a PM | Jiaona Zhang (Webflow, WeWork, Airbnb, Dropbox)",
+        "summary": "Building minimum lovable products, stories from WeWork and Airbnb, and thriving as a PM, covering team leadership, product design, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Jiaona Zhang",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "strategy",
+          "startups",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-5-years-at-reddit-taught-us-about-building-for-a-highly-opinionated-user-ba.md",
+      "type": "newsletter",
+      "date": "2023-06-27",
+      "word_count": 4727,
+      "source": {
+        "title": "What 5 years at Reddit taught us about building for a highly opinionated user base",
+        "summary": "",
+        "subtitle": "A framework, from the front lines of Reddit, for turning a sometimes combative relationship with users into a strong, productive partnership",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "b2c",
+          "go-to-market",
+          "newsletter",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sri-batchu.md",
+      "type": "podcast",
+      "date": "2023-06-25",
+      "word_count": 13918,
+      "source": {
+        "title": "Lessons from scaling Ramp | Sri Batchu (Ramp, Instacart, Opendoor)",
+        "summary": "Lessons from scaling Ramp, covering team leadership, growth systems, and B2B products.",
+        "subtitle": "",
+        "guest": "Sri Batchu",
+        "tags": [
+          "leadership",
+          "growth",
+          "b2b",
+          "startups",
+          "strategy",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-create-an-exceptional-coverage-plan-for-your-parental-leave.md",
+      "type": "newsletter",
+      "date": "2023-06-20",
+      "word_count": 2849,
+      "source": {
+        "title": "How to create an exceptional coverage plan for your parental leave",
+        "summary": "",
+        "subtitle": "A step-by-step guide and plug-and-play template for going on leave with peace of mind",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "career",
+          "newsletter",
+          "organization",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/melissa-tan.md",
+      "type": "podcast",
+      "date": "2023-06-18",
+      "word_count": 14541,
+      "source": {
+        "title": "Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)",
+        "summary": "Building high-performing teams, covering growth systems, team leadership, and B2B products.",
+        "subtitle": "",
+        "guest": "Melissa Tan",
+        "tags": [
+          "growth",
+          "leadership",
+          "b2b",
+          "design",
+          "strategy",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/luc-levesque.md",
+      "type": "podcast",
+      "date": "2023-06-15",
+      "word_count": 16079,
+      "source": {
+        "title": "Leveraging growth advisors, hiring well, mastering SEO, and honing your craft | Luc Levesque (Shopify, Meta, TripAdvisor)",
+        "summary": "Leveraging growth advisors, hiring well, mastering SEO, and honing your craft, covering team leadership, product design, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Luc Levesque",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "career",
+          "growth",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-unconventional-palantir-principles-that-catalyzed-a-generation-of-startups.md",
+      "type": "newsletter",
+      "date": "2023-06-13",
+      "word_count": 4945,
+      "source": {
+        "title": "The unconventional Palantir principles that catalyzed a generation of startups",
+        "summary": "",
+        "subtitle": "How the principles we learned at Palantir spawned nine unicorns and 100+ venture-backed companies",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "startups",
+          "b2b",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/nikhyl-singhal.md",
+      "type": "podcast",
+      "date": "2023-06-11",
+      "word_count": 14719,
+      "source": {
+        "title": "Building a long and meaningful career | Nikhyl Singhal (Meta, Google)",
+        "summary": "Building a long and meaningful career, covering career development, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Nikhyl Singhal",
+        "tags": [
+          "career",
+          "design",
+          "leadership",
+          "growth",
+          "b2c",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-a-traumatic-brain-injury-made-me-a-better-pm-and-person.md",
+      "type": "newsletter",
+      "date": "2023-06-06",
+      "word_count": 6302,
+      "source": {
+        "title": "How a traumatic brain injury made me a better PM—and person",
+        "summary": "",
+        "subtitle": "Takeaways from a period of extreme adversity",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "product-management",
+          "growth",
+          "leadership",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 22,
+    "words": 220932
+  }
+}

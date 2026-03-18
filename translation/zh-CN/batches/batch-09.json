@@ -1,0 +1,544 @@
+{
+  "locale": "zh-CN",
+  "batch": 9,
+  "docs": [
+    {
+      "filename": "podcasts/tristan-de-montebello.md",
+      "type": "podcast",
+      "date": "2024-10-13",
+      "word_count": 21297,
+      "source": {
+        "title": "Why most public speaking advice is wrong—and how to finally overcome your speaking anxiety | Tristan de Montebello (CEO & co-founder of Ultraspeaking)",
+        "summary": "Why most public speaking advice is wrong—and how to finally overcome your speaking anxiety, covering product design, operator lessons, and consumer products.",
+        "subtitle": "",
+        "guest": "Tristan de Montebello",
+        "tags": [
+          "design",
+          "podcast",
+          "b2c",
+          "newsletter",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/why-cash-is-king.md",
+      "type": "newsletter",
+      "date": "2024-10-08",
+      "word_count": 2583,
+      "source": {
+        "title": "Why cash is king",
+        "summary": "",
+        "subtitle": "The first set of results from our inaugural compensation survey reveals the need for stable income above all else",
+        "guest": "",
+        "tags": [
+          "design",
+          "startups",
+          "leadership",
+          "growth",
+          "career",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/john-mark-nickels.md",
+      "type": "podcast",
+      "date": "2024-10-06",
+      "word_count": 14972,
+      "source": {
+        "title": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
+        "summary": "Leading without fear, finding your life’s objective function, and getting better at vision and strategy, covering team leadership, product design, and pricing decisions.",
+        "subtitle": "",
+        "guest": "John Mark Nickels",
+        "tags": [
+          "leadership",
+          "design",
+          "pricing",
+          "career",
+          "product-management",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/alex-komoroske.md",
+      "type": "podcast",
+      "date": "2024-10-03",
+      "word_count": 18708,
+      "source": {
+        "title": "Thinking like a gardener not a builder, organizing teams like slime mold, the adjacent possible, and other unconventional product advice | Alex Komoroske (Stripe, Google)",
+        "summary": "Thinking like a gardener not a builder, organizing teams like slime mold, the adjacent possible, and other unconventional product advice, covering product design, AI product work, and team leadership.",
+        "subtitle": "",
+        "guest": "Alex Komoroske",
+        "tags": [
+          "design",
+          "ai",
+          "leadership",
+          "startups",
+          "strategy",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-pms-guide-to-influence.md",
+      "type": "newsletter",
+      "date": "2024-10-01",
+      "word_count": 3030,
+      "source": {
+        "title": "A PM’s guide to influence",
+        "summary": "",
+        "subtitle": "How to align stakeholders so decisions go your way",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "organization",
+          "newsletter",
+          "pricing",
+          "strategy",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/benjamin-lauzier.md",
+      "type": "podcast",
+      "date": "2024-09-29",
+      "word_count": 15595,
+      "source": {
+        "title": "How marketplaces win: Liquidity, growth levers, quality, and more | Benjamin Lauzier (Lyft, Thumbtack, Reforge)",
+        "summary": "Liquidity, growth levers, quality, and more, covering strategic decision-making, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Benjamin Lauzier",
+        "tags": [
+          "strategy",
+          "design",
+          "growth",
+          "leadership",
+          "startups",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/tamar-yehoshua.md",
+      "type": "podcast",
+      "date": "2024-09-26",
+      "word_count": 13977,
+      "source": {
+        "title": "Lessons in product leadership and AI strategy from Glean, Google, Amazon, and Slack | Tamar Yehoshua (Product at Glean, ex-Google and Slack)",
+        "summary": "Lessons in product leadership and AI strategy from Glean, Google, Amazon, and Slack, covering team leadership, product design, and career development.",
+        "subtitle": "",
+        "guest": "Tamar Yehoshua",
+        "tags": [
+          "leadership",
+          "design",
+          "career",
+          "strategy",
+          "b2b",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/state-of-the-product-job-market-part-2.md",
+      "type": "newsletter",
+      "date": "2024-09-24",
+      "word_count": 2398,
+      "source": {
+        "title": "State of the product job market, part 2",
+        "summary": "",
+        "subtitle": "Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more",
+        "guest": "",
+        "tags": [
+          "product-management",
+          "career",
+          "leadership",
+          "ai",
+          "newsletter",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/get-perplexity-pro-free-for-1-year.md",
+      "type": "newsletter",
+      "date": "2024-09-23",
+      "word_count": 22,
+      "source": {
+        "title": "Get Perplexity Pro free for 1 year",
+        "summary": "",
+        "subtitle": "An exciting new perk for paid subscribers",
+        "guest": "",
+        "tags": [
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/eli-schwartz.md",
+      "type": "podcast",
+      "date": "2024-09-19",
+      "word_count": 23526,
+      "source": {
+        "title": "Rethinking SEO in the age of AI | Eli Schwartz (SEO advisor, author)",
+        "summary": "Rethinking SEO in the age of AI, covering AI product work, go-to-market execution, and growth systems.",
+        "subtitle": "",
+        "guest": "Eli Schwartz",
+        "tags": [
+          "ai",
+          "go-to-market",
+          "growth",
+          "newsletter",
+          "design",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/raising-a-seed-round-101.md",
+      "type": "newsletter",
+      "date": "2024-09-17",
+      "word_count": 5412,
+      "source": {
+        "title": "Raising a seed round 101",
+        "summary": "",
+        "subtitle": "The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "newsletter",
+          "strategy",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/camille-fournier.md",
+      "type": "podcast",
+      "date": "2024-09-15",
+      "word_count": 15102,
+      "source": {
+        "title": "The things engineers are desperate for PMs to understand | Camille Fournier (author of “The Manager’s Path,” ex-CTO at Rent the Runway)",
+        "summary": "The things engineers are desperate for PMs to understand, covering team leadership, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Camille Fournier",
+        "tags": [
+          "leadership",
+          "design",
+          "engineering",
+          "product-management",
+          "career",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/phyl-terry.md",
+      "type": "podcast",
+      "date": "2024-09-12",
+      "word_count": 21414,
+      "source": {
+        "title": "Land your dream job in today’s market: negotiation tactics, job search councils, and more | Phyl Terry (Author, “Never Search Alone”)",
+        "summary": "Negotiation tactics, job search councils, and more, covering strategic decision-making, career development, and consumer products.",
+        "subtitle": "",
+        "guest": "Phyl Terry",
+        "tags": [
+          "strategy",
+          "career",
+          "b2c",
+          "design",
+          "leadership",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-communicate-tradeoffs-so-leaders-will-listen.md",
+      "type": "newsletter",
+      "date": "2024-09-10",
+      "word_count": 4874,
+      "source": {
+        "title": "How to communicate tradeoffs so leaders will listen",
+        "summary": "",
+        "subtitle": "Tactical tips for teeing up critical decisions without pissing leaders off",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "newsletter",
+          "design",
+          "strategy",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sean-ellis.md",
+      "type": "podcast",
+      "date": "2024-09-05",
+      "word_count": 18767,
+      "source": {
+        "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+        "summary": "The original growth hacker reveals his secrets, covering growth systems, strategic decision-making, and product design.",
+        "subtitle": "",
+        "guest": "Sean Ellis",
+        "tags": [
+          "growth",
+          "strategy",
+          "design",
+          "startups",
+          "analytics",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-subscription-value-loop-a-framework-for-growing-consumer-subscription-busine.md",
+      "type": "newsletter",
+      "date": "2024-09-03",
+      "word_count": 7275,
+      "source": {
+        "title": "The Subscription Value Loop: A framework for growing consumer subscription businesses",
+        "summary": "",
+        "subtitle": "Including case studies, templates, and 10 proven growth tactics from top consumer subscription apps like Duolingo, Spotify, Tinder, and Calm",
+        "guest": "",
+        "tags": [
+          "b2c",
+          "growth",
+          "design",
+          "b2b",
+          "pricing",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/part-2-time-management-techniques-that-actually-work.md",
+      "type": "newsletter",
+      "date": "2024-08-27",
+      "word_count": 2056,
+      "source": {
+        "title": "Part 2: Time management techniques that actually work",
+        "summary": "",
+        "subtitle": "Seven more tactics for making the most of your precious time",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "design",
+          "career",
+          "leadership",
+          "startups",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/nikita-bier.md",
+      "type": "podcast",
+      "date": "2024-08-25",
+      "word_count": 15718,
+      "source": {
+        "title": "How to consistently go viral: Nikita Bier’s playbook for winning at consumer apps (co-founder of TBH, Gas, advisor, investor)",
+        "summary": "Nikita Bier’s playbook for winning at consumer apps (co-founder of TBH, Gas, advisor, investor), covering product design, consumer products, and go-to-market execution.",
+        "subtitle": "",
+        "guest": "Nikita Bier",
+        "tags": [
+          "design",
+          "b2c",
+          "go-to-market",
+          "product-management",
+          "leadership",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/why-pms-are-best-positioned-to-thrive-in-an-ai-world.md",
+      "type": "newsletter",
+      "date": "2024-08-20",
+      "word_count": 1645,
+      "source": {
+        "title": "Why PMs are best positioned to thrive in an AI world",
+        "summary": "",
+        "subtitle": "An optimistic case for the future of product management",
+        "guest": "",
+        "tags": [
+          "design",
+          "ai",
+          "product-management",
+          "newsletter",
+          "leadership",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/kevin-yien.md",
+      "type": "podcast",
+      "date": "2024-08-18",
+      "word_count": 17128,
+      "source": {
+        "title": "Unorthodox PM wisdom: Automating user insights, unselling job candidates, logging every decision, more | Kevin Yien (Stripe, Square, Mutiny)",
+        "summary": "Automating user insights, unselling job candidates, logging every decision, more, covering product design, product strategy and execution, and team leadership.",
+        "subtitle": "",
+        "guest": "Kevin Yien",
+        "tags": [
+          "design",
+          "product-management",
+          "leadership",
+          "b2b",
+          "career",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 20,
+    "words": 225499
+  }
+}

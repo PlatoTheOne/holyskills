@@ -1,4 +1,12 @@
-﻿import type { DocItem, IndexFile, NormalizedData, RawIndexItem, TagCount } from "../types";
+﻿import type {
+  DocItem,
+  IndexFile,
+  NormalizedData,
+  RawIndexItem,
+  TagCount,
+  TranslationDocFields,
+  TranslationMetaFile,
+} from "../types";
 
 const basePath = (import.meta.env.BASE_URL ?? "/").replace(/\/+$/, "");
 const dataRoot = `${basePath}/data`.replace(/^$/, "/data");
@@ -7,6 +15,8 @@ const contentApi = (import.meta.env.VITE_DOC_CONTENT_API ?? "").trim().replace(/
 
 const accessTokenStorageKey = "lenny.portal.contentToken";
 const accessEmailStorageKey = "lenny.portal.accessEmail";
+
+const translationMetaCache = new Map<string, TranslationMetaFile | null>();
 
 function readStorage(key: string): string {
   if (typeof window === "undefined") {
@@ -24,6 +34,53 @@ function writeStorage(key: string, value: string): void {
     return;
   }
   localStorage.setItem(key, value);
+}
+
+function normalizeLocaleForContent(locale: string): string {
+  const normalized = String(locale ?? "").trim();
+  if (!normalized || normalized === "en") {
+    return "";
+  }
+  return normalized;
+}
+
+async function loadTranslationMeta(locale: string): Promise<TranslationMetaFile | null> {
+  const contentLocale = normalizeLocaleForContent(locale);
+  if (!contentLocale) {
+    return null;
+  }
+
+  if (translationMetaCache.has(contentLocale)) {
+    return translationMetaCache.get(contentLocale) ?? null;
+  }
+
+  try {
+    const response = await fetch(`${dataRoot}/i18n/${contentLocale}/meta.json`, { cache: "no-store" });
+    if (!response.ok) {
+      translationMetaCache.set(contentLocale, null);
+      return null;
+    }
+    const payload = (await response.json()) as TranslationMetaFile;
+    translationMetaCache.set(contentLocale, payload);
+    return payload;
+  } catch {
+    translationMetaCache.set(contentLocale, null);
+    return null;
+  }
+}
+
+function mergeDocFields(base: RawIndexItem, translated: TranslationDocFields | undefined): RawIndexItem {
+  if (!translated) {
+    return base;
+  }
+
+  return {
+    ...base,
+    title: translated.title?.trim() || base.title,
+    description: translated.summary?.trim() || base.description,
+    subtitle: translated.subtitle?.trim() || base.subtitle,
+    guest: translated.guest?.trim() || base.guest,
+  };
 }
 
 export function getDataRoot(): string {
@@ -101,15 +158,27 @@ function toDoc(item: RawIndexItem, type: "podcast" | "newsletter"): DocItem {
   };
 }
 
-export async function loadIndexData(): Promise<NormalizedData> {
+export async function loadIndexData(locale = "en"): Promise<NormalizedData> {
   const response = await fetch(`${dataRoot}/index.json`, { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`index.json load failed: ${response.status}`);
   }
   const index = (await response.json()) as IndexFile;
 
-  const podcasts = (index.podcasts ?? []).map((item) => toDoc(item, "podcast"));
-  const newsletters = (index.newsletters ?? []).map((item) => toDoc(item, "newsletter"));
+  const translationMeta = await loadTranslationMeta(locale);
+  const translationItems = translationMeta?.items ?? {};
+  const tagLabels = translationMeta?.tag_map ?? {};
+
+  const podcasts = (index.podcasts ?? []).map((item) => {
+    const translated = mergeDocFields(item, translationItems[item.filename ?? ""]);
+    return toDoc(translated, "podcast");
+  });
+
+  const newsletters = (index.newsletters ?? []).map((item) => {
+    const translated = mergeDocFields(item, translationItems[item.filename ?? ""]);
+    return toDoc(translated, "newsletter");
+  });
+
   const all = [...podcasts, ...newsletters].sort((a, b) => b.date.localeCompare(a.date));
 
   return {
@@ -118,13 +187,29 @@ export async function loadIndexData(): Promise<NormalizedData> {
     podcasts,
     newsletters,
     all,
+    tagLabels,
   };
 }
 
-export async function loadMarkdown(filename: string): Promise<string> {
+export function getTagLabel(tag: string, labels: Record<string, string>): string {
+  const translated = labels[tag];
+  if (!translated || !translated.trim()) {
+    return tag;
+  }
+  return translated;
+}
+
+export async function loadMarkdown(filename: string, locale = "en"): Promise<string> {
+  const contentLocale = normalizeLocaleForContent(locale);
+
   if (contentApi) {
     const token = readStorage(accessTokenStorageKey);
-    const response = await fetch(`${contentApi}/content?filename=${encodeURIComponent(filename)}`, {
+    const qs = new URLSearchParams({ filename });
+    if (contentLocale) {
+      qs.set("locale", contentLocale);
+    }
+
+    const response = await fetch(`${contentApi}/content?${qs.toString()}`, {
       cache: "no-store",
       headers: token
         ? {
@@ -144,6 +229,13 @@ export async function loadMarkdown(filename: string): Promise<string> {
 
   if (!isPrivateContentMode()) {
     throw new Error("content_protected");
+  }
+
+  if (contentLocale) {
+    const localizedResponse = await fetch(`${dataRoot}/i18n/${contentLocale}/docs/${filename}`, { cache: "no-store" });
+    if (localizedResponse.ok) {
+      return localizedResponse.text();
+    }
   }
 
   const response = await fetch(`${dataRoot}/${filename}`, { cache: "no-store" });

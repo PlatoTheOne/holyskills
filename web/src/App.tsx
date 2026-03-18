@@ -44,7 +44,7 @@ export default function App() {
       setLoading(true);
       setError(null);
       try {
-        const loaded = await loadIndexData();
+        const loaded = await loadIndexData(locale);
         if (alive) {
           setData(loaded);
         }
@@ -63,7 +63,7 @@ export default function App() {
     return () => {
       alive = false;
     };
-  }, []);
+  }, [locale]);
 
   return (
     <HashRouter>

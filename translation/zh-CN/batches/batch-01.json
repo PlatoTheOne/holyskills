@@ -1,0 +1,333 @@
+{
+  "locale": "zh-CN",
+  "batch": 1,
+  "docs": [
+    {
+      "filename": "podcasts/jenny-wen.md",
+      "type": "podcast",
+      "date": "2026-03-01",
+      "word_count": 15002,
+      "source": {
+        "title": "Jenny Wen",
+        "summary": "It's not just designers who are feeling like, \"Oh yeah, we have to keep up with engineers.\" I think even engineers are like, \"How do we keep up with ourselves?\", covering product design, AI product work, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Jenny Wen",
+        "tags": [
+          "design",
+          "ai",
+          "engineering",
+          "leadership",
+          "strategy",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jeetu-patel.md",
+      "type": "podcast",
+      "date": "2026-02-26",
+      "word_count": 16199,
+      "source": {
+        "title": "Jeetu Patel",
+        "summary": "And the reason we pulled this thing together, the goal was, what is happening in the industry and how can we help customers make sure that they can make the most of it, covering AI product work, team leadership, and product design.",
+        "subtitle": "",
+        "guest": "Jeetu Patel",
+        "tags": [
+          "ai",
+          "leadership",
+          "design",
+          "engineering",
+          "b2b",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/boris-cherny.md",
+      "type": "podcast",
+      "date": "2026-02-19",
+      "word_count": 19327,
+      "source": {
+        "title": "Boris Cherny",
+        "summary": "This is the world now.\" What's the next big shift to how software is written that either your team is already operating in or you think will head towards, covering engineering tradeoffs, product design, and AI product work.",
+        "subtitle": "",
+        "guest": "Boris Cherny",
+        "tags": [
+          "engineering",
+          "design",
+          "ai",
+          "leadership",
+          "go-to-market",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/brian-halligan.md",
+      "type": "podcast",
+      "date": "2026-02-15",
+      "word_count": 14630,
+      "source": {
+        "title": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
+        "summary": "Brian Halligan co-founded HubSpot, ran it as CEO for about 15 years, and now coaches Sequoia’s fastest-growing founders as their in-house CEO coach.",
+        "subtitle": "",
+        "guest": "Brian Halligan",
+        "tags": [
+          "career",
+          "leadership",
+          "startups",
+          "design",
+          "engineering",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sherwin-wu-v2.md",
+      "type": "podcast",
+      "date": "2026-02-12",
+      "word_count": 15667,
+      "source": {
+        "title": "Sherwin Wu V2",
+        "summary": "If you talk to a lot of engineers, the thing that annoys them the most is after you've written your beautiful code, how do you get it into production, covering engineering tradeoffs, AI product work, and team leadership.",
+        "subtitle": "",
+        "guest": "Sherwin Wu V2",
+        "tags": [
+          "engineering",
+          "ai",
+          "leadership",
+          "design",
+          "startups",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/lazar-jovanovic.md",
+      "type": "podcast",
+      "date": "2026-02-08",
+      "word_count": 18219,
+      "source": {
+        "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
+        "summary": "Lazar Jovanovic is a full-time professional vibe coder at Lovable. His job is to build both internal tools and customer-facing products purely using AI, while not having a coding background.",
+        "subtitle": "",
+        "guest": "Lazar Jovanovic",
+        "tags": [
+          "design",
+          "engineering",
+          "ai",
+          "leadership",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/dr-becky-kennedy.md",
+      "type": "podcast",
+      "date": "2026-02-01",
+      "word_count": 19452,
+      "source": {
+        "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+        "summary": "Working with difficult adults, covering product design, team leadership, and practical product lessons.",
+        "subtitle": "",
+        "guest": "Dr. Becky Kennedy",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "podcast",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/marc-andreessen.md",
+      "type": "podcast",
+      "date": "2026-01-29",
+      "word_count": 22735,
+      "source": {
+        "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
+        "summary": "Marc Andreessen is a founder, investor, and co-founder of Netscape, as well as co-founder of the venture capital firm Andreessen Horowitz (a16z). In this conversation, we dig into why we’re living through a unique and one of the most incredible times in history, and what comes next.",
+        "subtitle": "",
+        "guest": "Marc Andreessen",
+        "tags": [
+          "ai",
+          "design",
+          "startups",
+          "engineering",
+          "growth",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jason-cohen.md",
+      "type": "podcast",
+      "date": "2026-01-25",
+      "word_count": 21523,
+      "source": {
+        "title": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
+        "summary": "Jason’s five-step framework: logo retention, pricing, NRR, marketing channels, target market.",
+        "subtitle": "",
+        "guest": "Jason Cohen",
+        "tags": [
+          "growth",
+          "strategy",
+          "startups",
+          "design",
+          "newsletter",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/zevi-arnovitz.md",
+      "type": "podcast",
+      "date": "2026-01-18",
+      "word_count": 14839,
+      "source": {
+        "title": "The non-technical PM’s guide to building with Cursor | Zevi Arnovitz (Meta)",
+        "summary": "The complete AI workflow that lets non-technical people build real products in Cursor.",
+        "subtitle": "",
+        "guest": "Zevi Arnovitz",
+        "tags": [
+          "ai",
+          "engineering",
+          "design",
+          "product-management",
+          "newsletter",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sam-lessin.md",
+      "type": "podcast",
+      "date": "2026-01-15",
+      "word_count": 19233,
+      "source": {
+        "title": "How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook | Sam Lessin",
+        "summary": "Silicon Valley’s missing etiquette playbook, covering startup building, product design, and operator lessons.",
+        "subtitle": "",
+        "guest": "Sam Lessin",
+        "tags": [
+          "startups",
+          "design",
+          "podcast",
+          "b2c",
+          "ai",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/alexander-embiricos.md",
+      "type": "podcast",
+      "date": "2026-01-12",
+      "word_count": 17382,
+      "source": {
+        "title": "The power user’s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
+        "summary": "How to set up and use Codex in VS Code and terminal environments for both simple and complex coding tasks.",
+        "subtitle": "",
+        "guest": "Alexander Embiricos",
+        "tags": [
+          "engineering",
+          "design",
+          "ai",
+          "leadership",
+          "startups",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 12,
+    "words": 214208
+  }
+}

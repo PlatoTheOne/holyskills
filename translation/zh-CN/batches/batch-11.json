@@ -1,0 +1,572 @@
+{
+  "locale": "zh-CN",
+  "batch": 11,
+  "docs": [
+    {
+      "filename": "podcasts/tanguy-crusson.md",
+      "type": "podcast",
+      "date": "2024-06-16",
+      "word_count": 21329,
+      "source": {
+        "title": "Hard-won lessons building 0 to 1 inside Atlassian | Tanguy Crusson (Head of Jira Product Discovery)",
+        "summary": "Why large companies with so many advantages still fail at creating new products.",
+        "subtitle": "",
+        "guest": "Tanguy Crusson",
+        "tags": [
+          "design",
+          "leadership",
+          "startups",
+          "strategy",
+          "product-management",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jeffrey-pfeffer.md",
+      "type": "podcast",
+      "date": "2024-06-13",
+      "word_count": 14192,
+      "source": {
+        "title": "The paths to power: How to grow your influence and advance your career | Jeffrey Pfeffer (author of 7 Rules of Power, professor at Stanford GSB)",
+        "summary": "Grow your influence and advance your career, covering product design, career development, and startup building.",
+        "subtitle": "",
+        "guest": "Jeffrey Pfeffer",
+        "tags": [
+          "design",
+          "career",
+          "startups",
+          "b2c",
+          "leadership",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-use-perplexity-in-your-pm-work.md",
+      "type": "newsletter",
+      "date": "2024-06-11",
+      "word_count": 1439,
+      "source": {
+        "title": "How to use Perplexity in your PM work",
+        "summary": "",
+        "subtitle": "27 examples (with actual prompts) of how product managers are using the AI-powered search engine today",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "ai",
+          "leadership",
+          "strategy",
+          "design",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/uri-levine.md",
+      "type": "podcast",
+      "date": "2024-06-09",
+      "word_count": 14653,
+      "source": {
+        "title": "Lessons from a two-time unicorn builder, 50-time startup advisor, and 20-time company board member | Uri Levine (co-founder of Waze)",
+        "summary": "Lessons from a two-time unicorn builder, 50-time startup advisor, and 20-time company board member, covering startup building, product design, and career development.",
+        "subtitle": "",
+        "guest": "Uri Levine",
+        "tags": [
+          "startups",
+          "design",
+          "career",
+          "ai",
+          "b2c",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/in-defense-of-feature-team-product-managers.md",
+      "type": "newsletter",
+      "date": "2024-06-04",
+      "word_count": 3066,
+      "source": {
+        "title": "In defense of feature team product managers",
+        "summary": "",
+        "subtitle": "Why feature team PMs are real PMs",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "design",
+          "startups",
+          "strategy",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/cam-adams.md",
+      "type": "podcast",
+      "date": "2024-06-02",
+      "word_count": 11010,
+      "source": {
+        "title": "Inside Canva: Coaches not managers, giving away your Legos, and running profitably | Cameron Adams (co-founder and CPO)",
+        "summary": "Coaches not managers, giving away your Legos, and running profitably, covering team leadership, product design, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Cam Adams",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "startups",
+          "go-to-market",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/matt-dixon.md",
+      "type": "podcast",
+      "date": "2024-05-30",
+      "word_count": 12272,
+      "source": {
+        "title": "The surprising truth about what closes deals: Insights from 2.5m sales conversations | Matt Dixon (author of The Challenger Sale and The JOLT Effect)",
+        "summary": "Insights from 2.5m sales conversations, covering B2B products, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Matt Dixon",
+        "tags": [
+          "b2b",
+          "design",
+          "leadership",
+          "podcast",
+          "strategy",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off-3.md",
+      "type": "newsletter",
+      "date": "2024-05-28",
+      "word_count": 194,
+      "source": {
+        "title": "Taking the week off",
+        "summary": "",
+        "subtitle": "Back next week!",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "career",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/bangaly-kaba.md",
+      "type": "podcast",
+      "date": "2024-05-26",
+      "word_count": 20104,
+      "source": {
+        "title": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YouTube, Instagram, Facebook, Instacart)",
+        "summary": "Unorthodox frameworks for growing your product, career, and impact, covering team leadership, growth systems, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Bangaly Kaba",
+        "tags": [
+          "leadership",
+          "growth",
+          "product-management",
+          "career",
+          "design",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/on-saying-no.md",
+      "type": "newsletter",
+      "date": "2024-05-21",
+      "word_count": 3009,
+      "source": {
+        "title": "On saying no",
+        "summary": "",
+        "subtitle": "Strategies, templates, and advice on how to stay focused while still being kind",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "startups",
+          "career",
+          "podcast",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/kenneth-berger.md",
+      "type": "podcast",
+      "date": "2024-05-19",
+      "word_count": 14534,
+      "source": {
+        "title": "Why not asking for what you want is holding you back | Kenneth Berger (exec coach, first PM at Slack)",
+        "summary": "Kenneth Berger coaches startup leaders on how to prevent burnout, advocate for their desired lifestyle, and make a meaningful impact on the world. He’s spent more than 20 years in the tech industry, is a former founder backed by top investors, and was the first product manager at Slack.",
+        "subtitle": "",
+        "guest": "Kenneth Berger",
+        "tags": [
+          "leadership",
+          "strategy",
+          "product-management",
+          "startups",
+          "career",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jag-duggal.md",
+      "type": "podcast",
+      "date": "2024-05-16",
+      "word_count": 15052,
+      "source": {
+        "title": "Be fundamentally different, not incrementally better | Jag Duggal (Nubank, Facebook, Google, Quantcast)",
+        "summary": "Be fundamentally different, not incrementally better, covering product design, go-to-market execution, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Jag Duggal",
+        "tags": [
+          "design",
+          "go-to-market",
+          "strategy",
+          "leadership",
+          "growth",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-art-of-the-pivot-part-2-how-why-and-when-to-pivot.md",
+      "type": "newsletter",
+      "date": "2024-05-14",
+      "word_count": 7157,
+      "source": {
+        "title": "The art of the pivot, part 2: How, why, and when to pivot",
+        "summary": "",
+        "subtitle": "Strategies from the data for your “pivotal” decision",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "growth",
+          "go-to-market",
+          "strategy",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/vikrama-dhiman.md",
+      "type": "podcast",
+      "date": "2024-05-12",
+      "word_count": 11662,
+      "source": {
+        "title": "A framework for PM skill development | Vikrama Dhiman (Gojek)",
+        "summary": "A framework for PM skill development, covering team leadership, strategic decision-making, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Vikrama Dhiman",
+        "tags": [
+          "leadership",
+          "strategy",
+          "product-management",
+          "career",
+          "design",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-art-of-the-pivot-part-1-the-definitive-list-of-successful-pivots.md",
+      "type": "newsletter",
+      "date": "2024-05-07",
+      "word_count": 697,
+      "source": {
+        "title": "The art of the pivot, part 1: The definitive list of successful pivots",
+        "summary": "",
+        "subtitle": "Details behind 30+ pivots, including how they knew it was time to pivot, how long it took them to pivot, and much more",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "startups",
+          "b2b",
+          "career",
+          "design",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/hamilton-helmer.md",
+      "type": "podcast",
+      "date": "2024-05-05",
+      "word_count": 9650,
+      "source": {
+        "title": "Business strategy with Hamilton Helmer (author of 7 Powers)",
+        "summary": "Business strategy with Hamilton Helmer (author of 7 Powers), covering strategic decision-making, startup building, and product design.",
+        "subtitle": "",
+        "guest": "Hamilton Helmer",
+        "tags": [
+          "strategy",
+          "startups",
+          "design",
+          "go-to-market",
+          "b2b",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/annie-duke.md",
+      "type": "podcast",
+      "date": "2024-05-02",
+      "word_count": 14577,
+      "source": {
+        "title": "This will make you a better decision-maker | Annie Duke (author of “Thinking in Bets” and “Quit,” former pro poker player)",
+        "summary": "This will make you a better decision-maker, covering product design, practical product lessons, and career development.",
+        "subtitle": "",
+        "guest": "Annie Duke",
+        "tags": [
+          "design",
+          "newsletter",
+          "career",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-perplexity-builds-product.md",
+      "type": "newsletter",
+      "date": "2024-04-30",
+      "word_count": 3515,
+      "source": {
+        "title": "How Perplexity builds product",
+        "summary": "",
+        "subtitle": "Johnny Ho, co-founder and head of product, explains how he organizes his teams like slime mold, uses AI to build their AI company, and much more",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "product-management",
+          "ai",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/kayvon-beykpour.md",
+      "type": "podcast",
+      "date": "2024-04-28",
+      "word_count": 17153,
+      "source": {
+        "title": "Twitter’s former Head of Product opens up: being fired, meeting Elon, changing stagnant culture, building consumer product, more | Kayvon Beykpour",
+        "summary": "Being fired, meeting Elon, changing stagnant culture, building consumer product, more, covering team leadership, product design, and consumer products.",
+        "subtitle": "",
+        "guest": "Kayvon Beykpour",
+        "tags": [
+          "leadership",
+          "design",
+          "b2c",
+          "engineering",
+          "product-management",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/carole-robin.md",
+      "type": "podcast",
+      "date": "2024-04-25",
+      "word_count": 14273,
+      "source": {
+        "title": "How to build deeper, more robust relationships | Carole Robin (Stanford GSB professor, “Touchy Feely”)",
+        "summary": "Building deeper, more robust relationships, covering product design, team leadership, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Carole Robin",
+        "tags": [
+          "design",
+          "leadership",
+          "engineering",
+          "podcast",
+          "startups",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-make-an-impact-in-your-first-90-days.md",
+      "type": "newsletter",
+      "date": "2024-04-23",
+      "word_count": 4236,
+      "source": {
+        "title": "How to make an impact in your first 90 days",
+        "summary": "",
+        "subtitle": "25 quick wins from top leaders at Ramp, Canva, HubSpot, Wiz, Google Gemini, Dropbox, and more",
+        "guest": "",
+        "tags": [
+          "design",
+          "growth",
+          "strategy",
+          "pricing",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 21,
+    "words": 213774
+  }
+}

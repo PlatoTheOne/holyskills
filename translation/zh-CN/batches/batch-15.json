@@ -1,0 +1,465 @@
+{
+  "locale": "zh-CN",
+  "batch": 15,
+  "docs": [
+    {
+      "filename": "podcasts/ramesh-johari.md",
+      "type": "podcast",
+      "date": "2023-11-09",
+      "word_count": 15967,
+      "source": {
+        "title": "Marketplace lessons from Uber, Airbnb, Bumble, and more | Ramesh Johari (Stanford professor, startup advisor)",
+        "summary": "Marketplace lessons from Uber, Airbnb, Bumble, and more, covering strategic decision-making, product design, and measurement and analysis.",
+        "subtitle": "",
+        "guest": "Ramesh Johari",
+        "tags": [
+          "strategy",
+          "design",
+          "analytics",
+          "career",
+          "startups",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/introducing-drice-a-modern-prioritization-framework.md",
+      "type": "newsletter",
+      "date": "2023-11-07",
+      "word_count": 3063,
+      "source": {
+        "title": "Introducing DRICE: a modern prioritization framework",
+        "summary": "",
+        "subtitle": "Boost your experiment win rate and help your team drive more impact",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "engineering",
+          "design",
+          "product-management",
+          "growth",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/maggie-crowley.md",
+      "type": "podcast",
+      "date": "2023-11-05",
+      "word_count": 16867,
+      "source": {
+        "title": "Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift, Tripadvisor)",
+        "summary": "Mastering product strategy and growing as a PM, covering strategic decision-making, product strategy and execution, and team leadership.",
+        "subtitle": "",
+        "guest": "Maggie Crowley",
+        "tags": [
+          "strategy",
+          "product-management",
+          "leadership",
+          "design",
+          "startups",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/bill-carr.md",
+      "type": "podcast",
+      "date": "2023-11-02",
+      "word_count": 16217,
+      "source": {
+        "title": "Unpacking Amazon’s unique ways of working | Bill Carr (author of Working Backwards)",
+        "summary": "Unpacking Amazon’s unique ways of working, covering team leadership, measurement and analysis, and product design.",
+        "subtitle": "",
+        "guest": "Bill Carr",
+        "tags": [
+          "leadership",
+          "analytics",
+          "design",
+          "engineering",
+          "growth",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/lessons-learned-from-a-startup-that-didnt-make-it.md",
+      "type": "newsletter",
+      "date": "2023-10-31",
+      "word_count": 2450,
+      "source": {
+        "title": "Lessons learned from a startup that didn’t make it",
+        "summary": "",
+        "subtitle": "What not to do when building a B2B startup",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "leadership",
+          "design",
+          "startups",
+          "newsletter",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/eric-ries.md",
+      "type": "podcast",
+      "date": "2023-10-29",
+      "word_count": 28624,
+      "source": {
+        "title": "Reflections on a movement | Eric Ries (creator of the Lean Startup methodology)",
+        "summary": "Reflections on a movement, covering startup building, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Eric Ries",
+        "tags": [
+          "startups",
+          "design",
+          "leadership",
+          "analytics",
+          "career",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/paul-adams.md",
+      "type": "podcast",
+      "date": "2023-10-26",
+      "word_count": 15214,
+      "source": {
+        "title": "What AI means for your product strategy | Paul Adams (CPO of Intercom)",
+        "summary": "What AI means for your product strategy, covering product design, AI product work, and consumer products.",
+        "subtitle": "",
+        "guest": "Paul Adams",
+        "tags": [
+          "design",
+          "ai",
+          "b2c",
+          "leadership",
+          "strategy",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/scaling-your-b2b-growth-engine.md",
+      "type": "newsletter",
+      "date": "2023-10-24",
+      "word_count": 7243,
+      "source": {
+        "title": "Scaling your B2B growth engine",
+        "summary": "",
+        "subtitle": "Part seven of my seven-part series on kickstarting and scaling a B2B business",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "growth",
+          "newsletter",
+          "startups",
+          "design",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/gina-gotthilf.md",
+      "type": "podcast",
+      "date": "2023-10-19",
+      "word_count": 19614,
+      "source": {
+        "title": "Scaling Duolingo, embracing failure, and insight into Latin America’s tech scene | Gina Gotthilf (Latitud, Duolingo)",
+        "summary": "Scaling Duolingo, embracing failure, and insight into Latin America’s tech scene, covering startup building, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Gina Gotthilf",
+        "tags": [
+          "startups",
+          "design",
+          "growth",
+          "strategy",
+          "b2c",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-build-a-killer-sales-pitch.md",
+      "type": "newsletter",
+      "date": "2023-10-17",
+      "word_count": 3818,
+      "source": {
+        "title": "How to build a killer sales pitch",
+        "summary": "",
+        "subtitle": "And why your real competition is “no decision”",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "design",
+          "go-to-market",
+          "startups",
+          "strategy",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/katie-dill.md",
+      "type": "podcast",
+      "date": "2023-10-15",
+      "word_count": 16774,
+      "source": {
+        "title": "Building beautiful products with Stripe’s Head of Design | Katie Dill (Stripe, Airbnb, Lyft)",
+        "summary": "Building beautiful products with Stripe’s Head of Design, covering product design, team leadership, and growth systems.",
+        "subtitle": "",
+        "guest": "Katie Dill",
+        "tags": [
+          "design",
+          "leadership",
+          "growth",
+          "product-management",
+          "b2c",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jason-feifer.md",
+      "type": "podcast",
+      "date": "2023-10-12",
+      "word_count": 19559,
+      "source": {
+        "title": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
+        "summary": "Getting press for your product, covering startup building, practical product lessons, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Jason Feifer",
+        "tags": [
+          "startups",
+          "newsletter",
+          "strategy",
+          "b2b",
+          "growth",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/skipping-newsletter-today.md",
+      "type": "newsletter",
+      "date": "2023-10-10",
+      "word_count": 130,
+      "source": {
+        "title": "Skipping newsletter today",
+        "summary": "",
+        "subtitle": "Given what is happening in the world, we’ve got more important things to focus on right now",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/karri-saarinen.md",
+      "type": "podcast",
+      "date": "2023-10-08",
+      "word_count": 17615,
+      "source": {
+        "title": "Inside Linear: Building with taste, craft, and focus | Karri Saarinen (co-founder, designer, CEO)",
+        "summary": "Building with taste, craft, and focus, covering product design, team leadership, and startup building.",
+        "subtitle": "",
+        "guest": "Karri Saarinen",
+        "tags": [
+          "design",
+          "leadership",
+          "startups",
+          "go-to-market",
+          "career",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/brian-balfour.md",
+      "type": "podcast",
+      "date": "2023-10-05",
+      "word_count": 15499,
+      "source": {
+        "title": "Brian Balfour: 10 lessons on career, growth, and life",
+        "summary": "Career, growth, and life, covering AI product work, growth systems, and startup building.",
+        "subtitle": "",
+        "guest": "Brian Balfour",
+        "tags": [
+          "ai",
+          "growth",
+          "startups",
+          "design",
+          "b2c",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/hiring-your-early-team.md",
+      "type": "newsletter",
+      "date": "2023-10-03",
+      "word_count": 7624,
+      "source": {
+        "title": "Hiring your early team",
+        "summary": "",
+        "subtitle": "Part six of my seven-part series on kickstarting and scaling a B2B business",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "leadership",
+          "engineering",
+          "b2b",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/lane-shackleton.md",
+      "type": "podcast",
+      "date": "2023-10-01",
+      "word_count": 15497,
+      "source": {
+        "title": "What sets great teams apart | Lane Shackleton (CPO of Coda)",
+        "summary": "What sets great teams apart, covering product design, team leadership, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Lane Shackleton",
+        "tags": [
+          "design",
+          "leadership",
+          "product-management",
+          "career",
+          "ai",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 17,
+    "words": 221775
+  }
+}

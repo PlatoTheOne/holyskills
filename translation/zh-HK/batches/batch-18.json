@@ -1,0 +1,654 @@
+{
+  "locale": "zh-HK",
+  "batch": 18,
+  "docs": [
+    {
+      "filename": "podcasts/jeremy-henrickson.md",
+      "type": "podcast",
+      "date": "2023-06-04",
+      "word_count": 13817,
+      "source": {
+        "title": "Moving fast and navigating uncertainty | Jeremy Henrickson (Rippling, Coinbase)",
+        "summary": "Moving fast and navigating uncertainty, covering product design, team leadership, and growth systems.",
+        "subtitle": "",
+        "guest": "Jeremy Henrickson",
+        "tags": [
+          "design",
+          "leadership",
+          "growth",
+          "strategy",
+          "career",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-working-at-figma-taught-me-about-customer-obsession.md",
+      "type": "newsletter",
+      "date": "2023-06-02",
+      "word_count": 3386,
+      "source": {
+        "title": "What working at Figma taught me about customer obsession",
+        "summary": "",
+        "subtitle": "VP of Product Sho Kuwamoto on the importance of feel, service, and staying close to customers",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "b2b",
+          "b2c",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/nancy-duarte.md",
+      "type": "podcast",
+      "date": "2023-06-01",
+      "word_count": 14824,
+      "source": {
+        "title": "Storytelling with Nancy Duarte: How to craft compelling presentations and tell a story that sticks",
+        "summary": "Craft compelling presentations and tell a story that sticks, covering product design, team leadership, and B2B products.",
+        "subtitle": "",
+        "guest": "Nancy Duarte",
+        "tags": [
+          "design",
+          "leadership",
+          "b2b",
+          "startups",
+          "ai",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-notion-builds-product.md",
+      "type": "newsletter",
+      "date": "2023-05-30",
+      "word_count": 4415,
+      "source": {
+        "title": "How Notion builds product",
+        "summary": "",
+        "subtitle": "Chief Product and Technology Officer Michael Manapat on Notion’s evolving internal processes, product reviews, planning cadences, and increasing shift to synchronous communication",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "organization",
+          "product-management",
+          "newsletter",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/andy-raskin-.md",
+      "type": "podcast",
+      "date": "2023-05-28",
+      "word_count": 10688,
+      "source": {
+        "title": "The power of strategic narrative | Andy Raskin",
+        "summary": "The power of strategic narrative, covering B2B products, strategic decision-making, and product design.",
+        "subtitle": "",
+        "guest": "Andy Raskin",
+        "tags": [
+          "b2b",
+          "strategy",
+          "design",
+          "leadership",
+          "career",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-ramp-builds-product.md",
+      "type": "newsletter",
+      "date": "2023-05-23",
+      "word_count": 5393,
+      "source": {
+        "title": "How Ramp builds product",
+        "summary": "",
+        "subtitle": "Geoff Charles, VP of Product, on Ramp's unique culture of velocity, efficiency, and empowerment",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "organization",
+          "b2b",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/gustav-soderstrom.md",
+      "type": "podcast",
+      "date": "2023-05-21",
+      "word_count": 15424,
+      "source": {
+        "title": "Gustav Söderström",
+        "summary": "Next question, what's something relatively minor you've changed in your product development process that's had a tremendous impact on your team's ability to execute, covering product design, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Gustav Söderström",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "ai",
+          "career",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/scott-belsky.md",
+      "type": "podcast",
+      "date": "2023-05-18",
+      "word_count": 11345,
+      "source": {
+        "title": "Lessons on building product sense, navigating AI, optimizing the first mile, and making it through the messy middle | Scott Belsky (Adobe, Behance)",
+        "summary": "Building product sense, navigating AI, optimizing the first mile, and making it through the messy middle, covering product design, growth systems, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Scott Belsky",
+        "tags": [
+          "design",
+          "growth",
+          "strategy",
+          "leadership",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/your-startup-idea-probably-isnt-venture-scale.md",
+      "type": "newsletter",
+      "date": "2023-05-16",
+      "word_count": 2609,
+      "source": {
+        "title": "Your startup idea probably isn’t venture-scale",
+        "summary": "",
+        "subtitle": "And that’s OK",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "strategy",
+          "pricing",
+          "growth",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ayo-omojola.md",
+      "type": "podcast",
+      "date": "2023-05-14",
+      "word_count": 10202,
+      "source": {
+        "title": "Frameworks for product differentiation, team building, and thinking from first principles | Ayo Omojola (Carbon Health, Cash App)",
+        "summary": "Frameworks for product differentiation, team building, and thinking from first principles, covering product design, consumer products, and team leadership.",
+        "subtitle": "",
+        "guest": "Ayo Omojola",
+        "tags": [
+          "design",
+          "b2c",
+          "leadership",
+          "podcast",
+          "startups",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-miro-builds-product.md",
+      "type": "newsletter",
+      "date": "2023-05-09",
+      "word_count": 3681,
+      "source": {
+        "title": "How Miro builds product",
+        "summary": "",
+        "subtitle": "Varun Parmar, Chief Product Officer at Miro, shares what they've learned about OKRs, planning, design reviews, prioritization, rituals—plus tons of plug-and-play templates you can start using today",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "organization",
+          "growth",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jonathan-becker.md",
+      "type": "podcast",
+      "date": "2023-05-07",
+      "word_count": 15931,
+      "source": {
+        "title": "Mastering paid growth | Jonathan Becker (Thrive Digital)",
+        "summary": "Mastering paid growth, covering strategic decision-making, growth systems, and product design.",
+        "subtitle": "",
+        "guest": "Jonathan Becker",
+        "tags": [
+          "strategy",
+          "growth",
+          "design",
+          "ai",
+          "b2c",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/david-singleton.md",
+      "type": "podcast",
+      "date": "2023-05-04",
+      "word_count": 18045,
+      "source": {
+        "title": "Building a culture of excellence | David Singleton (CTO of Stripe)",
+        "summary": "Building a culture of excellence, covering product design, team leadership, and career development.",
+        "subtitle": "",
+        "guest": "David Singleton",
+        "tags": [
+          "design",
+          "leadership",
+          "career",
+          "engineering",
+          "podcast",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "type": "newsletter",
+      "date": "2023-05-02",
+      "word_count": 3711,
+      "source": {
+        "title": "How to do linear regression and correlation analysis",
+        "summary": "",
+        "subtitle": "Steps, methods, tools, and use cases for locating predictable user actions and improving retention",
+        "guest": "",
+        "tags": [
+          "growth",
+          "analytics",
+          "newsletter",
+          "design",
+          "ai",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/carilu-dietrich.md",
+      "type": "podcast",
+      "date": "2023-04-30",
+      "word_count": 11797,
+      "source": {
+        "title": "How to achieve hypergrowth in your business and career | Carilu Dietrich (Atlassian, Miro, Segment, 1Password)",
+        "summary": "Achieve hypergrowth in your business and career, covering career development, growth systems, and team leadership.",
+        "subtitle": "",
+        "guest": "Carilu Dietrich",
+        "tags": [
+          "career",
+          "growth",
+          "leadership",
+          "design",
+          "strategy",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-jury-duty-taught-me-about-product-management.md",
+      "type": "newsletter",
+      "date": "2023-04-25",
+      "word_count": 2176,
+      "source": {
+        "title": "What jury duty taught me about product management",
+        "summary": "",
+        "subtitle": "Unexpected parallels and hidden lessons about leadership and product management from my experience on a jury",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "organization",
+          "design",
+          "newsletter",
+          "career",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/varun-parmar.md",
+      "type": "podcast",
+      "date": "2023-04-20",
+      "word_count": 15659,
+      "source": {
+        "title": "An inside look at how Miro builds product: Lessons on outmaneuvering competitors, team structure, product quality, and moving fast | Varun Parmar (CPO of Miro)",
+        "summary": "Outmaneuvering competitors, team structure, product quality, and moving fast, covering product design, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Varun Parmar",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "engineering",
+          "b2c",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ada-chen-rekhi.md",
+      "type": "podcast",
+      "date": "2023-04-16",
+      "word_count": 15592,
+      "source": {
+        "title": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
+        "summary": "Making better decisions and building a joyful career, covering product design, strategic decision-making, and career development.",
+        "subtitle": "",
+        "guest": "Ada Chen Rekhi",
+        "tags": [
+          "design",
+          "strategy",
+          "career",
+          "leadership",
+          "startups",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/laura-modi.md",
+      "type": "podcast",
+      "date": "2023-04-13",
+      "word_count": 11056,
+      "source": {
+        "title": "How to build a cult-like brand | Laura Modi (Bobbie)",
+        "summary": "Building a cult-like brand, covering product design, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Laura Modi",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "career",
+          "growth",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-use-chatgpt-in-your-pm-work.md",
+      "type": "newsletter",
+      "date": "2023-04-11",
+      "word_count": 1017,
+      "source": {
+        "title": "How to use ChatGPT in your PM work",
+        "summary": "",
+        "subtitle": "Real-life examples (and actual prompts) of how PMs are already using ChatGPT day-to-day",
+        "guest": "",
+        "tags": [
+          "ai",
+          "newsletter",
+          "product-management",
+          "design",
+          "engineering",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/shweta-shriva.md",
+      "type": "podcast",
+      "date": "2023-04-09",
+      "word_count": 7777,
+      "source": {
+        "title": "Product lessons from Waymo | Shweta Shrivastava (Waymo, Amazon, Cisco)",
+        "summary": "Product lessons from Waymo, covering product design, product strategy and execution, and team leadership.",
+        "subtitle": "",
+        "guest": "Shweta Shriva",
+        "tags": [
+          "design",
+          "product-management",
+          "leadership",
+          "podcast",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/nikita-miller.md",
+      "type": "podcast",
+      "date": "2023-04-06",
+      "word_count": 11250,
+      "source": {
+        "title": "Driving alignment and urgency within teams, work-life balance, and the changing PM landscape | Nikita Miller (The Knot, Trello)",
+        "summary": "Driving alignment and urgency within teams, work-life balance, and the changing PM landscape, covering team leadership, product design, and cross-functional alignment.",
+        "subtitle": "",
+        "guest": "Nikita Miller",
+        "tags": [
+          "leadership",
+          "design",
+          "organization",
+          "product-management",
+          "strategy",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off.md",
+      "type": "newsletter",
+      "date": "2023-04-04",
+      "word_count": 195,
+      "source": {
+        "title": "Taking the week off",
+        "summary": "",
+        "subtitle": "Back next week!",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/hila-qu.md",
+      "type": "podcast",
+      "date": "2023-04-02",
+      "word_count": 15746,
+      "source": {
+        "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+        "summary": "Adding a PLG motion, covering B2B products, growth systems, and team leadership.",
+        "subtitle": "",
+        "guest": "Hila Qu",
+        "tags": [
+          "b2b",
+          "growth",
+          "leadership",
+          "design",
+          "podcast",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 24,
+    "words": 225736
+  }
+}

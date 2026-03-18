@@ -1,0 +1,550 @@
+{
+  "locale": "zh-CN",
+  "batch": 16,
+  "docs": [
+    {
+      "filename": "podcasts/maya-prohovnik.md",
+      "type": "podcast",
+      "date": "2023-09-28",
+      "word_count": 15123,
+      "source": {
+        "title": "Building Anchor, selling to Spotify, and lessons learned | Maya Prohovnik (Spotify’s Head of Podcast Product)",
+        "summary": "Building Anchor, selling to Spotify, and lessons learned, covering team leadership, product design, and consumer products.",
+        "subtitle": "",
+        "guest": "Maya Prohovnik",
+        "tags": [
+          "leadership",
+          "design",
+          "b2c",
+          "podcast",
+          "strategy",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-linear-builds-product.md",
+      "type": "newsletter",
+      "date": "2023-09-26",
+      "word_count": 3533,
+      "source": {
+        "title": "How Linear builds product",
+        "summary": "",
+        "subtitle": "Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "engineering",
+          "organization",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/nilan-peiris.md",
+      "type": "podcast",
+      "date": "2023-09-24",
+      "word_count": 14177,
+      "source": {
+        "title": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
+        "summary": "Driving word of mouth, covering product design, strategic decision-making, and growth systems.",
+        "subtitle": "",
+        "guest": "Nilan Peiris",
+        "tags": [
+          "design",
+          "strategy",
+          "growth",
+          "leadership",
+          "b2b",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/itamar-gilad.md",
+      "type": "podcast",
+      "date": "2023-09-21",
+      "word_count": 13147,
+      "source": {
+        "title": "Becoming evidence-guided | Itamar Gilad (Gmail, YouTube, Microsoft)",
+        "summary": "Becoming evidence-guided, covering product design, team leadership, and consumer products.",
+        "subtitle": "",
+        "guest": "Itamar Gilad",
+        "tags": [
+          "design",
+          "leadership",
+          "b2c",
+          "career",
+          "startups",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-magic-loop.md",
+      "type": "newsletter",
+      "date": "2023-09-19",
+      "word_count": 5137,
+      "source": {
+        "title": "The Magic Loop",
+        "summary": "",
+        "subtitle": "A framework for rapid career growth",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "career",
+          "design",
+          "growth",
+          "engineering",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/christopher-lochhead.md",
+      "type": "podcast",
+      "date": "2023-09-17",
+      "word_count": 16366,
+      "source": {
+        "title": "How to become a category pirate | Christopher Lochhead (author of Play Bigger, Niche Down, Category Pirates, more)",
+        "summary": "Becoming a category pirate, covering strategic decision-making, product design, and consumer products.",
+        "subtitle": "",
+        "guest": "Christopher Lochhead",
+        "tags": [
+          "strategy",
+          "design",
+          "b2c",
+          "startups",
+          "leadership",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/oji-udezue.md",
+      "type": "podcast",
+      "date": "2023-09-14",
+      "word_count": 13130,
+      "source": {
+        "title": "Picking sharp problems, increasing virality, and unique product frameworks | Oji Udezue (Typeform, Twitter, Calendly, Atlassian)",
+        "summary": "Picking sharp problems, increasing virality, and unique product frameworks, covering B2B products, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Oji Udezue",
+        "tags": [
+          "b2b",
+          "design",
+          "growth",
+          "startups",
+          "strategy",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-guide-for-finding-product-market-fit-in-b2b.md",
+      "type": "newsletter",
+      "date": "2023-09-12",
+      "word_count": 8028,
+      "source": {
+        "title": "A guide for finding product-market fit in B2B",
+        "summary": "",
+        "subtitle": "Part five of my seven-part series on kickstarting and scaling a B2B business",
+        "guest": "",
+        "tags": [
+          "startups",
+          "strategy",
+          "design",
+          "b2b",
+          "newsletter",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/500000-ten-lessons-learned-from-building-this-newsletter.md",
+      "type": "newsletter",
+      "date": "2023-09-11",
+      "word_count": 2527,
+      "source": {
+        "title": "500,000",
+        "summary": "",
+        "subtitle": "Ten lessons learned from building this newsletter",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "design",
+          "career",
+          "growth",
+          "leadership",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/andy-johns.md",
+      "type": "podcast",
+      "date": "2023-09-10",
+      "word_count": 12718,
+      "source": {
+        "title": "When enough is enough | Andy Johns (ex-FB, Twitter, Quora)",
+        "summary": "When enough is enough, covering career development, product design, and startup building.",
+        "subtitle": "",
+        "guest": "Andy Johns",
+        "tags": [
+          "career",
+          "design",
+          "startups",
+          "growth",
+          "podcast",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/claire-butler.md",
+      "type": "podcast",
+      "date": "2023-09-07",
+      "word_count": 19921,
+      "source": {
+        "title": "An inside look at Figma’s unique GTM motion | Claire Butler (first GTM hire)",
+        "summary": "An inside look at Figma’s unique GTM motion, covering product design, go-to-market execution, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Claire Butler",
+        "tags": [
+          "design",
+          "go-to-market",
+          "strategy",
+          "b2c",
+          "growth",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-find-and-win-your-first-10-b2b-customers.md",
+      "type": "newsletter",
+      "date": "2023-09-05",
+      "word_count": 6657,
+      "source": {
+        "title": "How to find and win your first 10 B2B customers",
+        "summary": "",
+        "subtitle": "Part four of my seven-part series on kickstarting and scaling a B2B business",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "b2b",
+          "newsletter",
+          "leadership",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/tim-holley.md",
+      "type": "podcast",
+      "date": "2023-09-03",
+      "word_count": 13338,
+      "source": {
+        "title": "Inside Etsy’s product, growth, and marketplace evolution | Tim Holley (VP of Product)",
+        "summary": "Inside Etsy’s product, growth, and marketplace evolution, covering product design, B2B products, and team leadership.",
+        "subtitle": "",
+        "guest": "Tim Holley",
+        "tags": [
+          "design",
+          "b2b",
+          "leadership",
+          "strategy",
+          "go-to-market",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-identify-your-ideal-customer-profile-icp.md",
+      "type": "newsletter",
+      "date": "2023-08-29",
+      "word_count": 6612,
+      "source": {
+        "title": "How to identify your ideal customer profile (ICP)",
+        "summary": "",
+        "subtitle": "Part three of my seven-part series on kickstarting and scaling a B2B business",
+        "guest": "",
+        "tags": [
+          "startups",
+          "b2b",
+          "leadership",
+          "design",
+          "engineering",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/meltem-kuran.md",
+      "type": "podcast",
+      "date": "2023-08-27",
+      "word_count": 14831,
+      "source": {
+        "title": "An inside look at Deel’s unprecedented growth | Meltem Kuran Berkowitz (Head of Growth)",
+        "summary": "An inside look at Deel’s unprecedented growth, covering growth systems, team leadership, and consumer products.",
+        "subtitle": "",
+        "guest": "Meltem Kuran",
+        "tags": [
+          "growth",
+          "leadership",
+          "b2c",
+          "career",
+          "design",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/bob-moesta.md",
+      "type": "podcast",
+      "date": "2023-08-24",
+      "word_count": 13955,
+      "source": {
+        "title": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+        "summary": "A guide to JTBD, covering product design, B2B products, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Bob Moesta",
+        "tags": [
+          "design",
+          "b2b",
+          "product-management",
+          "startups",
+          "podcast",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-hire-your-first-growth-team.md",
+      "type": "newsletter",
+      "date": "2023-08-22",
+      "word_count": 3884,
+      "source": {
+        "title": "How to hire your first growth team",
+        "summary": "",
+        "subtitle": "Practical advice from 12 world-class growth experts, including Lauryn Isford, Casey Winters, Melissa Tan, Adam Fishman, Laura Schaffer, John Egan, Hila Qu, Adam Grenier, and Ben Williams",
+        "guest": "",
+        "tags": [
+          "growth",
+          "leadership",
+          "design",
+          "startups",
+          "strategy",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/camille-hearst.md",
+      "type": "podcast",
+      "date": "2023-08-20",
+      "word_count": 11815,
+      "source": {
+        "title": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
+        "summary": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet, covering consumer products, pricing decisions, and product design.",
+        "subtitle": "",
+        "guest": "Camille Hearst",
+        "tags": [
+          "b2c",
+          "pricing",
+          "design",
+          "strategy",
+          "podcast",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-validate-your-b2b-startup-idea.md",
+      "type": "newsletter",
+      "date": "2023-08-15",
+      "word_count": 8504,
+      "source": {
+        "title": "How to validate your B2B startup idea",
+        "summary": "",
+        "subtitle": "Part two of my seven-part series on how to kickstart and scale a B2B business",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "b2b",
+          "newsletter",
+          "career",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/austin-hay.md",
+      "type": "podcast",
+      "date": "2023-08-13",
+      "word_count": 17002,
+      "source": {
+        "title": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+        "summary": "Martech, covering growth systems, strategic decision-making, and product design.",
+        "subtitle": "",
+        "guest": "Austin Hay",
+        "tags": [
+          "growth",
+          "strategy",
+          "design",
+          "leadership",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 20,
+    "words": 220405
+  }
+}

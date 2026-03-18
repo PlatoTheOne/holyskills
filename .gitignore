@@ -2,6 +2,8 @@ lennys-newsletterpodcastdata-all/
 web/public/data/*
 !web/public/data/index.json
 !web/public/data/search-index.json
+!web/public/data/i18n/
+!web/public/data/i18n/**
 task_plan.md
 findings.md
 progress.md

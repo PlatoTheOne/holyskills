@@ -1,0 +1,631 @@
+{
+  "locale": "zh-CN",
+  "batch": 8,
+  "docs": [
+    {
+      "filename": "podcasts/marc-benioff.md",
+      "type": "podcast",
+      "date": "2024-12-22",
+      "word_count": 10741,
+      "source": {
+        "title": "Behind the founder: Marc Benioff",
+        "summary": "Number two is I need to find more fuel in the company to fuel this idea because this is clearly a breakthrough product, so how do I get everyone focused on it, covering B2B products, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Marc Benioff",
+        "tags": [
+          "b2b",
+          "design",
+          "leadership",
+          "ai",
+          "strategy",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/farhan-thawar.md",
+      "type": "podcast",
+      "date": "2024-12-19",
+      "word_count": 22297,
+      "source": {
+        "title": "How Shopify builds a high-intensity culture | Farhan Thawar (VP and Head of Eng)",
+        "summary": "How Shopify builds a high-intensity culture, covering product design, engineering tradeoffs, and career development.",
+        "subtitle": "",
+        "guest": "Farhan Thawar",
+        "tags": [
+          "design",
+          "engineering",
+          "career",
+          "leadership",
+          "strategy",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-best-of-lennys-newsletter-2024-edition.md",
+      "type": "newsletter",
+      "date": "2024-12-17",
+      "word_count": 2128,
+      "source": {
+        "title": "The Best of Lenny’s Newsletter—2024 Edition",
+        "summary": "",
+        "subtitle": "My all-time best posts and podcast episodes, categorized by the problem you need solved",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "growth",
+          "design",
+          "leadership",
+          "career",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jackson-shuttleworth.md",
+      "type": "podcast",
+      "date": "2024-12-15",
+      "word_count": 17702,
+      "source": {
+        "title": "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention Team)",
+        "summary": "Duolingo streaks, covering growth systems, product design, and measurement and analysis.",
+        "subtitle": "",
+        "guest": "Jackson Shuttleworth",
+        "tags": [
+          "growth",
+          "design",
+          "analytics",
+          "leadership",
+          "go-to-market",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/which-companies-accelerate-pm-careers-most.md",
+      "type": "newsletter",
+      "date": "2024-12-10",
+      "word_count": 2219,
+      "source": {
+        "title": "Which companies accelerate PM careers most",
+        "summary": "",
+        "subtitle": "A first-ever deep dive into the impact 50+ companies have had on alumni trajectories",
+        "guest": "",
+        "tags": [
+          "career",
+          "design",
+          "startups",
+          "product-management",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/seth-godin.md",
+      "type": "podcast",
+      "date": "2024-12-08",
+      "word_count": 8572,
+      "source": {
+        "title": "Seth Godin's best tactics for building remarkable products, strategies, brands and more",
+        "summary": "Seth Godin's best tactics for building remarkable products, strategies, brands and more, covering product design, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Seth Godin",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "product-management",
+          "engineering",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jonathan-lowenhar.md",
+      "type": "podcast",
+      "date": "2024-12-05",
+      "word_count": 16945,
+      "source": {
+        "title": "How a great founder becomes a great CEO | Jonathan Lowenhar (co-founder of Enjoy The Work)",
+        "summary": "How a great founder becomes a great CEO, covering startup building, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Jonathan Lowenhar",
+        "tags": [
+          "startups",
+          "design",
+          "leadership",
+          "strategy",
+          "engineering",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-givedirectly-increased-donations-by-over-3-millionyear-through-experimentati.md",
+      "type": "newsletter",
+      "date": "2024-12-03",
+      "word_count": 3474,
+      "source": {
+        "title": "How GiveDirectly increased donations by over $3 million/year through experimentation",
+        "summary": "",
+        "subtitle": "Wins, misses, and lessons from GiveDirectly’s donation-optimizing journey",
+        "guest": "",
+        "tags": [
+          "design",
+          "strategy",
+          "analytics",
+          "growth",
+          "leadership",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/lennys-newsletter-holiday-gift-guide-2024.md",
+      "type": "newsletter",
+      "date": "2024-11-26",
+      "word_count": 3155,
+      "source": {
+        "title": "Lenny’s Newsletter holiday gift guide 2024",
+        "summary": "",
+        "subtitle": "Art, gadgets, household items, health and wellness ideas, kids’ stuff, and more",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "leadership",
+          "engineering",
+          "ai",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/amjad-masad.md",
+      "type": "podcast",
+      "date": "2024-11-21",
+      "word_count": 10137,
+      "source": {
+        "title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
+        "summary": "Behind the product: Replit, covering product design, AI product work, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Amjad Masad",
+        "tags": [
+          "design",
+          "ai",
+          "engineering",
+          "leadership",
+          "product-management",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-become-a-supermanager-with-ai.md",
+      "type": "newsletter",
+      "date": "2024-11-19",
+      "word_count": 3832,
+      "source": {
+        "title": "How to become a supermanager with AI",
+        "summary": "",
+        "subtitle": "AI is ushering in an era of “super ICs.” What about managers?",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "ai",
+          "design",
+          "product-management",
+          "strategy",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/raaz-herzberg.md",
+      "type": "podcast",
+      "date": "2024-11-17",
+      "word_count": 12260,
+      "source": {
+        "title": "Building Wiz: the fastest-growing startup in history | Raaz Herzberg (CMO and VP Product Strategy)",
+        "summary": "The fastest-growing startup in history, covering product design, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Raaz Herzberg",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "startups",
+          "product-management",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/product-manager-is-an-unfair-role-so-work-unfairly.md",
+      "type": "newsletter",
+      "date": "2024-11-12",
+      "word_count": 4240,
+      "source": {
+        "title": "Product manager is an unfair role. So work unfairly.",
+        "summary": "",
+        "subtitle": "How to thrive in “the great flattening” by redefining work norms",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "newsletter",
+          "organization",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/archie-abrams.md",
+      "type": "podcast",
+      "date": "2024-11-07",
+      "word_count": 13940,
+      "source": {
+        "title": "Breaking the rules of growth: Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision | Archie Abrams (VP Product, Head of Growth at Shopify)",
+        "summary": "Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision, covering measurement and analysis, growth systems, and product design.",
+        "subtitle": "",
+        "guest": "Archie Abrams",
+        "tags": [
+          "analytics",
+          "growth",
+          "design",
+          "pricing",
+          "strategy",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/on-being-funny-at-work.md",
+      "type": "newsletter",
+      "date": "2024-11-05",
+      "word_count": 5438,
+      "source": {
+        "title": "On being funny at work",
+        "summary": "",
+        "subtitle": "Seven strategies (and some stories) to help you harness the power of humor",
+        "guest": "",
+        "tags": [
+          "design",
+          "strategy",
+          "newsletter",
+          "career",
+          "go-to-market",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/shreyas-doshi-live.md",
+      "type": "podcast",
+      "date": "2024-10-31",
+      "word_count": 7124,
+      "source": {
+        "title": "Shreyas Doshi Live",
+        "summary": "How is it doing?\" And you want to be able to say, you are the PM leader, you want to be able to say something smart, and something that makes you look competent, covering cross-functional alignment, product design, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Shreyas Doshi Live",
+        "tags": [
+          "organization",
+          "design",
+          "product-management",
+          "b2b",
+          "career",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/shreyas-doshi.md",
+      "type": "podcast",
+      "date": "2024-10-31",
+      "word_count": 14194,
+      "source": {
+        "title": "4 questions Shreyas Doshi wishes he’d asked himself sooner | Former PM leader at Stripe, Twitter, Google",
+        "summary": "4 questions Shreyas Doshi wishes he’d asked himself sooner, covering team leadership, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Shreyas Doshi",
+        "tags": [
+          "leadership",
+          "design",
+          "engineering",
+          "product-management",
+          "b2b",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "type": "newsletter",
+      "date": "2024-10-29",
+      "word_count": 3428,
+      "source": {
+        "title": "Five proven prompt engineering techniques (and a few more-advanced tactics)",
+        "summary": "",
+        "subtitle": "How to get exactly what you want when working with AI",
+        "guest": "",
+        "tags": [
+          "ai",
+          "engineering",
+          "design",
+          "leadership",
+          "product-management",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/naomi-gleit.md",
+      "type": "podcast",
+      "date": "2024-10-27",
+      "word_count": 18004,
+      "source": {
+        "title": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
+        "summary": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more, covering product strategy and execution, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Naomi Gleit",
+        "tags": [
+          "product-management",
+          "leadership",
+          "strategy",
+          "design",
+          "career",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-much-do-us-product-managers-really-make.md",
+      "type": "newsletter",
+      "date": "2024-10-22",
+      "word_count": 2863,
+      "source": {
+        "title": "How much do U.S. product managers really make?",
+        "summary": "",
+        "subtitle": "The rise of ICs, the unexpected salary dip for managers, why salary only moderately impacts satisfaction, and more revealing insights from our recent compensation survey.",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "newsletter",
+          "product-management",
+          "career",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jessica-hische.md",
+      "type": "podcast",
+      "date": "2024-10-20",
+      "word_count": 14730,
+      "source": {
+        "title": "How to see like a designer: The hidden power of typography and logos | Jessica Hische (Lettering Artist, Author)",
+        "summary": "The hidden power of typography and logos, covering product design, team leadership, and go-to-market execution.",
+        "subtitle": "",
+        "guest": "Jessica Hische",
+        "tags": [
+          "design",
+          "leadership",
+          "go-to-market",
+          "newsletter",
+          "strategy",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/anneka-gupta.md",
+      "type": "podcast",
+      "date": "2024-10-17",
+      "word_count": 12996,
+      "source": {
+        "title": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
+        "summary": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more, covering startup building, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Anneka Gupta",
+        "tags": [
+          "startups",
+          "leadership",
+          "strategy",
+          "design",
+          "career",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/why-no-productivity-hack-will-solve-your-overwhelm.md",
+      "type": "newsletter",
+      "date": "2024-10-15",
+      "word_count": 5161,
+      "source": {
+        "title": "Why no productivity hack will solve your overwhelm",
+        "summary": "",
+        "subtitle": "How the Internal Family Systems model can help you listen to your inner wisdom and get unstuck",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "startups",
+          "career",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 23,
+    "words": 215580
+  }
+}

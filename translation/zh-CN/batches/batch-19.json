@@ -1,0 +1,604 @@
+{
+  "locale": "zh-CN",
+  "batch": 19,
+  "docs": [
+    {
+      "filename": "newsletters/product-led-marketing.md",
+      "type": "newsletter",
+      "date": "2023-03-28",
+      "word_count": 3482,
+      "source": {
+        "title": "Product-led marketing",
+        "summary": "",
+        "subtitle": "How to get traffic and users for your product at a near-$0 CAC",
+        "guest": "",
+        "tags": [
+          "design",
+          "growth",
+          "strategy",
+          "b2b",
+          "newsletter",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/kevin-aluwi.md",
+      "type": "podcast",
+      "date": "2023-03-26",
+      "word_count": 9648,
+      "source": {
+        "title": "Taxi mafias, cash vaults, and 100% MoM growth: The story behind Southeast Asia’s biggest startup | Kevin Aluwi (Gojek)",
+        "summary": "The story behind Southeast Asia’s biggest startup, covering product design, growth systems, and startup building.",
+        "subtitle": "",
+        "guest": "Kevin Aluwi",
+        "tags": [
+          "design",
+          "growth",
+          "startups",
+          "b2c",
+          "go-to-market",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/lulu-cheng-meservey.md",
+      "type": "podcast",
+      "date": "2023-03-23",
+      "word_count": 11383,
+      "source": {
+        "title": "Navigating comms and PR | Lulu Cheng Meservey (Substack, Activision Blizzard)",
+        "summary": "Navigating comms and PR, covering product design, startup building, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Lulu Cheng Meservey",
+        "tags": [
+          "design",
+          "startups",
+          "strategy",
+          "go-to-market",
+          "podcast",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-duolingo-builds-product.md",
+      "type": "newsletter",
+      "date": "2023-03-21",
+      "word_count": 4446,
+      "source": {
+        "title": "How Duolingo builds product",
+        "summary": "",
+        "subtitle": "Cem Kansu on Duolingo’s unique team structure, steady planning cadence, design review process, OKR templates, team rituals, and more",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "growth",
+          "organization",
+          "product-management",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/josh-miller.md",
+      "type": "podcast",
+      "date": "2023-03-19",
+      "word_count": 15885,
+      "source": {
+        "title": "Competing with giants: An inside look at how The Browser Company builds product | Josh Miller (CEO)",
+        "summary": "Josh Miller is the CEO and co-founder of The Browser Company, where he helped build Arc, my go-to web browser. In today’s episode, we get an inside look at the unique structure and values of The Browser Company and how their company culture has helped them land some of the best talent in tech.",
+        "subtitle": "",
+        "guest": "Josh Miller",
+        "tags": [
+          "growth",
+          "design",
+          "analytics",
+          "leadership",
+          "career",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/christina-wodtke.md",
+      "type": "podcast",
+      "date": "2023-03-16",
+      "word_count": 14831,
+      "source": {
+        "title": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
+        "summary": "OKRs, covering product design, strategic decision-making, and practical product lessons.",
+        "subtitle": "",
+        "guest": "Christina Wodtke",
+        "tags": [
+          "design",
+          "strategy",
+          "newsletter",
+          "product-management",
+          "growth",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/growth-ideas.md",
+      "type": "newsletter",
+      "date": "2023-03-14",
+      "word_count": 1568,
+      "source": {
+        "title": "Growth ideas",
+        "summary": "",
+        "subtitle": "A long and growing list of ideas to inspire your team’s thinking on increasing top-of-funnel, monetization, conversion, retention, and velocity",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "design",
+          "growth",
+          "b2b",
+          "go-to-market",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sriram-and-aarthi.md",
+      "type": "podcast",
+      "date": "2023-03-12",
+      "word_count": 17789,
+      "source": {
+        "title": "Hot takes and techno-optimism from tech’s top power couple | Sriram and Aarthi",
+        "summary": "Hot takes and techno-optimism from tech’s top power couple, covering growth systems, consumer products, and product design.",
+        "subtitle": "",
+        "guest": "Sriram and Aarthi",
+        "tags": [
+          "growth",
+          "b2c",
+          "design",
+          "startups",
+          "strategy",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/laura-schaffer.md",
+      "type": "podcast",
+      "date": "2023-03-09",
+      "word_count": 15348,
+      "source": {
+        "title": "Career frameworks, A/B testing mistakes, counterintuitive onboarding tips, selling to developers | Laura Schaffer (VP of Growth at Amplitude)",
+        "summary": "Career frameworks, A/B testing mistakes, counterintuitive onboarding tips, selling to developers, covering team leadership, growth systems, and career development.",
+        "subtitle": "",
+        "guest": "Laura Schaffer",
+        "tags": [
+          "leadership",
+          "growth",
+          "career",
+          "design",
+          "engineering",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/claire-hughes-johnson.md",
+      "type": "podcast",
+      "date": "2023-03-05",
+      "word_count": 15194,
+      "source": {
+        "title": "Lessons from scaling Stripe | Claire Hughes Johnson (former COO of Stripe)",
+        "summary": "Lessons from scaling Stripe, covering product design, team leadership, and career development.",
+        "subtitle": "",
+        "guest": "Claire Hughes Johnson",
+        "tags": [
+          "design",
+          "leadership",
+          "career",
+          "b2b",
+          "newsletter",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/gustaf-alstromer.md",
+      "type": "podcast",
+      "date": "2023-03-02",
+      "word_count": 16936,
+      "source": {
+        "title": "Gustaf Alstromer",
+        "summary": "It's sort of like when you ask a founder the question, \"How are things going?\", it's so emotional for them to answer that question because it's never going well, right, covering startup building, career development, and product design.",
+        "subtitle": "",
+        "guest": "Gustaf Alstromer",
+        "tags": [
+          "startups",
+          "career",
+          "design",
+          "leadership",
+          "strategy",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-duolingo-reignited-user-growth.md",
+      "type": "newsletter",
+      "date": "2023-02-28",
+      "word_count": 4812,
+      "source": {
+        "title": "How Duolingo reignited user growth",
+        "summary": "",
+        "subtitle": "The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model",
+        "guest": "",
+        "tags": [
+          "growth",
+          "leadership",
+          "design",
+          "newsletter",
+          "strategy",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/annie-pearl.md",
+      "type": "podcast",
+      "date": "2023-02-26",
+      "word_count": 12846,
+      "source": {
+        "title": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
+        "summary": "Behind the scenes of Calendly’s rapid growth, covering product strategy and execution, team leadership, and product design.",
+        "subtitle": "",
+        "guest": "Annie Pearl",
+        "tags": [
+          "product-management",
+          "leadership",
+          "design",
+          "strategy",
+          "growth",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/upasna-gautam.md",
+      "type": "podcast",
+      "date": "2023-02-23",
+      "word_count": 10348,
+      "source": {
+        "title": "An inside look at how CNN builds product | Upasna Gautam",
+        "summary": "An inside look at how CNN builds product, covering product design, team leadership, and product strategy and execution.",
+        "subtitle": "",
+        "guest": "Upasna Gautam",
+        "tags": [
+          "design",
+          "leadership",
+          "product-management",
+          "podcast",
+          "b2b",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-be-prepared-for-layoffs.md",
+      "type": "newsletter",
+      "date": "2023-02-21",
+      "word_count": 1545,
+      "source": {
+        "title": "How to be prepared for layoffs",
+        "summary": "",
+        "subtitle": "What you can do today to avoid getting caught off guard in case layoffs come for you",
+        "guest": "",
+        "tags": [
+          "career",
+          "design",
+          "newsletter",
+          "b2b",
+          "b2c",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/patrick-campbell.md",
+      "type": "podcast",
+      "date": "2023-02-19",
+      "word_count": 15216,
+      "source": {
+        "title": "10 lessons on bootstrapping a $200m business | Patrick Campbell (ProfitWell)",
+        "summary": "Bootstrapping a $200m business, covering team leadership, product design, and startup building.",
+        "subtitle": "",
+        "guest": "Patrick Campbell",
+        "tags": [
+          "leadership",
+          "design",
+          "startups",
+          "career",
+          "organization",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/christine-itwaru.md",
+      "type": "podcast",
+      "date": "2023-02-16",
+      "word_count": 12960,
+      "source": {
+        "title": "Understanding the role of product ops | Christine Itwaru (Pendo)",
+        "summary": "Understanding the role of product ops, covering team leadership, product strategy and execution, and growth systems.",
+        "subtitle": "",
+        "guest": "Christine Itwaru",
+        "tags": [
+          "leadership",
+          "product-management",
+          "growth",
+          "strategy",
+          "b2b",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/growth-inflections.md",
+      "type": "newsletter",
+      "date": "2023-02-14",
+      "word_count": 4801,
+      "source": {
+        "title": "Growth inflections",
+        "summary": "",
+        "subtitle": "Stories behind growth unlocks for Figma, Facebook, Airbnb, YouTube, Tinder, DoorDash, and others",
+        "guest": "",
+        "tags": [
+          "growth",
+          "go-to-market",
+          "design",
+          "strategy",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/lauryn-isford.md",
+      "type": "podcast",
+      "date": "2023-02-12",
+      "word_count": 11414,
+      "source": {
+        "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+        "summary": "Mastering onboarding, covering growth systems, measurement and analysis, and team leadership.",
+        "subtitle": "",
+        "guest": "Lauryn Isford",
+        "tags": [
+          "growth",
+          "analytics",
+          "leadership",
+          "design",
+          "b2c",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/keith-yandell.md",
+      "type": "podcast",
+      "date": "2023-02-09",
+      "word_count": 11554,
+      "source": {
+        "title": "Leading with empathy | Keith Yandell (DoorDash, Uber)",
+        "summary": "Leading with empathy, covering team leadership, startup building, and career development.",
+        "subtitle": "",
+        "guest": "Keith Yandell",
+        "tags": [
+          "leadership",
+          "startups",
+          "career",
+          "design",
+          "podcast",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "type": "newsletter",
+      "date": "2023-02-07",
+      "word_count": 4647,
+      "source": {
+        "title": "I built a Lenny chatbot using GPT-3. Here’s how to build your own.",
+        "summary": "",
+        "subtitle": "A step-by-step guide to building an AI chatbot",
+        "guest": "",
+        "tags": [
+          "ai",
+          "design",
+          "newsletter",
+          "b2c",
+          "startups",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/marily-nika.md",
+      "type": "podcast",
+      "date": "2023-02-05",
+      "word_count": 9465,
+      "source": {
+        "title": "AI and product management | Marily Nika (Meta, Google)",
+        "summary": "AI and product management, covering AI product work, product design, and measurement and analysis.",
+        "subtitle": "",
+        "guest": "Marily Nika",
+        "tags": [
+          "ai",
+          "design",
+          "analytics",
+          "leadership",
+          "product-management",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 22,
+    "words": 226118
+  }
+}

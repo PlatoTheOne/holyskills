@@ -1,0 +1,518 @@
+{
+  "locale": "zh-CN",
+  "batch": 12,
+  "docs": [
+    {
+      "filename": "podcasts/mihika-kapoor.md",
+      "type": "podcast",
+      "date": "2024-04-21",
+      "word_count": 18312,
+      "source": {
+        "title": "Vision, conviction, and hype: How to build 0 to 1 inside a company | Mihika Kapoor (Product at Figma)",
+        "summary": "Building 0 to 1 inside a company, covering product design, team leadership, and strategic decision-making.",
+        "subtitle": "",
+        "guest": "Mihika Kapoor",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "product-management",
+          "engineering",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/dalton-caldwell.md",
+      "type": "podcast",
+      "date": "2024-04-18",
+      "word_count": 15463,
+      "source": {
+        "title": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
+        "summary": "Resilience, tar pit ideas, pivoting, more, covering startup building, product design, and measurement and analysis.",
+        "subtitle": "",
+        "guest": "Dalton Caldwell",
+        "tags": [
+          "startups",
+          "design",
+          "analytics",
+          "career",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "type": "newsletter",
+      "date": "2024-04-16",
+      "word_count": 4370,
+      "source": {
+        "title": "How to accelerate growth by focusing on the features you already have",
+        "summary": "",
+        "subtitle": "Introducing the ARIA framework",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "analytics",
+          "leadership",
+          "b2b",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/todd-jackson.md",
+      "type": "podcast",
+      "date": "2024-04-11",
+      "word_count": 17233,
+      "source": {
+        "title": "A framework for finding product-market fit | Todd Jackson (First Round Capital)",
+        "summary": "A framework for finding product-market fit, covering startup building, strategic decision-making, and B2B products.",
+        "subtitle": "",
+        "guest": "Todd Jackson",
+        "tags": [
+          "startups",
+          "strategy",
+          "b2b",
+          "design",
+          "leadership",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-ai-will-impact-product-management.md",
+      "type": "newsletter",
+      "date": "2024-04-09",
+      "word_count": 3134,
+      "source": {
+        "title": "How AI will impact product management",
+        "summary": "",
+        "subtitle": "Which skills will be affected or replaced, and which will become even more valuable",
+        "guest": "",
+        "tags": [
+          "ai",
+          "design",
+          "strategy",
+          "product-management",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/claire-vo.md",
+      "type": "podcast",
+      "date": "2024-04-07",
+      "word_count": 16013,
+      "source": {
+        "title": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
+        "summary": "Bending the universe in your favor, covering career development, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Claire Vo",
+        "tags": [
+          "career",
+          "design",
+          "leadership",
+          "engineering",
+          "growth",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/dharmesh-shah.md",
+      "type": "podcast",
+      "date": "2024-04-04",
+      "word_count": 20749,
+      "source": {
+        "title": "Zigging vs. zagging: How HubSpot built a $30B company | Dharmesh Shah (co-founder/CTO)",
+        "summary": "How HubSpot built a $30B company, covering product design, startup building, and team leadership.",
+        "subtitle": "",
+        "guest": "Dharmesh Shah",
+        "tags": [
+          "design",
+          "startups",
+          "leadership",
+          "product-management",
+          "podcast",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-secret-to-duolingos-exponential-growth.md",
+      "type": "newsletter",
+      "date": "2024-04-02",
+      "word_count": 5274,
+      "source": {
+        "title": "The secret to Duolingo’s exponential growth",
+        "summary": "",
+        "subtitle": "Don’t kill the golden goose, maintain a sense of urgency to drive compounding growth, copy first, and more of their biggest growth lessons",
+        "guest": "",
+        "tags": [
+          "analytics",
+          "growth",
+          "go-to-market",
+          "strategy",
+          "design",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/matt-abrahams.md",
+      "type": "podcast",
+      "date": "2024-03-31",
+      "word_count": 14459,
+      "source": {
+        "title": "How to speak more confidently and persuasively | Matt Abrahams (professor, podcast host, author, speaker)",
+        "summary": "Speak more confidently and persuasively, covering career development, operator lessons, and product design.",
+        "subtitle": "",
+        "guest": "Matt Abrahams",
+        "tags": [
+          "career",
+          "podcast",
+          "design",
+          "leadership",
+          "strategy",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/become-a-more-technical-product-manager.md",
+      "type": "newsletter",
+      "date": "2024-03-26",
+      "word_count": 3038,
+      "source": {
+        "title": "Become a more technical product manager",
+        "summary": "",
+        "subtitle": "Technical foundations for product managers",
+        "guest": "",
+        "tags": [
+          "engineering",
+          "design",
+          "leadership",
+          "newsletter",
+          "product-management",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/kunal-shah.md",
+      "type": "podcast",
+      "date": "2024-03-24",
+      "word_count": 17534,
+      "source": {
+        "title": "Kunal Shah on winning in India, second-order thinking, the philosophy of startups, and more",
+        "summary": "Winning in India, second-order thinking, the philosophy of startups, and more, covering product design, startup building, and pricing decisions.",
+        "subtitle": "",
+        "guest": "Kunal Shah",
+        "tags": [
+          "design",
+          "startups",
+          "pricing",
+          "strategy",
+          "b2b",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/emilie-gerber.md",
+      "type": "podcast",
+      "date": "2024-03-21",
+      "word_count": 18501,
+      "source": {
+        "title": "The ultimate guide to PR | Emilie Gerber (founder of Six Eastern)",
+        "summary": "PR, covering B2B products, product design, and growth systems.",
+        "subtitle": "",
+        "guest": "Emilie Gerber",
+        "tags": [
+          "b2b",
+          "design",
+          "growth",
+          "startups",
+          "strategy",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off-2.md",
+      "type": "newsletter",
+      "date": "2024-03-19",
+      "word_count": 212,
+      "source": {
+        "title": "Taking the week off",
+        "summary": "",
+        "subtitle": "Back next week!",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/noam-lovinsky.md",
+      "type": "podcast",
+      "date": "2024-03-17",
+      "word_count": 12254,
+      "source": {
+        "title": "The happiness and pain of product management | Noam Lovinsky (Grammarly, Facebook, YouTube, Thumbtack)",
+        "summary": "The happiness and pain of product management, covering team leadership, career development, and product design.",
+        "subtitle": "",
+        "guest": "Noam Lovinsky",
+        "tags": [
+          "leadership",
+          "career",
+          "design",
+          "b2c",
+          "product-management",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/my-podcast-tech-stack-workflows-and-lessons.md",
+      "type": "newsletter",
+      "date": "2024-03-12",
+      "word_count": 4679,
+      "source": {
+        "title": "My podcast tech stack, workflows, and lessons",
+        "summary": "",
+        "subtitle": "Celebrating 10 million downloads 🎉",
+        "guest": "",
+        "tags": [
+          "career",
+          "design",
+          "newsletter",
+          "podcast",
+          "product-management",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ray-cao.md",
+      "type": "podcast",
+      "date": "2024-03-07",
+      "word_count": 13026,
+      "source": {
+        "title": "Inside TikTok: Culture, strategy, monetization, and more | Ray Cao (Global Head of Monetization Product Strategy and Operations)",
+        "summary": "Culture, strategy, monetization, and more, covering strategic decision-making, team leadership, and consumer products.",
+        "subtitle": "",
+        "guest": "Ray Cao",
+        "tags": [
+          "strategy",
+          "leadership",
+          "b2c",
+          "design",
+          "go-to-market",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-successfully-launch-on-product-hunt-when-its-right-for-your-startup.md",
+      "type": "newsletter",
+      "date": "2024-03-05",
+      "word_count": 5008,
+      "source": {
+        "title": "How to successfully launch on Product Hunt (when it’s right for your startup)",
+        "summary": "",
+        "subtitle": "Seven tips and five myths",
+        "guest": "",
+        "tags": [
+          "go-to-market",
+          "startups",
+          "b2c",
+          "growth",
+          "design",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/boz.md",
+      "type": "podcast",
+      "date": "2024-03-03",
+      "word_count": 21749,
+      "source": {
+        "title": "Making Meta | Andrew ‘Boz’ Bosworth (CTO)",
+        "summary": "Making Meta, covering startup building, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Boz",
+        "tags": [
+          "startups",
+          "design",
+          "leadership",
+          "b2c",
+          "career",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-learn-the-most-about-a-candidate-from-a-single-interview-question.md",
+      "type": "newsletter",
+      "date": "2024-02-27",
+      "word_count": 3458,
+      "source": {
+        "title": "How to learn the most about a candidate from a single interview question",
+        "summary": "",
+        "subtitle": "High-signal-to-noise interview questions inspired by my 150+ podcast guests",
+        "guest": "",
+        "tags": [
+          "design",
+          "career",
+          "leadership",
+          "product-management",
+          "growth",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 19,
+    "words": 214466
+  }
+}

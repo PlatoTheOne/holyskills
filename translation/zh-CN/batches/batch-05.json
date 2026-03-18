@@ -1,0 +1,523 @@
+{
+  "locale": "zh-CN",
+  "batch": 5,
+  "docs": [
+    {
+      "filename": "podcasts/andrew-wilkinson.md",
+      "type": "podcast",
+      "date": "2025-07-03",
+      "word_count": 16595,
+      "source": {
+        "title": "I’ve run 75+ businesses. Here’s why you’re probably chasing the wrong idea. | Andrew Wilkinson (co‑founder of Tiny)",
+        "summary": "I’ve run 75+ businesses. Here’s why you’re probably chasing the wrong idea., covering product design, startup building, and AI product work.",
+        "subtitle": "",
+        "guest": "Andrew Wilkinson",
+        "tags": [
+          "design",
+          "startups",
+          "ai",
+          "strategy",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-definitive-guide-to-mastering-analytical-thinking-interviews.md",
+      "type": "newsletter",
+      "date": "2025-07-01",
+      "word_count": 5017,
+      "source": {
+        "title": "The definitive guide to mastering analytical thinking interviews",
+        "summary": "",
+        "subtitle": "A step-by-step playbook to help you ace your PM interviews",
+        "guest": "",
+        "tags": [
+          "career",
+          "strategy",
+          "design",
+          "analytics",
+          "b2c",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/david-placek.md",
+      "type": "podcast",
+      "date": "2025-06-29",
+      "word_count": 13488,
+      "source": {
+        "title": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)",
+        "summary": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger, covering strategic decision-making, team leadership, and product design.",
+        "subtitle": "",
+        "guest": "David Placek",
+        "tags": [
+          "strategy",
+          "leadership",
+          "design",
+          "startups",
+          "go-to-market",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/an-ai-glossary.md",
+      "type": "newsletter",
+      "date": "2025-06-24",
+      "word_count": 3280,
+      "source": {
+        "title": "An AI glossary",
+        "summary": "",
+        "subtitle": "The most common AI terms explained, simply",
+        "guest": "",
+        "tags": [
+          "ai",
+          "engineering",
+          "design",
+          "newsletter",
+          "b2b",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/peter-deng.md",
+      "type": "podcast",
+      "date": "2025-06-22",
+      "word_count": 22640,
+      "source": {
+        "title": "From ChatGPT to Instagram to Uber: The quiet architect behind the world’s most popular products | Peter Deng",
+        "summary": "The quiet architect behind the world’s most popular products, covering AI product work, product design, and team leadership.",
+        "subtitle": "",
+        "guest": "Peter Deng",
+        "tags": [
+          "ai",
+          "design",
+          "leadership",
+          "b2b",
+          "engineering",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/sander-schulhoff.md",
+      "type": "podcast",
+      "date": "2025-06-19",
+      "word_count": 17352,
+      "source": {
+        "title": "AI prompt engineering in 2025: What works and what doesn’t | Sander Schulhoff (Learn Prompting, HackAPrompt)",
+        "summary": "What works and what doesn’t, covering AI product work, engineering tradeoffs, and team leadership.",
+        "subtitle": "",
+        "guest": "Sander Schulhoff",
+        "tags": [
+          "ai",
+          "engineering",
+          "leadership",
+          "podcast",
+          "design",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-techs-most-resilient-workers-handle-burnout.md",
+      "type": "newsletter",
+      "date": "2025-06-17",
+      "word_count": 3176,
+      "source": {
+        "title": "How tech’s most resilient workers handle burnout",
+        "summary": "",
+        "subtitle": "Introducing ARMOR: a new framework building on our tech worker sentiment survey insights",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "design",
+          "ai",
+          "career",
+          "engineering",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/hilary-gridley.md",
+      "type": "podcast",
+      "date": "2025-06-15",
+      "word_count": 23016,
+      "source": {
+        "title": "How to build a team that can “take a punch”: A playbook for building resilient, high-performing teams | Hilary Gridley (Head of Core Product, Whoop)",
+        "summary": "A playbook for building resilient, high-performing teams, covering team leadership, product design, and career development.",
+        "subtitle": "",
+        "guest": "Hilary Gridley",
+        "tags": [
+          "leadership",
+          "design",
+          "career",
+          "ai",
+          "newsletter",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/bob-baxley.md",
+      "type": "podcast",
+      "date": "2025-06-12",
+      "word_count": 21888,
+      "source": {
+        "title": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+        "summary": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond, covering product design, team leadership, and startup building.",
+        "subtitle": "",
+        "guest": "Bob Baxley",
+        "tags": [
+          "design",
+          "leadership",
+          "startups",
+          "career",
+          "b2c",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "type": "newsletter",
+      "date": "2025-06-10",
+      "word_count": 4619,
+      "source": {
+        "title": "How to get your entire team prototyping with AI",
+        "summary": "",
+        "subtitle": "A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle",
+        "guest": "",
+        "tags": [
+          "design",
+          "ai",
+          "leadership",
+          "engineering",
+          "newsletter",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/mike-krieger.md",
+      "type": "podcast",
+      "date": "2025-06-05",
+      "word_count": 13926,
+      "source": {
+        "title": "Anthropic’s CPO on what comes next | Mike Krieger (co-founder of Instagram)",
+        "summary": "Anthropic’s CPO on what comes next, covering AI product work, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Mike Krieger",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "strategy",
+          "newsletter",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off-6.md",
+      "type": "newsletter",
+      "date": "2025-06-03",
+      "word_count": 162,
+      "source": {
+        "title": "Taking the week off",
+        "summary": "",
+        "subtitle": "Back next week!",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "career",
+          "leadership",
+          "product-management",
+          "startups",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-tech-workers-really-feel-about-work-right-now.md",
+      "type": "newsletter",
+      "date": "2025-05-27",
+      "word_count": 3848,
+      "source": {
+        "title": "How tech workers really feel about work right now",
+        "summary": "",
+        "subtitle": "Results from our first-ever large-scale tech worker sentiment survey",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "career",
+          "design",
+          "startups",
+          "growth",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/krithika-shankarraman.md",
+      "type": "podcast",
+      "date": "2025-05-25",
+      "word_count": 14206,
+      "source": {
+        "title": "Growth tactics from OpenAI and Stripe’s first marketer | Krithika Shankarraman",
+        "summary": "Growth tactics from OpenAI and Stripe’s first marketer, covering strategic decision-making, AI product work, and B2B products.",
+        "subtitle": "",
+        "guest": "Krithika Shankarraman",
+        "tags": [
+          "strategy",
+          "ai",
+          "b2b",
+          "growth",
+          "startups",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/mayur-kamat.md",
+      "type": "podcast",
+      "date": "2025-05-22",
+      "word_count": 17547,
+      "source": {
+        "title": "Unconventional product lessons from Binance, N26, Google, more | Mayur Kamat (CPO at N26, ex-Binance Head of Product)",
+        "summary": "Unconventional product lessons from Binance, N26, Google, more, covering team leadership, product strategy and execution, and AI product work.",
+        "subtitle": "",
+        "guest": "Mayur Kamat",
+        "tags": [
+          "leadership",
+          "product-management",
+          "ai",
+          "career",
+          "design",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/five-principles-for-successfully-managing-managers.md",
+      "type": "newsletter",
+      "date": "2025-05-20",
+      "word_count": 3323,
+      "source": {
+        "title": "Five principles for successfully managing managers",
+        "summary": "",
+        "subtitle": "Why skip leads are the load-bearing pillars of your organization",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "newsletter",
+          "startups",
+          "strategy",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/aparna-chennapragada.md",
+      "type": "podcast",
+      "date": "2025-05-18",
+      "word_count": 10599,
+      "source": {
+        "title": "Microsoft CPO: If you aren’t prototyping with AI, you’re doing it wrong | Aparna Chennapragada",
+        "summary": "If you aren’t prototyping with AI, you’re doing it wrong, covering AI product work, product design, and B2B products.",
+        "subtitle": "",
+        "guest": "Aparna Chennapragada",
+        "tags": [
+          "ai",
+          "design",
+          "b2b",
+          "leadership",
+          "strategy",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/dmitry-zlokazov.md",
+      "type": "podcast",
+      "date": "2025-05-15",
+      "word_count": 10749,
+      "source": {
+        "title": "How Revolut trains world-class product managers: The “local CEO” model, raw intellect over experience, and a cultural obsession with building wow products | Dmitry Zlokazov (Head of Product)",
+        "summary": "Dmitry Zlokazov is the head of product at Revolut, the $45 billion fintech giant operating in over 50 countries, serving more than 50 million customers, and producing some of the world’s top product leaders.",
+        "subtitle": "",
+        "guest": "Dmitry Zlokazov",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "career",
+          "go-to-market",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/state-of-the-product-job-market-in-2025.md",
+      "type": "newsletter",
+      "date": "2025-05-13",
+      "word_count": 1376,
+      "source": {
+        "title": "State of the product job market in 2025",
+        "summary": "",
+        "subtitle": "There’s a lot to be optimistic about",
+        "guest": "",
+        "tags": [
+          "product-management",
+          "newsletter",
+          "ai",
+          "career",
+          "engineering",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 19,
+    "words": 206807
+  }
+}

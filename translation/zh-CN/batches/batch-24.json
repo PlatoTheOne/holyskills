@@ -1,0 +1,4259 @@
+{
+  "locale": "zh-CN",
+  "batch": 24,
+  "docs": [
+    {
+      "filename": "newsletters/how-to-develop-product-sense.md",
+      "type": "newsletter",
+      "date": "2022-03-15",
+      "word_count": 4113,
+      "source": {
+        "title": "How to develop product sense",
+        "summary": "",
+        "subtitle": "With guest author Jules Walter",
+        "guest": "",
+        "tags": [
+          "design",
+          "b2c",
+          "newsletter",
+          "product-management",
+          "analytics",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/freemium-vs-trial.md",
+      "type": "newsletter",
+      "date": "2022-03-08",
+      "word_count": 1959,
+      "source": {
+        "title": "Freemium vs. trial",
+        "summary": "",
+        "subtitle": "Going freemium, adding a trial, business model disruption, and more",
+        "guest": "",
+        "tags": [
+          "pricing",
+          "design",
+          "leadership",
+          "b2b",
+          "growth",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-is-good-waitlist-conversion.md",
+      "type": "newsletter",
+      "date": "2022-03-01",
+      "word_count": 1673,
+      "source": {
+        "title": "What is good waitlist conversion",
+        "summary": "",
+        "subtitle": "Benchmarks and advice for making the most of your waitlist",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "growth",
+          "product-management",
+          "newsletter",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/reforge-applications-open-and-taking-a-sick-day.md",
+      "type": "newsletter",
+      "date": "2022-02-22",
+      "word_count": 1005,
+      "source": {
+        "title": "Reforge applications open (and taking a sick day)",
+        "summary": "",
+        "subtitle": "So I’m going to take a sick day (my first) and instead focus on resting and making next week’s post that much better",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "strategy",
+          "growth",
+          "design",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-product-managers-guide-to-web3.md",
+      "type": "newsletter",
+      "date": "2022-02-15",
+      "word_count": 5413,
+      "source": {
+        "title": "A product manager’s guide to web3",
+        "summary": "",
+        "subtitle": "How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy",
+        "guest": "",
+        "tags": [
+          "design",
+          "product-management",
+          "leadership",
+          "strategy",
+          "b2c",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-is-good-monthly-churn.md",
+      "type": "newsletter",
+      "date": "2022-02-08",
+      "word_count": 2337,
+      "source": {
+        "title": "What is good monthly churn",
+        "summary": "",
+        "subtitle": "Benchmarks for good and great monthly churn, broken down by segment and price point",
+        "guest": "",
+        "tags": [
+          "growth",
+          "b2b",
+          "design",
+          "newsletter",
+          "b2c",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-get-promoted.md",
+      "type": "newsletter",
+      "date": "2022-02-01",
+      "word_count": 2100,
+      "source": {
+        "title": "How to get promoted",
+        "summary": "",
+        "subtitle": "7 concrete actions you can take to increase your odds",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "career",
+          "product-management",
+          "design",
+          "newsletter",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/lessons-from-140-angel-investments.md",
+      "type": "newsletter",
+      "date": "2022-01-25",
+      "word_count": 5846,
+      "source": {
+        "title": "Lessons from 140+ angel investments",
+        "summary": "",
+        "subtitle": "Biggest surprises, how to get started, what to look for when evaluating companies, plus a ton of advice from many smart investors",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "strategy",
+          "growth",
+          "career",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-inside-story-of-facebook-marketplace.md",
+      "type": "newsletter",
+      "date": "2022-01-18",
+      "word_count": 3380,
+      "source": {
+        "title": "The inside story of Facebook Marketplace",
+        "summary": "",
+        "subtitle": "A guest post by Deb Liu",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "go-to-market",
+          "leadership",
+          "newsletter",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/differentiating-your-product.md",
+      "type": "newsletter",
+      "date": "2022-01-11",
+      "word_count": 2035,
+      "source": {
+        "title": "Differentiating your product",
+        "summary": "",
+        "subtitle": "> ## Q: I know differentiation is important, but why is that, and what are ways we can differentiate our product?",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "go-to-market",
+          "newsletter",
+          "leadership",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/prioritizing-at-startups.md",
+      "type": "newsletter",
+      "date": "2022-01-04",
+      "word_count": 2423,
+      "source": {
+        "title": "Prioritizing at startups",
+        "summary": "",
+        "subtitle": "A guide for prioritizing at an early-stage B2B startup",
+        "guest": "",
+        "tags": [
+          "design",
+          "startups",
+          "newsletter",
+          "b2b",
+          "product-management",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-best-of-2021.md",
+      "type": "newsletter",
+      "date": "2021-12-28",
+      "word_count": 742,
+      "source": {
+        "title": "The Best of 2021",
+        "summary": "",
+        "subtitle": "The most popular posts of the year, and a brief look back",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "b2c",
+          "growth",
+          "design",
+          "b2b",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off-8.md",
+      "type": "newsletter",
+      "date": "2021-12-21",
+      "word_count": 65,
+      "source": {
+        "title": "Taking the week off",
+        "summary": "",
+        "subtitle": "Back next week!",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "type": "newsletter",
+      "date": "2021-12-16",
+      "word_count": 2385,
+      "source": {
+        "title": "The top 5 things PMs should know about engineering",
+        "summary": "",
+        "subtitle": "Guest post by Justin Gage, writer of Technically and growth at Retool",
+        "guest": "",
+        "tags": [
+          "engineering",
+          "design",
+          "leadership",
+          "newsletter",
+          "product-management",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-is-a-good-payback-period.md",
+      "type": "newsletter",
+      "date": "2021-12-14",
+      "word_count": 2841,
+      "source": {
+        "title": "What is a good payback period?",
+        "summary": "",
+        "subtitle": "Benchmarks for good, great, and exceptional payback periods based on guidance from 16 growth experts",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "b2b",
+          "pricing",
+          "strategy",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-atomic-network.md",
+      "type": "newsletter",
+      "date": "2021-12-09",
+      "word_count": 2264,
+      "source": {
+        "title": "The Atomic Network",
+        "summary": "",
+        "subtitle": "Exclusive excerpt from Andrew Chen’s new book, The Cold Start Problem",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "product-management",
+          "go-to-market",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-most-common-pitfalls-of-new-product-managers.md",
+      "type": "newsletter",
+      "date": "2021-12-07",
+      "word_count": 1654,
+      "source": {
+        "title": "The most common pitfalls of new product managers",
+        "summary": "",
+        "subtitle": "The Coordinator, The Dictator, The Dreamer, The Feature Factory, and The Busted Umbrella",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "strategy",
+          "design",
+          "newsletter",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-founders-guide-to-community.md",
+      "type": "newsletter",
+      "date": "2021-11-30",
+      "word_count": 7351,
+      "source": {
+        "title": "A founder’s guide to community",
+        "summary": "",
+        "subtitle": "When to invest in community, how to get started, setting goals, crafting a strategy, hiring, scaling, and much more—guest post by David Spinks",
+        "guest": "",
+        "tags": [
+          "b2c",
+          "design",
+          "growth",
+          "startups",
+          "leadership",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/lennys-holiday-gift-guide.md",
+      "type": "newsletter",
+      "date": "2021-11-25",
+      "word_count": 2057,
+      "source": {
+        "title": "Lenny’s holiday gift guide",
+        "summary": "",
+        "subtitle": "50+ gift ideas for your friends, family, and coworkers",
+        "guest": "",
+        "tags": [
+          "design",
+          "engineering",
+          "newsletter",
+          "leadership",
+          "b2c",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-most-important-consumer-metrics-to-track.md",
+      "type": "newsletter",
+      "date": "2021-11-23",
+      "word_count": 1040,
+      "source": {
+        "title": "The most important consumer metrics to track",
+        "summary": "",
+        "subtitle": "Which metrics matter most when building a B2C product",
+        "guest": "",
+        "tags": [
+          "growth",
+          "analytics",
+          "design",
+          "b2c",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-is-product-management.md",
+      "type": "newsletter",
+      "date": "2021-11-16",
+      "word_count": 1431,
+      "source": {
+        "title": "What is product management",
+        "summary": "",
+        "subtitle": "My take on the PM role",
+        "guest": "",
+        "tags": [
+          "product-management",
+          "leadership",
+          "newsletter",
+          "career",
+          "strategy",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/six-rules-of-hiring-for-growth.md",
+      "type": "newsletter",
+      "date": "2021-11-09",
+      "word_count": 3441,
+      "source": {
+        "title": "Six rules of hiring for growth",
+        "summary": "",
+        "subtitle": "How to hire and build your growth team—guest post by Elena Verna",
+        "guest": "",
+        "tags": [
+          "growth",
+          "leadership",
+          "design",
+          "strategy",
+          "pricing",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/applications-now-open-for-my-live-course-product-management-fundamentals.md",
+      "type": "newsletter",
+      "date": "2021-11-05",
+      "word_count": 530,
+      "source": {
+        "title": "🚨 Applications now open for my live course—Product Management Fundamentals",
+        "summary": "",
+        "subtitle": "A three-week part-time live course with in-depth lectures, real-world assignments, special guests, and much more",
+        "guest": "",
+        "tags": [
+          "product-management",
+          "analytics",
+          "career",
+          "design",
+          "leadership",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/breaking-into-growth.md",
+      "type": "newsletter",
+      "date": "2021-11-02",
+      "word_count": 1646,
+      "source": {
+        "title": "Breaking into growth",
+        "summary": "",
+        "subtitle": "## ✨ Announcement: Applications for my PM course now open ✨",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "newsletter",
+          "leadership",
+          "analytics",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/picking-a-wedge.md",
+      "type": "newsletter",
+      "date": "2021-10-26",
+      "word_count": 2823,
+      "source": {
+        "title": "Picking a wedge",
+        "summary": "",
+        "subtitle": "When, why, and how to pick a wedge for your product",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "startups",
+          "engineering",
+          "b2b",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/taking-the-week-off-7.md",
+      "type": "newsletter",
+      "date": "2021-10-19",
+      "word_count": 112,
+      "source": {
+        "title": "Taking the week off",
+        "summary": "",
+        "subtitle": "OOTO",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/60-ideas-to-boost-your-growth.md",
+      "type": "newsletter",
+      "date": "2021-10-12",
+      "word_count": 3477,
+      "source": {
+        "title": "60 ideas to boost your growth",
+        "summary": "",
+        "subtitle": "A motherload of growth inspiration by guest author Ali Abouelatta, creator of the First 1000 newsletter",
+        "guest": "",
+        "tags": [
+          "growth",
+          "engineering",
+          "go-to-market",
+          "newsletter",
+          "design",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/my-all-time-favorite-reads-on-product-growth-leadership-writing-investing-and-mu.md",
+      "type": "newsletter",
+      "date": "2021-10-05",
+      "word_count": 3718,
+      "source": {
+        "title": "My all-time favorite reads on product, growth, leadership, writing, investing, and much more",
+        "summary": "",
+        "subtitle": "200+ links to the most actionable, highest signal-to-noise content",
+        "guest": "",
+        "tags": [
+          "startups",
+          "strategy",
+          "b2b",
+          "growth",
+          "design",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/saying-no.md",
+      "type": "newsletter",
+      "date": "2021-09-28",
+      "word_count": 2993,
+      "source": {
+        "title": "Saying no",
+        "summary": "",
+        "subtitle": "A three-step framework for saying no effectively",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "newsletter",
+          "organization",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-10-commandments-of-salary-negotiation.md",
+      "type": "newsletter",
+      "date": "2021-09-24",
+      "word_count": 2674,
+      "source": {
+        "title": "The 10 commandments of salary negotiation",
+        "summary": "",
+        "subtitle": "Guest post by Niya Dragova, co-founder of Candor",
+        "guest": "",
+        "tags": [
+          "design",
+          "career",
+          "leadership",
+          "startups",
+          "newsletter",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/getting-more-technical.md",
+      "type": "newsletter",
+      "date": "2021-09-21",
+      "word_count": 1278,
+      "source": {
+        "title": "Getting more technical",
+        "summary": "",
+        "subtitle": "> ## Q: I don’t have a technical background, and I find it hard to follow what my engineers are saying sometimes and, even worse, to make",
+        "guest": "",
+        "tags": [
+          "engineering",
+          "product-management",
+          "leadership",
+          "design",
+          "newsletter",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-behavioral-science-can-boost-your-conversion-rates.md",
+      "type": "newsletter",
+      "date": "2021-09-17",
+      "word_count": 3098,
+      "source": {
+        "title": "How behavioral science can boost your conversion rates",
+        "summary": "",
+        "subtitle": "Guest post by Kristen Berman, co-founder of Irrational Labs",
+        "guest": "",
+        "tags": [
+          "design",
+          "analytics",
+          "leadership",
+          "b2b",
+          "engineering",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/demand-driving-supply-the-little-understood-growth-loop-behind-a-surprising-numb.md",
+      "type": "newsletter",
+      "date": "2021-09-14",
+      "word_count": 5354,
+      "source": {
+        "title": "Demand driving supply: The little-understood growth loop behind a surprising number of iconic billion-dollar companies",
+        "summary": "",
+        "subtitle": "Guest post by Brian Rothenberg, Partner at Defy.vc, former VP of Growth at Eventbrite, and two-time founder",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "b2c",
+          "strategy",
+          "newsletter",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/marketplace-city-expansion-strategy.md",
+      "type": "newsletter",
+      "date": "2021-09-07",
+      "word_count": 3624,
+      "source": {
+        "title": "Marketplace city expansion strategy",
+        "summary": "",
+        "subtitle": "How marketplaces like Instacart, OpenTable, Caviar, Grubhub, and others approached expanding into additional markets",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "go-to-market",
+          "leadership",
+          "b2b",
+          "design",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/examples-and-templates-of-1-pagers-and-prds.md",
+      "type": "newsletter",
+      "date": "2021-08-31",
+      "word_count": 1266,
+      "source": {
+        "title": "Examples and templates of 1-Pagers and PRDs",
+        "summary": "",
+        "subtitle": "I’m looking for a structure I can borrow and inspiration for what great looks like",
+        "guest": "",
+        "tags": [
+          "design",
+          "newsletter",
+          "leadership",
+          "product-management",
+          "engineering",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/gtm-motions-of-30-b2b-saas-companies.md",
+      "type": "newsletter",
+      "date": "2021-08-24",
+      "word_count": 2658,
+      "source": {
+        "title": "GTM motions of 30 B2B SaaS companies",
+        "summary": "",
+        "subtitle": "Market segments, target personas, and sales motions—then and now",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "strategy",
+          "design",
+          "startups",
+          "growth",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-best-of-lennys-newsletter-2021.md",
+      "type": "newsletter",
+      "date": "2021-08-17",
+      "word_count": 1389,
+      "source": {
+        "title": "The Best of Lenny’s Newsletter 2021",
+        "summary": "",
+        "subtitle": "My all-time best posts",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "strategy",
+          "product-management",
+          "leadership",
+          "growth",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/five-habits-of-highly-annoying-product-managers.md",
+      "type": "newsletter",
+      "date": "2021-08-10",
+      "word_count": 1632,
+      "source": {
+        "title": "Five habits of highly annoying product managers",
+        "summary": "",
+        "subtitle": "How to not be an annoying PM",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "newsletter",
+          "career",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-marketplaces-win.md",
+      "type": "newsletter",
+      "date": "2021-08-03",
+      "word_count": 1621,
+      "source": {
+        "title": "How marketplaces win",
+        "summary": "",
+        "subtitle": "Your three paths to marketplace success",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "newsletter",
+          "design",
+          "leadership",
+          "product-management",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/prioritizing.md",
+      "type": "newsletter",
+      "date": "2021-07-27",
+      "word_count": 1947,
+      "source": {
+        "title": "Prioritizing",
+        "summary": "",
+        "subtitle": "Tips for prioritizing your roadmap",
+        "guest": "",
+        "tags": [
+          "product-management",
+          "strategy",
+          "leadership",
+          "design",
+          "newsletter",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/why-now-2.md",
+      "type": "newsletter",
+      "date": "2021-07-21",
+      "word_count": 904,
+      "source": {
+        "title": "Why now?",
+        "summary": "",
+        "subtitle": "Why it matters for startups to have a strong 'why now'—and also why it doesn't",
+        "guest": "",
+        "tags": [
+          "design",
+          "startups",
+          "strategy",
+          "newsletter",
+          "leadership",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/why-now.md",
+      "type": "newsletter",
+      "date": "2021-07-21",
+      "word_count": 2191,
+      "source": {
+        "title": "Why now",
+        "summary": "",
+        "subtitle": "Why it matters for startups to have a strong 'why now'—and also why it doesn't",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "startups",
+          "product-management",
+          "strategy",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/kickstarting-supply-in-a-labor-marketplace.md",
+      "type": "newsletter",
+      "date": "2021-07-13",
+      "word_count": 2731,
+      "source": {
+        "title": "Kickstarting supply in a labor marketplace",
+        "summary": "",
+        "subtitle": "Growth lessons from over a dozen of today's fastest-growing labor marketplaces",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "career",
+          "growth",
+          "b2c",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/winning-at-early-stage-hiring.md",
+      "type": "newsletter",
+      "date": "2021-07-06",
+      "word_count": 2313,
+      "source": {
+        "title": "Winning at early-stage hiring",
+        "summary": "",
+        "subtitle": "Hiring advice from founders who are crushing it",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "startups",
+          "career",
+          "design",
+          "product-management",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-know-if-youre-doing-a-good-job-as-a-product-manager.md",
+      "type": "newsletter",
+      "date": "2021-06-29",
+      "word_count": 1403,
+      "source": {
+        "title": "How to know if you're doing a good job as a product manager",
+        "summary": "",
+        "subtitle": "The three things you need to get right",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "newsletter",
+          "design",
+          "career",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/finding-your-distribution-advantage.md",
+      "type": "newsletter",
+      "date": "2021-06-22",
+      "word_count": 2003,
+      "source": {
+        "title": "Finding your distribution advantage",
+        "summary": "",
+        "subtitle": "Seven ways to break through the noise",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "strategy",
+          "startups",
+          "leadership",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/choosing-your-north-star-metric.md",
+      "type": "newsletter",
+      "date": "2021-06-16",
+      "word_count": 168,
+      "source": {
+        "title": "Choosing Your North Star Metric",
+        "summary": "",
+        "subtitle": "A guest post on Future—a16z's new media site",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "analytics",
+          "design",
+          "newsletter",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/my-favorite-pm-interview-questions.md",
+      "type": "newsletter",
+      "date": "2021-06-15",
+      "word_count": 1827,
+      "source": {
+        "title": "My favorite PM interview questions",
+        "summary": "",
+        "subtitle": "Ten great interview questions for product managers, plus my favorite generalist questions",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "career",
+          "product-management",
+          "design",
+          "newsletter",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/getting-buy-in.md",
+      "type": "newsletter",
+      "date": "2021-06-10",
+      "word_count": 1968,
+      "source": {
+        "title": "Getting buy-in",
+        "summary": "",
+        "subtitle": "By special guest contributor Shivani Berry, CEO & Founder of Arise Leadership",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "organization",
+          "growth",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-people-discover-new-products.md",
+      "type": "newsletter",
+      "date": "2021-06-08",
+      "word_count": 2212,
+      "source": {
+        "title": "How people discover new products",
+        "summary": "",
+        "subtitle": "The seven places we learn about new stuff",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "b2b",
+          "newsletter",
+          "leadership",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-long-it-takes-to-find-product-market-fit.md",
+      "type": "newsletter",
+      "date": "2021-06-01",
+      "word_count": 2272,
+      "source": {
+        "title": "How long it takes to find Product-Market Fit",
+        "summary": "",
+        "subtitle": "Stories from Cameo, DoorDash, Uber, Faire, Hipcamp, and more",
+        "guest": "",
+        "tags": [
+          "startups",
+          "strategy",
+          "growth",
+          "leadership",
+          "design",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/skills-pms-need-to-build.md",
+      "type": "newsletter",
+      "date": "2021-05-25",
+      "word_count": 3527,
+      "source": {
+        "title": "Skills PMs need to build",
+        "summary": "",
+        "subtitle": "What I learned from studying twenty PM career ladders",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "strategy",
+          "product-management",
+          "design",
+          "organization",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/healing-your-co-founder-relationship.md",
+      "type": "newsletter",
+      "date": "2021-05-18",
+      "word_count": 2635,
+      "source": {
+        "title": "Healing your co-founder relationship",
+        "summary": "",
+        "subtitle": "By special guest contributor Carole Robin, co-creator of Stanford's “Touchy Feely” GSB course",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "newsletter",
+          "startups",
+          "design",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/types-of-business-models.md",
+      "type": "newsletter",
+      "date": "2021-05-11",
+      "word_count": 1996,
+      "source": {
+        "title": "Types of business models",
+        "summary": "",
+        "subtitle": "Issue 77",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "product-management",
+          "strategy",
+          "growth",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/14-habits-of-highly-effective-product-managers.md",
+      "type": "newsletter",
+      "date": "2021-05-04",
+      "word_count": 2723,
+      "source": {
+        "title": "14 habits of highly effective product managers",
+        "summary": "",
+        "subtitle": "Issue 76",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "strategy",
+          "growth",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/three-myths-about-sabbatical-programs.md",
+      "type": "newsletter",
+      "date": "2021-04-27",
+      "word_count": 3576,
+      "source": {
+        "title": "Three myths about sabbatical programs",
+        "summary": "",
+        "subtitle": "With return guest DJ DiDonna",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "growth",
+          "startups",
+          "newsletter",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/on-taking-time-off.md",
+      "type": "newsletter",
+      "date": "2021-04-20",
+      "word_count": 2780,
+      "source": {
+        "title": "On taking time off",
+        "summary": "",
+        "subtitle": "By special guest contributor DJ DiDonna, founder of The Sabbatical Project",
+        "guest": "",
+        "tags": [
+          "career",
+          "leadership",
+          "design",
+          "newsletter",
+          "organization",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/why-marketplaces-fail.md",
+      "type": "newsletter",
+      "date": "2021-04-13",
+      "word_count": 3679,
+      "source": {
+        "title": "Why marketplaces fail",
+        "summary": "",
+        "subtitle": "The top five marketplaces failure modes — lessons from 30+ marketplaces",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "startups",
+          "leadership",
+          "pricing",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/choosing-a-take-rate.md",
+      "type": "newsletter",
+      "date": "2021-04-06",
+      "word_count": 1840,
+      "source": {
+        "title": "Choosing a take rate",
+        "summary": "",
+        "subtitle": "Issue 72",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "pricing",
+          "b2b",
+          "growth",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-minto-pyramid-principle-and-the-scr-framework.md",
+      "type": "newsletter",
+      "date": "2021-03-30",
+      "word_count": 2362,
+      "source": {
+        "title": "The Minto Pyramid Principle and the SCR Framework",
+        "summary": "",
+        "subtitle": "Issue 71",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "growth",
+          "career",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-pm--design-partnership.md",
+      "type": "newsletter",
+      "date": "2021-03-23",
+      "word_count": 2963,
+      "source": {
+        "title": "The PM 🤝 Design Partnership",
+        "summary": "",
+        "subtitle": "Five tips for PMs working with designers — guest post by Katie Dill",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "strategy",
+          "product-management",
+          "newsletter",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/defending-your-big-bets.md",
+      "type": "newsletter",
+      "date": "2021-03-16",
+      "word_count": 1382,
+      "source": {
+        "title": "Defending your big bets",
+        "summary": "",
+        "subtitle": "Issue 69",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "career",
+          "newsletter",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/whats-in-your-software-stack---product-design-analytics-ds-research-and-more.md",
+      "type": "newsletter",
+      "date": "2021-03-09",
+      "word_count": 1250,
+      "source": {
+        "title": "What's in your software stack — Product, Design, Analytics, DS, Research, and more",
+        "summary": "",
+        "subtitle": "Issue 68",
+        "guest": "",
+        "tags": [
+          "design",
+          "engineering",
+          "analytics",
+          "career",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/content-driven-growth.md",
+      "type": "newsletter",
+      "date": "2021-03-02",
+      "word_count": 4808,
+      "source": {
+        "title": "Content-driven growth",
+        "summary": "",
+        "subtitle": "Advice from HubSpot, Ahrefs, Intercom, Slidebean, and Webflow",
+        "guest": "",
+        "tags": [
+          "growth",
+          "leadership",
+          "design",
+          "strategy",
+          "startups",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/examples-of-great-job-postings.md",
+      "type": "newsletter",
+      "date": "2021-02-23",
+      "word_count": 1263,
+      "source": {
+        "title": "Examples of great job postings",
+        "summary": "",
+        "subtitle": "Issue 66",
+        "guest": "",
+        "tags": [
+          "career",
+          "leadership",
+          "design",
+          "growth",
+          "engineering",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/li-jin-launches-atelier-ventures-her-debut-fund-to-invest-in-the-passion-economy.md",
+      "type": "newsletter",
+      "date": "2021-02-16",
+      "word_count": 3058,
+      "source": {
+        "title": "Li Jin launches Atelier Ventures, her debut fund to invest in the passion economy",
+        "summary": "",
+        "subtitle": "A special edition of Lenny's Newsletter",
+        "guest": "",
+        "tags": [
+          "startups",
+          "b2c",
+          "design",
+          "strategy",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/becoming-a-senior-product-manager.md",
+      "type": "newsletter",
+      "date": "2021-02-09",
+      "word_count": 2522,
+      "source": {
+        "title": "Becoming a senior Product Manager",
+        "summary": "",
+        "subtitle": "by Jackie Bavaro",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "leadership",
+          "product-management",
+          "career",
+          "design",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-increase-virality.md",
+      "type": "newsletter",
+      "date": "2021-02-02",
+      "word_count": 3011,
+      "source": {
+        "title": "How to increase virality",
+        "summary": "",
+        "subtitle": "> # Q: Is it possible to increase the virality of my product?",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "strategy",
+          "b2c",
+          "b2b",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/positioning.md",
+      "type": "newsletter",
+      "date": "2021-01-26",
+      "word_count": 4171,
+      "source": {
+        "title": "Positioning",
+        "summary": "",
+        "subtitle": "By April Dunford",
+        "guest": "",
+        "tags": [
+          "go-to-market",
+          "strategy",
+          "b2b",
+          "design",
+          "leadership",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/should-i-become-a-product-manager.md",
+      "type": "newsletter",
+      "date": "2021-01-19",
+      "word_count": 1412,
+      "source": {
+        "title": "Should I become a product manager",
+        "summary": "",
+        "subtitle": "> ## Q: I'm considering venturing into product management after being a software engineer for 3 years",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "design",
+          "engineering",
+          "strategy",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/increasing-team-velocity.md",
+      "type": "newsletter",
+      "date": "2021-01-12",
+      "word_count": 991,
+      "source": {
+        "title": "Increasing team velocity",
+        "summary": "",
+        "subtitle": "> ## Q: I’m constantly feeling like my team is moving too slowly",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "engineering",
+          "newsletter",
+          "organization",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-most-important-consumer-subscription-metrics-to-track.md",
+      "type": "newsletter",
+      "date": "2021-01-05",
+      "word_count": 1528,
+      "source": {
+        "title": "The most important consumer subscription metrics to track",
+        "summary": "",
+        "subtitle": "> ## Q: I read your post about the most important bottom-up SaaS metrics to track, and I was wondering – do you have the same kind of advice",
+        "guest": "",
+        "tags": [
+          "growth",
+          "analytics",
+          "b2c",
+          "design",
+          "pricing",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/2020-year-in-review---issue-58.md",
+      "type": "newsletter",
+      "date": "2020-12-29",
+      "word_count": 989,
+      "source": {
+        "title": "2020 Year in Review – Issue 58",
+        "summary": "",
+        "subtitle": "Most popular posts, tweets, and a reflection on the year",
+        "guest": "",
+        "tags": [
+          "growth",
+          "newsletter",
+          "strategy",
+          "b2c",
+          "b2b",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-comprehensive-survey-of-product-management.md",
+      "type": "newsletter",
+      "date": "2020-12-22",
+      "word_count": 1573,
+      "source": {
+        "title": "A comprehensive survey of Product Management",
+        "summary": "",
+        "subtitle": "👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "engineering",
+          "newsletter",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-run-seo-experiments.md",
+      "type": "newsletter",
+      "date": "2020-12-15",
+      "word_count": 3711,
+      "source": {
+        "title": "How to run SEO experiments",
+        "summary": "",
+        "subtitle": "And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious",
+        "guest": "",
+        "tags": [
+          "analytics",
+          "design",
+          "b2c",
+          "growth",
+          "go-to-market",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/ideal-sprint-length-designer-vs-pm-roles-running-pm-team-meetings-running-post-m.md",
+      "type": "newsletter",
+      "date": "2020-12-11",
+      "word_count": 4537,
+      "source": {
+        "title": "Ideal sprint length, designer vs. PM roles, running PM team meetings, running post-mortems, best product/executive coaches, and much more",
+        "summary": "",
+        "subtitle": "🤩 Community Wisdom - Issue 13",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "engineering",
+          "organization",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/generating-buzz-2.md",
+      "type": "newsletter",
+      "date": "2020-12-08",
+      "word_count": 914,
+      "source": {
+        "title": "Generating buzz",
+        "summary": "",
+        "subtitle": "This is a peek at this week’s 🔒 subscriber-only 🔒 post.",
+        "guest": "",
+        "tags": [
+          "go-to-market",
+          "b2b",
+          "design",
+          "leadership",
+          "startups",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/generating-buzz.md",
+      "type": "newsletter",
+      "date": "2020-12-08",
+      "word_count": 1959,
+      "source": {
+        "title": "Generating buzz",
+        "summary": "",
+        "subtitle": "Ten strategies and 49 examples of successful buzz making",
+        "guest": "",
+        "tags": [
+          "go-to-market",
+          "design",
+          "strategy",
+          "growth",
+          "newsletter",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/seo-keywords-career-ladders-backlog-tools-copywriting-onlyfans-ama-with-pete-kaz.md",
+      "type": "newsletter",
+      "date": "2020-12-04",
+      "word_count": 4232,
+      "source": {
+        "title": "SEO keywords, career ladders, backlog tools, copywriting, OnlyFans, AMA with Pete Kazanjy and much more",
+        "summary": "",
+        "subtitle": "🤩 Community Wisdom - Issue 12",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "career",
+          "b2b",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/when-not-to-run-an-experiment---issue-54.md",
+      "type": "newsletter",
+      "date": "2020-12-01",
+      "word_count": 1647,
+      "source": {
+        "title": "When NOT to run an experiment – Issue 54",
+        "summary": "",
+        "subtitle": "> ## Q: Should I always run an experiment when I make a change to my product?",
+        "guest": "",
+        "tags": [
+          "analytics",
+          "design",
+          "growth",
+          "leadership",
+          "newsletter",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-transition-layering-sales-onto-a-bottom-up-self-serve-product.md",
+      "type": "newsletter",
+      "date": "2020-11-24",
+      "word_count": 6717,
+      "source": {
+        "title": "The Transition: Layering sales onto a bottom-up self-serve product",
+        "summary": "",
+        "subtitle": "By Pete Kazanjy",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "growth",
+          "strategy",
+          "design",
+          "leadership",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/magical-growth-loops.md",
+      "type": "newsletter",
+      "date": "2020-11-17",
+      "word_count": 2245,
+      "source": {
+        "title": "Magical growth loops",
+        "summary": "",
+        "subtitle": "> ## Q: Can you share examples of companies that found innovative growth loops, like marketplaces convincing their supply to drive their",
+        "guest": "",
+        "tags": [
+          "design",
+          "growth",
+          "strategy",
+          "newsletter",
+          "b2c",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/startup-pm-vs-big-company-pm.md",
+      "type": "newsletter",
+      "date": "2020-11-10",
+      "word_count": 1516,
+      "source": {
+        "title": "Startup PM vs. big company PM",
+        "summary": "",
+        "subtitle": "> ## Q: I’m transitioning from being the first (and only) Product Manager at a small company to being a PM at a big company",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "design",
+          "growth",
+          "engineering",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/managing-up.md",
+      "type": "newsletter",
+      "date": "2020-11-03",
+      "word_count": 853,
+      "source": {
+        "title": "Managing up",
+        "summary": "",
+        "subtitle": "> ## Q: I’m finding it tough to work with my manager",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "engineering",
+          "growth",
+          "newsletter",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/pricing-your-saas-product.md",
+      "type": "newsletter",
+      "date": "2020-10-27",
+      "word_count": 4137,
+      "source": {
+        "title": "Pricing your SaaS product",
+        "summary": "",
+        "subtitle": "By Patrick Campbell, CEO of ProfitWell",
+        "guest": "",
+        "tags": [
+          "pricing",
+          "b2b",
+          "strategy",
+          "analytics",
+          "growth",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-most-important-bottom-up-saas-metrics-to-track-and-how-to-best-visualize-the.md",
+      "type": "newsletter",
+      "date": "2020-10-20",
+      "word_count": 840,
+      "source": {
+        "title": "The most important bottom-up SaaS metrics to track (and how to best visualize them)",
+        "summary": "",
+        "subtitle": "Metrics to focus on, what tools to use, and how to best visualize and share these metrics",
+        "guest": "",
+        "tags": [
+          "growth",
+          "analytics",
+          "pricing",
+          "b2b",
+          "startups",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-most-important-bottom-up-saas-metrics-to-track.md",
+      "type": "newsletter",
+      "date": "2020-10-20",
+      "word_count": 1458,
+      "source": {
+        "title": "The most important bottom-up SaaS metrics to track",
+        "summary": "",
+        "subtitle": "> ## Q: I’m curious what metrics early-stage bottom-up SaaS startups track and how they visualize these metrics –– especially metrics other",
+        "guest": "",
+        "tags": [
+          "growth",
+          "analytics",
+          "b2b",
+          "startups",
+          "pricing",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/moving-from-ic-product-manager-to-manager-of-product-managers.md",
+      "type": "newsletter",
+      "date": "2020-10-13",
+      "word_count": 2037,
+      "source": {
+        "title": "Moving from IC product manager to manager of product managers",
+        "summary": "",
+        "subtitle": "The biggest surprises about the switch, advice for setting yourself up for the move, and tips for being successful in the new role",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "strategy",
+          "design",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/top-5-most-interesting-things-about-bookingcoms-early-growth-strategy---issue-46.md",
+      "type": "newsletter",
+      "date": "2020-10-06",
+      "word_count": 1809,
+      "source": {
+        "title": "Top 5 most interesting things about Booking.com's early growth strategy – Issue 46",
+        "summary": "",
+        "subtitle": "An exclusive companion piece to today's First Round Review",
+        "guest": "",
+        "tags": [
+          "growth",
+          "strategy",
+          "leadership",
+          "design",
+          "engineering",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-it-feels-like-when-youve-found-product-market-fit.md",
+      "type": "newsletter",
+      "date": "2020-09-29",
+      "word_count": 4389,
+      "source": {
+        "title": "What it feels like when you've found product-market fit",
+        "summary": "",
+        "subtitle": "Stories from the founders of Netflix, Uber, Airbnb, Substack, Stripe, Datadog, GitHub, Segment, Dropbox, Superhuman, Instacart, Nextdoor, and many more",
+        "guest": "",
+        "tags": [
+          "startups",
+          "strategy",
+          "go-to-market",
+          "b2b",
+          "b2c",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/fostering-a-culture-of-experimentation.md",
+      "type": "newsletter",
+      "date": "2020-09-22",
+      "word_count": 2472,
+      "source": {
+        "title": "Fostering a culture of experimentation",
+        "summary": "",
+        "subtitle": "Each week I tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out at the office",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "analytics",
+          "design",
+          "growth",
+          "engineering",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/when-to-hire-your-first-product-manager.md",
+      "type": "newsletter",
+      "date": "2020-09-15",
+      "word_count": 1694,
+      "source": {
+        "title": "When to hire your first product manager",
+        "summary": "",
+        "subtitle": "Each week I tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out at the office",
+        "guest": "",
+        "tags": [
+          "product-management",
+          "leadership",
+          "design",
+          "startups",
+          "engineering",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/getting-better-at-product-strategy.md",
+      "type": "newsletter",
+      "date": "2020-09-08",
+      "word_count": 2950,
+      "source": {
+        "title": "Getting better at product strategy",
+        "summary": "",
+        "subtitle": "Each week I tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out at the office",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "leadership",
+          "design",
+          "organization",
+          "product-management",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-playbook-for-fundraising.md",
+      "type": "newsletter",
+      "date": "2020-09-01",
+      "word_count": 4796,
+      "source": {
+        "title": "A playbook for fundraising",
+        "summary": "",
+        "subtitle": "Practical advice for navigating the fundraising process by Marc McCabe",
+        "guest": "",
+        "tags": [
+          "startups",
+          "design",
+          "strategy",
+          "growth",
+          "career",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-increase-your-retention.md",
+      "type": "newsletter",
+      "date": "2020-08-25",
+      "word_count": 1619,
+      "source": {
+        "title": "How to increase your retention",
+        "summary": "",
+        "subtitle": "A peek at this week's 🔓 subscriber-only 🔓 post",
+        "guest": "",
+        "tags": [
+          "growth",
+          "analytics",
+          "design",
+          "newsletter",
+          "strategy",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-increase-your-products-retention.md",
+      "type": "newsletter",
+      "date": "2020-08-25",
+      "word_count": 3116,
+      "source": {
+        "title": "How to increase your product's retention",
+        "summary": "",
+        "subtitle": "Each week I tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out at the office",
+        "guest": "",
+        "tags": [
+          "growth",
+          "analytics",
+          "design",
+          "newsletter",
+          "strategy",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/flywheels-flywheels-flywheels.md",
+      "type": "newsletter",
+      "date": "2020-08-18",
+      "word_count": 2070,
+      "source": {
+        "title": "Flywheels, flywheels, flywheels",
+        "summary": "",
+        "subtitle": "Each week I tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out at the office",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "engineering",
+          "growth",
+          "b2b",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/navigating-your-early-career.md",
+      "type": "newsletter",
+      "date": "2020-08-11",
+      "word_count": 1995,
+      "source": {
+        "title": "Navigating your early career",
+        "summary": "",
+        "subtitle": "Things like knowing what role to be in a company, when to quit a job, when and set out for another new adventure?",
+        "guest": "",
+        "tags": [
+          "career",
+          "design",
+          "leadership",
+          "newsletter",
+          "engineering",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/my-favorite-product-management-templates.md",
+      "type": "newsletter",
+      "date": "2020-08-04",
+      "word_count": 1107,
+      "source": {
+        "title": "My favorite product management templates",
+        "summary": "",
+        "subtitle": "1-pagers, strategy, GTM, and more",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "engineering",
+          "leadership",
+          "b2b",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-todays-fastest-growing-b2b-startups-turned-their-early-users-into-paying-cus.md",
+      "type": "newsletter",
+      "date": "2020-07-28",
+      "word_count": 4810,
+      "source": {
+        "title": "How today's fastest-growing B2B startups turned their early users into paying customers",
+        "summary": "",
+        "subtitle": "Part two in our series on B2B growth strategy",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "strategy",
+          "leadership",
+          "pricing",
+          "design",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-todays-fastest-growing-b2b-businesses-turned-their-early-users-into-paying-c.md",
+      "type": "newsletter",
+      "date": "2020-07-28",
+      "word_count": 1729,
+      "source": {
+        "title": "How today's fastest-growing B2B businesses turned their early users into paying customers – Issue 36",
+        "summary": "",
+        "subtitle": "They then worked with their power-users to figure out what the paid plans should be",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "strategy",
+          "leadership",
+          "pricing",
+          "go-to-market",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/autonomy-vs-direction---issue-35.md",
+      "type": "newsletter",
+      "date": "2020-07-21",
+      "word_count": 2120,
+      "source": {
+        "title": "Autonomy vs. direction - Issue 35",
+        "summary": "",
+        "subtitle": "If you find this newsletter valuable, consider sharing it with friends, or subscribe if you haven’t already 👇",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "newsletter",
+          "b2b",
+          "engineering",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/winning-at-seo.md",
+      "type": "newsletter",
+      "date": "2020-07-14",
+      "word_count": 3217,
+      "source": {
+        "title": "Winning at SEO",
+        "summary": "",
+        "subtitle": "If you find this newsletter valuable, consider sharing it with friends, or subscribe if you haven’t already 👇",
+        "guest": "",
+        "tags": [
+          "design",
+          "strategy",
+          "startups",
+          "newsletter",
+          "b2b",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-todays-fastest-growing-b2b-businesses-found-their-first-ten-customers.md",
+      "type": "newsletter",
+      "date": "2020-07-07",
+      "word_count": 4111,
+      "source": {
+        "title": "How today's fastest growing B2B businesses found their first ten customers",
+        "summary": "",
+        "subtitle": "Lessons from Figma, Stripe, Airtable, Shopify, Carta, Gusto and many many more",
+        "guest": "",
+        "tags": [
+          "b2b",
+          "startups",
+          "design",
+          "strategy",
+          "b2c",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/surviving-reorgs-tactically-and-emotionally---issue-32.md",
+      "type": "newsletter",
+      "date": "2020-06-30",
+      "word_count": 2268,
+      "source": {
+        "title": "Surviving reorgs, tactically and emotionally - Issue 32",
+        "summary": "",
+        "subtitle": "If you find this newsletter valuable, consider sharing it with friends, or subscribe if you haven’t already 👇",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "career",
+          "newsletter",
+          "strategy",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/evaluating-a-marketplace-business-idea---issue-31.md",
+      "type": "newsletter",
+      "date": "2020-06-23",
+      "word_count": 762,
+      "source": {
+        "title": "Evaluating a (marketplace) business idea - Issue 31",
+        "summary": "",
+        "subtitle": "A free preview of this week's subscriber-only post",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "growth",
+          "startups",
+          "design",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/evaluating-a-marketplace-business-idea.md",
+      "type": "newsletter",
+      "date": "2020-06-23",
+      "word_count": 2551,
+      "source": {
+        "title": "Evaluating a (marketplace) business idea",
+        "summary": "",
+        "subtitle": "The top seven things to look for when evaluating a marketplace business idea – or any business idea",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "startups",
+          "design",
+          "growth",
+          "leadership",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/one-team-one-roadmap---issue-30.md",
+      "type": "newsletter",
+      "date": "2020-06-16",
+      "word_count": 776,
+      "source": {
+        "title": "One team, one roadmap - Issue 30",
+        "summary": "",
+        "subtitle": "If you find this newsletter valuable, consider sharing it with friends or subscribe if you haven’t already 👇",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "design",
+          "newsletter",
+          "organization",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-is-good-retention.md",
+      "type": "newsletter",
+      "date": "2020-06-09",
+      "word_count": 2698,
+      "source": {
+        "title": "What is good retention?",
+        "summary": "",
+        "subtitle": "Hello, and welcome to the free monthly editionof my weekly newsletter",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "b2b",
+          "b2c",
+          "pricing",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-to-ask-your-users-about-product-market-fit.md",
+      "type": "newsletter",
+      "date": "2020-06-02",
+      "word_count": 1552,
+      "source": {
+        "title": "What to ask your users about Product-Market Fit",
+        "summary": "",
+        "subtitle": "When I talk to my users, do you have any advice on what questions I should ask them to help me know if I’m on the right track?",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "growth",
+          "newsletter",
+          "startups",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/prioritizing-conversion-opportunities.md",
+      "type": "newsletter",
+      "date": "2020-05-26",
+      "word_count": 1389,
+      "source": {
+        "title": "Prioritizing conversion opportunities",
+        "summary": "",
+        "subtitle": "Each week I tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out at the office",
+        "guest": "",
+        "tags": [
+          "growth",
+          "design",
+          "strategy",
+          "go-to-market",
+          "leadership",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/communicating-bad-news---issue-26-2.md",
+      "type": "newsletter",
+      "date": "2020-05-19",
+      "word_count": 302,
+      "source": {
+        "title": "Communicating bad news - Issue 26",
+        "summary": "",
+        "subtitle": "Consider joining as a paid subscriber to support this newsletter 🔓",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "analytics",
+          "newsletter",
+          "design",
+          "go-to-market",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/communicating-bad-news---issue-26.md",
+      "type": "newsletter",
+      "date": "2020-05-19",
+      "word_count": 1001,
+      "source": {
+        "title": "Communicating bad news - Issue 26",
+        "summary": "",
+        "subtitle": "Each week I tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out at the office",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "newsletter",
+          "analytics",
+          "go-to-market",
+          "design",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-the-biggest-consumer-apps-got-their-first-1000-users.md",
+      "type": "newsletter",
+      "date": "2020-05-12",
+      "word_count": 5065,
+      "source": {
+        "title": "How the biggest consumer apps got their first 1,000 users",
+        "summary": "",
+        "subtitle": "How to Kickstart and Scale a Marketplace Business 3",
+        "guest": "",
+        "tags": [
+          "startups",
+          "leadership",
+          "strategy",
+          "b2c",
+          "design",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/joining-as-the-first-product-manager.md",
+      "type": "newsletter",
+      "date": "2020-05-05",
+      "word_count": 2340,
+      "source": {
+        "title": "Joining as the first product manager",
+        "summary": "",
+        "subtitle": "And surviving it to tell the tale",
+        "guest": "",
+        "tags": [
+          "product-management",
+          "leadership",
+          "design",
+          "startups",
+          "career",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/setting-goals---issue-23.md",
+      "type": "newsletter",
+      "date": "2020-04-29",
+      "word_count": 561,
+      "source": {
+        "title": "Setting goals - Issue 23",
+        "summary": "",
+        "subtitle": "🔐 This is a preview of a subscriber-only post🔐",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "leadership",
+          "design",
+          "newsletter",
+          "engineering",
+          "organization"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/setting-goals.md",
+      "type": "newsletter",
+      "date": "2020-04-28",
+      "word_count": 1560,
+      "source": {
+        "title": "Setting goals",
+        "summary": "",
+        "subtitle": "If you find this newsletter valuable, consider sharing it with friends",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "growth",
+          "newsletter",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/using-your-working-time-well---issue-22-2.md",
+      "type": "newsletter",
+      "date": "2020-04-21",
+      "word_count": 646,
+      "source": {
+        "title": "Using your working time well - Issue 22",
+        "summary": "",
+        "subtitle": "🔐 This is a free preview of a subscriber-only post 🔐",
+        "guest": "",
+        "tags": [
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/using-your-working-time-well---issue-22.md",
+      "type": "newsletter",
+      "date": "2020-04-21",
+      "word_count": 1712,
+      "source": {
+        "title": "Using your working time well - Issue 22",
+        "summary": "",
+        "subtitle": "What tips do you have for managing your time and workload?",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "newsletter",
+          "product-management",
+          "design",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/strategy-and-tactics-for-increasing-conversion.md",
+      "type": "newsletter",
+      "date": "2020-04-14",
+      "word_count": 1514,
+      "source": {
+        "title": "Strategy and tactics for increasing conversion",
+        "summary": "",
+        "subtitle": "Send me your questions and in return, I’ll humbly offer actionable real-talk advice",
+        "guest": "",
+        "tags": [
+          "growth",
+          "analytics",
+          "leadership",
+          "newsletter",
+          "strategy",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-newsletter-is-growing-up.md",
+      "type": "newsletter",
+      "date": "2020-04-07",
+      "word_count": 794,
+      "source": {
+        "title": "This newsletter is growing up 🌱",
+        "summary": "",
+        "subtitle": "tl;dr: I’m adding a paid subscription plan!",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "leadership",
+          "strategy",
+          "career",
+          "growth",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/leading-your-company-through-a-pandemic---issue-20.md",
+      "type": "newsletter",
+      "date": "2020-03-31",
+      "word_count": 3335,
+      "source": {
+        "title": "Leading your company through a pandemic - Issue 20",
+        "summary": "",
+        "subtitle": "Send me your questions (just reply to this email or DM me) and in return, I’ll humbly offer some real-talk advice",
+        "guest": "",
+        "tags": [
+          "design",
+          "growth",
+          "strategy",
+          "go-to-market",
+          "b2c",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/leading-a-pm-team-meeting---issue-19.md",
+      "type": "newsletter",
+      "date": "2020-03-24",
+      "word_count": 865,
+      "source": {
+        "title": "Leading a PM team meeting - Issue 19",
+        "summary": "",
+        "subtitle": "Send me your questions (just reply to this email or DM me) and in return, I’ll humbly share free real-talk advice",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "newsletter",
+          "organization",
+          "analytics",
+          "b2c"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/turning-around-an-underperforming-team---issue-17.md",
+      "type": "newsletter",
+      "date": "2020-03-10",
+      "word_count": 1366,
+      "source": {
+        "title": "Turning around an underperforming team - Issue 17",
+        "summary": "",
+        "subtitle": "Hello and welcome to another edition of my weekly newsletter",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "newsletter",
+          "strategy",
+          "career",
+          "growth",
+          "design"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/building-a-referrals-program.md",
+      "type": "newsletter",
+      "date": "2020-03-03",
+      "word_count": 1366,
+      "source": {
+        "title": "Building a referrals program",
+        "summary": "",
+        "subtitle": "Send me your questions (just reply to this email or DM me) and in return I’ll humbly share actionable free real-talk advice",
+        "guest": "",
+        "tags": [
+          "design",
+          "growth",
+          "leadership",
+          "strategy",
+          "newsletter",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-15-when-should-a-saas-startup-raise-money.md",
+      "type": "newsletter",
+      "date": "2020-02-25",
+      "word_count": 895,
+      "source": {
+        "title": "This Week #15: When should a SaaS startup raise money 💰",
+        "summary": "",
+        "subtitle": "Hello and welcome to another edition of my weekly newsletter 👋",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "growth",
+          "design",
+          "startups",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-14-transitioning-from-startup-founder-to-product-manager.md",
+      "type": "newsletter",
+      "date": "2020-02-18",
+      "word_count": 1034,
+      "source": {
+        "title": "This Week #14: Transitioning from startup founder to product manager",
+        "summary": "",
+        "subtitle": "Hello and welcome to another edition of my weekly newsletter 👋",
+        "guest": "",
+        "tags": [
+          "startups",
+          "product-management",
+          "leadership",
+          "design",
+          "newsletter",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-13-balancing-outcome-thinking-with-design-and-technical-requirements.md",
+      "type": "newsletter",
+      "date": "2020-02-11",
+      "word_count": 966,
+      "source": {
+        "title": "This Week #13: Balancing outcome-thinking with design and technical requirements ⚖️",
+        "summary": "",
+        "subtitle": "Send me your questions (just reply to this email or DM me) and in return I’ll give you free actionable real-talk advice 🤝",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "newsletter",
+          "engineering",
+          "growth",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-12-expanding-your-business-internationally.md",
+      "type": "newsletter",
+      "date": "2020-02-04",
+      "word_count": 1472,
+      "source": {
+        "title": "This Week #12: Expanding your business internationally 🌏",
+        "summary": "",
+        "subtitle": "Send me your questions and in return I’ll give you actionable real-talk advice 🤝",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "newsletter",
+          "leadership",
+          "career",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-know-if-youve-got-product-market-fit.md",
+      "type": "newsletter",
+      "date": "2020-01-28",
+      "word_count": 1833,
+      "source": {
+        "title": "How to know if you've got product-market fit",
+        "summary": "",
+        "subtitle": "Insights from Marc Andreessen, Elad Gil, Steve Blank, Andy Rachleff, Michael Seibel, and many more",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "startups",
+          "growth",
+          "design",
+          "b2b",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-11-what-should-new-pms-over-index-on-and-empowering-product-in-a-sales.md",
+      "type": "newsletter",
+      "date": "2020-01-21",
+      "word_count": 1889,
+      "source": {
+        "title": "This Week #11: What should new PMs over-index on, and empowering product in a sales-driven org",
+        "summary": "",
+        "subtitle": "With guest contributor Jackie Bavaro - author of Cracking the PM Interview",
+        "guest": "",
+        "tags": [
+          "career",
+          "leadership",
+          "design",
+          "newsletter",
+          "product-management",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-10-keeping-designers-and-engineers-excited-about-metrics--transitionin.md",
+      "type": "newsletter",
+      "date": "2020-01-14",
+      "word_count": 2031,
+      "source": {
+        "title": "This Week #10: Keeping designers and engineers excited about metrics + Transitioning from DS to PM 🕺",
+        "summary": "",
+        "subtitle": "With guest contributor Lex Roman - Growth Designer, Writer, Speaker",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "analytics",
+          "product-management",
+          "newsletter",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-9-breaking-into-growth-leading-with-influence-and-not-stepping-on-toes.md",
+      "type": "newsletter",
+      "date": "2020-01-07",
+      "word_count": 2445,
+      "source": {
+        "title": "This Week #9: Breaking into growth, leading with influence, and (not) stepping on toes 🦶",
+        "summary": "",
+        "subtitle": "With special guest contributor Brian Balfour – Founder and CEO of Reforge",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "growth",
+          "design",
+          "newsletter",
+          "startups",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-theyd-do-differently--kickstarting-and-scaling-a-marketplace-business.md",
+      "type": "newsletter",
+      "date": "2019-12-19",
+      "word_count": 2693,
+      "source": {
+        "title": "What They'd Do Differently 🔮 Kickstarting and Scaling a Marketplace Business",
+        "summary": "",
+        "subtitle": "Insights from today's biggest marketplaces, including Airbnb, DoorDash, Thumbtack, Etsy, Uber and many more",
+        "guest": "",
+        "tags": [
+          "growth",
+          "strategy",
+          "newsletter",
+          "leadership",
+          "design",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/maintaining-quality--phase-2-of-kickstarting-and-scaling-a-marketplace-business.md",
+      "type": "newsletter",
+      "date": "2019-12-17",
+      "word_count": 3083,
+      "source": {
+        "title": "Maintaining Quality 🏅 Phase 2 of Kickstarting and Scaling a Marketplace Business",
+        "summary": "",
+        "subtitle": "Insights from today's biggest marketplaces, including Airbnb, DoorDash, Thumbtack, Etsy, Uber and many more",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "leadership",
+          "design",
+          "b2b",
+          "newsletter",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/accelerating-growth-at-scale--phase-2-of-kickstarting-and-scaling-a-marketplace.md",
+      "type": "newsletter",
+      "date": "2019-12-13",
+      "word_count": 1761,
+      "source": {
+        "title": "Accelerating Growth at Scale 🔥 Phase 2 of Kickstarting and Scaling a Marketplace Business",
+        "summary": "",
+        "subtitle": "Insights from today's biggest marketplaces, including Airbnb, DoorDash, Thumbtack, Etsy, Uber and many more",
+        "guest": "",
+        "tags": [
+          "growth",
+          "strategy",
+          "newsletter",
+          "design",
+          "b2b",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-know-if-youre-supply-or-demand-constrained----phase-2-of-kickstarting-and.md",
+      "type": "newsletter",
+      "date": "2019-12-10",
+      "word_count": 2105,
+      "source": {
+        "title": "How To Know If You're Supply or Demand Constrained 🤹‍♂️ - Phase 2 of Kickstarting and Scaling a Marketplace Business",
+        "summary": "",
+        "subtitle": "Insights from today's biggest marketplaces, including Airbnb, DoorDash, Thumbtack, Etsy, Uber and many more",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "newsletter",
+          "growth",
+          "design",
+          "startups",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-kickstart-and-scale-a-marketplace-business---part-4-cracking-the-chicken.md",
+      "type": "newsletter",
+      "date": "2019-12-03",
+      "word_count": 5123,
+      "source": {
+        "title": "How to Kickstart and Scale a Marketplace Business – Part 4: Cracking the Chicken-and-Egg Problem 🐣 - Growing Initial Demand (plus a Bonus!)",
+        "summary": "",
+        "subtitle": "Rare insights from today's biggest marketplaces, including Airbnb, DoorDash, Thumbtack, Etsy, Uber and many more",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "growth",
+          "design",
+          "newsletter",
+          "go-to-market",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-kickstart-and-scale-a-marketplace-business---part-3-cracking-the-chicken.md",
+      "type": "newsletter",
+      "date": "2019-11-25",
+      "word_count": 2965,
+      "source": {
+        "title": "How to Kickstart and Scale a Marketplace Business – Part 3: Cracking the Chicken-and-Egg Problem 🐣 - Growing Initial Supply",
+        "summary": "",
+        "subtitle": "Rare insights from 17 of today's biggest marketplaces, including Airbnb, DoorDash, Thumbtack, Etsy, Uber and many more",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "growth",
+          "b2b",
+          "design",
+          "b2c",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-kickstart-and-scale-a-marketplace-business---part-2-cracking-the-chicken.md",
+      "type": "newsletter",
+      "date": "2019-11-22",
+      "word_count": 1248,
+      "source": {
+        "title": "How to Kickstart and Scale a Marketplace Business – Part 2: Cracking the Chicken-and-Egg Problem 🐣 - Supply vs. Demand",
+        "summary": "",
+        "subtitle": "Rare insights from 17 of today's biggest marketplaces, including Airbnb, DoorDash, Thumbtack, Etsy, Uber and many more",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "newsletter",
+          "growth",
+          "b2c",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-kickstart-and-scale-a-marketplace-business.md",
+      "type": "newsletter",
+      "date": "2019-11-20",
+      "word_count": 2553,
+      "source": {
+        "title": "How to kickstart and scale a marketplace business",
+        "summary": "",
+        "subtitle": "Insights from 17 of today's biggest marketplaces, including Airbnb, DoorDash, Thumbtack, Etsy, Uber and many more",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "growth",
+          "newsletter",
+          "design",
+          "startups",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-8-splitting-equity-with-late-joining-co-founders-favorite-roadmap-temp.md",
+      "type": "newsletter",
+      "date": "2019-11-12",
+      "word_count": 2081,
+      "source": {
+        "title": "This Week #8: Splitting equity with late-joining co-founders, favorite roadmap templates, and small changes that improve your org",
+        "summary": "",
+        "subtitle": "With special guest contributor Hunter Walk!",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "startups",
+          "engineering",
+          "newsletter",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder.md",
+      "type": "newsletter",
+      "date": "2019-10-29",
+      "word_count": 2360,
+      "source": {
+        "title": "This Week #7: Effectively communicating about a failure to execs, managing founder expectations, and hiring a Director of PM",
+        "summary": "",
+        "subtitle": "### Q: What are your thoughts on communicating failure, like missing our team’s set goals?",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "career",
+          "startups",
+          "strategy",
+          "design",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-6-cultivating-good-relationships-with-distributed-co-workers-building.md",
+      "type": "newsletter",
+      "date": "2019-10-22",
+      "word_count": 2344,
+      "source": {
+        "title": "This Week #6: Cultivating good relationships with distributed co-workers, building trust to accelerate growth, and leveling up as a PM when you have extra time",
+        "summary": "",
+        "subtitle": "With special guest contributor Hiten Shah!",
+        "guest": "",
+        "tags": [
+          "design",
+          "growth",
+          "leadership",
+          "newsletter",
+          "product-management",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-5-overcoming-impostor-syndrome-introducing-growth-to-an-org-and-how-to.md",
+      "type": "newsletter",
+      "date": "2019-10-15",
+      "word_count": 3143,
+      "source": {
+        "title": "This Week #5: Overcoming impostor syndrome, introducing growth to an org, and how to partner with your data scientist",
+        "summary": "",
+        "subtitle": "What helped me most during that period was actually talking to a professional coach",
+        "guest": "",
+        "tags": [
+          "growth",
+          "leadership",
+          "design",
+          "strategy",
+          "newsletter",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-4-motivating-engineers-to-hit-deadlines-pm-career-ladders-and-aligning.md",
+      "type": "newsletter",
+      "date": "2019-10-08",
+      "word_count": 2459,
+      "source": {
+        "title": "This Week #4: Motivating engineers to hit deadlines, PM career ladders, and aligning with execs",
+        "summary": "",
+        "subtitle": "I’ll tackle three reader questions each week (keeping your name and company anonymous) until you quit sending me questions",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "newsletter",
+          "career",
+          "analytics",
+          "engineering"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-3-finding-productmarket-fit-interviewing-for-a-director-of-pm-role-and.md",
+      "type": "newsletter",
+      "date": "2019-10-01",
+      "word_count": 1797,
+      "source": {
+        "title": "This Week #3: Finding product/market fit, interviewing for a Director of PM role, and structuring discussions with senior leaders",
+        "summary": "",
+        "subtitle": "I’ll answer three questions each week (keeping your name and company anonymous) until you stop sending me questions",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "career",
+          "strategy",
+          "startups",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-secret-to-a-great-planning-process---lessons-from-airbnb-and-eventbrite.md",
+      "type": "newsletter",
+      "date": "2019-09-26",
+      "word_count": 658,
+      "source": {
+        "title": "The Secret to a Great Planning Process — Lessons from Airbnb and Eventbrite",
+        "summary": "",
+        "subtitle": "An excerpt from a new essay about yearly and quarterly planning just published by First Round Review",
+        "guest": "",
+        "tags": [
+          "organization",
+          "leadership",
+          "design",
+          "strategy",
+          "pricing",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+      "type": "newsletter",
+      "date": "2019-09-24",
+      "word_count": 1501,
+      "source": {
+        "title": "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔",
+        "summary": "",
+        "subtitle": "Thank you for all of the feedback and kind words so far",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "growth",
+          "design",
+          "strategy",
+          "newsletter",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-1-must-reads-on-growth-what-pms-should-focus-on-when-joining-a-new-tea.md",
+      "type": "newsletter",
+      "date": "2019-09-17",
+      "word_count": 1476,
+      "source": {
+        "title": "This Week #1: Must reads on growth, what PMs should focus on when joining a new team, and the value of an MBA",
+        "summary": "",
+        "subtitle": "I was half-worried no one would take me up on the offer — instead, we now have a backlog of over two dozen intriguing questions",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "growth",
+          "product-management",
+          "design",
+          "career",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/this-week-0-advice-on-growth-product-and-leadership.md",
+      "type": "newsletter",
+      "date": "2019-09-12",
+      "word_count": 1011,
+      "source": {
+        "title": "This Week #0: Advice on growth, product, and leadership",
+        "summary": "",
+        "subtitle": "As you may have noticed it’s been relatively dormant for the past few months 😬",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "strategy",
+          "design",
+          "growth",
+          "newsletter",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-power-of-performance-reviews-use-this-system-to-become-a-better-manager.md",
+      "type": "newsletter",
+      "date": "2019-07-18",
+      "word_count": 1297,
+      "source": {
+        "title": "The Power of Performance Reviews: Use This System to Become a Better Manager 🤝",
+        "summary": "",
+        "subtitle": "You owe your reports a better performance review",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "career",
+          "engineering",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/28-ways-to-grow-supply-in-a-marketplace.md",
+      "type": "newsletter",
+      "date": "2019-06-26",
+      "word_count": 6854,
+      "source": {
+        "title": "28 Ways to Grow Supply in a Marketplace 📈",
+        "summary": "",
+        "subtitle": "What I learned about growing supply at Airbnb that you can apply to your marketplace business",
+        "guest": "",
+        "tags": [
+          "growth",
+          "strategy",
+          "design",
+          "b2c",
+          "leadership",
+          "b2b"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/where-great-product-roadmap-ideas-come-from.md",
+      "type": "newsletter",
+      "date": "2019-06-14",
+      "word_count": 312,
+      "source": {
+        "title": "Where Great Product Roadmap Ideas Come From",
+        "summary": "",
+        "subtitle": "The fifteen best ways to inspire new ideas, and three to avoid",
+        "guest": "",
+        "tags": [
+          "strategy",
+          "design",
+          "leadership",
+          "b2b",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-seven-years-at-airbnb-taught-me-about-building-a-business.md",
+      "type": "newsletter",
+      "date": "2019-06-14",
+      "word_count": 3035,
+      "source": {
+        "title": "What Seven Years at Airbnb Taught Me About Building a Business",
+        "summary": "",
+        "subtitle": "Create strong culture, stay laser-focused on problems, and set wildly ambitious goals",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "organization",
+          "growth",
+          "startups",
+          "career"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/what-buddhism-taught-me-about-product-management.md",
+      "type": "newsletter",
+      "date": "2019-06-14",
+      "word_count": 2115,
+      "source": {
+        "title": "What Buddhism Taught Me About Product Management",
+        "summary": "",
+        "subtitle": "We think we’ll be happy when we finally get what we want (e.g",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "career",
+          "ai",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-get-into-product-management.md",
+      "type": "newsletter",
+      "date": "2019-06-14",
+      "word_count": 3881,
+      "source": {
+        "title": "How to get into product management",
+        "summary": "",
+        "subtitle": "Figure out if this role is for you, how to make the move, and what skills you’ll need to build in order to be successful",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "product-management",
+          "strategy",
+          "design",
+          "career",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-three-step-framework-for-solving-problems.md",
+      "type": "newsletter",
+      "date": "2019-06-14",
+      "word_count": 2974,
+      "source": {
+        "title": "A Three-Step Framework For Solving Problems 👌",
+        "summary": "",
+        "subtitle": "We work long and hard to design an amazing experience for travelers to discover fun local things to do with other travelers",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "strategy",
+          "design",
+          "organization",
+          "go-to-market",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 158,
+    "words": 364050
+  }
+}

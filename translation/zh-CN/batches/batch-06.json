@@ -1,0 +1,548 @@
+{
+  "locale": "zh-CN",
+  "batch": 6,
+  "docs": [
+    {
+      "filename": "podcasts/nabeel-s-qureshi.md",
+      "type": "podcast",
+      "date": "2025-05-11",
+      "word_count": 19826,
+      "source": {
+        "title": "How Palantir built the ultimate founder factory | Nabeel S. Qureshi (founder, writer, ex-Palantir)",
+        "summary": "How Palantir built the ultimate founder factory, covering product design, startup building, and team leadership.",
+        "subtitle": "",
+        "guest": "Nabeel S. Qureshi",
+        "tags": [
+          "design",
+          "startups",
+          "leadership",
+          "product-management",
+          "career",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/jerry-colonna.md",
+      "type": "podcast",
+      "date": "2025-05-08",
+      "word_count": 11633,
+      "source": {
+        "title": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
+        "summary": "How have I been complicit in creating the conditions I say I don’t want?, covering product design, team leadership, and consumer products.",
+        "subtitle": "",
+        "guest": "Jerry Colonna",
+        "tags": [
+          "design",
+          "leadership",
+          "b2c",
+          "career",
+          "startups",
+          "growth"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-ultimate-guide-to-negotiating-your-comp.md",
+      "type": "newsletter",
+      "date": "2025-05-06",
+      "word_count": 6414,
+      "source": {
+        "title": "The ultimate guide to negotiating your comp",
+        "summary": "",
+        "subtitle": "The step-by-step guide that’s helped hundreds of leaders secure life-changing compensation",
+        "guest": "",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "career",
+          "organization",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/michael-truell.md",
+      "type": "podcast",
+      "date": "2025-05-01",
+      "word_count": 13291,
+      "source": {
+        "title": "The rise of Cursor: The $300M ARR AI tool that engineers can’t stop using | Michael Truell (co-founder and CEO)",
+        "summary": "Michael Truell is the co-founder and CEO of Anysphere, the company behind Cursor—the fastest-growing AI code editor in the world, reaching $300 million in annual recurring revenue just two years after its launch.",
+        "subtitle": "",
+        "guest": "Michael Truell",
+        "tags": [
+          "design",
+          "engineering",
+          "ai",
+          "strategy",
+          "leadership",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/make-product-management-fun-again-with-ai-agents.md",
+      "type": "newsletter",
+      "date": "2025-04-29",
+      "word_count": 5713,
+      "source": {
+        "title": "Make product management fun again with AI agents",
+        "summary": "",
+        "subtitle": "A guide to AI agents for product managers",
+        "guest": "",
+        "tags": [
+          "ai",
+          "design",
+          "leadership",
+          "product-management",
+          "newsletter",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/daniel-lereya.md",
+      "type": "podcast",
+      "date": "2025-04-27",
+      "word_count": 15810,
+      "source": {
+        "title": "Inside monday.com’s transformation: radical transparency, impact over output, and their path to $1B ARR | Daniel Lereya (Chief Product and Technology Officer)",
+        "summary": "Radical transparency, impact over output, and their path to $1B ARR, covering team leadership, product design, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Daniel Lereya",
+        "tags": [
+          "leadership",
+          "design",
+          "engineering",
+          "go-to-market",
+          "startups",
+          "podcast"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/varun-mohan.md",
+      "type": "podcast",
+      "date": "2025-04-20",
+      "word_count": 15852,
+      "source": {
+        "title": "Building a magical AI code editor used by over 1 million developers in four months: The untold story of Windsurf | Varun Mohan (co-founder and CEO)",
+        "summary": "Building a magical AI code editor used by over 1 million developers in four months: The untold story of Windsurf, covering engineering tradeoffs, product design, and AI product work.",
+        "subtitle": "",
+        "guest": "Varun Mohan",
+        "tags": [
+          "engineering",
+          "design",
+          "ai",
+          "startups",
+          "b2b",
+          "pricing"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/a-new-perk-for-annual-subscribers-a-free-year-of-some-of-the-worlds-most-beloved.md",
+      "type": "newsletter",
+      "date": "2025-04-15",
+      "word_count": 546,
+      "source": {
+        "title": "A new perk for annual subscribers: A free year of some of the world's most beloved products (while supplies last)",
+        "summary": "",
+        "subtitle": "And new products will continue to be added to this deal over time",
+        "guest": "",
+        "tags": [
+          "newsletter",
+          "engineering",
+          "b2c",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/guillermo-rauch.md",
+      "type": "podcast",
+      "date": "2025-04-13",
+      "word_count": 14625,
+      "source": {
+        "title": "Everyone’s an engineer now: Inside v0’s mission to create a hundred million builders | Guillermo Rauch (founder and CEO of Vercel, creators of v0 and Next.js)",
+        "summary": "Inside v0’s mission to create a hundred million builders, covering product design, AI product work, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Guillermo Rauch",
+        "tags": [
+          "design",
+          "ai",
+          "engineering",
+          "b2c",
+          "leadership",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/kevin-weil.md",
+      "type": "podcast",
+      "date": "2025-04-10",
+      "word_count": 17353,
+      "source": {
+        "title": "OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil (CPO at OpenAI, ex-Instagram, Twitter)",
+        "summary": "How AI changes must-have skills, moats, coding, startup playbooks, more, covering AI product work, product design, and go-to-market execution.",
+        "subtitle": "",
+        "guest": "Kevin Weil",
+        "tags": [
+          "ai",
+          "design",
+          "go-to-market",
+          "b2c",
+          "career",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/beyond-vibe-checks-a-pms-complete-guide-to-evals.md",
+      "type": "newsletter",
+      "date": "2025-04-08",
+      "word_count": 3558,
+      "source": {
+        "title": "Beyond vibe checks: A PM’s complete guide to evals",
+        "summary": "",
+        "subtitle": "How to master the emerging skill that can make or break an AI product",
+        "guest": "",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "leadership",
+          "organization",
+          "analytics"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/wes-kao.md",
+      "type": "podcast",
+      "date": "2025-04-06",
+      "word_count": 10467,
+      "source": {
+        "title": "Become a better communicator: Specific frameworks to improve your clarity, influence, and impact | Wes Kao (coach, entrepreneur, advisor)",
+        "summary": "Specific frameworks to improve your clarity, influence, and impact, covering product design, startup building, and career development.",
+        "subtitle": "",
+        "guest": "Wes Kao",
+        "tags": [
+          "design",
+          "startups",
+          "career",
+          "engineering",
+          "analytics",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/the-definitive-guide-to-mastering-product-sense-interviews.md",
+      "type": "newsletter",
+      "date": "2025-04-01",
+      "word_count": 9102,
+      "source": {
+        "title": "The definitive guide to mastering product sense interviews",
+        "summary": "",
+        "subtitle": "A step-by-step playbook to help you ace your PM interview",
+        "guest": "",
+        "tags": [
+          "career",
+          "design",
+          "product-management",
+          "leadership",
+          "ai",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/ryan-singer.md",
+      "type": "podcast",
+      "date": "2025-03-30",
+      "word_count": 19695,
+      "source": {
+        "title": "A better way to plan, build, and ship products | Ryan Singer (creator of “Shape Up,” early employee at 37signals)",
+        "summary": "A better way to plan, build, and ship products, covering product design, team leadership, and engineering tradeoffs.",
+        "subtitle": "",
+        "guest": "Ryan Singer",
+        "tags": [
+          "design",
+          "leadership",
+          "engineering",
+          "startups",
+          "podcast",
+          "ai"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/gaurav-misra.md",
+      "type": "podcast",
+      "date": "2025-03-27",
+      "word_count": 16344,
+      "source": {
+        "title": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
+        "summary": "Gaurav Misra is the co-founder and CEO of Captions, an AI-powered video creation company and one of the most successful consumer AI products in the world today. Previously he was a product leader at Snap, where he created the design engineering function and spent years helping develop features used by hundreds of.",
+        "subtitle": "",
+        "guest": "Gaurav Misra",
+        "tags": [
+          "design",
+          "strategy",
+          "ai",
+          "engineering",
+          "b2c",
+          "product-management"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/how-to-ship-like-a-startup.md",
+      "type": "newsletter",
+      "date": "2025-03-25",
+      "word_count": 3036,
+      "source": {
+        "title": "How to ship like a startup",
+        "summary": "",
+        "subtitle": "Seven lessons from the story of Figma Slides",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "go-to-market",
+          "startups",
+          "newsletter",
+          "strategy"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/rahul-vohra.md",
+      "type": "podcast",
+      "date": "2025-03-23",
+      "word_count": 15232,
+      "source": {
+        "title": "Superhuman's secret to success: Ignoring most customer feedback, manually onboarding every new user, obsessing over every detail, and positioning around a single attribute: speed | Rahul Vohra (CEO)",
+        "summary": "Rahul Vohra is the founder and CEO of Superhuman. Prior to Superhuman, Rahul founded Rapportive, the first Gmail plug-in to scale to millions of users, which he sold to LinkedIn in 2012.",
+        "subtitle": "",
+        "guest": "Rahul Vohra",
+        "tags": [
+          "design",
+          "strategy",
+          "growth",
+          "career",
+          "leadership",
+          "startups"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/which-companies-produce-the-best-product-managers.md",
+      "type": "newsletter",
+      "date": "2025-03-18",
+      "word_count": 1778,
+      "source": {
+        "title": "Which companies produce the best product managers",
+        "summary": "",
+        "subtitle": "Part two in my exploration of the companies that find and develop the best PMs",
+        "guest": "",
+        "tags": [
+          "design",
+          "startups",
+          "career",
+          "product-management",
+          "leadership",
+          "newsletter"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "podcasts/eric-simons.md",
+      "type": "podcast",
+      "date": "2025-03-13",
+      "word_count": 17090,
+      "source": {
+        "title": "Inside Bolt: From near-death to ~$40m ARR in 5 months—one of the fastest-growing products in history | Eric Simons (founder and CEO of StackBlitz)",
+        "summary": "Eric Simons is the founder and CEO of StackBlitz, the company behind Bolt—the #1 web-based AI coding agent and one of the fastest-growing products in history. After nearly shutting down, StackBlitz launched Bolt on Twitter and exploded from zero to $40 million ARR and 1 million monthly active users in about five.",
+        "subtitle": "",
+        "guest": "Eric Simons",
+        "tags": [
+          "design",
+          "ai",
+          "startups",
+          "go-to-market",
+          "pricing",
+          "leadership"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    },
+    {
+      "filename": "newsletters/why-youre-so-angry-at-work-and-what-to-do-about-it.md",
+      "type": "newsletter",
+      "date": "2025-03-11",
+      "word_count": 4307,
+      "source": {
+        "title": "Why you’re so angry at work (and what to do about it)",
+        "summary": "",
+        "subtitle": "A practical framework for transforming big feelings into wisdom",
+        "guest": "",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "career",
+          "product-management",
+          "go-to-market"
+        ]
+      },
+      "translated": {
+        "title": "",
+        "summary": "",
+        "subtitle": "",
+        "guest": ""
+      },
+      "status": "todo"
+    }
+  ],
+  "stats": {
+    "docs": 20,
+    "words": 221672
+  }
+}
