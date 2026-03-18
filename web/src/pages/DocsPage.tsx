@@ -509,10 +509,10 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
 
             {loadingDoc && <p className="muted">{t("state.loading")}</p>}
             {contentProtected && <p className="muted">{t("docs.contentProtectedHint")}</p>}
-            {contentProtected && canUnlockContent && (
+            {contentProtected && (
               <form className="access-gate" onSubmit={onUnlockContent}>
                 <h3>{t("docs.accessGateTitle")}</h3>
-                <p className="muted">{t("docs.accessGateBody")}</p>
+                <p className="muted">{t("docs.accessGateBody")}</p>\n                {!canUnlockContent && <p className="muted">{t("docs.accessNeedApi")}</p>}
 
                 <label className="field-label" htmlFor="access-email">{t("docs.accessEmailLabel")}</label>
                 <input
@@ -535,7 +535,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
                 />
 
                 <div className="switch-row">
-                  <button className="pill primary" type="submit" disabled={authSubmitting}>
+                  <button className="pill primary" type="submit" disabled={authSubmitting || !canUnlockContent}>
                     {authSubmitting ? t("docs.accessSubmitting") : t("docs.accessSubmit")}
                   </button>
                   <button
@@ -554,7 +554,7 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
                 {authError && <p className="muted">{authError}</p>}
               </form>
             )}
-            {!canUnlockContent && contentProtected && <p className="muted">{t("docs.accessNeedApi")}</p>}
+            
             <div className="markdown" dangerouslySetInnerHTML={{ __html: markdownHtml }} />
           </article>
         )}
@@ -562,4 +562,6 @@ export function DocsPage({ locale, data, t }: DocsPageProps) {
     </main>
   );
 }
+
+
 
